@@ -1,0 +1,40 @@
+{
+  "queryType": "SELECT",
+  "variables": [
+    {
+      "termType": "Variable",
+      "value": "build_id"
+    },
+    {
+      "termType": "Variable",
+      "value": "country"
+    }
+  ],
+  "where": [
+    {
+      "type": "bgp",
+      "triples": [
+        {
+          "subject": {
+            "termType": "Variable",
+            "value": "build_id"
+          },
+          "predicate": {
+            "termType": "NamedNode",
+            "value": "http://example.com/predicate/country"
+          },
+          "object": {
+            "termType": "Variable",
+            "value": "country"
+          }
+        }
+      ]
+    }
+  ],
+  "type": "query",
+  "prefixes": {
+    "ex": "https://example.com/build_id/",
+    "wd": "https://www.wikidata.org/wiki/",
+    "pred": "http://example.com/predicate/"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "queryType": "SELECT",
+  "distinct": true,
+  "variables": [
+    {
+      "termType": "Variable",
+      "value": "var0"
+    },
+    {
+      "termType": "Variable",
+      "value": "var1"
+    },
+    {
+      "termType": "Variable",
+      "value": "var2"
+    }
+  ],
+  "where": [
+    {
+      "type": "bgp",
+      "triples": [
+        {
+          "subject": {
+            "termType": "Variable",
+            "value": "var0"
+          },
+          "predicate": {
+            "termType": "NamedNode",
+            "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+          },
+          "object": {
+            "termType": "NamedNode",
+            "value": "http://www.owl-ontologies.com/Ontology1207768242.owl#FinantialInstrument"
+          }
+        },
+        {
+          "subject": {
+            "termType": "Variable",
+            "value": "var0"
+          },
+          "predicate": {
+            "termType": "NamedNode",
+            "value": "http://www.owl-ontologies.com/Ontology1207768242.owl#belongsToCompany"
+          },
+          "object": {
+            "termType": "Variable",
+            "value": "var1"
+          }
+        },
+        {
+          "subject": {
+            "termType": "Variable",
+            "value": "var1"
+          },
+          "predicate": {
+            "termType": "NamedNode",
+            "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+          },
+          "object": {
+            "termType": "NamedNode",
+            "value": "http://www.owl-ontologies.com/Ontology1207768242.owl#Company"
+          }
+        },
+        {
+          "subject": {
+            "termType": "Variable",
+            "value": "var1"
+          },
+          "predicate": {
+            "termType": "NamedNode",
+            "value": "http://www.owl-ontologies.com/Ontology1207768242.owl#hasStock"
+          },
+          "object": {
+            "termType": "Variable",
+            "value": "var2"
+          }
+        }
+      ]
+    }
+  ],
+  "type": "query",
+  "prefixes": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "": "http://www.owl-ontologies.com/Ontology1207768242.owl#"
+  }
+}

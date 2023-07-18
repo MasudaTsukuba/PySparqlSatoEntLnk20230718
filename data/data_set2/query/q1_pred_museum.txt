@@ -1,0 +1,17 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
+PREFIX ex: <http://example.com/ontology/>
+PREFIX country: <http://example.com/predicate/country>
+PREFIX country_name: <http://example.com/predicate/country_name>
+PREFIX country_description: <http://example.com/predicate/country_description>
+
+SELECT ?s ?name ?cname
+WHERE {
+    ?s ?p ex:Museum.
+    ?s rdfs:label ?name.
+    ?s country: ?c_id.
+    ?c_id country_name: ?cname.
+}

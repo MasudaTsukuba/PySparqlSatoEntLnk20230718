@@ -1,0 +1,102 @@
+[
+    {
+        "mappingID":3,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_Build",
+            "content": "",
+            "variable": "Var300"
+        },
+        "predicate":
+        {
+            "type": "NamedNode",
+            "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "variable": "Var301"
+        },
+        "object":
+        {
+            "type": "NamedNode",
+            "uri": "-",
+            "content": "http://example.com/ontology/Build",
+            "variable": "Var302"
+        },
+        "SQL":"(SELECT building_id AS Var300, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#type\" AS Var301, \"http://example.com/ontology/Build\" AS Var302 FROM building;)"
+    },
+
+    {
+        "mappingID":9,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_Build",
+            "content": "",
+            "variable": "Var900"
+        },
+        "predicate":
+        {
+            "type": "NamedNode",
+            "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#label",
+            "variable": "Var901"
+        },
+        "object":
+        {
+            "type": "Variable",
+            "uri": "plain",
+            "content": "",
+            "variable": "Var902"
+        },
+        "SQL":"(SELECT building_id AS Var900, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#label\" AS Var901, name AS Var902 FROM building;)"
+    },
+ 
+    {
+        "mappingID":16,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_Build",
+            "content": "",
+            "variable": "Var1600"
+        },
+        "predicate":
+        {
+            "type": "NamedNode",
+            "content": "http://example.com/predicate/country",
+            "variable": "Var1601"
+        },
+        "object":
+        {
+            "type": "Variable",
+            "uri": "EntityLinking_country",
+            "content": "",
+            "variable": "Var1602"
+        },
+        "SQL":"(SELECT building.building_id AS Var1600, \"http://example.com/predicate/country\" AS Var1601, country.country_id AS Var1602 FROM building_country, building, country WHERE building.building_id = building_country.building_id AND building_country.country_id = country.country_id;)"
+    },
+ 
+    {
+        "mappingID":20,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "EntityLinking_country",
+            "content": "",
+            "variable": "Var2000"
+        },
+        "predicate":
+        {
+            "type": "NamedNode",
+            "content": "http://example.com/predicate/country_name",
+            "variable": "Var2001"
+        },
+        "object":
+        {
+            "type": "Variable",
+            "uri": "plain",
+            "content": "",
+            "variable": "Var2002"
+        },
+        "SQL":"(SELECT country_id AS Var2000, \"http://example.com/predicate/country_name\" AS Var2001, country_name AS Var2002 FROM country;)"
+    }
+
+]

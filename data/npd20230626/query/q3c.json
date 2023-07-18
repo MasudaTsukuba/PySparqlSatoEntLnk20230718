@@ -1,0 +1,74 @@
+{
+  "queryType": "SELECT",
+  "variables": [
+    {
+      "termType": "Variable",
+      "value": "var0"
+    },
+    {
+      "termType": "Variable",
+      "value": "var1"
+    },
+    {
+      "termType": "Variable",
+      "value": "var2"
+    }
+  ],
+  "where": [
+    {
+      "type": "bgp",
+      "triples": [
+        {
+          "subject": {
+            "termType": "Variable",
+            "value": "var0"
+          },
+          "predicate": {
+            "termType": "NamedNode",
+            "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+          },
+          "object": {
+            "termType": "NamedNode",
+            "value": "http://sws.ifi.uio.no/vocab/npd-v2#ProductionLicence"
+          }
+        },
+        {
+          "subject": {
+            "termType": "Variable",
+            "value": "var0"
+          },
+          "predicate": {
+            "termType": "NamedNode",
+            "value": "http://sws.ifi.uio.no/vocab/npd-v2#name"
+          },
+          "object": {
+            "termType": "Variable",
+            "value": "var1"
+          }
+        },
+        {
+          "subject": {
+            "termType": "Variable",
+            "value": "var0"
+          },
+          "predicate": {
+            "termType": "NamedNode",
+            "value": "http://sws.ifi.uio.no/vocab/npd-v2#dateLicenceGranted"
+          },
+          "object": {
+            "termType": "Variable",
+            "value": "var2"
+          }
+        }
+      ]
+    }
+  ],
+  "type": "query",
+  "prefixes": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "npdv": "http://sws.ifi.uio.no/vocab/npd-v2#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

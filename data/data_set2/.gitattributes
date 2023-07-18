@@ -1,0 +1,1 @@
+/media/masuda/HDS2-UT/PycharmProjects/PySparqlSatoEntLnk20230718/data/npd20230626/output/npd_q01b2.csv filter=lfs diff=lfs merge=lfs -text

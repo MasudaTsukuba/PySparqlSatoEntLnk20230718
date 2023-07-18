@@ -1,0 +1,9 @@
+PREFIX ex: <https://example.com/build_id/>
+PREFIX wd: <https://www.wikidata.org/wiki/> 
+PREFIX pred: <http://example.com/predicate/>
+
+SELECT ?build_id ?country
+WHERE {
+?build_id pred:country ?country.
+FILTER( ?build_id != ex:899b )
+}

@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "name":"PREFIX_Build",
+        "x":"A0",
+        "y":"A1",
+        "SQL":"SELECT ID AS A0, URI_Build AS A1 FROM PREFIX_Build"
+    },
+    {
+        "id":2,
+        "name":"PREFIX_hotel",
+        "x":"B0",
+        "y":"B1",
+        "SQL":"SELECT ID AS B0, URI_hotel AS B1 FROM PREFIX_hotel"
+    },
+    {
+        "id":3,
+        "name":"PREFIX_museum",
+        "x":"C0",
+        "y":"C1",
+        "SQL":"SELECT ID AS C0, URI_museum AS C1 FROM PREFIX_museum"
+    },
+    {
+        "id":4,
+        "name":"PREFIX_WH",
+        "x":"D0",
+        "y":"D1",
+        "SQL":"SELECT ID AS D0, URI_WH AS D1 FROM PREFIX_WH"
+    },
+    {
+        "id":5,
+        "name":"PREFIX_countryB",
+        "x":"E0",
+        "y":"E1",
+        "SQL":"SELECT ID AS E0, URI_countryB AS E1 FROM PREFIX_countryB"
+    },
+    {
+        "id":6,
+        "name":"PREFIX_countryH",
+        "x":"F0",
+        "y":"F1",
+        "SQL":"SELECT ID AS F0, URI_countryH AS F1 FROM PREFIX_countryH"
+    },
+    {
+        "id":7,
+        "name":"PREFIX_countryM",
+        "x":"G0",
+        "y":"G1",
+        "SQL":"SELECT ID AS G0, URI_countryM AS G1 FROM PREFIX_countryM"
+    },
+    {
+        "id":8,
+        "name":"PREFIX_countryW",
+        "x":"H0",
+        "y":"H1",
+        "SQL":"SELECT ID AS H0, URI_countryW AS H1 FROM PREFIX_countryW"
+    }
+]

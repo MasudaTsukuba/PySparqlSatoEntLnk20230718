@@ -1,0 +1,11 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ex: <https://example.com/build_id/>
+PREFIX wd: <https://www.wikidata.org/wiki/> 
+PREFIX pred: <http://example.com/predicate/>
+
+SELECT ?build_id ?name ?country
+WHERE {
+?build_id pred:country ?country.
+?build_id rdf:label ?name.
+FILTER( ?build_id != ex:899b )
+}

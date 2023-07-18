@@ -1,0 +1,74 @@
+{
+  "queryType": "SELECT",
+  "variables": [
+    {
+      "termType": "Variable",
+      "value": "year"
+    },
+    {
+      "termType": "Variable",
+      "value": "m"
+    },
+    {
+      "termType": "Variable",
+      "value": "g"
+    }
+  ],
+  "where": [
+    {
+      "type": "bgp",
+      "triples": [
+        {
+          "subject": {
+            "termType": "BlankNode",
+            "value": "g_0"
+          },
+          "predicate": {
+            "termType": "NamedNode",
+            "value": "http://sws.ifi.uio.no/vocab/npd-v2#productionYear"
+          },
+          "object": {
+            "termType": "Variable",
+            "value": "year"
+          }
+        },
+        {
+          "subject": {
+            "termType": "BlankNode",
+            "value": "g_0"
+          },
+          "predicate": {
+            "termType": "NamedNode",
+            "value": "http://sws.ifi.uio.no/vocab/npd-v2#productionMonth"
+          },
+          "object": {
+            "termType": "Variable",
+            "value": "m"
+          }
+        },
+        {
+          "subject": {
+            "termType": "BlankNode",
+            "value": "g_0"
+          },
+          "predicate": {
+            "termType": "NamedNode",
+            "value": "http://sws.ifi.uio.no/vocab/npd-v2#producedGas"
+          },
+          "object": {
+            "termType": "Variable",
+            "value": "g"
+          }
+        }
+      ]
+    }
+  ],
+  "type": "query",
+  "prefixes": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "npdv": "http://sws.ifi.uio.no/vocab/npd-v2#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

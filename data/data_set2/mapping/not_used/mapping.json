@@ -1,0 +1,219 @@
+[
+    {
+        "mappingID":1,
+        "subject_uri":"PREFIX_museum",
+        "object_uri":"-",
+        "subject":"Var100",
+        "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object":"Var102",
+        "SQL":"SELECT museum_id AS Var100, \"http://example.com/ontology/Museum\" AS Var102 FROM museum;"
+    },
+    {
+        "mappingID":2,
+        "subject_uri":"PREFIX_hotel",
+        "object_uri":"-",
+        "subject":"Var200",
+        "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object":"Var202",
+        "SQL":"SELECT h_id AS Var200, \"http://example.com/ontology/Hotel\" AS Var202 FROM Hotel;"
+    },
+    {
+        "mappingID":3,
+        "subject_uri":"PREFIX_Build",
+        "object_uri":"-",
+        "subject":"Var300",
+        "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object":"Var302",
+        "SQL":"SELECT b_id AS Var300, \"http://example.com/ontology/Build\" AS Var302 FROM Build;"
+    },
+    {
+        "mappingID":4,
+        "subject_uri":"PREFIX_WH",
+        "object_uri":"-",
+        "subject":"Var400",
+        "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object":"Var402",
+        "SQL":"SELECT p_id AS Var400, \"http://example.com/ontology/World_Heritage\" AS Var402 FROM heritage;"
+    },
+    {
+        "mappingID":5,
+        "subject_uri":"PREFIX_museum",
+        "object_uri":"plain",
+        "subject":"Var4",
+        "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#label",
+        "object":"Var5",
+        "SQL":"SELECT museum_id AS Var4, name AS Var5 FROM museum;"
+    },
+    {
+        "mappingID":6,
+        "subject_uri":"PREFIX_museum",
+        "object_uri":"plain",
+        "subject":"Var6",
+        "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#description",
+        "object":"Var7",
+        "SQL":"SELECT museum_id AS Var6, description AS Var7 FROM museum;"
+    },
+    {
+        "mappingID":7,
+        "subject_uri":"PREFIX_hotel",
+        "object_uri":"plain",
+        "subject":"Var8",
+        "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#label",
+        "object":"Var9",
+        "SQL":"SELECT h_id AS Var8, name AS Var9 FROM Hotel;"
+    },
+    {
+        "mappingID":8,
+        "subject_uri":"PREFIX_hotel",
+        "object_uri":"plain",
+        "subject":"Var10",
+        "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#description",
+        "object":"Var11",
+        "SQL":"SELECT h_id AS Var10, description AS Var11 FROM Hotel;"
+    },
+    {
+        "mappingID":9,
+        "subject_uri":"PREFIX_Build",
+        "object_uri":"plain",
+        "subject":"Var12",
+        "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#label",
+        "object":"Var13",
+        "SQL":"SELECT b_id AS Var12, name AS Var13 FROM Build;"
+    },
+    {
+        "mappingID":10,
+        "subject_uri":"PREFIX_Build",
+        "object_uri":"plain",
+        "subject":"Var14",
+        "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#description",
+        "object":"Var15",
+        "SQL":"SELECT b_id AS Var14, description AS Var15 FROM Build;"
+    },
+    {
+        "mappingID":11,
+        "subject_uri":"PREFIX_WH",
+        "object_uri":"plain",
+        "subject":"Var16",
+        "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#label",
+        "object":"Var17",
+        "SQL":"SELECT p_id AS Var16, name AS Var17 FROM heritage;"
+    },
+    {
+        "mappingID":12,
+        "subject_uri":"PREFIX_WH",
+        "object_uri":"plain",
+        "subject":"Var18",
+        "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#description",
+        "object":"Var19",
+        "SQL":"SELECT p_id AS Var18, description AS Var19 FROM heritage;"
+    },
+    {
+        "mappingID":13,
+        "subject_uri":"PREFIX_WH",
+        "object_uri":"PREFIX_countryW",
+        "subject":"Var20",
+        "predicate":"http://example.com/predicate/country",
+        "object":"Var21",
+        "SQL":"SELECT heritage.p_id AS Var20, W_country.c_id AS Var21 FROM Heritage_placein, heritage, W_country WHERE heritage.p_id = Heritage_placein.p_id AND Heritage_placein.c_id = W_country.c_id;"
+    },
+    {
+        "mappingID":14,
+        "subject_uri":"PREFIX_museum",
+        "object_uri":"PREFIX_countryM",
+        "subject":"Var22",
+        "predicate":"http://example.com/predicate/country",
+        "object":"Var23",
+        "SQL":"SELECT museum.museum_id AS Var22, M_country.co_id AS Var23 FROM museumIncountry, museum, M_country WHERE museum.museum_id = museumIncountry.museum_id AND museumIncountry.co_id = M_country.co_id;"
+    },
+    {
+        "mappingID":15,
+        "subject_uri":"PREFIX_hotel",
+        "object_uri":"PREFIX_countryH",
+        "subject":"Var24",
+        "predicate":"http://example.com/predicate/country",
+        "object":"Var25",
+        "SQL":"SELECT Hotel.h_id AS Var24, H_country.cn_id AS Var25 FROM Hotel_place_in, Hotel, H_country WHERE Hotel.h_id = Hotel_place_in.h_id AND Hotel_place_in.cn_id = H_country.cn_id;"
+    },
+    {
+        "mappingID":16,
+        "subject_uri":"PREFIX_Build",
+        "object_uri":"PREFIX_countryB",
+        "subject":"Var26",
+        "predicate":"http://example.com/predicate/country",
+        "object":"Var27",
+        "SQL":"SELECT Build.b_id AS Var26, Building_Country.country_id AS Var27 FROM building_country, Build, B_country WHERE Build.b_id = building_country.b_id AND building_country.bc_id = B_country.bc_id;"
+    },
+    {
+        "mappingID":17,
+        "subject_uri":"PREFIX_countryW",
+        "object_uri":"plain",
+        "subject":"Var28",
+        "predicate":"http://example.com/predicate/country_name",
+        "object":"Var29",
+        "SQL":"SELECT c_id AS Var28, name AS Var29 FROM W_country;"
+    },
+    {
+        "mappingID":18,
+        "subject_uri":"PREFIX_countryM",
+        "object_uri":"plain",
+        "subject":"Var30",
+        "predicate":"http://example.com/predicate/country_name",
+        "object":"Var31",
+        "SQL":"SELECT co_id AS Var30, name AS Var31 FROM M_country;"
+    },
+    {
+        "mappingID":19,
+        "subject_uri":"PREFIX_countryH",
+        "object_uri":"plain",
+        "subject":"Var32",
+        "predicate":"http://example.com/predicate/country_name",
+        "object":"Var33",
+        "SQL":"SELECT cn_id AS Var32, name AS Var33 FROM H_country;"
+    },
+    {
+        "mappingID":20,
+        "subject_uri":"PREFIX_countryB",
+        "object_uri":"plain",
+        "subject":"Var34",
+        "predicate":"http://example.com/predicate/country_name",
+        "object":"Var35",
+        "SQL":"SELECT bc_id AS Var34, name AS Var35 FROM B_country;"
+    },
+    {
+        "mappingID":21,
+        "subject_uri":"PREFIX_countryW",
+        "object_uri":"plain",
+        "subject":"Var36",
+        "predicate":"http://example.com/predicate/country_description",
+        "object":"Var37",
+        "SQL":"SELECT c_id AS Var36, description AS Var37 FROM W_country;"
+    },
+    {
+        "mappingID":22,
+        "subject_uri":"PREFIX_countryM",
+        "object_uri":"plain",
+        "subject":"Var38",
+        "predicate":"http://example.com/predicate/country_description",
+        "object":"Var39",
+        "SQL":"SELECT co_id AS Var38, description AS Var39 FROM M_country;"
+    },
+    {
+        "mappingID":23,
+        "subject_uri":"PREFIX_countryH",
+        "object_uri":"plain",
+        "subject":"Var40",
+        "predicate":"http://example.com/predicate/country_description",
+        "object":"Var41",
+        "SQL":"SELECT cn_id AS Var40, name AS Var41 FROM H_country;"
+    },
+    {
+        "mappingID":24,
+        "subject_uri":"PREFIX_countryB",
+        "object_uri":"plain",
+        "subject":"Var42",
+        "predicate":"http://example.com/predicate/country_description",
+        "object":"Var43",
+        "SQL":"SELECT bc_id AS Var42, name AS Var43 FROM B_country;"
+    }
+
+]

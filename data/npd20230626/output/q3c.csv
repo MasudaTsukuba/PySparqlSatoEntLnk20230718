@@ -1,0 +1,911 @@
+var0,var1,var2
+http://sws.ifi.uio.no/data/npd-v2/licence/102103,238,1999-06-04
+http://sws.ifi.uio.no/data/npd-v2/licence/102131,241,1999-06-04
+http://sws.ifi.uio.no/data/npd-v2/licence/102157,239,1999-06-04
+http://sws.ifi.uio.no/data/npd-v2/licence/102217,240,1999-06-04
+http://sws.ifi.uio.no/data/npd-v2/licence/102226,242,1999-06-04
+http://sws.ifi.uio.no/data/npd-v2/licence/102235,243,1999-06-04
+http://sws.ifi.uio.no/data/npd-v2/licence/102244,244,1999-06-04
+http://sws.ifi.uio.no/data/npd-v2/licence/102258,245,1999-06-04
+http://sws.ifi.uio.no/data/npd-v2/licence/102267,246,1999-06-04
+http://sws.ifi.uio.no/data/npd-v2/licence/102276,247,1999-06-04
+http://sws.ifi.uio.no/data/npd-v2/licence/102285,248,1999-06-04
+http://sws.ifi.uio.no/data/npd-v2/licence/102294,249,1999-06-04
+http://sws.ifi.uio.no/data/npd-v2/licence/102490,050 C,1999-06-04
+http://sws.ifi.uio.no/data/npd-v2/licence/102499,055 B,1999-06-04
+http://sws.ifi.uio.no/data/npd-v2/licence/1025257,134 B,2000-01-14
+http://sws.ifi.uio.no/data/npd-v2/licence/1030964,169 B1,2000-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/1031002,169 B2,2000-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/1032893,251,2000-05-12
+http://sws.ifi.uio.no/data/npd-v2/licence/1032911,252,2000-05-12
+http://sws.ifi.uio.no/data/npd-v2/licence/1032927,253,2000-05-12
+http://sws.ifi.uio.no/data/npd-v2/licence/1032954,254,2000-05-12
+http://sws.ifi.uio.no/data/npd-v2/licence/1032979,255,2000-05-12
+http://sws.ifi.uio.no/data/npd-v2/licence/1032995,256,2000-05-12
+http://sws.ifi.uio.no/data/npd-v2/licence/1033013,257,2000-05-12
+http://sws.ifi.uio.no/data/npd-v2/licence/1033029,258,2000-05-12
+http://sws.ifi.uio.no/data/npd-v2/licence/1033049,259,2000-05-12
+http://sws.ifi.uio.no/data/npd-v2/licence/1033065,260,2000-05-12
+http://sws.ifi.uio.no/data/npd-v2/licence/1033077,261,2000-05-12
+http://sws.ifi.uio.no/data/npd-v2/licence/1033093,262,2000-05-12
+http://sws.ifi.uio.no/data/npd-v2/licence/1033111,263,2000-05-12
+http://sws.ifi.uio.no/data/npd-v2/licence/1033127,264,2000-05-12
+http://sws.ifi.uio.no/data/npd-v2/licence/1043631,191,1993-09-10
+http://sws.ifi.uio.no/data/npd-v2/licence/115537,250,1999-10-22
+http://sws.ifi.uio.no/data/npd-v2/licence/1333048,006 B,2000-10-09
+http://sws.ifi.uio.no/data/npd-v2/licence/1333089,006 C,2000-10-09
+http://sws.ifi.uio.no/data/npd-v2/licence/1333301,027 C,2000-10-09
+http://sws.ifi.uio.no/data/npd-v2/licence/1333344,028 C,2000-10-09
+http://sws.ifi.uio.no/data/npd-v2/licence/1333384,171 B,2000-10-09
+http://sws.ifi.uio.no/data/npd-v2/licence/1342723,048 B,2001-01-10
+http://sws.ifi.uio.no/data/npd-v2/licence/1622353,033 B,2001-05-04
+http://sws.ifi.uio.no/data/npd-v2/licence/1624237,265,2001-04-27
+http://sws.ifi.uio.no/data/npd-v2/licence/1624332,266,2001-04-27
+http://sws.ifi.uio.no/data/npd-v2/licence/1624349,267,2001-04-27
+http://sws.ifi.uio.no/data/npd-v2/licence/1624366,268,2001-04-27
+http://sws.ifi.uio.no/data/npd-v2/licence/1624410,269,2001-04-27
+http://sws.ifi.uio.no/data/npd-v2/licence/1624436,270,2001-04-27
+http://sws.ifi.uio.no/data/npd-v2/licence/1626782,029 B,2001-05-11
+http://sws.ifi.uio.no/data/npd-v2/licence/1630345,072 B,2001-09-24
+http://sws.ifi.uio.no/data/npd-v2/licence/17320077,539,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17320106,540,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17320130,541,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17320156,542,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17320176,331 C,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17320202,497 B,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17320231,543,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17320260,544,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17320282,545,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17320338,546,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17320383,169 D,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17320421,340 BS,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17320441,547 S,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17320469,504 BS,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17320489,548 S,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17320530,505 BS,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17320558,549 S,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17320594,550,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17642019,551,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17642079,090 E,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17642108,552,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17646365,553,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17654471,554,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17654498,423 BS,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17654533,555,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17654560,556,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17654585,093 B,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17654614,312 B,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17654641,557,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17654703,477 B,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17654732,558,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17654775,559,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17654831,560,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17654869,561,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17654921,562,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17654970,518 B,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17655034,563,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/17655076,564,2010-02-19
+http://sws.ifi.uio.no/data/npd-v2/licence/18054740,028 S,2009-11-13
+http://sws.ifi.uio.no/data/npd-v2/licence/18116800,043 CS,2010-05-12
+http://sws.ifi.uio.no/data/npd-v2/licence/18116829,043 DS,2010-05-12
+http://sws.ifi.uio.no/data/npd-v2/licence/18403842,330 B,2010-10-22
+http://sws.ifi.uio.no/data/npd-v2/licence/18404594,393 B,2010-09-10
+http://sws.ifi.uio.no/data/npd-v2/licence/1840712,052 B,2001-11-30
+http://sws.ifi.uio.no/data/npd-v2/licence/18450020,048 E,2010-12-09
+http://sws.ifi.uio.no/data/npd-v2/licence/20088435,565,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20088461,566 S,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20088555,494 B,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20088593,567,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20088622,301 D,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20088760,568,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20107847,360 B,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20107876,569,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20107903,503 B,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20107950,501 B,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20107979,570,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108024,571,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108072,150 B,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108101,506 BS,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108128,506 CS,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108160,572 S,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108194,573 S,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108260,574,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108314,575,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108349,576,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108378,309 B,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108409,193 C,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108440,378 B,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108473,577,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108509,554 B,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108534,377 BS,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108565,578,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108600,375 B,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108642,370 B,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108664,579,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108700,580,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108743,581,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108820,582,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20108859,468 B,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20109004,583,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20109082,584,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20109152,585,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20109200,586,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20109234,587,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20109261,348 B,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20109294,588,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20109325,589,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20109375,475 CS,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20109438,590,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20109475,591,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20109566,592,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20109597,593,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20109626,594,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20109655,595,2011-02-04
+http://sws.ifi.uio.no/data/npd-v2/licence/20428440,596,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20428525,597,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20428552,599,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20428617,600,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20428655,598,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20428711,601,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20428749,602,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20428814,603,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20428874,218 B,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20428934,524 B,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20428963,528 B,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20428990,604,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20429042,605,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20429078,606,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20429121,607,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20429159,608,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20429186,609,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20429259,610,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20429303,611,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20429377,226 B,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20429419,613,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20429462,612,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20429507,614,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20429544,615,2011-05-13
+http://sws.ifi.uio.no/data/npd-v2/licence/20499620,303 B,2011-05-27
+http://sws.ifi.uio.no/data/npd-v2/licence/2051285,085 C,2002-01-25
+http://sws.ifi.uio.no/data/npd-v2/licence/2060218,271,2002-03-15
+http://sws.ifi.uio.no/data/npd-v2/licence/2060232,272,2002-03-15
+http://sws.ifi.uio.no/data/npd-v2/licence/2060246,273,2002-03-15
+http://sws.ifi.uio.no/data/npd-v2/licence/2060266,274,2002-03-15
+http://sws.ifi.uio.no/data/npd-v2/licence/2060278,275,2002-03-15
+http://sws.ifi.uio.no/data/npd-v2/licence/2060300,276,2002-03-15
+http://sws.ifi.uio.no/data/npd-v2/licence/2060336,277,2002-03-15
+http://sws.ifi.uio.no/data/npd-v2/licence/2060350,278,2002-03-15
+http://sws.ifi.uio.no/data/npd-v2/licence/2060367,279,2002-03-15
+http://sws.ifi.uio.no/data/npd-v2/licence/2060385,280,2002-03-15
+http://sws.ifi.uio.no/data/npd-v2/licence/2073488,281,2002-06-14
+http://sws.ifi.uio.no/data/npd-v2/licence/2073510,282,2002-06-14
+http://sws.ifi.uio.no/data/npd-v2/licence/2073530,283,2002-06-14
+http://sws.ifi.uio.no/data/npd-v2/licence/2073548,284,2002-06-14
+http://sws.ifi.uio.no/data/npd-v2/licence/2073564,285,2002-06-14
+http://sws.ifi.uio.no/data/npd-v2/licence/2073578,286,2002-06-14
+http://sws.ifi.uio.no/data/npd-v2/licence/20756,001,1965-09-01
+http://sws.ifi.uio.no/data/npd-v2/licence/20764,001 P,1994-01-19
+http://sws.ifi.uio.no/data/npd-v2/licence/20772,002,1965-09-01
+http://sws.ifi.uio.no/data/npd-v2/licence/20780,003,1965-09-01
+http://sws.ifi.uio.no/data/npd-v2/licence/20788,004,1965-09-01
+http://sws.ifi.uio.no/data/npd-v2/licence/20796,005,1965-09-01
+http://sws.ifi.uio.no/data/npd-v2/licence/20804,006,1965-09-01
+http://sws.ifi.uio.no/data/npd-v2/licence/20812,007,1965-09-01
+http://sws.ifi.uio.no/data/npd-v2/licence/20820,008,1965-09-01
+http://sws.ifi.uio.no/data/npd-v2/licence/20828,009,1965-09-01
+http://sws.ifi.uio.no/data/npd-v2/licence/20836,010,1965-09-01
+http://sws.ifi.uio.no/data/npd-v2/licence/20844,011,1965-09-01
+http://sws.ifi.uio.no/data/npd-v2/licence/20852,012,1965-09-01
+http://sws.ifi.uio.no/data/npd-v2/licence/20860,013,1965-09-01
+http://sws.ifi.uio.no/data/npd-v2/licence/20868,014,1965-09-01
+http://sws.ifi.uio.no/data/npd-v2/licence/20876,015,1965-09-01
+http://sws.ifi.uio.no/data/npd-v2/licence/20884,016,1965-09-01
+http://sws.ifi.uio.no/data/npd-v2/licence/20892,017,1965-09-01
+http://sws.ifi.uio.no/data/npd-v2/licence/20900,018,1965-09-01
+http://sws.ifi.uio.no/data/npd-v2/licence/20908,018 B,1995-08-25
+http://sws.ifi.uio.no/data/npd-v2/licence/20916,019,1965-09-01
+http://sws.ifi.uio.no/data/npd-v2/licence/2092082,094 B,2002-06-14
+http://sws.ifi.uio.no/data/npd-v2/licence/2092275,212 B,2002-06-14
+http://sws.ifi.uio.no/data/npd-v2/licence/20924,019 B,1977-09-12
+http://sws.ifi.uio.no/data/npd-v2/licence/20932,020,1965-09-01
+http://sws.ifi.uio.no/data/npd-v2/licence/20940,021,1965-09-01
+http://sws.ifi.uio.no/data/npd-v2/licence/20948,022,1965-12-07
+http://sws.ifi.uio.no/data/npd-v2/licence/20956,023,1969-05-23
+http://sws.ifi.uio.no/data/npd-v2/licence/20964,024,1969-05-23
+http://sws.ifi.uio.no/data/npd-v2/licence/20980,026,1969-05-23
+http://sws.ifi.uio.no/data/npd-v2/licence/20988,027,1969-05-23
+http://sws.ifi.uio.no/data/npd-v2/licence/20996,027 P,1994-01-19
+http://sws.ifi.uio.no/data/npd-v2/licence/21004,028,1969-05-23
+http://sws.ifi.uio.no/data/npd-v2/licence/21012,028 P,1994-01-19
+http://sws.ifi.uio.no/data/npd-v2/licence/21020,029,1969-05-23
+http://sws.ifi.uio.no/data/npd-v2/licence/21028,030,1969-05-23
+http://sws.ifi.uio.no/data/npd-v2/licence/21036,031,1969-05-23
+http://sws.ifi.uio.no/data/npd-v2/licence/21044,032,1969-05-30
+http://sws.ifi.uio.no/data/npd-v2/licence/21052,033,1969-05-30
+http://sws.ifi.uio.no/data/npd-v2/licence/21060,034,1969-11-14
+http://sws.ifi.uio.no/data/npd-v2/licence/21068,035,1969-11-14
+http://sws.ifi.uio.no/data/npd-v2/licence/21076,036,1971-06-11
+http://sws.ifi.uio.no/data/npd-v2/licence/21084,037,1973-08-10
+http://sws.ifi.uio.no/data/npd-v2/licence/21092,038,1975-04-01
+http://sws.ifi.uio.no/data/npd-v2/licence/21100,039,1975-04-01
+http://sws.ifi.uio.no/data/npd-v2/licence/21104663,309 C,2011-10-06
+http://sws.ifi.uio.no/data/npd-v2/licence/21108,040,1975-04-01
+http://sws.ifi.uio.no/data/npd-v2/licence/21116,041,1975-06-01
+http://sws.ifi.uio.no/data/npd-v2/licence/21124,042,1975-04-01
+http://sws.ifi.uio.no/data/npd-v2/licence/21124705,107 D,2011-10-31
+http://sws.ifi.uio.no/data/npd-v2/licence/21124742,169 E,2011-11-04
+http://sws.ifi.uio.no/data/npd-v2/licence/21132,043,1976-08-06
+http://sws.ifi.uio.no/data/npd-v2/licence/21139552,018 DS,2011-11-29
+http://sws.ifi.uio.no/data/npd-v2/licence/21140,044,1976-08-27
+http://sws.ifi.uio.no/data/npd-v2/licence/21148,045,1976-12-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21156,046,1976-12-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21164,047,1977-01-07
+http://sws.ifi.uio.no/data/npd-v2/licence/21172,048,1977-02-18
+http://sws.ifi.uio.no/data/npd-v2/licence/21180,049,1977-12-23
+http://sws.ifi.uio.no/data/npd-v2/licence/21188,050,1978-06-16
+http://sws.ifi.uio.no/data/npd-v2/licence/21196,050 B,1995-08-11
+http://sws.ifi.uio.no/data/npd-v2/licence/21204,051,1979-04-06
+http://sws.ifi.uio.no/data/npd-v2/licence/21212,052,1979-04-06
+http://sws.ifi.uio.no/data/npd-v2/licence/21220,053,1979-04-06
+http://sws.ifi.uio.no/data/npd-v2/licence/21228,054,1979-04-06
+http://sws.ifi.uio.no/data/npd-v2/licence/21236,055,1979-04-06
+http://sws.ifi.uio.no/data/npd-v2/licence/21244,056,1979-04-06
+http://sws.ifi.uio.no/data/npd-v2/licence/21252,057,1979-04-06
+http://sws.ifi.uio.no/data/npd-v2/licence/21260,058,1979-04-06
+http://sws.ifi.uio.no/data/npd-v2/licence/21268,059,1980-01-18
+http://sws.ifi.uio.no/data/npd-v2/licence/21276,060,1980-01-18
+http://sws.ifi.uio.no/data/npd-v2/licence/21284,061,1980-01-18
+http://sws.ifi.uio.no/data/npd-v2/licence/21292,062,1981-03-27
+http://sws.ifi.uio.no/data/npd-v2/licence/21300,063,1981-03-27
+http://sws.ifi.uio.no/data/npd-v2/licence/21308,064,1981-03-27
+http://sws.ifi.uio.no/data/npd-v2/licence/21316,065,1981-08-21
+http://sws.ifi.uio.no/data/npd-v2/licence/21324,066,1981-08-21
+http://sws.ifi.uio.no/data/npd-v2/licence/21332,067,1981-08-21
+http://sws.ifi.uio.no/data/npd-v2/licence/21340,068,1981-08-21
+http://sws.ifi.uio.no/data/npd-v2/licence/2134110,122 B,2002-06-14
+http://sws.ifi.uio.no/data/npd-v2/licence/21348,069,1981-08-21
+http://sws.ifi.uio.no/data/npd-v2/licence/21349950,193 D,2011-12-21
+http://sws.ifi.uio.no/data/npd-v2/licence/21350140,046 C,2011-12-21
+http://sws.ifi.uio.no/data/npd-v2/licence/21350207,072 C,2011-12-21
+http://sws.ifi.uio.no/data/npd-v2/licence/21356,070,1981-08-21
+http://sws.ifi.uio.no/data/npd-v2/licence/21364,071,1981-08-21
+http://sws.ifi.uio.no/data/npd-v2/licence/21372,072,1981-08-21
+http://sws.ifi.uio.no/data/npd-v2/licence/21380,073,1982-04-23
+http://sws.ifi.uio.no/data/npd-v2/licence/21388,074,1982-04-23
+http://sws.ifi.uio.no/data/npd-v2/licence/21396,075,1982-04-23
+http://sws.ifi.uio.no/data/npd-v2/licence/21404,076,1982-04-23
+http://sws.ifi.uio.no/data/npd-v2/licence/21412,077,1982-04-23
+http://sws.ifi.uio.no/data/npd-v2/licence/21420,078,1982-04-23
+http://sws.ifi.uio.no/data/npd-v2/licence/21436,080,1982-12-10
+http://sws.ifi.uio.no/data/npd-v2/licence/21444,081,1982-12-10
+http://sws.ifi.uio.no/data/npd-v2/licence/21452,082,1982-12-10
+http://sws.ifi.uio.no/data/npd-v2/licence/21460,083,1982-12-10
+http://sws.ifi.uio.no/data/npd-v2/licence/21468,084,1982-12-10
+http://sws.ifi.uio.no/data/npd-v2/licence/21476,085,1983-07-08
+http://sws.ifi.uio.no/data/npd-v2/licence/21484,085 B,1992-09-11
+http://sws.ifi.uio.no/data/npd-v2/licence/21492,086,1984-03-09
+http://sws.ifi.uio.no/data/npd-v2/licence/21500,087,1984-03-09
+http://sws.ifi.uio.no/data/npd-v2/licence/21508,088,1984-03-09
+http://sws.ifi.uio.no/data/npd-v2/licence/21516,089,1984-03-09
+http://sws.ifi.uio.no/data/npd-v2/licence/21524,090,1984-03-09
+http://sws.ifi.uio.no/data/npd-v2/licence/21532,091,1984-03-09
+http://sws.ifi.uio.no/data/npd-v2/licence/21540,092,1984-03-09
+http://sws.ifi.uio.no/data/npd-v2/licence/21548,093,1984-03-09
+http://sws.ifi.uio.no/data/npd-v2/licence/21556,094,1984-03-09
+http://sws.ifi.uio.no/data/npd-v2/licence/21558636,659,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21558820,658,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21558872,657,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21558940,656,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21558998,655,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21559027,654,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21559076,653,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21559103,652,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21559146,651,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21559201,650,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21559372,035 C,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21559399,046 D,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21559426,639,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21559488,640,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21559540,641,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21559610,642,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21559648,644,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21559709,645,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21559761,646,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21559805,647,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21559877,648 S,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21559950,649,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21560040,619,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21560089,495 B,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21560115,620,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21560157,621,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21560182,622,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21560239,623,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21560284,506 DS,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21560318,624,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21560380,625,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21560418,626,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21560453,513 B,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21560469,627,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21560616,628,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21560683,629,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21560745,630,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21560844,631,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21560889,557 B,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21560912,632,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21560982,633,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21561057,634,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21561115,635,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21561151,636,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21561194,637,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21561239,638,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21561308,597 B,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21561387,643,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21561445,609 B,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21561481,616,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21561629,617,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21561689,618,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21564,095,1984-03-09
+http://sws.ifi.uio.no/data/npd-v2/licence/21568578,102 E,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21568785,102 D,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21568959,104 B,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21568992,193 E,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21569025,350 B,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21569065,375 C,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21569107,414 B,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21569178,494 C,2012-02-03
+http://sws.ifi.uio.no/data/npd-v2/licence/21572,096,1984-03-09
+http://sws.ifi.uio.no/data/npd-v2/licence/21580,097,1984-03-09
+http://sws.ifi.uio.no/data/npd-v2/licence/21588,098,1984-03-09
+http://sws.ifi.uio.no/data/npd-v2/licence/21596,099,1984-03-09
+http://sws.ifi.uio.no/data/npd-v2/licence/21604,100,1984-03-09
+http://sws.ifi.uio.no/data/npd-v2/licence/21612,101,1985-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/21620,102,1985-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/21628,103,1985-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/21636,104,1985-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/21644,105,1985-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/21652,106,1985-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/21660,107,1985-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/21668,108,1985-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/21668200,050 ES,2012-04-11
+http://sws.ifi.uio.no/data/npd-v2/licence/21668235,050 FS,2012-04-11
+http://sws.ifi.uio.no/data/npd-v2/licence/21668262,050 GS,2012-04-11
+http://sws.ifi.uio.no/data/npd-v2/licence/21668287,050 HS,2012-04-11
+http://sws.ifi.uio.no/data/npd-v2/licence/21676,109,1985-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/21684,110,1985-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/21692,111,1985-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/21695786,293 B,2012-06-15
+http://sws.ifi.uio.no/data/npd-v2/licence/21700,112,1985-07-26
+http://sws.ifi.uio.no/data/npd-v2/licence/21708,113,1985-08-23
+http://sws.ifi.uio.no/data/npd-v2/licence/21716,114,1985-08-23
+http://sws.ifi.uio.no/data/npd-v2/licence/21724,114 B,1995-08-11
+http://sws.ifi.uio.no/data/npd-v2/licence/21732,115,1985-08-23
+http://sws.ifi.uio.no/data/npd-v2/licence/21740,116,1985-08-23
+http://sws.ifi.uio.no/data/npd-v2/licence/21748,117,1985-08-23
+http://sws.ifi.uio.no/data/npd-v2/licence/21756,118,1985-08-23
+http://sws.ifi.uio.no/data/npd-v2/licence/21764,119,1985-08-23
+http://sws.ifi.uio.no/data/npd-v2/licence/21772,120,1985-08-23
+http://sws.ifi.uio.no/data/npd-v2/licence/21780,121,1986-02-28
+http://sws.ifi.uio.no/data/npd-v2/licence/21788,122,1986-02-28
+http://sws.ifi.uio.no/data/npd-v2/licence/21796,123,1986-02-28
+http://sws.ifi.uio.no/data/npd-v2/licence/21804,124,1986-02-28
+http://sws.ifi.uio.no/data/npd-v2/licence/21812,125,1986-02-28
+http://sws.ifi.uio.no/data/npd-v2/licence/21820,126,1986-02-28
+http://sws.ifi.uio.no/data/npd-v2/licence/21828,127,1986-02-28
+http://sws.ifi.uio.no/data/npd-v2/licence/21836,128,1986-02-28
+http://sws.ifi.uio.no/data/npd-v2/licence/21844,129,1986-07-11
+http://sws.ifi.uio.no/data/npd-v2/licence/21852,130,1987-04-10
+http://sws.ifi.uio.no/data/npd-v2/licence/21860,131,1987-04-10
+http://sws.ifi.uio.no/data/npd-v2/licence/21868,132,1987-04-10
+http://sws.ifi.uio.no/data/npd-v2/licence/21876,133,1987-04-10
+http://sws.ifi.uio.no/data/npd-v2/licence/21884,134,1987-04-10
+http://sws.ifi.uio.no/data/npd-v2/licence/21892,135,1987-04-10
+http://sws.ifi.uio.no/data/npd-v2/licence/21900,136,1987-04-10
+http://sws.ifi.uio.no/data/npd-v2/licence/21908,137,1987-04-10
+http://sws.ifi.uio.no/data/npd-v2/licence/21916,138,1987-05-29
+http://sws.ifi.uio.no/data/npd-v2/licence/21924,139,1987-05-29
+http://sws.ifi.uio.no/data/npd-v2/licence/21932,140,1987-05-29
+http://sws.ifi.uio.no/data/npd-v2/licence/21940,141,1987-05-29
+http://sws.ifi.uio.no/data/npd-v2/licence/21948,142,1987-05-29
+http://sws.ifi.uio.no/data/npd-v2/licence/21956,143,1988-07-08
+http://sws.ifi.uio.no/data/npd-v2/licence/21964,144,1988-07-08
+http://sws.ifi.uio.no/data/npd-v2/licence/21972,145,1988-07-08
+http://sws.ifi.uio.no/data/npd-v2/licence/21980,146,1988-07-08
+http://sws.ifi.uio.no/data/npd-v2/licence/21988,147,1988-07-08
+http://sws.ifi.uio.no/data/npd-v2/licence/21996,148,1988-07-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22004,149,1988-07-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22012,150,1988-07-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22020,151,1988-07-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22028,152,1988-07-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22036,153,1988-07-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22044,154,1989-03-03
+http://sws.ifi.uio.no/data/npd-v2/licence/22052,155,1989-03-03
+http://sws.ifi.uio.no/data/npd-v2/licence/22060,156,1989-03-03
+http://sws.ifi.uio.no/data/npd-v2/licence/22068,157,1989-03-03
+http://sws.ifi.uio.no/data/npd-v2/licence/22076,158,1989-03-03
+http://sws.ifi.uio.no/data/npd-v2/licence/22084,159,1989-03-03
+http://sws.ifi.uio.no/data/npd-v2/licence/22092,160,1989-03-03
+http://sws.ifi.uio.no/data/npd-v2/licence/22100,161,1989-03-03
+http://sws.ifi.uio.no/data/npd-v2/licence/22108,162,1989-03-03
+http://sws.ifi.uio.no/data/npd-v2/licence/22116,163,1991-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/22124,164,1991-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/22132,165,1991-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/22140,166,1991-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/22148,167,1991-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/22156,168,1991-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/22164,169,1991-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/22172,170,1991-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/22180,171,1991-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/22188,172,1991-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/22196,173,1991-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/22204,174,1991-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/22212,175,1991-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/22220,176,1991-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/22228,177,1991-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/22236,178,1991-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/22244,179,1991-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/22252,180,1991-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/22260,181,1991-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/22268,182,1991-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/22276,183,1991-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/22284,184,1991-03-01
+http://sws.ifi.uio.no/data/npd-v2/licence/22292,185,1991-09-13
+http://sws.ifi.uio.no/data/npd-v2/licence/22300,186,1993-09-10
+http://sws.ifi.uio.no/data/npd-v2/licence/22308,187,1993-09-10
+http://sws.ifi.uio.no/data/npd-v2/licence/22316,188,1993-09-10
+http://sws.ifi.uio.no/data/npd-v2/licence/22324,189,1993-09-10
+http://sws.ifi.uio.no/data/npd-v2/licence/22332,190,1993-09-10
+http://sws.ifi.uio.no/data/npd-v2/licence/22348,192,1993-09-10
+http://sws.ifi.uio.no/data/npd-v2/licence/22356,193,1993-09-10
+http://sws.ifi.uio.no/data/npd-v2/licence/22364,194,1993-09-10
+http://sws.ifi.uio.no/data/npd-v2/licence/22372,195,1993-09-10
+http://sws.ifi.uio.no/data/npd-v2/licence/22380,196,1993-09-10
+http://sws.ifi.uio.no/data/npd-v2/licence/22388,197,1993-09-10
+http://sws.ifi.uio.no/data/npd-v2/licence/22396,198,1993-09-10
+http://sws.ifi.uio.no/data/npd-v2/licence/22404,199,1993-09-10
+http://sws.ifi.uio.no/data/npd-v2/licence/22412,200,1993-09-10
+http://sws.ifi.uio.no/data/npd-v2/licence/22420,201,1993-09-10
+http://sws.ifi.uio.no/data/npd-v2/licence/22436,203,1996-02-02
+http://sws.ifi.uio.no/data/npd-v2/licence/22444,204,1996-02-02
+http://sws.ifi.uio.no/data/npd-v2/licence/22452,205,1996-02-02
+http://sws.ifi.uio.no/data/npd-v2/licence/22460,206,1996-02-02
+http://sws.ifi.uio.no/data/npd-v2/licence/2246113,018 C,2002-12-20
+http://sws.ifi.uio.no/data/npd-v2/licence/22468,207,1996-02-02
+http://sws.ifi.uio.no/data/npd-v2/licence/22476,208,1996-02-02
+http://sws.ifi.uio.no/data/npd-v2/licence/22484,209,1996-02-02
+http://sws.ifi.uio.no/data/npd-v2/licence/22492,210,1996-02-02
+http://sws.ifi.uio.no/data/npd-v2/licence/22493034,029 C,2012-10-17
+http://sws.ifi.uio.no/data/npd-v2/licence/22500,211,1996-02-02
+http://sws.ifi.uio.no/data/npd-v2/licence/22508,212,1996-02-02
+http://sws.ifi.uio.no/data/npd-v2/licence/22516,213,1996-02-02
+http://sws.ifi.uio.no/data/npd-v2/licence/22524,214,1996-02-02
+http://sws.ifi.uio.no/data/npd-v2/licence/22532,215,1996-02-02
+http://sws.ifi.uio.no/data/npd-v2/licence/22540,216,1996-02-02
+http://sws.ifi.uio.no/data/npd-v2/licence/22548,217,1996-02-02
+http://sws.ifi.uio.no/data/npd-v2/licence/22556,218,1996-02-02
+http://sws.ifi.uio.no/data/npd-v2/licence/22564,219,1996-02-02
+http://sws.ifi.uio.no/data/npd-v2/licence/22572,220,1996-02-02
+http://sws.ifi.uio.no/data/npd-v2/licence/22580,221,1997-05-30
+http://sws.ifi.uio.no/data/npd-v2/licence/22588,222,1997-05-30
+http://sws.ifi.uio.no/data/npd-v2/licence/22596,223,1997-05-30
+http://sws.ifi.uio.no/data/npd-v2/licence/22604,224,1997-05-30
+http://sws.ifi.uio.no/data/npd-v2/licence/22612,225,1997-05-30
+http://sws.ifi.uio.no/data/npd-v2/licence/22620,226,1997-05-30
+http://sws.ifi.uio.no/data/npd-v2/licence/22628,227,1997-05-30
+http://sws.ifi.uio.no/data/npd-v2/licence/22636,228,1997-05-30
+http://sws.ifi.uio.no/data/npd-v2/licence/22644,229,1997-05-30
+http://sws.ifi.uio.no/data/npd-v2/licence/22652,230,1997-05-30
+http://sws.ifi.uio.no/data/npd-v2/licence/22660,231,1997-05-30
+http://sws.ifi.uio.no/data/npd-v2/licence/22668,232,1997-05-30
+http://sws.ifi.uio.no/data/npd-v2/licence/22676,233,1997-05-30
+http://sws.ifi.uio.no/data/npd-v2/licence/22684,234,1997-05-30
+http://sws.ifi.uio.no/data/npd-v2/licence/22692,235,1997-05-30
+http://sws.ifi.uio.no/data/npd-v2/licence/22700,236,1997-05-30
+http://sws.ifi.uio.no/data/npd-v2/licence/22813049,037 F,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22813096,055 D,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22813131,091 D,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22813180,093 C,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22813207,190 B,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22813239,203 B,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22813272,509 BS,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22813299,542 B,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22815555,660,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22815589,661,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22815632,662,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22815661,663,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22815702,664 S,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22815738,665 S,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22815785,666,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22815830,667,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22815873,668,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22815914,669,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22815949,670,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22816003,671,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22816061,672,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22816103,673,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22816134,674,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22816217,675,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22816262,676 S,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22816357,677,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22816406,678 S,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22816484,679 S,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22816583,680,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22816639,681,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22816685,682,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22816753,683,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22816794,684,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22820468,685,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22820521,686,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22820550,687,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22820588,688,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22820628,689,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22820657,690,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22820684,691,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22820715,692,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22820761,693,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22820804,694,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22820851,695,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22820904,696,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22821005,697,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22821040,698,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22821109,699,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/22821177,700,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/23180841,701,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/23180930,591 B,2013-02-08
+http://sws.ifi.uio.no/data/npd-v2/licence/23268186,090 F,2013-01-22
+http://sws.ifi.uio.no/data/npd-v2/licence/23268222,090 G,2013-01-22
+http://sws.ifi.uio.no/data/npd-v2/licence/23297006,090 HS,2013-04-09
+http://sws.ifi.uio.no/data/npd-v2/licence/23297103,248 C,2013-04-09
+http://sws.ifi.uio.no/data/npd-v2/licence/2407278,038 B,2003-04-11
+http://sws.ifi.uio.no/data/npd-v2/licence/2407356,287,2003-04-11
+http://sws.ifi.uio.no/data/npd-v2/licence/2407454,289,2003-04-11
+http://sws.ifi.uio.no/data/npd-v2/licence/2407486,290,2003-04-11
+http://sws.ifi.uio.no/data/npd-v2/licence/2407510,291,2003-04-11
+http://sws.ifi.uio.no/data/npd-v2/licence/2407550,295,2003-04-11
+http://sws.ifi.uio.no/data/npd-v2/licence/2407572,292,2003-04-11
+http://sws.ifi.uio.no/data/npd-v2/licence/2407711,293,2003-04-11
+http://sws.ifi.uio.no/data/npd-v2/licence/2407753,294,2003-04-11
+http://sws.ifi.uio.no/data/npd-v2/licence/2407874,167 B,2003-04-11
+http://sws.ifi.uio.no/data/npd-v2/licence/2407909,288,2003-04-11
+http://sws.ifi.uio.no/data/npd-v2/licence/2424830,055 C,2003-06-27
+http://sws.ifi.uio.no/data/npd-v2/licence/2424891,143 BS,2003-06-27
+http://sws.ifi.uio.no/data/npd-v2/licence/2424919,143 CS,2003-06-27
+http://sws.ifi.uio.no/data/npd-v2/licence/2473189,036 BS,2003-10-13
+http://sws.ifi.uio.no/data/npd-v2/licence/2473241,036 C,2003-10-13
+http://sws.ifi.uio.no/data/npd-v2/licence/2490197,296,2003-12-12
+http://sws.ifi.uio.no/data/npd-v2/licence/2490240,297,2003-12-12
+http://sws.ifi.uio.no/data/npd-v2/licence/2490295,298,2003-12-12
+http://sws.ifi.uio.no/data/npd-v2/licence/2490320,299,2003-12-12
+http://sws.ifi.uio.no/data/npd-v2/licence/2490354,300,2003-12-12
+http://sws.ifi.uio.no/data/npd-v2/licence/2490380,301,2003-12-12
+http://sws.ifi.uio.no/data/npd-v2/licence/2490440,302,2003-12-12
+http://sws.ifi.uio.no/data/npd-v2/licence/2490467,303,2003-12-12
+http://sws.ifi.uio.no/data/npd-v2/licence/2490623,304,2003-12-12
+http://sws.ifi.uio.no/data/npd-v2/licence/2490682,305,2003-12-12
+http://sws.ifi.uio.no/data/npd-v2/licence/2490776,306,2003-12-12
+http://sws.ifi.uio.no/data/npd-v2/licence/2490820,307,2003-12-12
+http://sws.ifi.uio.no/data/npd-v2/licence/2490856,308,2003-12-12
+http://sws.ifi.uio.no/data/npd-v2/licence/2490982,309,2003-12-12
+http://sws.ifi.uio.no/data/npd-v2/licence/2491119,310,2003-12-12
+http://sws.ifi.uio.no/data/npd-v2/licence/2491153,311,2003-12-12
+http://sws.ifi.uio.no/data/npd-v2/licence/2491196,312,2003-12-12
+http://sws.ifi.uio.no/data/npd-v2/licence/2491243,313,2003-12-12
+http://sws.ifi.uio.no/data/npd-v2/licence/2491284,314,2003-12-12
+http://sws.ifi.uio.no/data/npd-v2/licence/2588889,261 BS,2003-12-12
+http://sws.ifi.uio.no/data/npd-v2/licence/2773116,280 S,2004-05-10
+http://sws.ifi.uio.no/data/npd-v2/licence/2786350,315,2004-06-18
+http://sws.ifi.uio.no/data/npd-v2/licence/2786469,316,2004-06-18
+http://sws.ifi.uio.no/data/npd-v2/licence/2786553,317,2004-06-18
+http://sws.ifi.uio.no/data/npd-v2/licence/2786586,318,2004-06-18
+http://sws.ifi.uio.no/data/npd-v2/licence/2786612,319,2004-06-18
+http://sws.ifi.uio.no/data/npd-v2/licence/2786635,320,2004-06-18
+http://sws.ifi.uio.no/data/npd-v2/licence/2786661,321,2004-06-18
+http://sws.ifi.uio.no/data/npd-v2/licence/2786703,322,2004-06-18
+http://sws.ifi.uio.no/data/npd-v2/licence/2786740,323,2004-06-18
+http://sws.ifi.uio.no/data/npd-v2/licence/2786758,324,2004-06-18
+http://sws.ifi.uio.no/data/npd-v2/licence/2786811,325,2004-06-18
+http://sws.ifi.uio.no/data/npd-v2/licence/2786855,326,2004-06-18
+http://sws.ifi.uio.no/data/npd-v2/licence/2786915,327,2004-06-18
+http://sws.ifi.uio.no/data/npd-v2/licence/2786957,328,2004-06-18
+http://sws.ifi.uio.no/data/npd-v2/licence/2786994,329,2004-06-18
+http://sws.ifi.uio.no/data/npd-v2/licence/2787040,330,2004-06-18
+http://sws.ifi.uio.no/data/npd-v2/licence/2787322,037 D,2004-06-08
+http://sws.ifi.uio.no/data/npd-v2/licence/2787418,088 BS,2003-03-21
+http://sws.ifi.uio.no/data/npd-v2/licence/2819945,159 B,2004-08-13
+http://sws.ifi.uio.no/data/npd-v2/licence/2986187,331,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2986240,332,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2986266,333,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2986306,334,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2986333,335,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2986364,336,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2986484,337,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2986578,338,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2986606,339,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2986630,340,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2986675,341,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2986721,342,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2986758,343,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2986805,344,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2986889,345,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2986958,346,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2986982,347,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2987047,348,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2987098,349,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2987133,350,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2987183,351,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2987228,352,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2987265,353,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2987414,073 B,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2987454,122 C,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2987480,305 B,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/2987508,311 B,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/3000656,037 E,2004-12-10
+http://sws.ifi.uio.no/data/npd-v2/licence/3001885,110 B,2004-12-17
+http://sws.ifi.uio.no/data/npd-v2/licence/3371954,212 C,2005-02-07
+http://sws.ifi.uio.no/data/npd-v2/licence/3426781,090 B,2005-05-25
+http://sws.ifi.uio.no/data/npd-v2/licence/3426824,090 C,2005-05-25
+http://sws.ifi.uio.no/data/npd-v2/licence/34512,025,1969-05-23
+http://sws.ifi.uio.no/data/npd-v2/licence/34635,079,1982-08-20
+http://sws.ifi.uio.no/data/npd-v2/licence/3489506,048 C,2005-10-10
+http://sws.ifi.uio.no/data/npd-v2/licence/3489553,048 D,2005-10-10
+http://sws.ifi.uio.no/data/npd-v2/licence/3809011,274 BS,2005-12-13
+http://sws.ifi.uio.no/data/npd-v2/licence/3810164,085 D,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3810204,354,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3810275,356,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3810310,357,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3810338,358,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3810373,359,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3810387,360,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3810510,361,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3810565,362,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3810598,363,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3810636,364,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3810693,365,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3810756,366,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3810797,367 S,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3810851,368,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3810875,369,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3810959,370,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3810996,371 S,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3811092,372 S,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3811116,373 S,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3811171,374 S,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3811214,375,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3811255,376,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3811290,377 S,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3811312,378,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3811357,379,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3811381,380,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3811409,381,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3811444,382,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3811499,383,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3811564,384,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3811602,385,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3811659,386,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3811810,043 BS,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3811847,090 D,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3811888,091 C,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3811939,122 D,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3811967,128 C,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3812006,134 C,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3812021,195 B,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3812058,248 B,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3812093,263 B,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3812131,277 B,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3812175,355,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3812205,091 B,2006-01-06
+http://sws.ifi.uio.no/data/npd-v2/licence/3964986,387,2006-04-28
+http://sws.ifi.uio.no/data/npd-v2/licence/3965088,388,2006-04-28
+http://sws.ifi.uio.no/data/npd-v2/licence/3965128,389,2006-04-28
+http://sws.ifi.uio.no/data/npd-v2/licence/3965152,390,2006-04-28
+http://sws.ifi.uio.no/data/npd-v2/licence/3965194,391,2006-04-28
+http://sws.ifi.uio.no/data/npd-v2/licence/3965222,392,2006-04-28
+http://sws.ifi.uio.no/data/npd-v2/licence/3965277,393,2006-04-28
+http://sws.ifi.uio.no/data/npd-v2/licence/3965323,394,2006-04-28
+http://sws.ifi.uio.no/data/npd-v2/licence/3965360,395,2006-04-28
+http://sws.ifi.uio.no/data/npd-v2/licence/3965404,396,2006-04-28
+http://sws.ifi.uio.no/data/npd-v2/licence/3965439,397,2006-04-28
+http://sws.ifi.uio.no/data/npd-v2/licence/3986340,110 C,2006-04-28
+http://sws.ifi.uio.no/data/npd-v2/licence/3987486,372 BS,2006-04-28
+http://sws.ifi.uio.no/data/npd-v2/licence/4005057,038 C,2006-06-15
+http://sws.ifi.uio.no/data/npd-v2/licence/40264,102 B,1998-01-22
+http://sws.ifi.uio.no/data/npd-v2/licence/40772,103 B,1998-01-22
+http://sws.ifi.uio.no/data/npd-v2/licence/41327,237,1998-01-30
+http://sws.ifi.uio.no/data/npd-v2/licence/41361,128 B,1998-01-30
+http://sws.ifi.uio.no/data/npd-v2/licence/4227611,046 B,2006-11-28
+http://sws.ifi.uio.no/data/npd-v2/licence/4227659,046 BS,2006-11-28
+http://sws.ifi.uio.no/data/npd-v2/licence/4237131,354 B,2007-12-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237147,399,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237161,440 S,2007-06-15
+http://sws.ifi.uio.no/data/npd-v2/licence/4237177,398 S,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237193,402,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237207,404,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237219,401,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237233,403,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237242,400,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237252,411,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237270,441,2007-06-15
+http://sws.ifi.uio.no/data/npd-v2/licence/4237284,405,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237300,407,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237318,406,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237334,316 B,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237444,408,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237458,410,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237470,409,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237482,413,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237498,415,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237510,442,2007-06-15
+http://sws.ifi.uio.no/data/npd-v2/licence/4237582,414,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237612,412,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237645,417,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237675,416,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237691,423 S,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237722,445,2007-06-15
+http://sws.ifi.uio.no/data/npd-v2/licence/4237756,424,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237783,425 S,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237809,427 S,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237831,443,2007-06-15
+http://sws.ifi.uio.no/data/npd-v2/licence/4237847,422 S,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4237881,444,2007-06-15
+http://sws.ifi.uio.no/data/npd-v2/licence/4237912,050 D,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4238116,426,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4238138,318 B,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4238186,421,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4238348,418,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4238409,420,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4238530,419,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4238548,446,2007-06-15
+http://sws.ifi.uio.no/data/npd-v2/licence/4238564,430,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4238578,429,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4238624,428,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4238638,211 B,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4238654,433,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4238670,436,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4238684,212 D,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4238696,435,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4238714,431,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4238730,434,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4238746,432,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4238758,447,2007-06-15
+http://sws.ifi.uio.no/data/npd-v2/licence/4238776,437,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4238790,448,2007-06-15
+http://sws.ifi.uio.no/data/npd-v2/licence/4238812,438,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4238830,439,2007-02-16
+http://sws.ifi.uio.no/data/npd-v2/licence/4238846,449,2007-06-15
+http://sws.ifi.uio.no/data/npd-v2/licence/4380141,050 DS,2006-10-06
+http://sws.ifi.uio.no/data/npd-v2/licence/4380181,120 B,2006-10-06
+http://sws.ifi.uio.no/data/npd-v2/licence/4461754,229 B,2007-04-27
+http://sws.ifi.uio.no/data/npd-v2/licence/4480974,316 CS,2007-08-23
+http://sws.ifi.uio.no/data/npd-v2/licence/4481011,316 DS,2007-08-23
+http://sws.ifi.uio.no/data/npd-v2/licence/4705176,202,1993-09-10
+http://sws.ifi.uio.no/data/npd-v2/licence/4720054,327 B,2007-12-07
+http://sws.ifi.uio.no/data/npd-v2/licence/4720082,321 B,2007-12-07
+http://sws.ifi.uio.no/data/npd-v2/licence/47992,019 C,1998-09-14
+http://sws.ifi.uio.no/data/npd-v2/licence/48081,037 B,1998-09-14
+http://sws.ifi.uio.no/data/npd-v2/licence/48207,053 B,1998-09-14
+http://sws.ifi.uio.no/data/npd-v2/licence/4909658,274 CS,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4909688,006 D,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4909716,454,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4909740,452,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4909784,450,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4909816,455,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4909893,453 S,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4910013,451,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4910110,457,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4910146,456,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4910195,460,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4910251,459,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4910277,458,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4910313,461,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4910350,462 S,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4910414,463 S,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4918009,465,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4918046,052 C,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4918076,464,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4918142,344 B,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4918164,466 S,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4918211,467 S,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4918242,153 B,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4918281,468,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4918303,474,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4918367,472,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4918410,475,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4918473,405 B,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4918501,471,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4918544,074 B,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4920841,473,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4920878,469,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4920926,470,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4920979,479,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4921022,477,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4921153,487 S,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4921192,488,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4921207,478,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4921338,480,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4921353,490,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4921415,476,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4921474,482,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4921522,489,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4921546,481,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4921587,448 B,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4921632,484,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4921667,491,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4921701,229 C,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4921710,485,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4921755,483 S,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4921823,486 S,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4925088,492,2008-02-29
+http://sws.ifi.uio.no/data/npd-v2/licence/4939362,159 C,2008-02-13
+http://sws.ifi.uio.no/data/npd-v2/licence/4939421,159 D,2008-02-13
+http://sws.ifi.uio.no/data/npd-v2/licence/4943160,027 D,2007-12-07
+http://sws.ifi.uio.no/data/npd-v2/licence/4966437,263 C,2008-04-18
+http://sws.ifi.uio.no/data/npd-v2/licence/4966902,212 E,2008-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/4973175,301 B,2008-05-21
+http://sws.ifi.uio.no/data/npd-v2/licence/4973200,301 CS,2008-05-21
+http://sws.ifi.uio.no/data/npd-v2/licence/5081703,036 D,2008-10-17
+http://sws.ifi.uio.no/data/npd-v2/licence/5105684,035 B,2008-11-26
+http://sws.ifi.uio.no/data/npd-v2/licence/5105835,493,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5105899,494,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5105968,495,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5106035,496,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5106073,497,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5106134,498,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5106238,499 S,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5106274,500,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5106314,501,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5106378,502,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5106405,503,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5106455,504,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5106486,505,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5106544,506 S,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5106560,518,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5106689,507,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5106810,508 S,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5106880,509 S,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5106991,510,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5107074,517,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5107101,516,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5107133,515,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5107175,514,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5107217,513,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5107289,432 B,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5107312,512,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5107376,107 B,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5107428,511,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5107501,292 B,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5107561,465 B,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5107611,193 B,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5107640,472 B,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5107669,475 BS,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5107780,402 B,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5115394,107 C,2009-01-23
+http://sws.ifi.uio.no/data/npd-v2/licence/5463084,519,2009-05-15
+http://sws.ifi.uio.no/data/npd-v2/licence/5463114,318 C,2009-05-15
+http://sws.ifi.uio.no/data/npd-v2/licence/5463136,520,2009-05-15
+http://sws.ifi.uio.no/data/npd-v2/licence/5463210,521,2009-05-15
+http://sws.ifi.uio.no/data/npd-v2/licence/5463248,522,2009-05-15
+http://sws.ifi.uio.no/data/npd-v2/licence/5463304,523,2009-05-15
+http://sws.ifi.uio.no/data/npd-v2/licence/5463333,524,2009-05-15
+http://sws.ifi.uio.no/data/npd-v2/licence/5463362,525,2009-05-15
+http://sws.ifi.uio.no/data/npd-v2/licence/5463391,526,2009-05-15
+http://sws.ifi.uio.no/data/npd-v2/licence/5463429,527,2009-05-15
+http://sws.ifi.uio.no/data/npd-v2/licence/5463521,528,2009-05-15
+http://sws.ifi.uio.no/data/npd-v2/licence/5463559,529,2009-05-15
+http://sws.ifi.uio.no/data/npd-v2/licence/5463588,530,2009-05-15
+http://sws.ifi.uio.no/data/npd-v2/licence/5463621,531,2009-05-15
+http://sws.ifi.uio.no/data/npd-v2/licence/5463659,532,2009-05-15
+http://sws.ifi.uio.no/data/npd-v2/licence/5463724,533,2009-05-15
+http://sws.ifi.uio.no/data/npd-v2/licence/5463753,534,2009-05-15
+http://sws.ifi.uio.no/data/npd-v2/licence/5463791,535,2009-05-15
+http://sws.ifi.uio.no/data/npd-v2/licence/5463820,536,2009-05-15
+http://sws.ifi.uio.no/data/npd-v2/licence/5463849,537,2009-05-15
+http://sws.ifi.uio.no/data/npd-v2/licence/5467035,102 C,2009-03-20
+http://sws.ifi.uio.no/data/npd-v2/licence/5479914,169 C,2009-03-27
+http://sws.ifi.uio.no/data/npd-v2/licence/5480294,538,2009-05-15
+http://sws.ifi.uio.no/data/npd-v2/licence/5488531,019 D,2009-01-16
+http://sws.ifi.uio.no/data/npd-v2/licence/5488567,299 B,2009-01-16
+http://sws.ifi.uio.no/data/npd-v2/licence/5500999,038 D,2009-05-15
+http://sws.ifi.uio.no/data/npd-v2/licence/853671,037 C,2000-01-14
+http://sws.ifi.uio.no/data/npd-v2/licence/90914,114 C,1998-09-03
+http://sws.ifi.uio.no/data/npd-v2/licence/917266,001 B,1999-12-15
+http://sws.ifi.uio.no/data/npd-v2/licence/917344,027 B,1999-12-15
+http://sws.ifi.uio.no/data/npd-v2/licence/917484,028 B,1999-12-15

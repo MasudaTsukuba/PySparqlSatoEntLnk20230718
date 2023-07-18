@@ -1,0 +1,189 @@
+country_id,country_name,country_description
+17,Japan,island country in East Asia
+16,Canada,country in North America
+29,Spain,country in southwestern Europe with territories in Africa
+20,Norway,country in northern Europe
+28,Hungary,country in Central Europe
+35,Denmark,country in Northern Europe
+30,United States of America,country in North America
+32,Luxembourg,country in Western Europe
+41,Greece,country in Southeast Europe
+33,Finland,country in Northern Europe
+43,Turkey,transcontinental country straddling Western Asia and Southeastern Europe
+31,Belgium,country in western Europe
+34,Sweden,country in Northern Europe
+36,Poland,country in Central Europe
+114,Kenya,country in Eastern Africa
+115,Ethiopia,country in the Horn of Africa
+37,Lithuania,country in Eastern Europe
+38,Italy,country in Southern Europe
+39,Switzerland,country in Central Europe
+189,Iceland,country in the North Atlantic Ocean
+117,Ghana,sovereign state in West Africa
+45,Portugal,country in Southwestern Europe
+40,Austria,country in Central Europe
+213,Czech Republic,country in Central Europe
+191,Estonia,sovereign state in northeastern Europe
+215,Slovenia,country in Central Europe
+55,Netherlands,country in Northwestern Europe with territories in the Caribbean
+218,Romania,country in Central and Eastern Europe
+77,Uruguay,sovereign state in South America
+219,Bulgaria,country in Southeast Europe
+221,North Macedonia,country in southeastern Europe
+79,Egypt,sovereign state in North Africa and Asia
+96,Mexico,country in North America
+142,France,country in Western Europe
+232,Kazakhstan,sovereign state in Eastern Europe and Central Asia
+145,United Kingdom,country in north-west Europe
+238,San Marino,"sovereign state in southern Europe, enclaved within Italy"
+242,Belize,sovereign state in Central America
+148,People's Republic of China,country in East Asia
+155,Brazil,country in South America
+244,Barbados,island country in the Caribbean
+258,South Africa,country in Southern Africa
+334,Singapore,city-state in maritime Southeast Asia
+183,Germany,country in Central Europe
+159,Russia,sovereign state in Eastern Europe and Northern Asia
+423,North Korea,sovereign state in East Asia
+184,Belarus,country in Eastern Europe
+424,Cambodia,sovereign state in Southeast Asia
+657,Chad,sovereign state in central Africa
+672,Tuvalu,island sovereign state in Oceania
+211,Latvia,sovereign state in northeastern Europe
+678,Tonga,"sovereign state in Oceania, situated on an archipelago"
+212,Ukraine,country in Eastern Europe
+214,Slovakia,country in Central Europe
+685,Solomon Islands,island sovereign state in Oceania
+683,Samoa,sovereign state made up of six islands in the Pacific Ocean
+691,Papua New Guinea,country in Oceania
+217,Moldova,country in Eastern Europe
+697,Nauru,country in Oceania
+222,Albania,country in southeastern Europe
+709,Marshall Islands,island sovereign state in Oceania
+712,Fiji,island sovereign state in Oceania
+224,Croatia,country in Central and Southeastern Europe
+730,Suriname,country in South America
+225,Bosnia and Herzegovina,country in Southeast Europe
+733,Paraguay,sovereign state in South America
+227,Azerbaijan,country in the Caucasus in Eastern Europe
+734,Guyana,country in South America
+736,Ecuador,sovereign state in South America
+739,Colombia,sovereign state in South America
+228,Andorra,"sovereign microstate between France and Spain, in Western Europe"
+754,Trinidad and Tobago,island sovereign state in the Caribbean
+229,Cyprus,sovereign state situated on an island in the Eastern Mediterranean Sea
+757,Saint Vincent and the Grenadines,island sovereign state in the Caribbean Sea
+233,Malta,sovereign state in Southern Europe situated on an archipelago in the Mediterranean Sea
+763,Saint Kitts and Nevis,island sovereign state in the Caribbean Sea
+235,Monaco,sovereign city-state on the French Riviera
+774,Guatemala,sovereign state in Central America
+766,Jamaica,country in the Caribbean Sea
+236,Montenegro,country in southeastern Europe
+781,Antigua and Barbuda,island sovereign state in the Caribbean Sea
+241,Cuba,sovereign state situated on an island in the Caribbean Sea
+792,El Salvador,sovereign state in Central America
+252,Indonesia,country in Southeast Asia and Oceania
+796,Iraq,sovereign state in western Asia
+810,Jordan,country in Western Asia
+811,Nicaragua,sovereign state in Central America
+262,Algeria,country in North Africa
+265,Uzbekistan,sovereign state in Central Asia
+813,Kyrgyzstan,sovereign state in Central Asia
+817,Kuwait,sovereign state in Western Asia
+298,Chile,country in South America
+826,Maldives,"sovereign state in South Asia, situated on an archipelago in the Arabian Sea"
+347,Liechtenstein,country in Central Europe
+833,Malaysia,country in Southeast Asia
+836,Myanmar,sovereign state in Southeast Asia
+398,Bahrain,country in the Persian Gulf
+837,Nepal,country in South Asia
+399,Armenia,sovereign state in the South Caucasus region of Eurasia
+843,Pakistan,sovereign state in South Asia
+403,Serbia,country in southeastern Europe
+851,Saudi Arabia,country in Western Asia
+874,Turkmenistan,country in Central Asia
+854,Sri Lanka,country in South Asia
+408,Australia,country in Oceania
+881,Vietnam,country in Southeast Asia
+917,Bhutan,sovereign state in South Asia
+574,East Timor,sovereign state situated on several islands in Southeast Asia
+419,Peru,sovereign state in South America
+921,Brunei,sovereign state in Southeast Asia
+414,Argentina,sovereign state in South America
+924,Tanzania,country in East Africa
+664,New Zealand,island country in the southwest Pacific Ocean
+928,Philippines,sovereign state in Southeast Asia
+948,Tunisia,country in North Africa
+668,India,country in South Asia
+686,Vanuatu,country In Oceania
+953,Zambia,sovereign state in Southern Africa
+954,Zimbabwe,sovereign state in southern Africa
+710,Kiribati,island sovereign state in the central Pacific Ocean
+958,South Sudan,country in East Africa
+963,Botswana,sovereign state in Southern Africa
+711,Mongolia,country in East Asia
+717,Venezuela,sovereign state in northern South America
+965,Burkina Faso,sovereign state in Africa
+750,Bolivia,sovereign state in South America
+967,Burundi,sovereign state in Africa
+983,Equatorial Guinea,sovereign state in Africa
+1006,Guinea,sovereign state in West Africa
+760,Saint Lucia,island sovereign state in the Caribbean Sea
+1008,Ivory Coast,sovereign state in West Africa
+769,Grenada,island sovereign state in the Caribbean Sea
+1009,Cameroon,sovereign state in West Africa
+778,The Bahamas,island sovereign state in the West Indies
+1011,Cape Verde,sovereign state comprising ten islands off the Western coast of Africa
+1013,Lesotho,sovereign state in southern Africa
+783,Honduras,sovereign state in Central America
+1020,Malawi,sovereign state in Africa
+1025,Mauritania,sovereign state in West Africa and North Africa
+784,Dominica,island sovereign state in the Caribbean Sea
+786,Dominican Republic,island sovereign state in the Caribbean Sea
+790,Haiti,island sovereign state in the Caribbean Sea
+1027,Mauritius,island sovereign state off of Africa in the Indian Ocean
+1029,Mozambique,country in Southeastern Africa
+800,Costa Rica,country in Central America
+1036,Uganda,country in East-central Africa
+1030,Namibia,country in Southern Africa
+794,Iran,country in Western Asia
+1037,Rwanda,sovereign state in Africa
+801,Israel,country in Western Asia
+1039,São Tomé and Príncipe,island sovereign state in Africa
+1041,Senegal,country on the coast of West Africa
+804,Panama,sovereign state in Central America
+1045,Somalia,sovereign state in Africa
+805,Yemen,sovereign state in western Asia
+1050,Eswatini,sovereign state in southern Africa
+3359409,Micronesia,subregion of Oceania
+842,Oman,sovereign state in western Asia
+819,Laos,country in Southeast Asia
+846,Qatar,country in Western Asia
+858,Syria,sovereign state in western Asia
+863,Tajikistan,sovereign state in Central Asia
+869,Thailand,country in Southeast Asia
+878,United Arab Emirates,sovereign state in Southwest Asia
+884,South Korea,country in East Asia
+889,Afghanistan,country in Central and South Asia
+902,Bangladesh,country in South Asia
+912,Mali,country in West Africa
+916,Angola,sovereign state in Africa
+929,Central African Republic,country in Central Africa
+945,Togo,country in West Africa
+962,Benin,sovereign state in West Africa
+970,Comoros,sovereign state situated on an archipelago in the Indian Ocean off the eastern coast of Africa
+977,Djibouti,sovereign state in Africa
+986,Eritrea,country in the Horn of Africa
+1000,Gabon,equatorial country in West Africa
+1005,The Gambia,sovereign state in West Africa
+1007,Guinea-Bissau,sovereign state in Western Africa
+1014,Liberia,sovereign state in West Africa
+1016,Libya,sovereign state in north Africa
+1032,Niger,sovereign state in western Africa
+1019,Madagascar,"island sovereign state off the coast of Southeast Africa, in the Indian Ocean"
+1033,Nigeria,sovereign state in West Africa
+1042,Seychelles,island sovereign state off the eastern coast of Africa
+1044,Sierra Leone,sovereign state in West Africa
+1049,Sudan,country in Northeast Africa
+22890,Ireland,island in the North Atlantic Ocean
+237,Vatican,added 2024/4/24 by Masuda

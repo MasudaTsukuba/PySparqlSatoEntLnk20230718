@@ -1,0 +1,40 @@
+[
+    {
+        "mappingID":3,
+        "subject_uri":"PREFIX_Build",
+        "object_uri":"-",
+        "subject":"Var2",
+        "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object":"http://example.com/ontology/Hotel",
+        "SQL":"SELECT name AS Var2 FROM Build;"
+    },
+ 
+    {
+        "mappingID":9,
+        "subject_uri":"PREFIX_Build",
+        "object_uri":"plain",
+        "subject":"Var12",
+        "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#label",
+        "object":"Var13",
+        "SQL":"SELECT name AS Var12, name AS Var13 FROM Build;"
+    },
+    {
+        "mappingID":16,
+        "subject_uri":"PREFIX_Build",
+        "object_uri":"wikidata_country",
+        "subject":"Var26",
+        "predicate":"http://example.com/predicate/country",
+        "object":"Var27",
+        "SQL":"SELECT Build.name AS Var26, B_country.name AS Var27 FROM buildinC, Build, B_country WHERE Build.b_id = buildinC.b_id AND buildinC.bc_id = B_country.bc_id;"
+    },
+    {
+        "mappingID":20,
+        "subject_uri":"wikidata_country",
+        "object_uri":"plain",
+        "subject":"Var34",
+        "predicate":"http://example.com/predicate/country_name/",
+        "object":"Var35",
+        "SQL":"SELECT name AS Var34, name AS Var35 FROM B_country;"
+    }
+
+]

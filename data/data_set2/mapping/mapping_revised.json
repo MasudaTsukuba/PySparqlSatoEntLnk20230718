@@ -1,0 +1,458 @@
+[
+    {
+        "mappingID":1,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_museum",
+            "content": "",
+            "variable": "Var100"
+        },
+        "predicate":
+        {
+            "type": "NamedNode",
+            "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "variable": "Var101"
+        },
+        "object":
+        {
+            "type": "NamedNode",
+            "uri": "-",
+            "content": "http://example.com/ontology/Museum",
+            "variable": "Var102"
+        },
+        "SQL":"SELECT museum_id AS Var100, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#type\" AS Var101, \"http://example.com/ontology/Museum\" AS Var102 FROM museum;"
+    },
+    {
+        "mappingID":2,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_hotel",
+            "content": "",
+            "variable": "Var200"
+        },
+        "predicate":
+        {
+            "type": "NamedNode",
+            "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "variable": "Var201"
+        },
+        "object":
+        {
+            "type": "NamedNode",
+            "uri": "-",
+            "content": "http://example.com/ontology/Hotel",
+            "variable": "Var202"
+        },
+        "SQL":"SELECT hotel_id AS Var200, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#type\" AS Var201, \"http://example.com/ontology/Hotel\" AS Var202 FROM hotel;"
+    },
+    {
+        "mappingID":3,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_Build",
+            "content": "",
+            "variable": "Var300"
+        },
+        "predicate":
+        {
+            "type": "NamedNode",
+            "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "variable": "Var301"
+        },
+        "object":
+        {
+            "type": "NamedNode",
+            "uri": "-",
+            "content": "http://example.com/ontology/Building",
+            "variable": "Var302"
+        },
+        "SQL":"SELECT building_id AS Var300, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#type\" AS Var301, \"http://example.com/ontology/Building\" AS Var302 FROM building;"
+    },
+    {
+        "mappingID":4,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_WH",
+            "content": "",
+            "variable": "Var400"
+        },
+        "predicate":
+        {
+            "type": "NamedNode",
+            "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "variable": "Var401"
+        },
+        "object":
+        {
+            "type": "NamedNode",
+            "uri": "-",
+            "content": "http://example.com/ontology/Heritage",
+            "variable": "Var402"
+        },
+        "SQL":"SELECT heritage_id AS Var400, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#type\" AS Var401, \"http://example.com/ontology/Heritage\" AS Var402 FROM heritage;"
+    },
+    {
+        "mappingID":5,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_museum",
+            "content": "",
+            "variable": "Var500"
+        },
+        "predicate":
+        {
+            "type": "NamedNode",
+            "content": "http://www.w3.org/2000/01/rdf-schema#label",
+            "variable": "Var501"
+        },
+        "object":
+        {
+            "type": "Variable",
+            "uri": "plain",
+            "content": "",
+            "variable": "Var502"
+        },
+        "SQL":"SELECT museum_id AS Var500, \"http://www.w3.org/2000/01/rdf-schema#label\" AS Var501, name AS Var502 FROM museum;"
+    },
+    {
+        "mappingID":6,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_museum",
+            "content": "",
+            "variable": "Var600"
+        },
+        "predicate":
+        {
+            "type": "NamedNode",
+            "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#description",
+            "variable": "Var601"
+        },
+        "object":
+        {
+            "type": "Variable",
+            "uri": "plain",
+            "content": "",
+            "variable": "Var602"
+        },
+        "SQL":"SELECT museum_id AS Var600, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#description\" AS Var601, description AS Var602 FROM museum;"
+    },
+    {
+        "mappingID":7,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_hotel",
+            "content": "",
+            "variable": "Var700"
+        },
+        "predicate":
+        {
+            "type": "NamedNode",
+            "content": "http://www.w3.org/2000/01/rdf-schema#label",
+            "variable": "Var701"
+        },
+        "object":
+        {
+            "type": "Variable",
+            "uri": "plain",
+            "content": "",
+            "variable": "Var702"
+        },
+        "SQL":"SELECT hotel_id AS Var700, \"http://www.w3.org/2000/01/rdf-schema#label\" AS Var701, name AS Var702 FROM hotel;"
+    },
+    {
+        "mappingID":8,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_hotel",
+            "content": "",
+            "variable": "Var800"
+        },
+        "predicate":
+        {
+            "type": "NamedNode",
+            "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#description",
+            "variable": "Var801"
+        },
+        "object":
+        {
+            "type": "Variable",
+            "uri": "plain",
+            "content": "",
+            "variable": "Var802"
+        },
+        "SQL":"SELECT hotel_id AS Var800, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#description\" AS Var801, description AS Var802 FROM hotel;"
+    },
+    {
+        "mappingID":9,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_Build",
+            "content": "",
+            "variable": "Var900"
+        },
+        "predicate":
+        {
+            "type": "NamedNode",
+            "content": "http://www.w3.org/2000/01/rdf-schema#label",
+            "variable": "Var901"
+        },
+        "object":
+        {
+            "type": "Variable",
+            "uri": "plain",
+            "content": "",
+            "variable": "Var902"
+        },
+        "SQL":"SELECT building_id AS Var900, \"http://www.w3.org/2000/01/rdf-schema#label\" AS Var901, name AS Var902 FROM building;"
+    },
+    {
+        "mappingID":10,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_Build",
+            "content": "",
+            "variable": "Var1000"
+        },
+        "predicate":
+        {
+            "type": "NamedNode",
+            "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#description",
+            "variable": "Var1001"
+        },
+        "object":
+        {
+            "type": "Variable",
+            "uri": "plain",
+            "content": "",
+            "variable": "Var1002"
+        },
+        "SQL":"SELECT building_id AS Var1000, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#description\" AS Var1001, description AS Var1002 FROM building;"
+    },
+    {
+        "mappingID":11,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_WH",
+            "content": "",
+            "variable": "Var1100"
+        },
+        "predicate":
+        {
+            "type": "NamedNode",
+            "content": "http://www.w3.org/2000/01/rdf-schema#label",
+            "variable": "Var1101"
+        },
+        "object":
+        {
+            "type": "Variable",
+            "uri": "plain",
+            "content": "",
+            "variable": "Var1102"
+        },
+        "SQL":"SELECT heritage_id AS Var1100, \"http://www.w3.org/2000/01/rdf-schema#label\" AS Var1101, name AS Var1102 FROM heritage;"
+    },
+    {
+        "mappingID":12,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_WH",
+            "content": "",
+            "variable": "Var1200"
+        },
+        "predicate":
+        {
+            "type": "NamedNode",
+            "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#description",
+            "variable": "Var1201"
+        },
+        "object":
+        {
+            "type": "Variable",
+            "uri": "plain",
+            "content": "",
+            "variable": "Var1202"
+        },
+        "SQL":"SELECT heritage_id AS Var1200, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#description\" AS Var1201, description AS Var1202 FROM heritage;"
+    },
+    {
+        "mappingID":13,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_WH",
+            "content": "",
+            "variable": "Var1300"
+        },
+        "predicate":
+        {
+            "type": "NamedNode",
+            "content": "http://example.com/predicate/country",
+            "variable": "Var1301"
+        },
+        "object":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_Country",
+            "content": "",
+            "variable": "Var1302"
+        },
+        "SQL":"SELECT heritage.heritage_id AS Var1300, \"http://example.com/predicate/country\" AS Var1301, country.country_id AS Var1302 FROM heritage_country, heritage, country WHERE heritage.heritage_id = heritage_country.heritage_id AND heritage_country.country_id = country.country_id;"
+    },
+    {
+        "mappingID":14,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_museum",
+            "content": "",
+            "variable": "Var1400"
+        },
+        "predicate":
+        {
+            "type": "NamedNode",
+            "content": "http://example.com/predicate/country",
+            "variable": "Var1401"
+        },
+        "object":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_Country",
+            "content": "",
+            "variable": "Var1402"
+        },
+        "SQL":"SELECT museum.museum_id AS Var1400, \"http://example.com/predicate/country\" AS Var1401, country.country_id AS Var1402 FROM museum_country, museum, country WHERE museum.museum_id = museum_country.museum_id AND museum_country.country_id = country.country_id;"
+    },
+    {
+        "mappingID":15,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_hotel",
+            "content": "",
+            "variable": "Var1500"
+        },
+        "predicate":
+        {
+            "type": "NamedNode",
+            "content": "http://example.com/predicate/country",
+            "variable": "Var1501"
+        },
+        "object":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_Country",
+            "content": "",
+            "variable": "Var1502"
+        },
+        "SQL":"SELECT hotel.hotel_id AS Var1500, \"http://example.com/predicate/country\" AS Var1501, country.country_id AS Var1502 FROM hotel_country, hotel, country WHERE hotel.hotel_id = hotel_country.hotel_id AND hotel_country.country_id = country.country_id;"
+    },
+    {
+        "mappingID":16,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_Build",
+            "content": "",
+            "variable": "Var1600"
+        },
+        "predicate":
+        {
+            "type": "NamedNode",
+            "content": "http://example.com/predicate/country",
+            "variable": "Var1601"
+        },
+        "object":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_Country",
+            "content": "",
+            "variable": "Var1602"
+        },
+        "SQL":"SELECT building.building_id AS Var1600, \"http://example.com/predicate/country\" AS Var1601, country.country_id AS Var1602 FROM building_country, building, country WHERE building.building_id = building_country.building_id AND building_country.country_id = country.country_id;"
+    },
+    {
+        "mappingID":17,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_Country",
+            "content": "",
+            "variable": "Var1700"
+        },
+        "predicate":
+        {
+            "type": "NamedNode",
+            "content": "http://example.com/predicate/country_name",
+            "variable": "Var1701"
+        },
+        "object":
+        {
+            "type": "Variable",
+            "uri": "plain",
+            "content": "",
+            "variable": "Var1702"
+        },
+        "SQL":"SELECT country_id AS Var1700, \"http://example.com/predicate/country_name\" AS Var1701, country_name AS Var1702 FROM country;"
+    },
+    {
+        "mappingID":21,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_Country",
+            "content": "",
+            "variable": "Var2100"
+        },
+        "predicate":
+        {
+            "type": "NamedNode",
+            "content": "http://example.com/predicate/country_description",
+            "variable": "Var2101"
+        },
+        "object":
+        {
+            "type": "Variable",
+            "uri": "plain",
+            "content": "",
+            "variable": "Var2102"
+        },
+        "SQL":"SELECT country_id AS Var2100, \"http://example.com/predicate/country_description\" AS Var2101, country_description AS Var2102 FROM country;"
+    },
+    {
+        "mappingID":25,
+        "subject":
+        {
+            "type": "Variable",
+            "uri": "PREFIX_Country",
+            "content": "",
+            "variable": "Var2500"
+        },
+        "predicate":
+         {
+            "type": "NamedNode",
+            "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+            "variable": "Var2501"
+        },
+        "object":
+        {
+            "type": "NamedNode",
+            "uri": "-",
+            "content": "http://example.com/ontology/Country",
+            "variable": "Var2502"
+        },
+        "SQL":"SELECT country_id AS Var2500, \"http://www.w3.org/1999/02/22-rdf-syntax-ns#type\" AS Var2501, \"http://example.com/ontology/Country\" AS Var2502 FROM country;"
+    }
+]

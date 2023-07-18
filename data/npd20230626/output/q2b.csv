@@ -1,0 +1,205 @@
+var0,var1
+http://sws.ifi.uio.no/data/npd-v2/facility/278245,MÆRSK GIANT
+http://sws.ifi.uio.no/data/npd-v2/facility/287821,SONGA DELTA
+http://sws.ifi.uio.no/data/npd-v2/facility/287848,NAN HAI VI
+http://sws.ifi.uio.no/data/npd-v2/facility/287902,OCEAN VANGUARD
+http://sws.ifi.uio.no/data/npd-v2/facility/287956,BULFORD DOLPHIN
+http://sws.ifi.uio.no/data/npd-v2/facility/287983,DEEPSEA BERGEN
+http://sws.ifi.uio.no/data/npd-v2/facility/288010,LA MURALLA
+http://sws.ifi.uio.no/data/npd-v2/facility/288037,SEDCO 707
+http://sws.ifi.uio.no/data/npd-v2/facility/288091,GLOMAR BISCAY II
+http://sws.ifi.uio.no/data/npd-v2/facility/288118,WEST BETA
+http://sws.ifi.uio.no/data/npd-v2/facility/288145,PRIDE SOUTH PACIFIC
+http://sws.ifi.uio.no/data/npd-v2/facility/288172,DRILLMASTER
+http://sws.ifi.uio.no/data/npd-v2/facility/288199,DRILLSHIP
+http://sws.ifi.uio.no/data/npd-v2/facility/288226,WEST GAMMA
+http://sws.ifi.uio.no/data/npd-v2/facility/288280,BORGNY DOLPHIN
+http://sws.ifi.uio.no/data/npd-v2/facility/288307,GULFTIDE
+http://sws.ifi.uio.no/data/npd-v2/facility/288334,BORGSTEN DOLPHIN
+http://sws.ifi.uio.no/data/npd-v2/facility/288388,GLOMAR GRAND ISLE
+http://sws.ifi.uio.no/data/npd-v2/facility/288469,OCEAN TIDE
+http://sws.ifi.uio.no/data/npd-v2/facility/288496,OCEAN TRAVELER
+http://sws.ifi.uio.no/data/npd-v2/facility/288523,OCEAN VICTORY
+http://sws.ifi.uio.no/data/npd-v2/facility/288550,OCEAN VOYAGER
+http://sws.ifi.uio.no/data/npd-v2/facility/288577,ODIN DRILL
+http://sws.ifi.uio.no/data/npd-v2/facility/288604,ORION
+http://sws.ifi.uio.no/data/npd-v2/facility/288631,NEPTUNE 7
+http://sws.ifi.uio.no/data/npd-v2/facility/288685,SAIPEM II
+http://sws.ifi.uio.no/data/npd-v2/facility/288712,SEDCO H
+http://sws.ifi.uio.no/data/npd-v2/facility/288766,SEDCO 135 G
+http://sws.ifi.uio.no/data/npd-v2/facility/288793,SEDCO 703
+http://sws.ifi.uio.no/data/npd-v2/facility/288820,SEDCO 704
+http://sws.ifi.uio.no/data/npd-v2/facility/288847,SEDNETH I
+http://sws.ifi.uio.no/data/npd-v2/facility/288901,ZAPATA EXPLORER
+http://sws.ifi.uio.no/data/npd-v2/facility/288928,ZAPATA NORDIC
+http://sws.ifi.uio.no/data/npd-v2/facility/288982,PENTAGONE 84
+http://sws.ifi.uio.no/data/npd-v2/facility/289036,PELERIN
+http://sws.ifi.uio.no/data/npd-v2/facility/289063,LE PELERIN
+http://sws.ifi.uio.no/data/npd-v2/facility/289090,DEEPSEA PIONEER
+http://sws.ifi.uio.no/data/npd-v2/facility/289171,OCEAN BARONESS
+http://sws.ifi.uio.no/data/npd-v2/facility/289306,OCEAN YATZY
+http://sws.ifi.uio.no/data/npd-v2/facility/289333,POLAR PIONEER
+http://sws.ifi.uio.no/data/npd-v2/facility/289360,OCEAN PRINCESS
+http://sws.ifi.uio.no/data/npd-v2/facility/289387,HENRY GOODRICH
+http://sws.ifi.uio.no/data/npd-v2/facility/289414,PETROBRAS XXIII
+http://sws.ifi.uio.no/data/npd-v2/facility/289441,BUCENTAUR
+http://sws.ifi.uio.no/data/npd-v2/facility/289495,WEST VISION
+http://sws.ifi.uio.no/data/npd-v2/facility/289792,SANTA FE 135
+http://sws.ifi.uio.no/data/npd-v2/facility/289819,SANTA FE 140
+http://sws.ifi.uio.no/data/npd-v2/facility/289846,SOVEREIGN EXPLOR
+http://sws.ifi.uio.no/data/npd-v2/facility/290008,OCEAN BOUNTY
+http://sws.ifi.uio.no/data/npd-v2/facility/290170,BIDEFORD DOLPHIN
+http://sws.ifi.uio.no/data/npd-v2/facility/290737,TRANSOCEAN AMIRANTE
+http://sws.ifi.uio.no/data/npd-v2/facility/290980,SONGA DEE
+http://sws.ifi.uio.no/data/npd-v2/facility/291169,JOIDES RESOLUTION
+http://sws.ifi.uio.no/data/npd-v2/facility/291466,NOBLE ROGER EASON
+http://sws.ifi.uio.no/data/npd-v2/facility/292006,GSF ADRIATIC 1
+http://sws.ifi.uio.no/data/npd-v2/facility/292087,MÆRSK ENDEAVOUR
+http://sws.ifi.uio.no/data/npd-v2/facility/292114,MÆRSK GUARDIAN
+http://sws.ifi.uio.no/data/npd-v2/facility/292141,NOBLE GEORGE SAUVAGEEAU
+http://sws.ifi.uio.no/data/npd-v2/facility/292168,NOBLE PIET VAN EDE
+http://sws.ifi.uio.no/data/npd-v2/facility/292627,NOBLE TON VAN LANGEVELD
+http://sws.ifi.uio.no/data/npd-v2/facility/292654,OCEAN ALLIANCE
+http://sws.ifi.uio.no/data/npd-v2/facility/292681,GSF RIG 140
+http://sws.ifi.uio.no/data/npd-v2/facility/293572,GSF ARCTIC I
+http://sws.ifi.uio.no/data/npd-v2/facility/293815,REGALIA
+http://sws.ifi.uio.no/data/npd-v2/facility/293977,KOLSKAYA
+http://sws.ifi.uio.no/data/npd-v2/facility/294058,SCARABEO 5
+http://sws.ifi.uio.no/data/npd-v2/facility/294085,OCEAN VALIANT
+http://sws.ifi.uio.no/data/npd-v2/facility/294166,ROCKWATER SEMI 1
+http://sws.ifi.uio.no/data/npd-v2/facility/294220,SEAWAY CONDOR
+http://sws.ifi.uio.no/data/npd-v2/facility/294328,SEAWAY HARRIER
+http://sws.ifi.uio.no/data/npd-v2/facility/294382,TRANSOCEAN ARCTIC
+http://sws.ifi.uio.no/data/npd-v2/facility/294544,ABEILLE SUPPORT
+http://sws.ifi.uio.no/data/npd-v2/facility/295084,PAUL B LOYD JR
+http://sws.ifi.uio.no/data/npd-v2/facility/295111,NORMAND MJOLNE
+http://sws.ifi.uio.no/data/npd-v2/facility/295138,SAFE LANCIA
+http://sws.ifi.uio.no/data/npd-v2/facility/295381,B.ENTERPRISE 2
+http://sws.ifi.uio.no/data/npd-v2/facility/295489,POLAR QUEEN
+http://sws.ifi.uio.no/data/npd-v2/facility/295516,POLAR BJØRN
+http://sws.ifi.uio.no/data/npd-v2/facility/295597,AQUAMARINE
+http://sws.ifi.uio.no/data/npd-v2/facility/295786,OCEAN CONFIDENCE
+http://sws.ifi.uio.no/data/npd-v2/facility/295975,NORMAND JARL
+http://sws.ifi.uio.no/data/npd-v2/facility/296002,MÆRSK GALLANT
+http://sws.ifi.uio.no/data/npd-v2/facility/296110,WEST EPSILON
+http://sws.ifi.uio.no/data/npd-v2/facility/296164,SONGA TRYM
+http://sws.ifi.uio.no/data/npd-v2/facility/296191,TRANSOCEAN NORDIC
+http://sws.ifi.uio.no/data/npd-v2/facility/296218,TRANSOCEAN PROSPECT
+http://sws.ifi.uio.no/data/npd-v2/facility/296245,TRANSOCEAN SEARCHER
+http://sws.ifi.uio.no/data/npd-v2/facility/296299,M/V CRYSTAL SEA
+http://sws.ifi.uio.no/data/npd-v2/facility/296326,TRANSOCEAN WINNER
+http://sws.ifi.uio.no/data/npd-v2/facility/296353,GSF ARCTIC II
+http://sws.ifi.uio.no/data/npd-v2/facility/296380,OCEAN LIBERATOR
+http://sws.ifi.uio.no/data/npd-v2/facility/296407,OCEAN VIKING
+http://sws.ifi.uio.no/data/npd-v2/facility/296488,NOBLE RONALD HOPE
+http://sws.ifi.uio.no/data/npd-v2/facility/296677,TRANSOCEAN LEADER
+http://sws.ifi.uio.no/data/npd-v2/facility/296704,ENDEAVOUR
+http://sws.ifi.uio.no/data/npd-v2/facility/296731,J W MCLEAN
+http://sws.ifi.uio.no/data/npd-v2/facility/296785,SAFE BRITANIA
+http://sws.ifi.uio.no/data/npd-v2/facility/296812,BP 471
+http://sws.ifi.uio.no/data/npd-v2/facility/296866,GSF LABRADOR
+http://sws.ifi.uio.no/data/npd-v2/facility/296920,ANTIFRITE
+http://sws.ifi.uio.no/data/npd-v2/facility/296947,NOBLE AL WHITE
+http://sws.ifi.uio.no/data/npd-v2/facility/296974,BORGILA DOLPHIN
+http://sws.ifi.uio.no/data/npd-v2/facility/297001,SCARABEO 6
+http://sws.ifi.uio.no/data/npd-v2/facility/297028,ESSAR WILDCAT
+http://sws.ifi.uio.no/data/npd-v2/facility/297055,WEST VENTURE
+http://sws.ifi.uio.no/data/npd-v2/facility/297082,WEST NAVIGATOR
+http://sws.ifi.uio.no/data/npd-v2/facility/297109,GARD VARIANT
+http://sws.ifi.uio.no/data/npd-v2/facility/297190,SAIPEM 7000
+http://sws.ifi.uio.no/data/npd-v2/facility/297217,CASTORO 10
+http://sws.ifi.uio.no/data/npd-v2/facility/297379,POLAR PRINCE
+http://sws.ifi.uio.no/data/npd-v2/facility/297514,WEST ALPHA
+http://sws.ifi.uio.no/data/npd-v2/facility/297541,GUARD VALLIANT
+http://sws.ifi.uio.no/data/npd-v2/facility/297568,NORMAND PROSPER
+http://sws.ifi.uio.no/data/npd-v2/facility/297622,TOISA POLARIS
+http://sws.ifi.uio.no/data/npd-v2/facility/297649,STENA DON
+http://sws.ifi.uio.no/data/npd-v2/facility/297676,TOISA PERSEUS
+http://sws.ifi.uio.no/data/npd-v2/facility/297703,BOA GIANT
+http://sws.ifi.uio.no/data/npd-v2/facility/297730,SAFE CALEDONIA
+http://sws.ifi.uio.no/data/npd-v2/facility/297757,SAFE SCANDINAVIA
+http://sws.ifi.uio.no/data/npd-v2/facility/297784,BORGLAND DOLPHIN
+http://sws.ifi.uio.no/data/npd-v2/facility/297838,MÆRSK INNOVATOR
+http://sws.ifi.uio.no/data/npd-v2/facility/297865,LEIV EIRIKSSON
+http://sws.ifi.uio.no/data/npd-v2/facility/297919,COSLRigmar
+http://sws.ifi.uio.no/data/npd-v2/facility/297946,BELFORD DOLPHIN
+http://sws.ifi.uio.no/data/npd-v2/facility/297973,SEAWAY OSPREY
+http://sws.ifi.uio.no/data/npd-v2/facility/298081,OCEAN WINNER
+http://sws.ifi.uio.no/data/npd-v2/facility/298108,GLOMAR CHALLENGE
+http://sws.ifi.uio.no/data/npd-v2/facility/298189,GSF RIG 135
+http://sws.ifi.uio.no/data/npd-v2/facility/341172,EIRIK RAUDE
+http://sws.ifi.uio.no/data/npd-v2/facility/341331,BYFORD DOLPHIN
+http://sws.ifi.uio.no/data/npd-v2/facility/361873,PHOLAS
+http://sws.ifi.uio.no/data/npd-v2/facility/362316,MÆRSK EXPLORER
+http://sws.ifi.uio.no/data/npd-v2/facility/362458,POLYGLOMAR DRILLER
+http://sws.ifi.uio.no/data/npd-v2/facility/362494,WEST VENTURE OLD
+http://sws.ifi.uio.no/data/npd-v2/facility/362531,TRANSWORLD RIG61
+http://sws.ifi.uio.no/data/npd-v2/facility/364465,NORMAND TONJER
+http://sws.ifi.uio.no/data/npd-v2/facility/364529,GRENA
+http://sws.ifi.uio.no/data/npd-v2/facility/364568,SEVEN PELICAN
+http://sws.ifi.uio.no/data/npd-v2/facility/365715,MSV PELICAN
+http://sws.ifi.uio.no/data/npd-v2/facility/368585,VIKING POSEIDON
+http://sws.ifi.uio.no/data/npd-v2/facility/369304,MÆRSK INSPIRER
+http://sws.ifi.uio.no/data/npd-v2/facility/372798,COSLRival
+http://sws.ifi.uio.no/data/npd-v2/facility/373521,BREDFORD DOLPHIN
+http://sws.ifi.uio.no/data/npd-v2/facility/373600,FUGRO EXPLORER
+http://sws.ifi.uio.no/data/npd-v2/facility/373829,ISLAND FRONTIER
+http://sws.ifi.uio.no/data/npd-v2/facility/373983,WELLSERVICER
+http://sws.ifi.uio.no/data/npd-v2/facility/374031,MSV ERNEST SHACKLETON
+http://sws.ifi.uio.no/data/npd-v2/facility/374177,CSO APACHE
+http://sws.ifi.uio.no/data/npd-v2/facility/375355,ROWAN GORILLA VI
+http://sws.ifi.uio.no/data/npd-v2/facility/377007,ACERGY OSPREY
+http://sws.ifi.uio.no/data/npd-v2/facility/378320,POLARSTERN
+http://sws.ifi.uio.no/data/npd-v2/facility/390818,NORMAND SKARVEN
+http://sws.ifi.uio.no/data/npd-v2/facility/390874,WEST PHOENIX
+http://sws.ifi.uio.no/data/npd-v2/facility/391059,FERDER
+http://sws.ifi.uio.no/data/npd-v2/facility/391107,MARINER
+http://sws.ifi.uio.no/data/npd-v2/facility/395490,VOLSTAD SUPPLIER
+http://sws.ifi.uio.no/data/npd-v2/facility/402507,ACERGY FALCON
+http://sws.ifi.uio.no/data/npd-v2/facility/402726,MSV BOTNICA
+http://sws.ifi.uio.no/data/npd-v2/facility/403231,NORMAND MERMAID
+http://sws.ifi.uio.no/data/npd-v2/facility/403711,EDDA FAUNA
+http://sws.ifi.uio.no/data/npd-v2/facility/404201,TRANSOCEAN SPITSBERGEN
+http://sws.ifi.uio.no/data/npd-v2/facility/404303,TRANSOCEAN BARENTS
+http://sws.ifi.uio.no/data/npd-v2/facility/404360,DEEPSEA ATLANTIC
+http://sws.ifi.uio.no/data/npd-v2/facility/404415,SCARABEO 8
+http://sws.ifi.uio.no/data/npd-v2/facility/404470,ISLAND WELLSERVER
+http://sws.ifi.uio.no/data/npd-v2/facility/404524,WILLNOVATOR
+http://sws.ifi.uio.no/data/npd-v2/facility/404582,FUGRO MERCATOR
+http://sws.ifi.uio.no/data/npd-v2/facility/405450,NORMAND CARRIER
+http://sws.ifi.uio.no/data/npd-v2/facility/405509,NORMAND FLOWER
+http://sws.ifi.uio.no/data/npd-v2/facility/405770,ISLAND VANGUARD
+http://sws.ifi.uio.no/data/npd-v2/facility/405827,ISLAND CONSTRUCTOR
+http://sws.ifi.uio.no/data/npd-v2/facility/405947,OCEAN SKY
+http://sws.ifi.uio.no/data/npd-v2/facility/406001,OCEAN CLEVER
+http://sws.ifi.uio.no/data/npd-v2/facility/406180,SKANDI SOTRA
+http://sws.ifi.uio.no/data/npd-v2/facility/408756,EDDA FLORA
+http://sws.ifi.uio.no/data/npd-v2/facility/408814,ISLAND VALIANT
+http://sws.ifi.uio.no/data/npd-v2/facility/408869,NAVION EUROPA
+http://sws.ifi.uio.no/data/npd-v2/facility/409724,GEOSUND
+http://sws.ifi.uio.no/data/npd-v2/facility/409783,SEVEN SISTERS
+http://sws.ifi.uio.no/data/npd-v2/facility/411423,MÆRSK REACHER
+http://sws.ifi.uio.no/data/npd-v2/facility/411482,FLOATEL SUPERIOR
+http://sws.ifi.uio.no/data/npd-v2/facility/411539,HAVEN
+http://sws.ifi.uio.no/data/npd-v2/facility/411773,ISLAND ENFORCER
+http://sws.ifi.uio.no/data/npd-v2/facility/411835,SKANDI AKER
+http://sws.ifi.uio.no/data/npd-v2/facility/413252,FUGRO DISCOVERY
+http://sws.ifi.uio.no/data/npd-v2/facility/413414,FUGRO SALTIRE
+http://sws.ifi.uio.no/data/npd-v2/facility/413474,ISLAND COMMANDER
+http://sws.ifi.uio.no/data/npd-v2/facility/413534,COSLPioneer
+http://sws.ifi.uio.no/data/npd-v2/facility/413825,COSLInnovator
+http://sws.ifi.uio.no/data/npd-v2/facility/413883,COSLPromoter
+http://sws.ifi.uio.no/data/npd-v2/facility/413943,ROWAN STAVANGER
+http://sws.ifi.uio.no/data/npd-v2/facility/414002,WEST ELARA
+http://sws.ifi.uio.no/data/npd-v2/facility/414880,ARTEMIS ARCTIC
+http://sws.ifi.uio.no/data/npd-v2/facility/415384,EDDA FJORD
+http://sws.ifi.uio.no/data/npd-v2/facility/415441,SKANDI CHIEFTAIN
+http://sws.ifi.uio.no/data/npd-v2/facility/415496,SCANDI ACERGY
+http://sws.ifi.uio.no/data/npd-v2/facility/415836,WEST HERCULES
+http://sws.ifi.uio.no/data/npd-v2/facility/415967,SIEM PILOT
+http://sws.ifi.uio.no/data/npd-v2/facility/417599,ROWAN NORWAY
+http://sws.ifi.uio.no/data/npd-v2/facility/424872,FAR SAGA
+http://sws.ifi.uio.no/data/npd-v2/facility/426940,ISLAND INNOVATOR
+http://sws.ifi.uio.no/data/npd-v2/facility/426997,NORSHORE ATLANTIC
+http://sws.ifi.uio.no/data/npd-v2/facility/429269,SKANDI ARCTIC
+http://sws.ifi.uio.no/data/npd-v2/facility/429605,NORMAND SUBSEA

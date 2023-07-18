@@ -1,0 +1,9 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.owl-ontologies.com/Ontology1207768242.owl#>
+SELECT DISTINCT ?var1 ?var2
+WHERE
+{
+	?var1  rdf:type :Company .
+	?var1  :hasStock ?var2 .
+	?var2  rdf:type :Stock
+}

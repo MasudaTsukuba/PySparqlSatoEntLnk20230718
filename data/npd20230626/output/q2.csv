@@ -1,0 +1,205 @@
+var0,var1,var2,var3
+http://sws.ifi.uio.no/data/npd-v2/facility/278245,MÆRSK GIANT,Denmark,278245
+http://sws.ifi.uio.no/data/npd-v2/facility/287821,SONGA DELTA,NORWAY,287821
+http://sws.ifi.uio.no/data/npd-v2/facility/287848,NAN HAI VI,China,287848
+http://sws.ifi.uio.no/data/npd-v2/facility/287902,OCEAN VANGUARD,Marshall islands,287902
+http://sws.ifi.uio.no/data/npd-v2/facility/287956,BULFORD DOLPHIN,Bahamas,287956
+http://sws.ifi.uio.no/data/npd-v2/facility/287983,DEEPSEA BERGEN,NORWAY,287983
+http://sws.ifi.uio.no/data/npd-v2/facility/288010,LA MURALLA,Russian federation,288010
+http://sws.ifi.uio.no/data/npd-v2/facility/288037,SEDCO 707,NORWAY,288037
+http://sws.ifi.uio.no/data/npd-v2/facility/288091,GLOMAR BISCAY II,NORWAY,288091
+http://sws.ifi.uio.no/data/npd-v2/facility/288118,WEST BETA,Liberia,288118
+http://sws.ifi.uio.no/data/npd-v2/facility/288145,PRIDE SOUTH PACIFIC,Panama,288145
+http://sws.ifi.uio.no/data/npd-v2/facility/288172,DRILLMASTER,NORWAY,288172
+http://sws.ifi.uio.no/data/npd-v2/facility/288199,DRILLSHIP,NORWAY,288199
+http://sws.ifi.uio.no/data/npd-v2/facility/288226,WEST GAMMA,NORWAY,288226
+http://sws.ifi.uio.no/data/npd-v2/facility/288280,BORGNY DOLPHIN,Panama,288280
+http://sws.ifi.uio.no/data/npd-v2/facility/288307,GULFTIDE,NORWAY,288307
+http://sws.ifi.uio.no/data/npd-v2/facility/288334,BORGSTEN DOLPHIN,Panama,288334
+http://sws.ifi.uio.no/data/npd-v2/facility/288388,GLOMAR GRAND ISLE,NORWAY,288388
+http://sws.ifi.uio.no/data/npd-v2/facility/288469,OCEAN TIDE,NORWAY,288469
+http://sws.ifi.uio.no/data/npd-v2/facility/288496,OCEAN TRAVELER,NORWAY,288496
+http://sws.ifi.uio.no/data/npd-v2/facility/288523,OCEAN VICTORY,NORWAY,288523
+http://sws.ifi.uio.no/data/npd-v2/facility/288550,OCEAN VOYAGER,NORWAY,288550
+http://sws.ifi.uio.no/data/npd-v2/facility/288577,ODIN DRILL,NORWAY,288577
+http://sws.ifi.uio.no/data/npd-v2/facility/288604,ORION,NORWAY,288604
+http://sws.ifi.uio.no/data/npd-v2/facility/288631,NEPTUNE 7,NORWAY,288631
+http://sws.ifi.uio.no/data/npd-v2/facility/288685,SAIPEM II,NORWAY,288685
+http://sws.ifi.uio.no/data/npd-v2/facility/288712,SEDCO H,NORWAY,288712
+http://sws.ifi.uio.no/data/npd-v2/facility/288766,SEDCO 135 G,NORWAY,288766
+http://sws.ifi.uio.no/data/npd-v2/facility/288793,SEDCO 703,NORWAY,288793
+http://sws.ifi.uio.no/data/npd-v2/facility/288820,SEDCO 704,NORWAY,288820
+http://sws.ifi.uio.no/data/npd-v2/facility/288847,SEDNETH I,NORWAY,288847
+http://sws.ifi.uio.no/data/npd-v2/facility/288901,ZAPATA EXPLORER,NORWAY,288901
+http://sws.ifi.uio.no/data/npd-v2/facility/288928,ZAPATA NORDIC,NORWAY,288928
+http://sws.ifi.uio.no/data/npd-v2/facility/288982,PENTAGONE 84,NORWAY,288982
+http://sws.ifi.uio.no/data/npd-v2/facility/289036,PELERIN,NORWAY,289036
+http://sws.ifi.uio.no/data/npd-v2/facility/289063,LE PELERIN,NORWAY,289063
+http://sws.ifi.uio.no/data/npd-v2/facility/289090,DEEPSEA PIONEER,GREAT BRITAIN,289090
+http://sws.ifi.uio.no/data/npd-v2/facility/289171,OCEAN BARONESS,Panama,289171
+http://sws.ifi.uio.no/data/npd-v2/facility/289306,OCEAN YATZY,Panama,289306
+http://sws.ifi.uio.no/data/npd-v2/facility/289333,POLAR PIONEER,Panama,289333
+http://sws.ifi.uio.no/data/npd-v2/facility/289360,OCEAN PRINCESS,Panama,289360
+http://sws.ifi.uio.no/data/npd-v2/facility/289387,HENRY GOODRICH,NORWAY,289387
+http://sws.ifi.uio.no/data/npd-v2/facility/289414,PETROBRAS XXIII,Liberia,289414
+http://sws.ifi.uio.no/data/npd-v2/facility/289441,BUCENTAUR,NORWAY,289441
+http://sws.ifi.uio.no/data/npd-v2/facility/289495,WEST VISION,NORWAY,289495
+http://sws.ifi.uio.no/data/npd-v2/facility/289792,SANTA FE 135,NORWAY,289792
+http://sws.ifi.uio.no/data/npd-v2/facility/289819,SANTA FE 140,NORWAY,289819
+http://sws.ifi.uio.no/data/npd-v2/facility/289846,SOVEREIGN EXPLOR,Liberia,289846
+http://sws.ifi.uio.no/data/npd-v2/facility/290008,OCEAN BOUNTY,Panama,290008
+http://sws.ifi.uio.no/data/npd-v2/facility/290170,BIDEFORD DOLPHIN,Singapore,290170
+http://sws.ifi.uio.no/data/npd-v2/facility/290737,TRANSOCEAN AMIRANTE,Panama,290737
+http://sws.ifi.uio.no/data/npd-v2/facility/290980,SONGA DEE,NORWAY,290980
+http://sws.ifi.uio.no/data/npd-v2/facility/291169,JOIDES RESOLUTION,NORWAY,291169
+http://sws.ifi.uio.no/data/npd-v2/facility/291466,NOBLE ROGER EASON,Panama,291466
+http://sws.ifi.uio.no/data/npd-v2/facility/292006,GSF ADRIATIC 1,Panama,292006
+http://sws.ifi.uio.no/data/npd-v2/facility/292087,MÆRSK ENDEAVOUR,Denmark,292087
+http://sws.ifi.uio.no/data/npd-v2/facility/292114,MÆRSK GUARDIAN,Denmark,292114
+http://sws.ifi.uio.no/data/npd-v2/facility/292141,NOBLE GEORGE SAUVAGEEAU,Panama,292141
+http://sws.ifi.uio.no/data/npd-v2/facility/292168,NOBLE PIET VAN EDE,Panama,292168
+http://sws.ifi.uio.no/data/npd-v2/facility/292627,NOBLE TON VAN LANGEVELD,Panama,292627
+http://sws.ifi.uio.no/data/npd-v2/facility/292654,OCEAN ALLIANCE,NORWAY,292654
+http://sws.ifi.uio.no/data/npd-v2/facility/292681,GSF RIG 140,Panama,292681
+http://sws.ifi.uio.no/data/npd-v2/facility/293572,GSF ARCTIC I,Panama,293572
+http://sws.ifi.uio.no/data/npd-v2/facility/293815,REGALIA,Bahamas,293815
+http://sws.ifi.uio.no/data/npd-v2/facility/293977,KOLSKAYA,NORWAY,293977
+http://sws.ifi.uio.no/data/npd-v2/facility/294058,SCARABEO 5,Italy,294058
+http://sws.ifi.uio.no/data/npd-v2/facility/294085,OCEAN VALIANT,NORWAY,294085
+http://sws.ifi.uio.no/data/npd-v2/facility/294166,ROCKWATER SEMI 1,Netherlands,294166
+http://sws.ifi.uio.no/data/npd-v2/facility/294220,SEAWAY CONDOR,NORWAY,294220
+http://sws.ifi.uio.no/data/npd-v2/facility/294328,SEAWAY HARRIER,NORWAY,294328
+http://sws.ifi.uio.no/data/npd-v2/facility/294382,TRANSOCEAN ARCTIC,Marshall islands,294382
+http://sws.ifi.uio.no/data/npd-v2/facility/294544,ABEILLE SUPPORT,France,294544
+http://sws.ifi.uio.no/data/npd-v2/facility/295084,PAUL B LOYD JR,Panama,295084
+http://sws.ifi.uio.no/data/npd-v2/facility/295111,NORMAND MJOLNE,NORWAY,295111
+http://sws.ifi.uio.no/data/npd-v2/facility/295138,SAFE LANCIA,NORWAY,295138
+http://sws.ifi.uio.no/data/npd-v2/facility/295381,B.ENTERPRISE 2,NORWAY,295381
+http://sws.ifi.uio.no/data/npd-v2/facility/295489,POLAR QUEEN,NORWAY,295489
+http://sws.ifi.uio.no/data/npd-v2/facility/295516,POLAR BJØRN,NORWAY,295516
+http://sws.ifi.uio.no/data/npd-v2/facility/295597,AQUAMARINE,Liberia,295597
+http://sws.ifi.uio.no/data/npd-v2/facility/295786,OCEAN CONFIDENCE,Panama,295786
+http://sws.ifi.uio.no/data/npd-v2/facility/295975,NORMAND JARL,NORWAY,295975
+http://sws.ifi.uio.no/data/npd-v2/facility/296002,MÆRSK GALLANT,Denmark,296002
+http://sws.ifi.uio.no/data/npd-v2/facility/296110,WEST EPSILON,Panama,296110
+http://sws.ifi.uio.no/data/npd-v2/facility/296164,SONGA TRYM,NORWAY,296164
+http://sws.ifi.uio.no/data/npd-v2/facility/296191,TRANSOCEAN NORDIC,Panama,296191
+http://sws.ifi.uio.no/data/npd-v2/facility/296218,TRANSOCEAN PROSPECT,Bahamas,296218
+http://sws.ifi.uio.no/data/npd-v2/facility/296245,TRANSOCEAN SEARCHER,Marshall islands,296245
+http://sws.ifi.uio.no/data/npd-v2/facility/296299,M/V CRYSTAL SEA,Bahamas,296299
+http://sws.ifi.uio.no/data/npd-v2/facility/296326,TRANSOCEAN WINNER,Marshall islands,296326
+http://sws.ifi.uio.no/data/npd-v2/facility/296353,GSF ARCTIC II,Panama,296353
+http://sws.ifi.uio.no/data/npd-v2/facility/296380,OCEAN LIBERATOR,Panama,296380
+http://sws.ifi.uio.no/data/npd-v2/facility/296407,OCEAN VIKING,NORWAY,296407
+http://sws.ifi.uio.no/data/npd-v2/facility/296488,NOBLE RONALD HOPE,Panama,296488
+http://sws.ifi.uio.no/data/npd-v2/facility/296677,TRANSOCEAN LEADER,Bahamas,296677
+http://sws.ifi.uio.no/data/npd-v2/facility/296704,ENDEAVOUR,NORWAY,296704
+http://sws.ifi.uio.no/data/npd-v2/facility/296731,J W MCLEAN,Panama,296731
+http://sws.ifi.uio.no/data/npd-v2/facility/296785,SAFE BRITANIA,NORWAY,296785
+http://sws.ifi.uio.no/data/npd-v2/facility/296812,BP 471,Liberia,296812
+http://sws.ifi.uio.no/data/npd-v2/facility/296866,GSF LABRADOR,Panama,296866
+http://sws.ifi.uio.no/data/npd-v2/facility/296920,ANTIFRITE,Italy,296920
+http://sws.ifi.uio.no/data/npd-v2/facility/296947,NOBLE AL WHITE,Netherlands,296947
+http://sws.ifi.uio.no/data/npd-v2/facility/296974,BORGILA DOLPHIN,NORWAY,296974
+http://sws.ifi.uio.no/data/npd-v2/facility/297001,SCARABEO 6,Bahamas,297001
+http://sws.ifi.uio.no/data/npd-v2/facility/297028,ESSAR WILDCAT,GREAT BRITAIN,297028
+http://sws.ifi.uio.no/data/npd-v2/facility/297055,WEST VENTURE,NORWAY,297055
+http://sws.ifi.uio.no/data/npd-v2/facility/297082,WEST NAVIGATOR,NORWAY,297082
+http://sws.ifi.uio.no/data/npd-v2/facility/297109,GARD VARIANT,NORWAY,297109
+http://sws.ifi.uio.no/data/npd-v2/facility/297190,SAIPEM 7000,Italy,297190
+http://sws.ifi.uio.no/data/npd-v2/facility/297217,CASTORO 10,Italy,297217
+http://sws.ifi.uio.no/data/npd-v2/facility/297379,POLAR PRINCE,Italy,297379
+http://sws.ifi.uio.no/data/npd-v2/facility/297514,WEST ALPHA,Panama,297514
+http://sws.ifi.uio.no/data/npd-v2/facility/297541,GUARD VALLIANT,NORWAY,297541
+http://sws.ifi.uio.no/data/npd-v2/facility/297568,NORMAND PROSPER,NORWAY,297568
+http://sws.ifi.uio.no/data/npd-v2/facility/297622,TOISA POLARIS,NORWAY,297622
+http://sws.ifi.uio.no/data/npd-v2/facility/297649,STENA DON,Marshall islands,297649
+http://sws.ifi.uio.no/data/npd-v2/facility/297676,TOISA PERSEUS,NORWAY,297676
+http://sws.ifi.uio.no/data/npd-v2/facility/297703,BOA GIANT,NORWAY,297703
+http://sws.ifi.uio.no/data/npd-v2/facility/297730,SAFE CALEDONIA,NORWAY,297730
+http://sws.ifi.uio.no/data/npd-v2/facility/297757,SAFE SCANDINAVIA,NORWAY,297757
+http://sws.ifi.uio.no/data/npd-v2/facility/297784,BORGLAND DOLPHIN,Singapore,297784
+http://sws.ifi.uio.no/data/npd-v2/facility/297838,MÆRSK INNOVATOR,Denmark,297838
+http://sws.ifi.uio.no/data/npd-v2/facility/297865,LEIV EIRIKSSON,Bahamas,297865
+http://sws.ifi.uio.no/data/npd-v2/facility/297919,COSLRigmar,Liberia,297919
+http://sws.ifi.uio.no/data/npd-v2/facility/297946,BELFORD DOLPHIN,Panama,297946
+http://sws.ifi.uio.no/data/npd-v2/facility/297973,SEAWAY OSPREY,NORWAY,297973
+http://sws.ifi.uio.no/data/npd-v2/facility/298081,OCEAN WINNER,Panama,298081
+http://sws.ifi.uio.no/data/npd-v2/facility/298108,GLOMAR CHALLENGE,NORWAY,298108
+http://sws.ifi.uio.no/data/npd-v2/facility/298189,GSF RIG 135,Panama,298189
+http://sws.ifi.uio.no/data/npd-v2/facility/341172,EIRIK RAUDE,Bahamas,341172
+http://sws.ifi.uio.no/data/npd-v2/facility/341331,BYFORD DOLPHIN,NORWAY,341331
+http://sws.ifi.uio.no/data/npd-v2/facility/361873,PHOLAS,NORWAY,361873
+http://sws.ifi.uio.no/data/npd-v2/facility/362316,MÆRSK EXPLORER,NORWAY,362316
+http://sws.ifi.uio.no/data/npd-v2/facility/362458,POLYGLOMAR DRILLER,NORWAY,362458
+http://sws.ifi.uio.no/data/npd-v2/facility/362494,WEST VENTURE OLD,Luxembourg,362494
+http://sws.ifi.uio.no/data/npd-v2/facility/362531,TRANSWORLD RIG61,NORWAY,362531
+http://sws.ifi.uio.no/data/npd-v2/facility/364465,NORMAND TONJER,NORWAY,364465
+http://sws.ifi.uio.no/data/npd-v2/facility/364529,GRENA,Bahamas,364529
+http://sws.ifi.uio.no/data/npd-v2/facility/364568,SEVEN PELICAN,GREAT BRITAIN,364568
+http://sws.ifi.uio.no/data/npd-v2/facility/365715,MSV PELICAN,NORWAY,365715
+http://sws.ifi.uio.no/data/npd-v2/facility/368585,VIKING POSEIDON,NORWAY,368585
+http://sws.ifi.uio.no/data/npd-v2/facility/369304,MÆRSK INSPIRER,Denmark,369304
+http://sws.ifi.uio.no/data/npd-v2/facility/372798,COSLRival,Bahamas,372798
+http://sws.ifi.uio.no/data/npd-v2/facility/373521,BREDFORD DOLPHIN,Panama,373521
+http://sws.ifi.uio.no/data/npd-v2/facility/373600,FUGRO EXPLORER,NORWAY,373600
+http://sws.ifi.uio.no/data/npd-v2/facility/373829,ISLAND FRONTIER,NORWAY,373829
+http://sws.ifi.uio.no/data/npd-v2/facility/373983,WELLSERVICER,GREAT BRITAIN,373983
+http://sws.ifi.uio.no/data/npd-v2/facility/374031,MSV ERNEST SHACKLETON,GREAT BRITAIN,374031
+http://sws.ifi.uio.no/data/npd-v2/facility/374177,CSO APACHE,Marshall islands,374177
+http://sws.ifi.uio.no/data/npd-v2/facility/375355,ROWAN GORILLA VI,GREAT BRITAIN,375355
+http://sws.ifi.uio.no/data/npd-v2/facility/377007,ACERGY OSPREY,GREAT BRITAIN,377007
+http://sws.ifi.uio.no/data/npd-v2/facility/378320,POLARSTERN,GERMANY,378320
+http://sws.ifi.uio.no/data/npd-v2/facility/390818,NORMAND SKARVEN,NORWAY,390818
+http://sws.ifi.uio.no/data/npd-v2/facility/390874,WEST PHOENIX,Panama,390874
+http://sws.ifi.uio.no/data/npd-v2/facility/391059,FERDER,NORWAY,391059
+http://sws.ifi.uio.no/data/npd-v2/facility/391107,MARINER,NORWAY,391107
+http://sws.ifi.uio.no/data/npd-v2/facility/395490,VOLSTAD SUPPLIER,NORWAY,395490
+http://sws.ifi.uio.no/data/npd-v2/facility/402507,ACERGY FALCON,NORWAY,402507
+http://sws.ifi.uio.no/data/npd-v2/facility/402726,MSV BOTNICA,Finland,402726
+http://sws.ifi.uio.no/data/npd-v2/facility/403231,NORMAND MERMAID,NORWAY,403231
+http://sws.ifi.uio.no/data/npd-v2/facility/403711,EDDA FAUNA,NORWAY,403711
+http://sws.ifi.uio.no/data/npd-v2/facility/404201,TRANSOCEAN SPITSBERGEN,Bahamas,404201
+http://sws.ifi.uio.no/data/npd-v2/facility/404303,TRANSOCEAN BARENTS,Bahamas,404303
+http://sws.ifi.uio.no/data/npd-v2/facility/404360,DEEPSEA ATLANTIC,NORWAY,404360
+http://sws.ifi.uio.no/data/npd-v2/facility/404415,SCARABEO 8,Italy,404415
+http://sws.ifi.uio.no/data/npd-v2/facility/404470,ISLAND WELLSERVER,NORWAY,404470
+http://sws.ifi.uio.no/data/npd-v2/facility/404524,WILLNOVATOR,NORWAY,404524
+http://sws.ifi.uio.no/data/npd-v2/facility/404582,FUGRO MERCATOR,NORWAY,404582
+http://sws.ifi.uio.no/data/npd-v2/facility/405450,NORMAND CARRIER,NORWAY,405450
+http://sws.ifi.uio.no/data/npd-v2/facility/405509,NORMAND FLOWER,NORWAY,405509
+http://sws.ifi.uio.no/data/npd-v2/facility/405770,ISLAND VANGUARD,NORWAY,405770
+http://sws.ifi.uio.no/data/npd-v2/facility/405827,ISLAND CONSTRUCTOR,NORWAY,405827
+http://sws.ifi.uio.no/data/npd-v2/facility/405947,OCEAN SKY,NORWAY,405947
+http://sws.ifi.uio.no/data/npd-v2/facility/406001,OCEAN CLEVER,NORWAY,406001
+http://sws.ifi.uio.no/data/npd-v2/facility/406180,SKANDI SOTRA,NORWAY,406180
+http://sws.ifi.uio.no/data/npd-v2/facility/408756,EDDA FLORA,NORWAY,408756
+http://sws.ifi.uio.no/data/npd-v2/facility/408814,ISLAND VALIANT,NORWAY,408814
+http://sws.ifi.uio.no/data/npd-v2/facility/408869,NAVION EUROPA,NORWAY,408869
+http://sws.ifi.uio.no/data/npd-v2/facility/409724,GEOSUND,NORWAY,409724
+http://sws.ifi.uio.no/data/npd-v2/facility/409783,SEVEN SISTERS,NORWAY,409783
+http://sws.ifi.uio.no/data/npd-v2/facility/411423,MÆRSK REACHER,Denmark,411423
+http://sws.ifi.uio.no/data/npd-v2/facility/411482,FLOATEL SUPERIOR,NORWAY,411482
+http://sws.ifi.uio.no/data/npd-v2/facility/411539,HAVEN,NORWAY,411539
+http://sws.ifi.uio.no/data/npd-v2/facility/411773,ISLAND ENFORCER,NORWAY,411773
+http://sws.ifi.uio.no/data/npd-v2/facility/411835,SKANDI AKER,NORWAY,411835
+http://sws.ifi.uio.no/data/npd-v2/facility/413252,FUGRO DISCOVERY,NORWAY,413252
+http://sws.ifi.uio.no/data/npd-v2/facility/413414,FUGRO SALTIRE,NORWAY,413414
+http://sws.ifi.uio.no/data/npd-v2/facility/413474,ISLAND COMMANDER,NORWAY,413474
+http://sws.ifi.uio.no/data/npd-v2/facility/413534,COSLPioneer,Bahamas,413534
+http://sws.ifi.uio.no/data/npd-v2/facility/413825,COSLInnovator,NORWAY,413825
+http://sws.ifi.uio.no/data/npd-v2/facility/413883,COSLPromoter,NORWAY,413883
+http://sws.ifi.uio.no/data/npd-v2/facility/413943,ROWAN STAVANGER,NORWAY,413943
+http://sws.ifi.uio.no/data/npd-v2/facility/414002,WEST ELARA,NORWAY,414002
+http://sws.ifi.uio.no/data/npd-v2/facility/414880,ARTEMIS ARCTIC,NORWAY,414880
+http://sws.ifi.uio.no/data/npd-v2/facility/415384,EDDA FJORD,NORWAY,415384
+http://sws.ifi.uio.no/data/npd-v2/facility/415441,SKANDI CHIEFTAIN,NORWAY,415441
+http://sws.ifi.uio.no/data/npd-v2/facility/415496,SCANDI ACERGY,NORWAY,415496
+http://sws.ifi.uio.no/data/npd-v2/facility/415836,WEST HERCULES,NORWAY,415836
+http://sws.ifi.uio.no/data/npd-v2/facility/415967,SIEM PILOT,NORWAY,415967
+http://sws.ifi.uio.no/data/npd-v2/facility/417599,ROWAN NORWAY,Marshall islands,417599
+http://sws.ifi.uio.no/data/npd-v2/facility/424872,FAR SAGA,NORWAY,424872
+http://sws.ifi.uio.no/data/npd-v2/facility/426940,ISLAND INNOVATOR,NORWAY,426940
+http://sws.ifi.uio.no/data/npd-v2/facility/426997,NORSHORE ATLANTIC,NORWAY,426997
+http://sws.ifi.uio.no/data/npd-v2/facility/429269,SKANDI ARCTIC,NORWAY,429269
+http://sws.ifi.uio.no/data/npd-v2/facility/429605,NORMAND SUBSEA,GREAT BRITAIN,429605

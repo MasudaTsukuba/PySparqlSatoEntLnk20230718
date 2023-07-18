@@ -1,0 +1,76 @@
+{
+  "queryType": "SELECT",
+  "variables": [
+    {
+      "termType": "Variable",
+      "value": "build_id"
+    },
+    {
+      "termType": "Variable",
+      "value": "name"
+    },
+    {
+      "termType": "Variable",
+      "value": "country"
+    }
+  ],
+  "where": [
+    {
+      "type": "bgp",
+      "triples": [
+        {
+          "subject": {
+            "termType": "Variable",
+            "value": "build_id"
+          },
+          "predicate": {
+            "termType": "NamedNode",
+            "value": "http://example.com/predicate/country"
+          },
+          "object": {
+            "termType": "Variable",
+            "value": "country"
+          }
+        },
+        {
+          "subject": {
+            "termType": "Variable",
+            "value": "build_id"
+          },
+          "predicate": {
+            "termType": "NamedNode",
+            "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#label"
+          },
+          "object": {
+            "termType": "Variable",
+            "value": "name"
+          }
+        }
+      ]
+    },
+    {
+      "type": "filter",
+      "expression": {
+        "type": "operation",
+        "operator": "!=",
+        "args": [
+          {
+            "termType": "Variable",
+            "value": "build_id"
+          },
+          {
+            "termType": "NamedNode",
+            "value": "https://example.com/build_id/899b"
+          }
+        ]
+      }
+    }
+  ],
+  "type": "query",
+  "prefixes": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "ex": "https://example.com/build_id/",
+    "wd": "https://www.wikidata.org/wiki/",
+    "pred": "http://example.com/predicate/"
+  }
+}

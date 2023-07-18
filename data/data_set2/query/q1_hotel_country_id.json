@@ -1,0 +1,78 @@
+{
+  "queryType": "SELECT",
+  "variables": [
+    {
+      "termType": "Variable",
+      "value": "s"
+    },
+    {
+      "termType": "Variable",
+      "value": "name"
+    },
+    {
+      "termType": "Variable",
+      "value": "country_id"
+    }
+  ],
+  "where": [
+    {
+      "type": "bgp",
+      "triples": [
+        {
+          "subject": {
+            "termType": "Variable",
+            "value": "s"
+          },
+          "predicate": {
+            "termType": "NamedNode",
+            "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+          },
+          "object": {
+            "termType": "NamedNode",
+            "value": "http://example.com/ontology/Hotel"
+          }
+        },
+        {
+          "subject": {
+            "termType": "Variable",
+            "value": "s"
+          },
+          "predicate": {
+            "termType": "NamedNode",
+            "value": "http://www.w3.org/2000/01/rdf-schema#label"
+          },
+          "object": {
+            "termType": "Variable",
+            "value": "name"
+          }
+        },
+        {
+          "subject": {
+            "termType": "Variable",
+            "value": "s"
+          },
+          "predicate": {
+            "termType": "NamedNode",
+            "value": "http://example.com/predicate/country"
+          },
+          "object": {
+            "termType": "Variable",
+            "value": "country_id"
+          }
+        }
+      ]
+    }
+  ],
+  "type": "query",
+  "prefixes": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "wd": "http://www.wikidata.org/entity/",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "ex": "http://example.com/ontology/",
+    "predicate": "http://example.com/predicate/",
+    "country": "http://example.com/predicate/country",
+    "country_name": "http://example.com/predicate/country_name",
+    "country_description": "http://example.com/predicate/country_description"
+  }
+}
