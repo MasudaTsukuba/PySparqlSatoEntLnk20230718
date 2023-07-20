@@ -1,4 +1,5 @@
 import time
+from datetime import datetime
 import csv
 
 
@@ -30,5 +31,7 @@ class TimingClass:
         with open(f'timing.csv', 'a', newline='') as output_file:
             csv_writer = csv.writer(output_file)
             for timing in TimingClass.timing_list:
-                timing.insert(1, TimingClass.start_time)
+                dt_object = datetime.fromtimestamp(TimingClass.start_time)
+                date_time_string = dt_object.strftime('%Y-%m-%d %H:%M:%S')
+                timing.insert(1, date_time_string)
                 csv_writer.writerow(timing)
