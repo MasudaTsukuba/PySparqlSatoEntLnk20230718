@@ -39,8 +39,23 @@ class SparqlQuery:
         def create_var_list(query_dict):  # create a list of variables in sparql query
             # 出力する変数リストを作成
             var_list = []
-            for var in query_dict['variables']:  # extract variables from json
-                var_list.append(var['value'])  # append to a variable list
+            if not query_dict['variables']:
+                for var in query_dict['variables']:  # extract variables from json
+                    var_list.append(var['value'])  # append to a variable list
+            else:
+                implicit_var_list = set()  # in the case of SELECT * ...  # 2023/7/20
+                for triple in query_dict['where'][0]['triples']:
+                    triple_subject = triple['subject']
+                    if triple_subject['termType'] == 'Variable':
+                        implicit_var_list.add(triple_subject['value'])
+                    triple_predicate = triple['predicate']
+                    if triple_predicate['termType'] == 'Variable':
+                        implicit_var_list.add(triple_predicate['value'])
+                    triple_object = triple['object']
+                    if triple_object['termType'] == 'Variable':
+                        implicit_var_list.add(triple_object['value'])
+                    pass
+                var_list = list(implicit_var_list)
             return var_list
         var_list = create_var_list(self.query_in_json)  # create a list of variables in sparql query: ['s', 'name, 'cname']
 

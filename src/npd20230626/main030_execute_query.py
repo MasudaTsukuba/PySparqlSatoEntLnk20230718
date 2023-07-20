@@ -5,6 +5,7 @@
 
 from src.ExecuteQueryClass import ExecuteQueryClass
 from src.PathClass import PathClass
+from src.TimingClass import TimingClass
 
 
 if __name__ == '__main__':
@@ -44,6 +45,7 @@ if __name__ == '__main__':
     # query = 'npd_q01e5.txt'
     # query = 'npd_q01e6.txt'
     query = 'npd_q01.txt'
+    # query = 'npd_q01_star.txt'
     # query = 'npd_q01_order.txt'
 
     # query = 'npd_q08a.txt'
@@ -52,5 +54,9 @@ if __name__ == '__main__':
     # query = 'npd_q08d.txt'
     # query = 'npd_q08e.txt'
     # query = 'npd_q08.txt'
-    # query = 'npd_q08_order.txt'
+    query = 'npd_q08_order.txt'
+    total_timing = TimingClass(query, 'total')
+    total_timing.record_start()
     execute.execute_query(query)
+    total_timing.record_end()
+    total_timing.store_timing()
