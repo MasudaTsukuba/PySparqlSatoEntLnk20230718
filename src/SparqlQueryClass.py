@@ -176,13 +176,20 @@ class SparqlQuery:
 
                                 match_float = re.match(r'[-+]?\d+(\.\d+)', filter_element1)  # cast string column to float or integer  # 2023/7/20
                                 match_integer = re.match(r'[-+]?\d+', filter_element1)
-                                if match_float:
+                                match_date = re.match(r'(\d{4}-\d{2}-\d{2}|\d{2}/\d{2}/\d{4})', filter_element1)
+                                if match_date:
+                                    sql_filter = f'({filter_element1} {filter_operator} CAST({filter_element2} AS DATE))'
+                                elif match_float:
                                     sql_filter = f'({filter_element1} {filter_operator} CAST({filter_element2} AS FLOAT))'
                                 elif match_integer:
                                     sql_filter = f'({filter_element1} {filter_operator} CAST({filter_element2} AS INTEGER))'
+
                                 match_float = re.match(r'[-+]?\d+(\.\d+)', filter_element2)
                                 match_integer = re.match(r'[-+]?\d+', filter_element2)
-                                if match_float:
+                                match_date = re.match(r'(\d{4}-\d{2}-\d{2}|\d{2}/\d{2}/\d{4})', filter_element2)
+                                if match_date:
+                                    sql_filter = f'(CAST({filter_element1} AS DATE) {filter_operator} {filter_element2})'
+                                elif match_float:
                                     sql_filter = f'(CAST({filter_element1} AS FLOAT) {filter_operator} {filter_element2})'
                                 elif match_integer:
                                     sql_filter = f'(CAST({filter_element1} AS INTEGER) {filter_operator} {filter_element2})'
@@ -202,8 +209,9 @@ class SparqlQuery:
                             return set(), val
                         elif expression_term_type == 'Literal':  # in case of Literal
                             val = filter_expression_in['value']
-                            match = re.match(r'[-+]?\d+(\.\d+)?', val)
-                            if match:  # number
+                            match_date = re.match(r'(\d{4}-\d{2}-\d{2}|\d{2}/\d{2}/\d{4})', val)
+                            match_number = re.match(r'[-+]?\d+(\.\d+)?', val)
+                            if match_number and not match_date:  # number
                                 pass
                             else:  # string
                                 val = f"'{val}'"  # enclose the value with single quotes  # 2023/7/14

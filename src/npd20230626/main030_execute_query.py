@@ -39,11 +39,11 @@ if __name__ == '__main__':
     # query = 'npd_q01d.txt'
     # query = 'npd_q01e.txt'
     # query = 'npd_q01e2.txt'
-    # # query = 'npd_q01e3.txt'
+    # query = 'npd_q01e3.txt'
     # query = 'npd_q01e4.txt'
     # query = 'npd_q01e5.txt'
     # query = 'npd_q01e6.txt'
-    # query = 'npd_q01.txt'
+    query = 'npd_q01.txt'
     # query = 'npd_q01_order.txt'
 
     # query = 'npd_q08a.txt'
@@ -52,5 +52,5 @@ if __name__ == '__main__':
     # query = 'npd_q08d.txt'
     # query = 'npd_q08e.txt'
     # query = 'npd_q08.txt'
-    query = 'npd_q08_order.txt'
+    # query = 'npd_q08_order.txt'
     execute.execute_query(query)

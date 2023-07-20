@@ -135,6 +135,10 @@ class Uri:
                     pass
                 sql = rewrite_where_sql(sql, sql_value, mapping['subject']['variable'])
 
+        elif triple['subject']['termType'] == 'BlankNode':
+            trans_uri, sql, value = create_trans_uri(triple, sql, 'subject')
+            pass
+
         # predicate  # 2023/5/23
         if triple['predicate']['termType'] == 'Variable':
             trans_uri, sql, value = create_trans_uri(triple, sql, 'predicate')
@@ -188,6 +192,10 @@ class Uri:
                         return ['No', []]
                 except KeyError:
                     return ['No', []]
+
+        elif triple['object']['termType'] == 'BlankNode':
+            trans_uri, sql, value = create_trans_uri(triple, sql, 'object')
+            pass
 
         else:  # termTypeが'Literalのとき'
             value = triple['object']['value']
