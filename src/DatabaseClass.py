@@ -13,7 +13,7 @@ import csv
 class DataBase:
     def __init__(self, path, db_name, dbms='sqlite3', port=8080):
         self.path = path
-        self.dataset_csv_path = path.dataset_path+'csv/'
+        self.dataset_csv_path = path.dataset_path+'/csv/'
         self.database_path = self.dataset_csv_path+db_name
         if dbms == 'sqlite3':
             try:

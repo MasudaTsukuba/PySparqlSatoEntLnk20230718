@@ -114,101 +114,7 @@
         "args": [
           {
             "type": "operation",
-            "operator": "&&",
-            "args": [
-              {
-                "type": "operation",
-                "operator": "&&",
-                "args": [
-                  {
-                    "type": "operation",
-                    "operator": "&&",
-                    "args": [
-                      {
-                        "type": "operation",
-                        "operator": ">=",
-                        "args": [
-                          {
-                            "termType": "Variable",
-                            "value": "m"
-                          },
-                          {
-                            "termType": "Literal",
-                            "value": "1",
-                            "language": "",
-                            "datatype": {
-                              "termType": "NamedNode",
-                              "value": "http://www.w3.org/2001/XMLSchema#integer"
-                            }
-                          }
-                        ]
-                      },
-                      {
-                        "type": "operation",
-                        "operator": "<=",
-                        "args": [
-                          {
-                            "termType": "Variable",
-                            "value": "m"
-                          },
-                          {
-                            "termType": "Literal",
-                            "value": "6",
-                            "language": "",
-                            "datatype": {
-                              "termType": "NamedNode",
-                              "value": "http://www.w3.org/2001/XMLSchema#integer"
-                            }
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "operation",
-                    "operator": "!=",
-                    "args": [
-                      {
-                        "termType": "Variable",
-                        "value": "m"
-                      },
-                      {
-                        "termType": "Literal",
-                        "value": "10",
-                        "language": "",
-                        "datatype": {
-                          "termType": "NamedNode",
-                          "value": "http://www.w3.org/2001/XMLSchema#integer"
-                        }
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "operation",
-                "operator": "!=",
-                "args": [
-                  {
-                    "termType": "Variable",
-                    "value": "m"
-                  },
-                  {
-                    "termType": "Literal",
-                    "value": "11",
-                    "language": "",
-                    "datatype": {
-                      "termType": "NamedNode",
-                      "value": "http://www.w3.org/2001/XMLSchema#integer"
-                    }
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "operation",
-            "operator": "!=",
+            "operator": ">=",
             "args": [
               {
                 "termType": "Variable",
@@ -216,7 +122,26 @@
               },
               {
                 "termType": "Literal",
-                "value": "12",
+                "value": "1",
+                "language": "",
+                "datatype": {
+                  "termType": "NamedNode",
+                  "value": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+              }
+            ]
+          },
+          {
+            "type": "operation",
+            "operator": "<=",
+            "args": [
+              {
+                "termType": "Variable",
+                "value": "m"
+              },
+              {
+                "termType": "Literal",
+                "value": "6",
                 "language": "",
                 "datatype": {
                   "termType": "NamedNode",

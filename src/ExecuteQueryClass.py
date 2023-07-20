@@ -70,6 +70,35 @@ class ExecuteQueryClass:
 # SELECT CONCAT('npd:licence/', "prlNpdidLicence") AS var0 FROM "licence" WHERE "prlDateValidTo" <> '9999-12-31'
 # ) AS FOO3);
 #          '''
+#         exe_query = '''
+#         SELECT s, year, m, g, o FROM ((SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/ncs/production/', prfYear) AS s, CONCAT(prfYear) AS year
+#         FROM field_production_totalt_NCS_year
+#         UNION SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/ncs/production/', prfYear, '/', prfMonth) AS s, CONCAT(prfYear) AS year
+#         FROM field_production_totalt_NCS_month UNION SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', prfNpdidInformationCarrier, '/investment/', prfYear)
+#         AS s, CONCAT(prfYear) AS year FROM field_investment_yearly
+#         UNION SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', prfNpdidInformationCarrier, '/production/', prfYear) AS s, CONCAT(prfYear) AS year
+#         FROM field_production_yearly UNION SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', prfNpdidInformationCarrier, '/production/', prfYear, '/', prfMonth)
+#         AS s, CONCAT(prfYear) AS year FROM field_production_monthly) AS FOO0
+#         NATURAL JOIN (SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/ncs/production/', prfYear, '/', prfMonth) AS s, CONCAT(prfMonth) AS m
+#         FROM field_production_totalt_NCS_month
+#         UNION SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', prfNpdidInformationCarrier, '/production/', prfYear, '/', prfMonth) AS s, CONCAT(prfMonth) AS m
+#         FROM field_production_monthly) AS FOO1
+#         NATURAL JOIN (SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/ncs/production/', prfYear) AS s, CONCAT(prfPrdGasNetBillSm) AS g
+#         FROM field_production_totalt_NCS_year UNION SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', prfNpdidInformationCarrier, '/production/', prfYear)
+#         AS s, CONCAT(prfPrdGasNetBillSm3) AS g FROM field_production_yearly
+#         UNION SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/ncs/production/', prfYear, '/', prfMonth) AS s, CONCAT(prfPrdGasNetBillSm3) AS g
+#         FROM field_production_totalt_NCS_month
+#         UNION SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', prfNpdidInformationCarrier, '/production/', prfYear, '/', prfMonth)
+#         AS s, CONCAT(prfPrdGasNetBillSm3) AS g FROM field_production_monthly) AS FOO2
+#         NATURAL JOIN (SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/ncs/production/', prfYear) AS s, CONCAT(prfPrdOilNetMillSm) AS o
+#         FROM field_production_totalt_NCS_year UNION SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', prfNpdidInformationCarrier, '/production/', prfYear)
+#         AS s, CONCAT(prfPrdOilNetMillSm3) AS o FROM field_production_yearly
+#         UNION SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', prfNpdidInformationCarrier, '/production/', prfYear, '/', prfMonth) AS s,
+#         CONCAT(prfPrdOilNetMillSm3) AS o FROM field_production_monthly
+#         UNION SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/ncs/production/', prfYear, '/', prfMonth) AS s,
+#         CONCAT(prfPrdOilNetMillSm3) AS o FROM field_production_totalt_NCS_month) AS FOO3)
+#         WHERE (CAST(year AS FLOAT) > 1999) AND ((CAST(m AS FLOAT) >= 1) AND (CAST(m AS FLOAT) <= 6));
+#         '''
         sql_results, headers = data_base.execute(exe_query)  # execute sql query
         data_base.close()
         sparql_results = sparql_query.convert_to_rdf(uri, sql_results, headers)  # convert the sql results back to rdf

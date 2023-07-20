@@ -173,6 +173,20 @@ class SparqlQuery:
                                 sql_filter = f'({filter_element1} OR {filter_element2})'  # convert to sql format
                             else:  # =, >, <, etc.
                                 sql_filter = f'({filter_element1} {filter_operator} {filter_element2})'
+
+                                match_float = re.match(r'[-+]?\d+(\.\d+)', filter_element1)  # cast string column to float or integer  # 2023/7/20
+                                match_integer = re.match(r'[-+]?\d+', filter_element1)
+                                if match_float:
+                                    sql_filter = f'({filter_element1} {filter_operator} CAST({filter_element2} AS FLOAT))'
+                                elif match_integer:
+                                    sql_filter = f'({filter_element1} {filter_operator} CAST({filter_element2} AS INTEGER))'
+                                match_float = re.match(r'[-+]?\d+(\.\d+)', filter_element2)
+                                match_integer = re.match(r'[-+]?\d+', filter_element2)
+                                if match_float:
+                                    sql_filter = f'(CAST({filter_element1} AS FLOAT) {filter_operator} {filter_element2})'
+                                elif match_integer:
+                                    sql_filter = f'(CAST({filter_element1} AS INTEGER) {filter_operator} {filter_element2})'
+
                             sql_filter = uri_transform(var_list_in, sql_filter, uri_in)
                             return var_list_in, sql_filter
                 except KeyError:  # filter_expression does not have an attribute 'type'
@@ -188,7 +202,11 @@ class SparqlQuery:
                             return set(), val
                         elif expression_term_type == 'Literal':  # in case of Literal
                             val = filter_expression_in['value']
-                            val = f"'{val}'"  # enclose the value with single quotes  # 2023/7/14
+                            match = re.match(r'[-+]?\d+(\.\d+)?', val)
+                            if match:  # number
+                                pass
+                            else:  # string
+                                val = f"'{val}'"  # enclose the value with single quotes  # 2023/7/14
                             return set(), val
                     except KeyError:  # something unexpected happened
                         pass

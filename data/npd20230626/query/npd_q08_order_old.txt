@@ -12,5 +12,5 @@ WHERE {
     npdv:producedGas     ?g ;
     npdv:producedOil     ?o .
     FILTER (?year > 1999)
-    FILTER (?m >= 1 && ?m <= 6)
+    FILTER (?m >= 1 && ?m <= 6 && ?m!=10 && ?m!=11 && ?m!=12)
 }

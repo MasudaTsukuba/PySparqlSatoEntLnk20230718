@@ -12,7 +12,7 @@ def test_q1():
     assert len(results) == 910
 
 
-def test_q2_MoveableFacility():
+def test_q2_movable_facility():
     query = 'q2_MoveableFacility.txt'
     results = execute.execute_query(query)
     assert len(results) == 192
@@ -34,3 +34,15 @@ def test_q5():
     query = 'q5.txt'
     results = execute.execute_query(query)
     assert len(results) == 98
+
+
+# def test_npd_q01():
+#     query = 'npd_q01.txt'
+#     results = execute.execute_query(query)
+#     assert len(results) == 14333
+#
+#
+# def test_npd_q08():
+#     query = 'npd_q08.txt'
+#     results = execute.execute_query(query)
+#     assert len(results) == 4372
