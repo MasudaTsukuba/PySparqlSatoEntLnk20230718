@@ -36,13 +36,13 @@ def test_q5():
     assert len(results) == 98
 
 
-# def test_npd_q01():
-#     query = 'npd_q01.txt'
-#     results = execute.execute_query(query)
-#     assert len(results) == 14333
-#
-#
-# def test_npd_q08():
-#     query = 'npd_q08.txt'
-#     results = execute.execute_query(query)
-#     assert len(results) == 4372
+def test_npd_q01():
+    query = 'npd_q01.txt'
+    results = execute.execute_query(query)
+    assert len(results) == 14333
+
+
+def test_npd_q08():
+    query = 'npd_q08.txt'
+    results = execute.execute_query(query)
+    assert len(results) == 4372

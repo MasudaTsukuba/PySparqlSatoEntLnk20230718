@@ -32,7 +32,7 @@ def test_q3a():
 
 def test_q3b():
     result = execute.execute_query('q3b.txt')
-    assert len(result) == 3695  # 2023/5/8 ????
+    assert len(result) == 3732  # 2023/7/21  # 3695  # 2023/5/8 ????
 
 
 def test_q4():

@@ -53,6 +53,7 @@ class DataBase:
 
     # execute sql query against a relational database
     def execute(self, sql):
+        # print(sql)  # debug  # 2023/7/21
         xxx = self.cur.execute(sql)
         zzz = self.cur.rowcount
         return_list = self.cur.fetchall()  # execute sql and fetch the results
