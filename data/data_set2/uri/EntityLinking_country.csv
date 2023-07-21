@@ -5,6 +5,7 @@
 28,http://www.wikidata.org/entity/Q28
 35,http://www.wikidata.org/entity/Q35
 32,http://www.wikidata.org/entity/Q32
+41,http://www.wikidata.org/entity/Q41
 33,http://www.wikidata.org/entity/Q33
 43,http://www.wikidata.org/entity/Q43
 31,http://www.wikidata.org/entity/Q31
@@ -24,7 +25,6 @@
 215,http://www.wikidata.org/entity/Q215
 55,http://www.wikidata.org/entity/Q55
 218,http://www.wikidata.org/entity/Q218
-77,http://www.wikidata.org/entity/Q77
 219,http://www.wikidata.org/entity/Q219
 221,http://www.wikidata.org/entity/Q221
 79,http://www.wikidata.org/entity/Q79
@@ -54,7 +54,6 @@
 697,http://www.wikidata.org/entity/Q697
 222,http://www.wikidata.org/entity/Q222
 709,http://www.wikidata.org/entity/Q709
-712,http://www.wikidata.org/entity/Q712
 224,http://www.wikidata.org/entity/Q224
 730,http://www.wikidata.org/entity/Q730
 733,http://www.wikidata.org/entity/Q733
@@ -67,7 +66,6 @@
 235,http://www.wikidata.org/entity/Q235
 774,http://www.wikidata.org/entity/Q774
 766,http://www.wikidata.org/entity/Q766
-236,http://www.wikidata.org/entity/Q236
 241,http://www.wikidata.org/entity/Q241
 792,http://www.wikidata.org/entity/Q792
 252,http://www.wikidata.org/entity/Q252
@@ -103,8 +101,8 @@
 928,http://www.wikidata.org/entity/Q928
 948,http://www.wikidata.org/entity/Q948
 668,http://www.wikidata.org/entity/Q668
-686,http://www.wikidata.org/entity/Q686
 953,http://www.wikidata.org/entity/Q953
+954,http://www.wikidata.org/entity/Q954
 710,http://www.wikidata.org/entity/Q710
 958,http://www.wikidata.org/entity/Q958
 963,http://www.wikidata.org/entity/Q963
@@ -128,6 +126,7 @@
 786,http://www.wikidata.org/entity/Q786
 790,http://www.wikidata.org/entity/Q790
 1027,http://www.wikidata.org/entity/Q1027
+1029,http://www.wikidata.org/entity/Q1029
 800,http://www.wikidata.org/entity/Q800
 1036,http://www.wikidata.org/entity/Q1036
 1030,http://www.wikidata.org/entity/Q1030
@@ -143,12 +142,12 @@
 819,http://www.wikidata.org/entity/Q819
 846,http://www.wikidata.org/entity/Q846
 858,http://www.wikidata.org/entity/Q858
+863,http://www.wikidata.org/entity/Q863
 869,http://www.wikidata.org/entity/Q869
 878,http://www.wikidata.org/entity/Q878
 884,http://www.wikidata.org/entity/Q884
 889,http://www.wikidata.org/entity/Q889
 902,http://www.wikidata.org/entity/Q902
-912,http://www.wikidata.org/entity/Q912
 916,http://www.wikidata.org/entity/Q916
 929,http://www.wikidata.org/entity/Q929
 945,http://www.wikidata.org/entity/Q945

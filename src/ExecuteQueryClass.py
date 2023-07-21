@@ -31,6 +31,8 @@ class ExecuteQueryClass:
         return self.path.common_query_path + json_file
 
     def execute_query(self, input_file):  # , tables):  # execute a sparql query
+        total_execution_timing = TimingClass(input_file, 'total_execution')
+        # total_timing.record_start()
         # path = PathClass('data_set2')
         self.path.set_input_query(input_file)
         data_base = DataBase(self.path, self.db_name, dbms=self.dbms, port=self.port)  # instance of DatabaseClass  # 2023/6/1
@@ -44,7 +46,7 @@ class ExecuteQueryClass:
         query_json = self.query2json()  # convert the sparql query into json format
 
         sparql2sql_timing = TimingClass(input_file, 'sparql_to_sql')
-        sparql2sql_timing.record_start()
+        # sparql2sql_timing.record_start()
         sparql_query = SparqlQuery(query_json, uri)  # instance of SparqlQueryClass
         exe_query = sparql_query.convert_to_sql(mapping_class)  # sparql to intermediate sql
         sparql2sql_timing.record_end()
@@ -105,18 +107,19 @@ class ExecuteQueryClass:
 #         CONCAT(prfPrdOilNetMillSm3) AS o FROM field_production_totalt_NCS_month) AS FOO3)
 #         WHERE (CAST(year AS FLOAT) > 1999) AND ((CAST(m AS FLOAT) >= 1) AND (CAST(m AS FLOAT) <= 6));
 #         '''
-        sql_timing = TimingClass(input_file, 'sql_execution')
-        sql_timing.record_start()
+        sql_execution_timing = TimingClass(input_file, 'sql_execution')
+        # sql_timing.record_start()
         sql_results, headers = data_base.execute(exe_query)  # execute sql query
-        sql_timing.record_end()
+        sql_execution_timing.record_end()
 
         data_base.close()
 
         sql2sparql_timing = TimingClass(input_file, 'sql_to_sparql')
-        sql2sparql_timing.record_start()
+        # sql2sparql_timing.record_start()
         sparql_results = sparql_query.convert_to_rdf(uri, sql_results, headers)  # convert the sql results back to rdf
         sql2sparql_timing.record_end()
 
         Output.save_file(self.path.output_file_path, sparql_results, headers)  # save the results in a file
         print(len(sparql_results))  # debug info
+        total_execution_timing.record_end()
         return sparql_results  # for pytests

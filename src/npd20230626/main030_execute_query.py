@@ -55,8 +55,6 @@ if __name__ == '__main__':
     # query = 'npd_q08e.txt'
     # query = 'npd_q08.txt'
     # query = 'npd_q08_order.txt'
-    total_timing = TimingClass(query, 'total')
-    total_timing.record_start()
+    TimingClass.record_time_stamp()
     execute.execute_query(query)
-    total_timing.record_end()
-    total_timing.store_timing()
+    TimingClass.store_timing('timing.csv')
