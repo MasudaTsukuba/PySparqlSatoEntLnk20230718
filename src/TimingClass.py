@@ -5,6 +5,7 @@ import csv
 
 class TimingClass:
     timing_list = []
+    file_name = None
     query_name = None
     time_stamp = None
 
@@ -18,10 +19,6 @@ class TimingClass:
         self.record_start()
         pass
 
-    @staticmethod
-    def record_time_stamp():
-        TimingClass.time_stamp = time.time()
-
     def record_start(self):
         self.start_time = time.time()
         # TimingClass.start_time = self.start_time
@@ -32,8 +29,26 @@ class TimingClass:
         TimingClass.timing_list.append([self.query_name, self.keyword, self.execution_time])
 
     @staticmethod
-    def store_timing(file_name):
-        with open(file_name, 'a', newline='') as output_file:
+    def init_file(file_name):
+        TimingClass.file_name = file_name
+        with open(TimingClass.file_name, 'w') as output_file:
+            output_file.write('query, date_time, keyword, exec_time\n')
+
+    @staticmethod
+    def set_file_name(file_name, initialize=False, time_stamp=False):
+        TimingClass.file_name = file_name
+        if initialize:
+            TimingClass.init_file(file_name)
+        if time_stamp:
+            TimingClass.record_time_stamp()
+
+    @staticmethod
+    def record_time_stamp():
+        TimingClass.time_stamp = time.time()
+
+    @staticmethod
+    def store_timing():
+        with open(TimingClass.file_name, 'a', newline='') as output_file:
             csv_writer = csv.writer(output_file)
             for timing in TimingClass.timing_list:
                 dt_object = datetime.fromtimestamp(TimingClass.time_stamp)

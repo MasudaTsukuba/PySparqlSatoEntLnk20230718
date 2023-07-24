@@ -79,33 +79,51 @@ class ExecuteQueryClass:
 # ) AS FOO3);
 #          '''
 #         exe_query = '''
-#         SELECT s, year, m, g, o FROM ((SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/ncs/production/', prfYear) AS s, CONCAT(prfYear) AS year
-#         FROM field_production_totalt_NCS_year
-#         UNION SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/ncs/production/', prfYear, '/', prfMonth) AS s, CONCAT(prfYear) AS year
-#         FROM field_production_totalt_NCS_month UNION SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', prfNpdidInformationCarrier, '/investment/', prfYear)
-#         AS s, CONCAT(prfYear) AS year FROM field_investment_yearly
-#         UNION SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', prfNpdidInformationCarrier, '/production/', prfYear) AS s, CONCAT(prfYear) AS year
-#         FROM field_production_yearly UNION SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', prfNpdidInformationCarrier, '/production/', prfYear, '/', prfMonth)
-#         AS s, CONCAT(prfYear) AS year FROM field_production_monthly) AS FOO0
-#         NATURAL JOIN (SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/ncs/production/', prfYear, '/', prfMonth) AS s, CONCAT(prfMonth) AS m
-#         FROM field_production_totalt_NCS_month
-#         UNION SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', prfNpdidInformationCarrier, '/production/', prfYear, '/', prfMonth) AS s, CONCAT(prfMonth) AS m
-#         FROM field_production_monthly) AS FOO1
-#         NATURAL JOIN (SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/ncs/production/', prfYear) AS s, CONCAT(prfPrdGasNetBillSm) AS g
-#         FROM field_production_totalt_NCS_year UNION SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', prfNpdidInformationCarrier, '/production/', prfYear)
-#         AS s, CONCAT(prfPrdGasNetBillSm3) AS g FROM field_production_yearly
-#         UNION SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/ncs/production/', prfYear, '/', prfMonth) AS s, CONCAT(prfPrdGasNetBillSm3) AS g
-#         FROM field_production_totalt_NCS_month
-#         UNION SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', prfNpdidInformationCarrier, '/production/', prfYear, '/', prfMonth)
-#         AS s, CONCAT(prfPrdGasNetBillSm3) AS g FROM field_production_monthly) AS FOO2
-#         NATURAL JOIN (SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/ncs/production/', prfYear) AS s, CONCAT(prfPrdOilNetMillSm) AS o
-#         FROM field_production_totalt_NCS_year UNION SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', prfNpdidInformationCarrier, '/production/', prfYear)
-#         AS s, CONCAT(prfPrdOilNetMillSm3) AS o FROM field_production_yearly
-#         UNION SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', prfNpdidInformationCarrier, '/production/', prfYear, '/', prfMonth) AS s,
-#         CONCAT(prfPrdOilNetMillSm3) AS o FROM field_production_monthly
-#         UNION SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/ncs/production/', prfYear, '/', prfMonth) AS s,
-#         CONCAT(prfPrdOilNetMillSm3) AS o FROM field_production_totalt_NCS_month) AS FOO3)
-#         WHERE (CAST(year AS FLOAT) > 1999) AND ((CAST(m AS FLOAT) >= 1) AND (CAST(m AS FLOAT) <= 6));
+#         SELECT DISTINCT var0, var1 FROM ((
+#         SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c0") AS var0,
+#         'http://www.owl-ontologies.com/Ontology1207768242.owl#Person' AS VAR10202
+#         FROM "src_Person"
+#         UNION SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', A."c0") AS var0, '
+#         http://www.owl-ontologies.com/Ontology1207768242.owl#Person' AS VAR10202
+#         FROM "src_Thing" as A, "src_Person" as B WHERE  A."c0" = B."c0" ) AS FOO0
+#
+#         NATURAL JOIN
+#         (SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c0") AS var0,
+#         CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c1") AS var1
+#         FROM "src_hasStock"
+#         UNION SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c0") AS var0,
+#         CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c1") AS var1
+#         FROM "src_belongsToCompany" ) AS FOO1
+#
+#         NATURAL JOIN (SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c0") AS var1,
+#         'http://www.owl-ontologies.com/Ontology1207768242.owl#Stock' AS VAR10302
+#         FROM "src_Stock"
+#         UNION SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', A."c0") AS var1,
+#         'http://www.owl-ontologies.com/Ontology1207768242.owl#Stock' AS VAR10302
+#         FROM "src_Thing" as A, "src_Person" as B, "src_involvesInstrument" as C, "src_FinantialInstrument" as D, "src_Stock" as E
+#         WHERE  A."c0" = B."c0" AND B."c0" = C."c0" AND C."c0" = D."c0" AND D."c0" = E."c0" ) AS FOO2);
+#         '''
+#         exe_query = '''
+#                 SELECT DISTINCT var0, var1 FROM ((
+#         SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c0") AS var0,
+#         'http://www.owl-ontologies.com/Ontology1207768242.owl#Person' AS VAR10202
+#         FROM "src_Person"
+#         UNION SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', A."c0") AS var0, '
+#         http://www.owl-ontologies.com/Ontology1207768242.owl#Person' AS VAR10202
+#         FROM "src_Thing" as A, "src_Person" as B WHERE  A."c0" = B."c0" ) AS FOO0
+#
+#         NATURAL JOIN
+#         (SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c0") AS var0,
+#         CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c1") AS var1
+#         FROM "src_hasStock"
+#         UNION SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c0") AS var0,
+#         CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c1") AS var1
+#         FROM "src_belongsToCompany" ) AS FOO1
+#
+#         NATURAL JOIN (SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c0") AS var1,
+#         'http://www.owl-ontologies.com/Ontology1207768242.owl#Stock' AS VAR10302
+#         FROM "src_Stock"
+#         ) AS FOO2);
 #         '''
         sql_execution_timing = TimingClass(input_file, 'sql_execution')
         # sql_timing.record_start()

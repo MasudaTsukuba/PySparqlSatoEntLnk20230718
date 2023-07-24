@@ -251,7 +251,7 @@ class SparqlQuery:
             return filter_list
         self.filter_list = create_filter_list(self.query_in_json, self.uri)  # create a list of filters: []
 
-        def create_final_sql(var_list_in, filter_list_in, sql_queries_in):  # final build of sql query
+        def build_sql_query(var_list_in, filter_list_in, sql_queries_in):  # final build of sql query
             select_var = ''  # comma separated list string of variables
             # for var in var_list:  # list of variables in sparql query
             #     select_var += var + ', '  # change them to a comma-separated string
@@ -287,8 +287,27 @@ class SparqlQuery:
             exe_query_out = exe_query_out.replace(';', '') + ';'  # end up with a semicolon while suppressing a duplicate
             # print(exe_query)  # for debug
             return exe_query_out  # return the built sql query
+        exe_query = build_sql_query(var_list, self.filter_list, sql_queries)  # final build of sql query
 
-        exe_query = create_final_sql(var_list, self.filter_list, sql_queries)  # final build of sql query
+        def remove_unused_variables(query_in):  # remove unused VARnnnnn  # 2023/7/24
+            query_in = query_in.replace('  ', ' ')
+            query_out = query_in
+            matches = re.findall(r'VAR\d*', query_in)
+            for match in matches:
+                individual_matches = re.findall(match, query_in)
+                if len(individual_matches) == 1:  # this variable appears only once in the query string and therefore is not used.
+                    clause_matches = re.findall(fr', [^ ]+ AS \b{match}\b ', query_in)
+                    if len(clause_matches) == 1:
+                        query_out = query_out.replace(clause_matches[0], ' ')
+                    else:
+                        clause_matches = re.findall(fr' [^ ]+ AS \b{match}\b ', query_in)
+                        if len(clause_matches) == 1:
+                            query_out = query_out.replace(clause_matches[0], ' ')
+                    pass
+                pass
+            return query_out
+        exe_query = remove_unused_variables(exe_query)
+
         return exe_query  # return the built sql query
 
     def convert_to_rdf(self, uri, results, headers):  # convert the sql results into sparql results using uri_dict_all table

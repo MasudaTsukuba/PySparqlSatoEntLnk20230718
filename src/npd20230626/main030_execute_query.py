@@ -44,7 +44,7 @@ if __name__ == '__main__':
     # query = 'npd_q01e4.txt'
     # query = 'npd_q01e5.txt'
     # query = 'npd_q01e6.txt'
-    # query = 'npd_q01.txt'
+    query = 'npd_q01.txt'
     # query = 'npd_q01_star.txt'
     # query = 'npd_q01_order.txt'
 
@@ -55,6 +55,6 @@ if __name__ == '__main__':
     # query = 'npd_q08e.txt'
     # query = 'npd_q08.txt'
     # query = 'npd_q08_order.txt'
-    TimingClass.record_time_stamp()
+    TimingClass.set_file_name('timing.csv', time_stamp=True)
     execute.execute_query(query)
-    TimingClass.store_timing('timing.csv')
+    TimingClass.store_timing()
