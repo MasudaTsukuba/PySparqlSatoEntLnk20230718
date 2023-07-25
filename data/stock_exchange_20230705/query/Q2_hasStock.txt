@@ -4,6 +4,4 @@ SELECT DISTINCT ?var0 ?var1
 WHERE
 {
 	?var0  :hasStock ?var1  .
-	?var1  rdf:type :Stock .
-	?var0  rdf:type :Person .
 }

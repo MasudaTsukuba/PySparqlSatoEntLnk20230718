@@ -9,6 +9,10 @@
     {
       "termType": "Variable",
       "value": "var1"
+    },
+    {
+      "termType": "Variable",
+      "value": "var2"
     }
   ],
   "where": [
@@ -18,7 +22,7 @@
         {
           "subject": {
             "termType": "Variable",
-            "value": "var0"
+            "value": "var1"
           },
           "predicate": {
             "termType": "NamedNode",
@@ -26,13 +30,13 @@
           },
           "object": {
             "termType": "Variable",
-            "value": "var1"
+            "value": "var2"
           }
         },
         {
           "subject": {
             "termType": "Variable",
-            "value": "var1"
+            "value": "var2"
           },
           "predicate": {
             "termType": "NamedNode",
@@ -46,6 +50,20 @@
         {
           "subject": {
             "termType": "Variable",
+            "value": "var1"
+          },
+          "predicate": {
+            "termType": "NamedNode",
+            "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+          },
+          "object": {
+            "termType": "NamedNode",
+            "value": "http://www.owl-ontologies.com/Ontology1207768242.owl#Company"
+          }
+        },
+        {
+          "subject": {
+            "termType": "Variable",
             "value": "var0"
           },
           "predicate": {
@@ -54,7 +72,21 @@
           },
           "object": {
             "termType": "NamedNode",
-            "value": "http://www.owl-ontologies.com/Ontology1207768242.owl#Person"
+            "value": "http://www.owl-ontologies.com/Ontology1207768242.owl#FinantialInstrument"
+          }
+        },
+        {
+          "subject": {
+            "termType": "Variable",
+            "value": "var0"
+          },
+          "predicate": {
+            "termType": "NamedNode",
+            "value": "http://www.owl-ontologies.com/Ontology1207768242.owl#belongsToCompany"
+          },
+          "object": {
+            "termType": "Variable",
+            "value": "var1"
           }
         }
       ]

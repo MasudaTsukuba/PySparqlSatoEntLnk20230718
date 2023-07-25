@@ -4,7 +4,7 @@
   "variables": [
     {
       "termType": "Variable",
-      "value": "var0"
+      "value": "var1"
     }
   ],
   "where": [
@@ -14,7 +14,7 @@
         {
           "subject": {
             "termType": "Variable",
-            "value": "var0"
+            "value": "var1"
           },
           "predicate": {
             "termType": "NamedNode",
@@ -22,7 +22,7 @@
           },
           "object": {
             "termType": "NamedNode",
-            "value": "http://www.owl-ontologies.com/Ontology1207768242.owl#Person"
+            "value": "http://www.owl-ontologies.com/Ontology1207768242.owl#Stock"
           }
         }
       ]

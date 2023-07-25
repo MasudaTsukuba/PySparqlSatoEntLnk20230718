@@ -22,25 +22,11 @@
           },
           "predicate": {
             "termType": "NamedNode",
-            "value": "http://www.owl-ontologies.com/Ontology1207768242.owl#hasStock"
-          },
-          "object": {
-            "termType": "Variable",
-            "value": "var1"
-          }
-        },
-        {
-          "subject": {
-            "termType": "Variable",
-            "value": "var1"
-          },
-          "predicate": {
-            "termType": "NamedNode",
             "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
           },
           "object": {
             "termType": "NamedNode",
-            "value": "http://www.owl-ontologies.com/Ontology1207768242.owl#Stock"
+            "value": "http://www.owl-ontologies.com/Ontology1207768242.owl#Person"
           }
         },
         {
@@ -50,11 +36,11 @@
           },
           "predicate": {
             "termType": "NamedNode",
-            "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            "value": "http://www.owl-ontologies.com/Ontology1207768242.owl#hasStock"
           },
           "object": {
-            "termType": "NamedNode",
-            "value": "http://www.owl-ontologies.com/Ontology1207768242.owl#Person"
+            "termType": "Variable",
+            "value": "var1"
           }
         }
       ]

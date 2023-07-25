@@ -1,0 +1,371 @@
+[
+  {
+    "mappingId":	"ID-274752427",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10000"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "variable": "VAR10001"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "http://www.owl-ontologies.com/Ontology1207768242.owl#StockExchangeMember",
+      "variable": "VAR10002"
+    },
+    "SQL":		"SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', A.\"c0\") AS VAR10000,  'http://www.owl-ontologies.com/Ontology1207768242.owl#StockExchangeMember' AS VAR10002 FROM \"src_StockExchangeList\" as A, \"src_Company\" as B, \"src_isExecutedBy\" as C, \"src_StockTrader\" as D, \"src_StockExchangeMember\" as E WHERE  A.\"c0\" = B.\"c0\" AND B.\"c0\" = C.\"c0\" AND C.\"c0\" = D.\"c0\" AND D.\"c0\" = E.\"c0\" ;",
+    "gav-mapping-id": "mappingId ID-274752427",
+    "gav-mapping-target": "/target  ns:ns/{var0} a ns:StockExchangeMember .",
+    "gav-mapping-source": "/source  SELECT A.\"c0\" as var0 FROM  \"src_StockExchangeList\" as A, \"src_Company\" as B, \"src_isExecutedBy\" as C, \"src_StockTrader\" as D, \"src_StockExchangeMember\" as E WHERE  A.\"c0\" = B.\"c0\" AND B.\"c0\" = C.\"c0\" AND C.\"c0\" = D.\"c0\" AND D.\"c0\" = E.\"c0\",;"
+  },
+
+  {
+    "mappingId":	"ID-627313868",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10100"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "variable": "VAR10101"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "http://www.owl-ontologies.com/Ontology1207768242.owl#Trader",
+      "variable": "VAR10102"
+    },
+    "SQL":		"SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', \"c0\") AS VAR10100, 'http://www.owl-ontologies.com/Ontology1207768242.owl#Trader' AS VAR10102 FROM \"src_Trader\" ;",
+    "gav-mapping-id": "mappingId, ID361159579",
+    "gav-mapping-target": "target,  ns:ns/{var0} a ns:Trader . ",
+    "gav-mapping-source": "source,  SELECT A.\"c0\" as var0 FROM  \"src_Transaction\" as A, \"src_Acquisition\" as B, \"src_StockTrader\" as C, \"src_Trader\" as D WHERE  A.\"c0\" = B.\"c0\" AND B.\"c0\" = C.\"c0\" AND C.\"c0\" = D.\"c0\",;"
+},
+  {
+    "mappingId":	"ID1006260231",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10200"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "variable": "VAR10201"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "http://www.owl-ontologies.com/Ontology1207768242.owl#Person",
+      "variable": "VAR10202"
+    },
+    "SQL":		"SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', \"c0\") AS VAR10200, 'http://www.owl-ontologies.com/Ontology1207768242.owl#Person' AS VAR10202 FROM \"src_Person\" ;"
+  },
+  {
+    "mappingId":	"ID256818177",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10300"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "variable": "VAR10301"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "http://www.owl-ontologies.com/Ontology1207768242.owl#Stock",
+      "variable": "VAR10302"
+    },
+    "SQL":		"SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', \"c0\") AS VAR10300, 'http://www.owl-ontologies.com/Ontology1207768242.owl#Stock' AS VAR10302  FROM \"src_Stock\" ;"
+  },
+  {
+    "mappingId":	"ID-1713000415",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10400"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.owl-ontologies.com/Ontology1207768242.owl#hasStock",
+      "variable": "VAR10401"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10402"
+    },
+    "SQL":		"SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', \"c0\") AS VAR10400, CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', \"c1\") AS VAR10402  FROM \"src_hasStock\" ;"
+  },
+  {
+    "mappingId":	"ID3552832073434",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10500"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.owl-ontologies.com/Ontology1207768242.owl#hasStock",
+      "variable": "VAR10501"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10502"
+    },
+    "SQL":		"SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', \"c0\") AS VAR10500, CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', \"c1\") AS VAR10502  FROM \"src_belongsToCompany\" ;"
+  },
+  {
+    "mappingId":	"ID-916943460",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10600"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "variable": "VAR10601"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "http://www.owl-ontologies.com/Ontology1207768242.owl#PhysicalPerson",
+      "variable": "VAR10602"
+    },
+    "SQL":		"SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', A.\"c0\") AS VAR10600, 'http://www.owl-ontologies.com/Ontology1207768242.owl#PhysicalPerson' AS VAR10602 FROM \"src_StockExchangeList\" as A, \"src_usesBroker\" as B, \"src_listsStock\" as C, \"src_involvesInstrument\" as D, \"src_PhysicalPerson\" as E WHERE  A.\"c0\" = B.\"c0\" AND B.\"c0\" = C.\"c0\" AND C.\"c0\" = D.\"c0\" AND D.\"c0\" = E.\"c0\" AND B.\"c1\" = C.\"c1\" AND C.\"c1\" = D.\"c1\" ;"
+  },
+
+  {
+    "mappingId":	"ID-1178128978",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10700"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.owl-ontologies.com/Ontology1207768242.owl#hasAddress",
+      "variable": "VAR10701"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "n",
+      "variable": "VAR10702"
+    },
+    "SQL":		"SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', \"c0\") AS VAR10700, CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', \"c1\") AS VAR10702 FROM \"src_hasAddress\" ;"
+  },
+  {
+    "mappingId":	"ID222591606",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10800"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "variable": "VAR10801"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "http://www.owl-ontologies.com/Ontology1207768242.owl#FinantialInstrument",
+      "variable": "VAR10802"
+    },
+    "SQL":		"SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', A.\"c0\") AS VAR10800, 'http://www.owl-ontologies.com/Ontology1207768242.owl#FinantialInstrument' AS VAR10802 FROM \"src_Offer\" as A, \"src_involvesInstrument\" as B, \"src_StockExchangeList\" as C, \"src_LegalPerson\" as D, \"src_FinantialInstrument\" as E WHERE  A.\"c0\" = B.\"c0\" AND B.\"c0\" = C.\"c0\" AND C.\"c0\" = D.\"c0\" AND D.\"c0\" = E.\"c0\" ;"
+  },
+  {
+    "mappingId":	"ID-627231324",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10900"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "variable": "VAR10901"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "http://www.owl-ontologies.com/Ontology1207768242.owl#Stock",
+      "variable": "VAR10902"
+    },
+    "SQL":		"SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', A.\"c0\") AS VAR10900, 'http://www.owl-ontologies.com/Ontology1207768242.owl#Stock' AS VAR10902 FROM \"src_Thing\" as A, \"src_Person\" as B, \"src_involvesInstrument\" as C, \"src_FinantialInstrument\" as D, \"src_Stock\" as E WHERE  A.\"c0\" = B.\"c0\" AND B.\"c0\" = C.\"c0\" AND C.\"c0\" = D.\"c0\" AND D.\"c0\" = E.\"c0\" ;"
+  },
+  {
+    "mappingId":	"ID2137803147",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR11000"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "variable": "VAR11001"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "http://www.owl-ontologies.com/Ontology1207768242.owl#Person",
+      "variable": "VAR11002"
+    },
+    "SQL":		"SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', A.\"c0\") AS VAR11000, 'http://www.owl-ontologies.com/Ontology1207768242.owl#Person' AS VAR11002 FROM \"src_Thing\" as A, \"src_Person\" as B WHERE  A.\"c0\" = B.\"c0\" ;"
+  },
+  {
+    "mappingId":	"ID1775374552",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR11100"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.owl-ontologies.com/Ontology1207768242.owl#isListedIn",
+      "variable": "VAR11101"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "n",
+      "variable": "VAR11102"
+    },
+    "SQL":		"SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', A.\"c0\") AS VAR11100, CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', A.\"c1\") AS VAR11102 FROM \"src_isTradedIn\" as A, \"src_isListedIn\" as B WHERE  A.\"c0\" = B.\"c0\" AND A.\"c1\" = B.\"c1\" ;"
+  },
+  {
+    "mappingId":	"ID-1135973963",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR11200"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "variable": "VAR11201"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "http://www.owl-ontologies.com/Ontology1207768242.owl#StockExchangeList",
+      "variable": "VAR11202"
+    },
+    "SQL":		"SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', A.\"c0\") AS VAR11200, 'http://www.owl-ontologies.com/Ontology1207768242.owl#StockExchangeList' AS VAR11202 FROM \"src_inverseofhasAddress\" as A, \"src_StockExchangeMember\" as B, \"src_StockExchangeList\" as C WHERE  A.\"c0\" = B.\"c0\" AND B.\"c0\" = C.\"c0\" ;"
+  },
+  {
+    "mappingId":	"ID1522586062",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR11300"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.owl-ontologies.com/Ontology1207768242.owl#belongsToCompany",
+      "variable": "VAR11301"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "n",
+      "variable": "VAR11302"
+    },
+    "SQL":		"SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', A.\"c0\") AS VAR11300, CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', D.\"c1\") AS VAR11302 FROM \"src_StockExchangeMember\" as A, \"src_Thing\" as B, \"src_Trader\" as C, \"src_tradesOnBehalfOf\" as D, \"src_belongsToCompany\" as E WHERE  A.\"c0\" = B.\"c0\" AND B.\"c0\" = C.\"c0\" AND C.\"c0\" = D.\"c0\" AND D.\"c0\" = E.\"c0\" AND D.\"c1\" = E.\"c1\" ;"
+  },
+  {
+    "mappingId":	"ID1050453632",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR11400"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "variable": "VAR11401"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "http://www.owl-ontologies.com/Ontology1207768242.owl#Company",
+      "variable": "VAR11402"
+    },
+    "SQL":		"SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', A.\"c0\") AS VAR11400, 'http://www.owl-ontologies.com/Ontology1207768242.owl#Company' AS VAR11402 FROM \"src_StockExchangeMember\" as A, \"src_StockBroker\" as B, \"src_Thing\" as C, \"src_hasAddress\" as D, \"src_Company\" as E WHERE  A.\"c0\" = B.\"c0\" AND B.\"c0\" = C.\"c0\" AND C.\"c0\" = D.\"c0\" AND D.\"c0\" = E.\"c0\" ;"
+  }
+
+]
