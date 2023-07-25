@@ -9,5 +9,5 @@ WHERE
 	?1  :hasStock ?2  .
 	?2  rdf:type :Stock .
 	?1  :isListedIn ?3  .
-	?3  rdf:type :StockExchangeList
+	?3  rdf:type :StockExchangeList .
 }

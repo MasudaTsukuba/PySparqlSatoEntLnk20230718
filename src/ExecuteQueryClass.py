@@ -48,6 +48,7 @@ class ExecuteQueryClass:
         sparql2sql_timing = TimingClass(input_file, 'sparql_to_sql')
         # sparql2sql_timing.record_start()
         sparql_query = SparqlQuery(query_json, uri)  # instance of SparqlQueryClass
+        sparql_query.query_in_json = sparql_query.order_triples_in_query()  # order query to reduce the size of join in sql  # 2023/7/25
         exe_query = sparql_query.convert_to_sql(mapping_class)  # sparql to intermediate sql
         sparql2sql_timing.record_end()
 

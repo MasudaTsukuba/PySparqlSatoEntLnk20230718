@@ -431,3 +431,70 @@ class SparqlQuery:
                 row.append(converted_element)
             sparql_results.append(row)
         return sparql_results
+
+    def check_triples_cycle(self):  # check whether the triples in a query contains cycles
+        def is_cyclic(graph):
+            def dfs(node, visited, parent):
+                visited.add(node)
+                for triple in graph:
+                    subject, _, obj = triple
+                    if subject == node:
+                        if obj in visited and obj != parent:
+                            return True
+                        if obj not in visited and dfs(obj, visited, node):
+                            return True
+                return False
+
+            visited = set()
+            for triple in graph:
+                subject, _, _ = triple
+                if subject not in visited:
+                    if dfs(subject, visited, None):
+                        return True
+            return False
+
+        triples = self.query_in_json['where'][0]['triples']
+        rdf_graph = []
+        for triple in triples:
+            graph_tuple = (triple['subject']['value'], triple['predicate']['value'], triple['object']['value'])
+            rdf_graph.append(graph_tuple)
+        result = is_cyclic(rdf_graph)
+        pass
+
+    def set_ranks_for_triples(self):
+        triples = self.query_in_json['where'][0]['triples']
+        rdf_graph = []
+        for triple in triples:
+            graph_tuple = (triple['subject']['value'], triple['object']['value'])
+            rdf_graph.append(graph_tuple)
+        triples_score = [0 for i in range(len(rdf_graph))]
+        updated = True
+        while updated:
+            updated = False
+            for index, item in enumerate(rdf_graph):
+                subj, obj = item
+                for index2, item2 in enumerate(rdf_graph):
+                    subj2, obj2 = item2
+                    if index != index2:
+                        if subj2 == obj:
+                            if triples_score[index] < triples_score[index2] + 1:
+                                triples_score[index] = triples_score[index2] + 1
+                                updated = True
+
+        pass
+        return triples_score
+
+    def order_triples_in_query(self):
+        triples_score = self.set_ranks_for_triples()
+        ordered_query_in_json = self.query_in_json
+        triples = self.query_in_json['where'][0]['triples']
+        triples_with_score = []
+        for score, triple in zip(triples_score, triples):
+            triples_with_score.append([score, triple])
+        sorted_triples_with_score = sorted(triples_with_score, key=lambda x: x[0], reverse=True)
+        sorted_triples = []
+        for element in sorted_triples_with_score:
+            sorted_triples.append(element[1])
+        ordered_query_in_json['where'][0]['triples'] = sorted_triples
+        pass
+        return ordered_query_in_json

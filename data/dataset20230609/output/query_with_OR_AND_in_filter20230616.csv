@@ -1,2 +1,2 @@
-build_id,name,country
-https://example.com/build_id/899b,Suez Canal,https://www.wikidata.org/wiki/Q79
+country,build_id,name
+https://www.wikidata.org/wiki/Q79,https://example.com/build_id/899b,Suez Canal

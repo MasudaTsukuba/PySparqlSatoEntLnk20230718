@@ -26,7 +26,7 @@ if __name__ == '__main__':
     # # query = 'Q3a.txt'
     # query = 'Q3a_Stock.txt'
     # query = 'Q3a_FinantialInstrument_Stock.txt'
-    query = 'Q3_belongsToCompany_hasStock.txt'
+    # query = 'Q3_belongsToCompany_hasStock.txt'
     # query = 'Q3.txt'
 
     # query = 'Q4a.txt'
@@ -42,7 +42,7 @@ if __name__ == '__main__':
     # query = 'Q5e.txt'
     # query = 'Q5f.txt'
     # query = 'Q5.txt'
-    query = 'Q5_order.txt'
+    # query = 'Q5_order.txt'
 
     TimingClass.set_file_name('timing.csv', time_stamp=True)
     execute.execute_query(query)

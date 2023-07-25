@@ -1,193 +1,193 @@
-var1,var2,var0,var3
-ACERGY FALCON,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/402507,402507
-ACERGY OSPREY,http://dbpedia.org/resource/Great_Britain,http://sws.ifi.uio.no/data/npd-v2/facility/377007,377007
-AQUAMARINE,http://dbpedia.org/resource/Liberia,http://sws.ifi.uio.no/data/npd-v2/facility/295597,295597
-ARTEMIS ARCTIC,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/414880,414880
-B.ENTERPRISE 2,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/295381,295381
-BELFORD DOLPHIN,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/297946,297946
-BIDEFORD DOLPHIN,http://dbpedia.org/resource/Singapore,http://sws.ifi.uio.no/data/npd-v2/facility/290170,290170
-BOA GIANT,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/297703,297703
-BORGILA DOLPHIN,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/296974,296974
-BORGLAND DOLPHIN,http://dbpedia.org/resource/Singapore,http://sws.ifi.uio.no/data/npd-v2/facility/297784,297784
-BORGNY DOLPHIN,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/288280,288280
-BORGSTEN DOLPHIN,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/288334,288334
-BP 471,http://dbpedia.org/resource/Liberia,http://sws.ifi.uio.no/data/npd-v2/facility/296812,296812
-BREDFORD DOLPHIN,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/373521,373521
-BUCENTAUR,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/289441,289441
-BULFORD DOLPHIN,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/287956,287956
-BYFORD DOLPHIN,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/341331,341331
-COSLInnovator,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/413825,413825
-COSLPioneer,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/413534,413534
-COSLPromoter,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/413883,413883
-COSLRigmar,http://dbpedia.org/resource/Liberia,http://sws.ifi.uio.no/data/npd-v2/facility/297919,297919
-COSLRival,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/372798,372798
-CSO APACHE,http://dbpedia.org/resource/Marshall_Islands,http://sws.ifi.uio.no/data/npd-v2/facility/374177,374177
-DEEPSEA ATLANTIC,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/404360,404360
-DEEPSEA BERGEN,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/287983,287983
-DEEPSEA PIONEER,http://dbpedia.org/resource/Great_Britain,http://sws.ifi.uio.no/data/npd-v2/facility/289090,289090
-DRILLMASTER,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288172,288172
-DRILLSHIP,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288199,288199
-EDDA FAUNA,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/403711,403711
-EDDA FJORD,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/415384,415384
-EDDA FLORA,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/408756,408756
-EIRIK RAUDE,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/341172,341172
-ENDEAVOUR,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/296704,296704
-ESSAR WILDCAT,http://dbpedia.org/resource/Great_Britain,http://sws.ifi.uio.no/data/npd-v2/facility/297028,297028
-FAR SAGA,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/424872,424872
-FERDER,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/391059,391059
-FLOATEL SUPERIOR,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/411482,411482
-FUGRO DISCOVERY,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/413252,413252
-FUGRO EXPLORER,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/373600,373600
-FUGRO MERCATOR,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/404582,404582
-FUGRO SALTIRE,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/413414,413414
-GARD VARIANT,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/297109,297109
-GEOSUND,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/409724,409724
-GLOMAR BISCAY II,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288091,288091
-GLOMAR CHALLENGE,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/298108,298108
-GLOMAR GRAND ISLE,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288388,288388
-GRENA,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/364529,364529
-GSF ADRIATIC 1,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/292006,292006
-GSF ARCTIC I,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/293572,293572
-GSF ARCTIC II,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/296353,296353
-GSF LABRADOR,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/296866,296866
-GSF RIG 135,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/298189,298189
-GSF RIG 140,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/292681,292681
-GUARD VALLIANT,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/297541,297541
-GULFTIDE,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288307,288307
-HAVEN,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/411539,411539
-HENRY GOODRICH,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/289387,289387
-ISLAND COMMANDER,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/413474,413474
-ISLAND CONSTRUCTOR,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/405827,405827
-ISLAND ENFORCER,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/411773,411773
-ISLAND FRONTIER,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/373829,373829
-ISLAND INNOVATOR,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/426940,426940
-ISLAND VALIANT,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/408814,408814
-ISLAND VANGUARD,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/405770,405770
-ISLAND WELLSERVER,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/404470,404470
-J W MCLEAN,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/296731,296731
-JOIDES RESOLUTION,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/291169,291169
-KOLSKAYA,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/293977,293977
-LA MURALLA,http://dbpedia.org/resource/Russia,http://sws.ifi.uio.no/data/npd-v2/facility/288010,288010
-LE PELERIN,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/289063,289063
-LEIV EIRIKSSON,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/297865,297865
-M/V CRYSTAL SEA,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/296299,296299
-MARINER,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/391107,391107
-MSV ERNEST SHACKLETON,http://dbpedia.org/resource/Great_Britain,http://sws.ifi.uio.no/data/npd-v2/facility/374031,374031
-MSV PELICAN,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/365715,365715
-MÆRSK ENDEAVOUR,http://dbpedia.org/resource/Denmark,http://sws.ifi.uio.no/data/npd-v2/facility/292087,292087
-MÆRSK EXPLORER,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/362316,362316
-MÆRSK GALLANT,http://dbpedia.org/resource/Denmark,http://sws.ifi.uio.no/data/npd-v2/facility/296002,296002
-MÆRSK GIANT,http://dbpedia.org/resource/Denmark,http://sws.ifi.uio.no/data/npd-v2/facility/278245,278245
-MÆRSK GUARDIAN,http://dbpedia.org/resource/Denmark,http://sws.ifi.uio.no/data/npd-v2/facility/292114,292114
-MÆRSK INNOVATOR,http://dbpedia.org/resource/Denmark,http://sws.ifi.uio.no/data/npd-v2/facility/297838,297838
-MÆRSK INSPIRER,http://dbpedia.org/resource/Denmark,http://sws.ifi.uio.no/data/npd-v2/facility/369304,369304
-MÆRSK REACHER,http://dbpedia.org/resource/Denmark,http://sws.ifi.uio.no/data/npd-v2/facility/411423,411423
-NAN HAI VI,http://dbpedia.org/resource/China,http://sws.ifi.uio.no/data/npd-v2/facility/287848,287848
-NAVION EUROPA,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/408869,408869
-NEPTUNE 7,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288631,288631
-NOBLE GEORGE SAUVAGEEAU,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/292141,292141
-NOBLE PIET VAN EDE,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/292168,292168
-NOBLE ROGER EASON,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/291466,291466
-NOBLE RONALD HOPE,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/296488,296488
-NOBLE TON VAN LANGEVELD,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/292627,292627
-NORMAND CARRIER,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/405450,405450
-NORMAND FLOWER,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/405509,405509
-NORMAND JARL,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/295975,295975
-NORMAND MERMAID,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/403231,403231
-NORMAND MJOLNE,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/295111,295111
-NORMAND PROSPER,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/297568,297568
-NORMAND SKARVEN,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/390818,390818
-NORMAND SUBSEA,http://dbpedia.org/resource/Great_Britain,http://sws.ifi.uio.no/data/npd-v2/facility/429605,429605
-NORMAND TONJER,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/364465,364465
-NORSHORE ATLANTIC,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/426997,426997
-OCEAN ALLIANCE,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/292654,292654
-OCEAN BARONESS,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/289171,289171
-OCEAN BOUNTY,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/290008,290008
-OCEAN CLEVER,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/406001,406001
-OCEAN CONFIDENCE,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/295786,295786
-OCEAN LIBERATOR,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/296380,296380
-OCEAN PRINCESS,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/289360,289360
-OCEAN SKY,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/405947,405947
-OCEAN TIDE,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288469,288469
-OCEAN TRAVELER,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288496,288496
-OCEAN VALIANT,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/294085,294085
-OCEAN VANGUARD,http://dbpedia.org/resource/Marshall_Islands,http://sws.ifi.uio.no/data/npd-v2/facility/287902,287902
-OCEAN VICTORY,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288523,288523
-OCEAN VIKING,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/296407,296407
-OCEAN VOYAGER,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288550,288550
-OCEAN WINNER,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/298081,298081
-OCEAN YATZY,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/289306,289306
-ODIN DRILL,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288577,288577
-ORION,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288604,288604
-PAUL B LOYD JR,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/295084,295084
-PELERIN,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/289036,289036
-PENTAGONE 84,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288982,288982
-PETROBRAS XXIII,http://dbpedia.org/resource/Liberia,http://sws.ifi.uio.no/data/npd-v2/facility/289414,289414
-PHOLAS,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/361873,361873
-POLAR BJØRN,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/295516,295516
-POLAR PIONEER,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/289333,289333
-POLAR QUEEN,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/295489,295489
-POLYGLOMAR DRILLER,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/362458,362458
-PRIDE SOUTH PACIFIC,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/288145,288145
-REGALIA,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/293815,293815
-ROWAN GORILLA VI,http://dbpedia.org/resource/Great_Britain,http://sws.ifi.uio.no/data/npd-v2/facility/375355,375355
-ROWAN NORWAY,http://dbpedia.org/resource/Marshall_Islands,http://sws.ifi.uio.no/data/npd-v2/facility/417599,417599
-ROWAN STAVANGER,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/413943,413943
-SAFE BRITANIA,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/296785,296785
-SAFE CALEDONIA,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/297730,297730
-SAFE LANCIA,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/295138,295138
-SAFE SCANDINAVIA,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/297757,297757
-SAIPEM II,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288685,288685
-SANTA FE 135,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/289792,289792
-SANTA FE 140,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/289819,289819
-SCANDI ACERGY,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/415496,415496
-SCARABEO 6,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/297001,297001
-SEAWAY CONDOR,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/294220,294220
-SEAWAY HARRIER,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/294328,294328
-SEAWAY OSPREY,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/297973,297973
-SEDCO 135 G,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288766,288766
-SEDCO 703,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288793,288793
-SEDCO 704,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288820,288820
-SEDCO 707,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288037,288037
-SEDCO H,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288712,288712
-SEDNETH I,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288847,288847
-SEVEN PELICAN,http://dbpedia.org/resource/Great_Britain,http://sws.ifi.uio.no/data/npd-v2/facility/364568,364568
-SEVEN SISTERS,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/409783,409783
-SIEM PILOT,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/415967,415967
-SKANDI AKER,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/411835,411835
-SKANDI ARCTIC,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/429269,429269
-SKANDI CHIEFTAIN,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/415441,415441
-SKANDI SOTRA,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/406180,406180
-SONGA DEE,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/290980,290980
-SONGA DELTA,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/287821,287821
-SONGA TRYM,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/296164,296164
-SOVEREIGN EXPLOR,http://dbpedia.org/resource/Liberia,http://sws.ifi.uio.no/data/npd-v2/facility/289846,289846
-STENA DON,http://dbpedia.org/resource/Marshall_Islands,http://sws.ifi.uio.no/data/npd-v2/facility/297649,297649
-TOISA PERSEUS,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/297676,297676
-TOISA POLARIS,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/297622,297622
-TRANSOCEAN AMIRANTE,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/290737,290737
-TRANSOCEAN ARCTIC,http://dbpedia.org/resource/Marshall_Islands,http://sws.ifi.uio.no/data/npd-v2/facility/294382,294382
-TRANSOCEAN BARENTS,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/404303,404303
-TRANSOCEAN LEADER,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/296677,296677
-TRANSOCEAN NORDIC,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/296191,296191
-TRANSOCEAN PROSPECT,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/296218,296218
-TRANSOCEAN SEARCHER,http://dbpedia.org/resource/Marshall_Islands,http://sws.ifi.uio.no/data/npd-v2/facility/296245,296245
-TRANSOCEAN SPITSBERGEN,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/404201,404201
-TRANSOCEAN WINNER,http://dbpedia.org/resource/Marshall_Islands,http://sws.ifi.uio.no/data/npd-v2/facility/296326,296326
-TRANSWORLD RIG61,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/362531,362531
-VIKING POSEIDON,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/368585,368585
-VOLSTAD SUPPLIER,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/395490,395490
-WELLSERVICER,http://dbpedia.org/resource/Great_Britain,http://sws.ifi.uio.no/data/npd-v2/facility/373983,373983
-WEST ALPHA,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/297514,297514
-WEST BETA,http://dbpedia.org/resource/Liberia,http://sws.ifi.uio.no/data/npd-v2/facility/288118,288118
-WEST ELARA,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/414002,414002
-WEST EPSILON,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/296110,296110
-WEST GAMMA,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288226,288226
-WEST HERCULES,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/415836,415836
-WEST NAVIGATOR,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/297082,297082
-WEST PHOENIX,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/390874,390874
-WEST VENTURE,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/297055,297055
-WEST VISION,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/289495,289495
-WILLNOVATOR,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/404524,404524
-ZAPATA EXPLORER,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288901,288901
-ZAPATA NORDIC,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288928,288928
+var3,var2,var0,var1
+278245,http://dbpedia.org/resource/Denmark,http://sws.ifi.uio.no/data/npd-v2/facility/278245,MÆRSK GIANT
+287821,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/287821,SONGA DELTA
+287848,http://dbpedia.org/resource/China,http://sws.ifi.uio.no/data/npd-v2/facility/287848,NAN HAI VI
+287902,http://dbpedia.org/resource/Marshall_Islands,http://sws.ifi.uio.no/data/npd-v2/facility/287902,OCEAN VANGUARD
+287956,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/287956,BULFORD DOLPHIN
+287983,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/287983,DEEPSEA BERGEN
+288010,http://dbpedia.org/resource/Russia,http://sws.ifi.uio.no/data/npd-v2/facility/288010,LA MURALLA
+288037,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288037,SEDCO 707
+288091,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288091,GLOMAR BISCAY II
+288118,http://dbpedia.org/resource/Liberia,http://sws.ifi.uio.no/data/npd-v2/facility/288118,WEST BETA
+288145,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/288145,PRIDE SOUTH PACIFIC
+288172,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288172,DRILLMASTER
+288199,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288199,DRILLSHIP
+288226,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288226,WEST GAMMA
+288280,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/288280,BORGNY DOLPHIN
+288307,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288307,GULFTIDE
+288334,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/288334,BORGSTEN DOLPHIN
+288388,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288388,GLOMAR GRAND ISLE
+288469,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288469,OCEAN TIDE
+288496,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288496,OCEAN TRAVELER
+288523,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288523,OCEAN VICTORY
+288550,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288550,OCEAN VOYAGER
+288577,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288577,ODIN DRILL
+288604,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288604,ORION
+288631,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288631,NEPTUNE 7
+288685,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288685,SAIPEM II
+288712,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288712,SEDCO H
+288766,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288766,SEDCO 135 G
+288793,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288793,SEDCO 703
+288820,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288820,SEDCO 704
+288847,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288847,SEDNETH I
+288901,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288901,ZAPATA EXPLORER
+288928,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288928,ZAPATA NORDIC
+288982,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/288982,PENTAGONE 84
+289036,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/289036,PELERIN
+289063,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/289063,LE PELERIN
+289090,http://dbpedia.org/resource/Great_Britain,http://sws.ifi.uio.no/data/npd-v2/facility/289090,DEEPSEA PIONEER
+289171,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/289171,OCEAN BARONESS
+289306,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/289306,OCEAN YATZY
+289333,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/289333,POLAR PIONEER
+289360,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/289360,OCEAN PRINCESS
+289387,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/289387,HENRY GOODRICH
+289414,http://dbpedia.org/resource/Liberia,http://sws.ifi.uio.no/data/npd-v2/facility/289414,PETROBRAS XXIII
+289441,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/289441,BUCENTAUR
+289495,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/289495,WEST VISION
+289792,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/289792,SANTA FE 135
+289819,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/289819,SANTA FE 140
+289846,http://dbpedia.org/resource/Liberia,http://sws.ifi.uio.no/data/npd-v2/facility/289846,SOVEREIGN EXPLOR
+290008,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/290008,OCEAN BOUNTY
+290170,http://dbpedia.org/resource/Singapore,http://sws.ifi.uio.no/data/npd-v2/facility/290170,BIDEFORD DOLPHIN
+290737,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/290737,TRANSOCEAN AMIRANTE
+290980,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/290980,SONGA DEE
+291169,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/291169,JOIDES RESOLUTION
+291466,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/291466,NOBLE ROGER EASON
+292006,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/292006,GSF ADRIATIC 1
+292087,http://dbpedia.org/resource/Denmark,http://sws.ifi.uio.no/data/npd-v2/facility/292087,MÆRSK ENDEAVOUR
+292114,http://dbpedia.org/resource/Denmark,http://sws.ifi.uio.no/data/npd-v2/facility/292114,MÆRSK GUARDIAN
+292141,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/292141,NOBLE GEORGE SAUVAGEEAU
+292168,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/292168,NOBLE PIET VAN EDE
+292627,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/292627,NOBLE TON VAN LANGEVELD
+292654,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/292654,OCEAN ALLIANCE
+292681,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/292681,GSF RIG 140
+293572,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/293572,GSF ARCTIC I
+293815,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/293815,REGALIA
+293977,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/293977,KOLSKAYA
+294085,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/294085,OCEAN VALIANT
+294220,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/294220,SEAWAY CONDOR
+294328,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/294328,SEAWAY HARRIER
+294382,http://dbpedia.org/resource/Marshall_Islands,http://sws.ifi.uio.no/data/npd-v2/facility/294382,TRANSOCEAN ARCTIC
+295084,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/295084,PAUL B LOYD JR
+295111,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/295111,NORMAND MJOLNE
+295138,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/295138,SAFE LANCIA
+295381,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/295381,B.ENTERPRISE 2
+295489,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/295489,POLAR QUEEN
+295516,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/295516,POLAR BJØRN
+295597,http://dbpedia.org/resource/Liberia,http://sws.ifi.uio.no/data/npd-v2/facility/295597,AQUAMARINE
+295786,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/295786,OCEAN CONFIDENCE
+295975,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/295975,NORMAND JARL
+296002,http://dbpedia.org/resource/Denmark,http://sws.ifi.uio.no/data/npd-v2/facility/296002,MÆRSK GALLANT
+296110,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/296110,WEST EPSILON
+296164,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/296164,SONGA TRYM
+296191,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/296191,TRANSOCEAN NORDIC
+296218,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/296218,TRANSOCEAN PROSPECT
+296245,http://dbpedia.org/resource/Marshall_Islands,http://sws.ifi.uio.no/data/npd-v2/facility/296245,TRANSOCEAN SEARCHER
+296299,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/296299,M/V CRYSTAL SEA
+296326,http://dbpedia.org/resource/Marshall_Islands,http://sws.ifi.uio.no/data/npd-v2/facility/296326,TRANSOCEAN WINNER
+296353,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/296353,GSF ARCTIC II
+296380,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/296380,OCEAN LIBERATOR
+296407,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/296407,OCEAN VIKING
+296488,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/296488,NOBLE RONALD HOPE
+296677,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/296677,TRANSOCEAN LEADER
+296704,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/296704,ENDEAVOUR
+296731,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/296731,J W MCLEAN
+296785,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/296785,SAFE BRITANIA
+296812,http://dbpedia.org/resource/Liberia,http://sws.ifi.uio.no/data/npd-v2/facility/296812,BP 471
+296866,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/296866,GSF LABRADOR
+296974,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/296974,BORGILA DOLPHIN
+297001,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/297001,SCARABEO 6
+297028,http://dbpedia.org/resource/Great_Britain,http://sws.ifi.uio.no/data/npd-v2/facility/297028,ESSAR WILDCAT
+297055,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/297055,WEST VENTURE
+297082,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/297082,WEST NAVIGATOR
+297109,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/297109,GARD VARIANT
+297514,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/297514,WEST ALPHA
+297541,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/297541,GUARD VALLIANT
+297568,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/297568,NORMAND PROSPER
+297622,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/297622,TOISA POLARIS
+297649,http://dbpedia.org/resource/Marshall_Islands,http://sws.ifi.uio.no/data/npd-v2/facility/297649,STENA DON
+297676,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/297676,TOISA PERSEUS
+297703,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/297703,BOA GIANT
+297730,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/297730,SAFE CALEDONIA
+297757,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/297757,SAFE SCANDINAVIA
+297784,http://dbpedia.org/resource/Singapore,http://sws.ifi.uio.no/data/npd-v2/facility/297784,BORGLAND DOLPHIN
+297838,http://dbpedia.org/resource/Denmark,http://sws.ifi.uio.no/data/npd-v2/facility/297838,MÆRSK INNOVATOR
+297865,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/297865,LEIV EIRIKSSON
+297919,http://dbpedia.org/resource/Liberia,http://sws.ifi.uio.no/data/npd-v2/facility/297919,COSLRigmar
+297946,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/297946,BELFORD DOLPHIN
+297973,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/297973,SEAWAY OSPREY
+298081,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/298081,OCEAN WINNER
+298108,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/298108,GLOMAR CHALLENGE
+298189,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/298189,GSF RIG 135
+341172,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/341172,EIRIK RAUDE
+341331,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/341331,BYFORD DOLPHIN
+361873,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/361873,PHOLAS
+362316,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/362316,MÆRSK EXPLORER
+362458,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/362458,POLYGLOMAR DRILLER
+362531,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/362531,TRANSWORLD RIG61
+364465,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/364465,NORMAND TONJER
+364529,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/364529,GRENA
+364568,http://dbpedia.org/resource/Great_Britain,http://sws.ifi.uio.no/data/npd-v2/facility/364568,SEVEN PELICAN
+365715,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/365715,MSV PELICAN
+368585,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/368585,VIKING POSEIDON
+369304,http://dbpedia.org/resource/Denmark,http://sws.ifi.uio.no/data/npd-v2/facility/369304,MÆRSK INSPIRER
+372798,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/372798,COSLRival
+373521,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/373521,BREDFORD DOLPHIN
+373600,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/373600,FUGRO EXPLORER
+373829,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/373829,ISLAND FRONTIER
+373983,http://dbpedia.org/resource/Great_Britain,http://sws.ifi.uio.no/data/npd-v2/facility/373983,WELLSERVICER
+374031,http://dbpedia.org/resource/Great_Britain,http://sws.ifi.uio.no/data/npd-v2/facility/374031,MSV ERNEST SHACKLETON
+374177,http://dbpedia.org/resource/Marshall_Islands,http://sws.ifi.uio.no/data/npd-v2/facility/374177,CSO APACHE
+375355,http://dbpedia.org/resource/Great_Britain,http://sws.ifi.uio.no/data/npd-v2/facility/375355,ROWAN GORILLA VI
+377007,http://dbpedia.org/resource/Great_Britain,http://sws.ifi.uio.no/data/npd-v2/facility/377007,ACERGY OSPREY
+390818,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/390818,NORMAND SKARVEN
+390874,http://dbpedia.org/resource/Panama,http://sws.ifi.uio.no/data/npd-v2/facility/390874,WEST PHOENIX
+391059,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/391059,FERDER
+391107,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/391107,MARINER
+395490,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/395490,VOLSTAD SUPPLIER
+402507,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/402507,ACERGY FALCON
+403231,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/403231,NORMAND MERMAID
+403711,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/403711,EDDA FAUNA
+404201,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/404201,TRANSOCEAN SPITSBERGEN
+404303,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/404303,TRANSOCEAN BARENTS
+404360,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/404360,DEEPSEA ATLANTIC
+404470,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/404470,ISLAND WELLSERVER
+404524,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/404524,WILLNOVATOR
+404582,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/404582,FUGRO MERCATOR
+405450,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/405450,NORMAND CARRIER
+405509,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/405509,NORMAND FLOWER
+405770,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/405770,ISLAND VANGUARD
+405827,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/405827,ISLAND CONSTRUCTOR
+405947,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/405947,OCEAN SKY
+406001,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/406001,OCEAN CLEVER
+406180,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/406180,SKANDI SOTRA
+408756,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/408756,EDDA FLORA
+408814,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/408814,ISLAND VALIANT
+408869,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/408869,NAVION EUROPA
+409724,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/409724,GEOSUND
+409783,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/409783,SEVEN SISTERS
+411423,http://dbpedia.org/resource/Denmark,http://sws.ifi.uio.no/data/npd-v2/facility/411423,MÆRSK REACHER
+411482,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/411482,FLOATEL SUPERIOR
+411539,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/411539,HAVEN
+411773,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/411773,ISLAND ENFORCER
+411835,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/411835,SKANDI AKER
+413252,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/413252,FUGRO DISCOVERY
+413414,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/413414,FUGRO SALTIRE
+413474,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/413474,ISLAND COMMANDER
+413534,http://dbpedia.org/resource/The_Bahamas,http://sws.ifi.uio.no/data/npd-v2/facility/413534,COSLPioneer
+413825,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/413825,COSLInnovator
+413883,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/413883,COSLPromoter
+413943,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/413943,ROWAN STAVANGER
+414002,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/414002,WEST ELARA
+414880,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/414880,ARTEMIS ARCTIC
+415384,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/415384,EDDA FJORD
+415441,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/415441,SKANDI CHIEFTAIN
+415496,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/415496,SCANDI ACERGY
+415836,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/415836,WEST HERCULES
+415967,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/415967,SIEM PILOT
+417599,http://dbpedia.org/resource/Marshall_Islands,http://sws.ifi.uio.no/data/npd-v2/facility/417599,ROWAN NORWAY
+424872,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/424872,FAR SAGA
+426940,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/426940,ISLAND INNOVATOR
+426997,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/426997,NORSHORE ATLANTIC
+429269,http://dbpedia.org/resource/Norway,http://sws.ifi.uio.no/data/npd-v2/facility/429269,SKANDI ARCTIC
+429605,http://dbpedia.org/resource/Great_Britain,http://sws.ifi.uio.no/data/npd-v2/facility/429605,NORMAND SUBSEA

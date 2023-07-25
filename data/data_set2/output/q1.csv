@@ -1,802 +1,802 @@
-country_id,hotel_name,country_name,s
-http://example.com/country/id/1011,Hilton Cabo Verde Sal Resort,Cape Verde,49573628h
-http://example.com/country/id/1033,Transcorp Hilton Abuja,Nigeria,61090457h
-http://example.com/country/id/1036,Hilton Garden Inn Kampala,Uganda,63790123h
-http://example.com/country/id/1042,Hilton Seychelles Labriz Resort & Spa,Seychelles,64701276h
-http://example.com/country/id/114,Hilton Nairobi,Kenya,10524043h
-http://example.com/country/id/115,Hilton Addis Ababa,Ethiopia,72812966h
-http://example.com/country/id/142,"25, place Dauphine",France,19348190h
-http://example.com/country/id/142,Ancienne église Saint-Nicolas,France,60389409h
-http://example.com/country/id/142,Aquarium et Musée de la Mer de Dinard,France,16528268h
-http://example.com/country/id/142,Central téléphonique Ségur,France,110041692h
-http://example.com/country/id/142,Chartreuse du Reposoir,France,2961297h
-http://example.com/country/id/142,Château d'Artigny,France,2523683h
-http://example.com/country/id/142,Conrad Bora Bora Nui,France,47401774h
-http://example.com/country/id/142,DoubleTree by Hilton Carcassonne,France,65769542h
-http://example.com/country/id/142,"Grand Hotel des Sablettes Plage, Curio Collection by Hilton",France,56522910h
-http://example.com/country/id/142,Grand Hôtel,France,99703247h
-http://example.com/country/id/142,Hilton Moorea Lagoon Resort & Spa,France,63883252h
-http://example.com/country/id/142,Hilton Paris Charles de Gaulle Airport,France,29053655h
-http://example.com/country/id/142,Hilton Paris Opera,France,2992084h
-http://example.com/country/id/142,Hotel Negresco,France,743147h
-http://example.com/country/id/142,Hyatt Regency Paris Etoile,France,3142395h
-http://example.com/country/id/142,Hôtel La Pérouse,France,113564549h
-http://example.com/country/id/142,Hôtel Napoléon,France,93121772h
-http://example.com/country/id/142,Hôtel des 3 Collèges,France,23265h
-http://example.com/country/id/142,La Clef Louvre,France,20650664h
-http://example.com/country/id/142,Tour Duo,France,3533060h
-http://example.com/country/id/142,Tours Odyssey,France,110407965h
-http://example.com/country/id/145,1 Snow Hill Plaza,United Kingdom,4596016h
-http://example.com/country/id/145,1 Tower Knowe,United Kingdom,17834531h
-http://example.com/country/id/145,"100 Queen's Gate Hotel London, Curio Collection by Hilton",United Kingdom,23646439h
-http://example.com/country/id/145,107 Piccadilly,United Kingdom,14954702h
-http://example.com/country/id/145,11 Market End,United Kingdom,17557267h
-http://example.com/country/id/145,"12 and 13, Warwick Road",United Kingdom,26684094h
-http://example.com/country/id/145,13 Market End,United Kingdom,26463120h
-http://example.com/country/id/145,"14 and 15, Warwick Road",United Kingdom,26483035h
-http://example.com/country/id/145,15 Market End,United Kingdom,26685058h
-http://example.com/country/id/145,2 Tower Dykeside,United Kingdom,17835167h
-http://example.com/country/id/145,"2, 3 and 4, Regency Square",United Kingdom,17549646h
-http://example.com/country/id/145,5 and 7 High Street and Falcon Hotel Annexe,United Kingdom,17534979h
-http://example.com/country/id/145,Baglioni Hotel,United Kingdom,4841991h
-http://example.com/country/id/145,Barton Seagrave Hall,United Kingdom,17544934h
-http://example.com/country/id/145,Berry Head House,United Kingdom,15978898h
-http://example.com/country/id/145,Brampton Grange,United Kingdom,5595660h
-http://example.com/country/id/145,Cambridge Hotel,United Kingdom,24241038h
-http://example.com/country/id/145,"Castle Hotel, Ruthin",United Kingdom,17183802h
-http://example.com/country/id/145,Claridge's,United Kingdom,2748565h
-http://example.com/country/id/145,Clayton Crown Hotel,United Kingdom,56084920h
-http://example.com/country/id/145,Clayton Hotel Belfast,United Kingdom,56085075h
-http://example.com/country/id/145,Clayton Hotel Birmingham,United Kingdom,56085053h
-http://example.com/country/id/145,Clayton Hotel Cardiff,United Kingdom,56150916h
-http://example.com/country/id/145,Clayton Hotel Chiswick,United Kingdom,56085005h
-http://example.com/country/id/145,Clayton Hotel Leeds,United Kingdom,56085020h
-http://example.com/country/id/145,Coworth House,United Kingdom,5179785h
-http://example.com/country/id/145,Crosby Lodge,United Kingdom,26609450h
-http://example.com/country/id/145,DoubleTree by Hilton Cambridge Belfry,United Kingdom,64152343h
-http://example.com/country/id/145,DoubleTree by Hilton Edinburgh - Queensferry Crossing,United Kingdom,75721557h
-http://example.com/country/id/145,DoubleTree by Hilton Glasgow Westerwood Spa & Golf Resort,United Kingdom,77416106h
-http://example.com/country/id/145,DoubleTree by Hilton Hotel & Spa Liverpool,United Kingdom,56071855h
-http://example.com/country/id/145,DoubleTree by Hilton Hotel Aberdeen Treetops,United Kingdom,28777988h
-http://example.com/country/id/145,DoubleTree by Hilton Hotel Bristol City Centre,United Kingdom,64363310h
-http://example.com/country/id/145,DoubleTree by Hilton Hotel Bristol North,United Kingdom,23685988h
-http://example.com/country/id/145,DoubleTree by Hilton Hotel Coventry,United Kingdom,28609672h
-http://example.com/country/id/145,DoubleTree by Hilton Hotel Edinburgh Airport,United Kingdom,29948012h
-http://example.com/country/id/145,DoubleTree by Hilton Hotel Edinburgh City Centre,United Kingdom,45316350h
-http://example.com/country/id/145,DoubleTree by Hilton Hotel Leeds City Centre,United Kingdom,37858682h
-http://example.com/country/id/145,DoubleTree by Hilton Hotel London - Chelsea,United Kingdom,18112026h
-http://example.com/country/id/145,DoubleTree by Hilton Hotel London - Docklands Riverside,United Kingdom,17444904h
-http://example.com/country/id/145,DoubleTree by Hilton Hotel London - Hyde Park,United Kingdom,42341625h
-http://example.com/country/id/145,DoubleTree by Hilton Hotel London - Marble Arch,United Kingdom,30504052h
-http://example.com/country/id/145,DoubleTree by Hilton Hotel London - Victoria,United Kingdom,63608863h
-http://example.com/country/id/145,DoubleTree by Hilton Hotel London - West End,United Kingdom,61100884h
-http://example.com/country/id/145,DoubleTree by Hilton Hotel London ExCel,United Kingdom,53632218h
-http://example.com/country/id/145,DoubleTree by Hilton Hotel Woking,United Kingdom,61868406h
-http://example.com/country/id/145,DoubleTree by Hilton London Heathrow Airport,United Kingdom,30021879h
-http://example.com/country/id/145,Dove Nest,United Kingdom,26537718h
-http://example.com/country/id/145,Fritton Old Hall,United Kingdom,17554574h
-http://example.com/country/id/145,Hampton by Hilton Belfast City Centre,United Kingdom,63975276h
-http://example.com/country/id/145,Hampton by Hilton Birmingham Jewellery Quarter,United Kingdom,37857517h
-http://example.com/country/id/145,Hampton by Hilton Bournemouth,United Kingdom,26960663h
-http://example.com/country/id/145,Hampton by Hilton Bristol City Centre,United Kingdom,30301927h
-http://example.com/country/id/145,Hampton by Hilton Dundee City Centre,United Kingdom,67874379h
-http://example.com/country/id/145,Hampton by Hilton Exeter Airport,United Kingdom,64992591h
-http://example.com/country/id/145,Hampton by Hilton Glasgow Central,United Kingdom,37858337h
-http://example.com/country/id/145,Hampton by Hilton Leeds City Centre,United Kingdom,66969081h
-http://example.com/country/id/145,Hampton by Hilton Liverpool City Centre,United Kingdom,55865629h
-http://example.com/country/id/145,Hampton by Hilton Liverpool/John Lennon Airport,United Kingdom,5646336h
-http://example.com/country/id/145,Hampton by Hilton London Gatwick Airport,United Kingdom,50611971h
-http://example.com/country/id/145,Hampton by Hilton London Luton Airport,United Kingdom,57385878h
-http://example.com/country/id/145,Hampton by Hilton Newcastle,United Kingdom,28214174h
-http://example.com/country/id/145,"Hawick, 1 Tower Dykeside",United Kingdom,17834546h
-http://example.com/country/id/145,"Hawick, 3, 4 Tower Dykeside",United Kingdom,17834566h
-http://example.com/country/id/145,Hilton Aberdeen TECA,United Kingdom,69647678h
-http://example.com/country/id/145,Hilton Belfast,United Kingdom,30402016h
-http://example.com/country/id/145,Hilton Birmingham Metropole,United Kingdom,21504226h
-http://example.com/country/id/145,Hilton Bournemouth,United Kingdom,22073967h
-http://example.com/country/id/145,Hilton Cambridge City Centre,United Kingdom,24054070h
-http://example.com/country/id/145,Hilton Coylumbridge,United Kingdom,29053691h
-http://example.com/country/id/145,Hilton Edinburgh Carlton,United Kingdom,17793480h
-http://example.com/country/id/145,Hilton Edinburgh Grosvenor,United Kingdom,30346525h
-http://example.com/country/id/145,Hilton Garden Inn Birmingham Brindleyplace,United Kingdom,63885416h
-http://example.com/country/id/145,Hilton Garden Inn Bristol City Centre,United Kingdom,64868965h
-http://example.com/country/id/145,Hilton Garden Inn Glasgow City Centre,United Kingdom,65770076h
-http://example.com/country/id/145,Hilton Garden Inn London Heathrow Airport,United Kingdom,19307691h
-http://example.com/country/id/145,Hilton Garden Inn London Heathrow Terminals 2 and 3,United Kingdom,110147122h
-http://example.com/country/id/145,Hilton Garden Inn Luton North,United Kingdom,63164854h
-http://example.com/country/id/145,Hilton Garden Inn Sunderland,United Kingdom,26242212h
-http://example.com/country/id/145,Hilton Glasgow,United Kingdom,5764570h
-http://example.com/country/id/145,Hilton Glasgow Grosvenor,United Kingdom,67863357h
-http://example.com/country/id/145,Hilton Leeds City,United Kingdom,66969326h
-http://example.com/country/id/145,Hilton Liverpool City Centre,United Kingdom,5764637h
-http://example.com/country/id/145,Hilton London Bankside,United Kingdom,49807274h
-http://example.com/country/id/145,Hilton London Croydon,United Kingdom,33229354h
-http://example.com/country/id/145,Hilton London Gatwick Airport,United Kingdom,61717587h
-http://example.com/country/id/145,Hilton London Heathrow Airport Terminal 5,United Kingdom,92176916h
-http://example.com/country/id/145,Hilton London Hyde Park,United Kingdom,13529180h
-http://example.com/country/id/145,Hilton London Kensington,United Kingdom,51824364h
-http://example.com/country/id/145,Hilton London Metropole,United Kingdom,5764648h
-http://example.com/country/id/145,Hilton London Syon Park,United Kingdom,18534517h
-http://example.com/country/id/145,Hilton London Watford,United Kingdom,71409297h
-http://example.com/country/id/145,Hilton Manchester Deansgate,United Kingdom,19513101h
-http://example.com/country/id/145,Hilton Newcastle Gateshead,United Kingdom,61567322h
-http://example.com/country/id/145,Hilton Nottingham,United Kingdom,30504754h
-http://example.com/country/id/145,"Hilton Puckrup Hall, Tewkesbury",United Kingdom,71828738h
-http://example.com/country/id/145,Hilton York,United Kingdom,50841764h
-http://example.com/country/id/145,"Hilton at St George's Park, Burton Upon Trent",United Kingdom,61165878h
-http://example.com/country/id/145,Ibis Leeds Centre,United Kingdom,66969175h
-http://example.com/country/id/145,Jurys Inn Leeds,United Kingdom,66924306h
-http://example.com/country/id/145,Kenwith Castle,United Kingdom,26617946h
-http://example.com/country/id/145,Mosborough Hall,United Kingdom,26546731h
-http://example.com/country/id/145,Polebarn House,United Kingdom,17533843h
-http://example.com/country/id/145,Royal Insurance Building,United Kingdom,7374338h
-http://example.com/country/id/145,Shrigley Hall,United Kingdom,7503956h
-http://example.com/country/id/145,Simonsbath House,United Kingdom,7520490h
-http://example.com/country/id/145,Speech House,United Kingdom,7575371h
-http://example.com/country/id/145,Stanley House,United Kingdom,17532427h
-http://example.com/country/id/145,"The Biltmore Mayfair, LXR Hotels & Resorts",United Kingdom,13529145h
-http://example.com/country/id/145,The Caledonian,United Kingdom,16256099h
-http://example.com/country/id/145,The Drayton Court,United Kingdom,7730896h
-http://example.com/country/id/145,The George Hotel,United Kingdom,7736171h
-http://example.com/country/id/145,The Mytton and Mermaid Hotel,United Kingdom,26306764h
-http://example.com/country/id/145,The Old Hall Hotel,United Kingdom,26398842h
-http://example.com/country/id/145,"The Old Rectory, St Columb Major",United Kingdom,7754900h
-http://example.com/country/id/145,The Ritz London,United Kingdom,1481002h
-http://example.com/country/id/145,The Shard,United Kingdom,18536h
-http://example.com/country/id/145,"The Trafalgar St. James London, Curio Collection by Hilton",United Kingdom,7832418h
-http://example.com/country/id/145,"The Waldorf Hilton, London",United Kingdom,1412478h
-http://example.com/country/id/145,"The Westminster London, Curio Collection by Hilton",United Kingdom,30097763h
-http://example.com/country/id/148,CAAC Tower,People's Republic of China,23907594h
-http://example.com/country/id/148,CTF Finance Centre,People's Republic of China,168575h
-http://example.com/country/id/148,Conrad Beijing,People's Republic of China,30097821h
-http://example.com/country/id/148,Conrad Hong Kong,People's Republic of China,15923583h
-http://example.com/country/id/148,Conrad Xiamen,People's Republic of China,57739907h
-http://example.com/country/id/148,DoubleTree by Hilton Hotel Shanghai - Pudong,People's Republic of China,7553767h
-http://example.com/country/id/148,Hengshan Picardie Hotel,People's Republic of China,15909474h
-http://example.com/country/id/148,Hilton Beijing Capital Airport,People's Republic of China,56446735h
-http://example.com/country/id/148,SEG Plaza,People's Republic of China,1368798h
-http://example.com/country/id/148,Shanghai Tower,People's Republic of China,18547h
-http://example.com/country/id/148,Sheraton Guiyang Hotel,People's Republic of China,21619228h
-http://example.com/country/id/148,Waldorf Astoria Beijing,People's Republic of China,28192892h
-http://example.com/country/id/155,Edifício A Tarde,Brazil,56711100h
-http://example.com/country/id/155,Palacete B. Carrera,Brazil,72177013h
-http://example.com/country/id/159,DoubleTree by Hilton Hotel Moscow - Marina,Russia,76726211h
-http://example.com/country/id/159,DoubleTree by Hilton Hotel Tyumen,Russia,61465403h
-http://example.com/country/id/159,DoubleTree by Hilton Moscow - Vnukovo Airport,Russia,72067004h
-http://example.com/country/id/159,Hampton by Hilton Samara,Russia,58069409h
-http://example.com/country/id/159,Hilton Garden Inn Moscow New Riga,Russia,59138963h
-http://example.com/country/id/159,Hilton Garden Inn Novorossiysk,Russia,56214797h
-http://example.com/country/id/159,Hilton Garden Inn Orenburg,Russia,56194854h
-http://example.com/country/id/159,Hilton Garden Inn Ufa Riverside,Russia,58086658h
-http://example.com/country/id/159,Hilton Garden Inn Volgograd,Russia,30337433h
-http://example.com/country/id/159,Hilton Saint Petersburg ExpoForum,Russia,30035305h
-http://example.com/country/id/159,Rossiya Hotel,Russia,1430318h
-http://example.com/country/id/16,Arlington Hotel,Canada,17512898h
-http://example.com/country/id/16,Chestnut Residence and Conference Centre,Canada,111445383h
-http://example.com/country/id/16,Delta Toronto Hotel,Canada,19817552h
-http://example.com/country/id/16,Hotel Omni Mont-Royal,Canada,26700322h
-http://example.com/country/id/16,Place Bonaventure,Canada,3389734h
-http://example.com/country/id/16,Place Viger,Canada,2363048h
-http://example.com/country/id/16,Ritz-Carlton Toronto,Canada,1143174h
-http://example.com/country/id/16,World Trade Centre Montreal,Canada,952861h
-http://example.com/country/id/17,ANA Crowne Plaza Akita,Japan,76021053h
-http://example.com/country/id/17,APA Hotel & Resort Tokyo Bay Makuhari,Japan,3281025h
-http://example.com/country/id/17,Abeno Harukas,Japan,16318627h
-http://example.com/country/id/17,Act Tower,Japan,1096141h
-http://example.com/country/id/17,Cerulean Tower,Japan,5065298h
-http://example.com/country/id/17,Conrad Tokyo,Japan,26237391h
-http://example.com/country/id/17,Global Gate,Japan,22118627h
-http://example.com/country/id/17,Hilton Fukuoka Sea Hawk,Japan,17229982h
-http://example.com/country/id/17,Hilton Nagoya,Japan,11330330h
-http://example.com/country/id/17,Hilton Niseko Village,Japan,53999203h
-http://example.com/country/id/17,Hilton Odawara Resort & Spa,Japan,11330332h
-http://example.com/country/id/17,Hilton Tokyo,Japan,17226268h
-http://example.com/country/id/17,Hilton Tokyo Bay,Japan,11330335h
-http://example.com/country/id/17,JR Central Towers,Japan,6108856h
-http://example.com/country/id/17,JR Gate Tower,Japan,11415297h
-http://example.com/country/id/17,Kanayama Minami Building,Japan,3192583h
-http://example.com/country/id/17,Koriyama View Hotel Annex,Japan,30927563h
-http://example.com/country/id/17,Nisiyama Onsen Keiunkan,Japan,7040843h
-http://example.com/country/id/17,Shiodome Media Tower,Japan,3482309h
-http://example.com/country/id/17,Tsukuba Center Building,Japan,4448816h
-http://example.com/country/id/17,Yokohama Landmark Tower,Japan,587108h
-http://example.com/country/id/183,Breite Straße 19,Germany,49593283h
-http://example.com/country/id/183,Burg Großfurra,Germany,1011881h
-http://example.com/country/id/183,Burghaus Burgsahr,Germany,1015042h
-http://example.com/country/id/183,CloudNo7,Germany,19962146h
-http://example.com/country/id/183,Dagebüll lighthouse,Germany,1682221h
-http://example.com/country/id/183,DoubleTree by Hilton Hannover Schweizerhof,Germany,111041461h
-http://example.com/country/id/183,Feuerschiff,Germany,33189243h
-http://example.com/country/id/183,Friedrichplatz 8,Germany,49593839h
-http://example.com/country/id/183,H10 Berlin Ku'damm,Germany,51222702h
-http://example.com/country/id/183,Hampton by Hilton Berlin City Centre Alexanderplatz,Germany,73499085h
-http://example.com/country/id/183,Hampton by Hilton Freiburg,Germany,60912347h
-http://example.com/country/id/183,Hampton by Hilton Munich City West,Germany,62479268h
-http://example.com/country/id/183,Hampton by Hilton Nuremberg City Centre,Germany,84029894h
-http://example.com/country/id/183,Hilton Bonn,Germany,20046383h
-http://example.com/country/id/183,Hilton Cologne,Germany,30021076h
-http://example.com/country/id/183,Hilton Dusseldorf,Germany,30438998h
-http://example.com/country/id/183,Hilton Frankfurt Airport,Germany,17444603h
-http://example.com/country/id/183,Hilton Frankfurt City Centre,Germany,27825013h
-http://example.com/country/id/183,Hilton Garden Inn Frankfurt Airport,Germany,17444624h
-http://example.com/country/id/183,Hilton Garden Inn Stuttgart NeckarPark,Germany,30047899h
-http://example.com/country/id/183,"Hotel Berlin, Berlin",Germany,1630833h
-http://example.com/country/id/183,Kaufhaus Jonaß,Germany,1504641h
-http://example.com/country/id/183,Kurstraße 6,Germany,49594143h
-http://example.com/country/id/183,Lloyd-Bahnhof,Germany,16833188h
-http://example.com/country/id/183,Löwenburger Hof,Germany,1879918h
-http://example.com/country/id/183,Monrepos,Germany,896259h
-http://example.com/country/id/183,Müritz Hotel,Germany,100877359h
-http://example.com/country/id/183,Pellihof,Germany,73274620h
-http://example.com/country/id/183,Prinzenpalais,Germany,2110681h
-http://example.com/country/id/183,Rawema-Haus,Germany,89425684h
-http://example.com/country/id/183,Schloss Kölzow,Germany,47902573h
-http://example.com/country/id/183,Schlosshotel Kronberg,Germany,510121h
-http://example.com/country/id/183,Schloßstraße 5,Germany,49595033h
-http://example.com/country/id/183,Waldorf Astoria Berlin,Germany,220141h
-http://example.com/country/id/183,former station for biology Plön,Germany,56027180h
-http://example.com/country/id/184,DoubleTree by Hilton Hotel Minsk,Belarus,59131992h
-http://example.com/country/id/184,Viciebsk,Belarus,17043498h
-http://example.com/country/id/189,Canopy by Hilton Reykjavik City Centre,Iceland,56598554h
-http://example.com/country/id/189,Hilton Reykjavik Nordica,Iceland,64822290h
-http://example.com/country/id/191,Hilton Tallinn Park,Estonia,31277862h
-http://example.com/country/id/191,Taagepera Castle,Estonia,2971063h
-http://example.com/country/id/212,Hilton Kyiv,Ukraine,20075891h
-http://example.com/country/id/213,"Dominican monastery in Malá Strana, Prague",Czech Republic,24708167h
-http://example.com/country/id/213,Hilton Prague,Czech Republic,4040675h
-http://example.com/country/id/213,Hilton Prague Old Town,Czech Republic,30139243h
-http://example.com/country/id/213,Hotel International Prague,Czech Republic,1874734h
-http://example.com/country/id/213,Hotel Jalta,Czech Republic,9294080h
-http://example.com/country/id/213,Hotel Paříž,Czech Republic,12020416h
-http://example.com/country/id/213,Hotel Pyramida,Czech Republic,68167138h
-http://example.com/country/id/213,Hybernská 12,Czech Republic,18340195h
-http://example.com/country/id/213,King's Casino Rozvadov,Czech Republic,60847568h
-http://example.com/country/id/213,"Krajinská 41, Zátkův dům",Czech Republic,31861463h
-http://example.com/country/id/213,Na můstku 10,Czech Republic,106996884h
-http://example.com/country/id/213,Nový Pachtovský palác,Czech Republic,22583354h
-http://example.com/country/id/213,Ostrovní 15,Czech Republic,110251555h
-http://example.com/country/id/213,Parkhotel Praha,Czech Republic,68121379h
-http://example.com/country/id/213,U Medvídků,Czech Republic,31827738h
-http://example.com/country/id/213,U zlatého anděla,Czech Republic,31827676h
-http://example.com/country/id/213,Washingtonova 23,Czech Republic,64769038h
-http://example.com/country/id/213,house at V jirchářích 13,Czech Republic,59519828h
-http://example.com/country/id/218,Athenee Palace Hilton Bucharest,Romania,979477h
-http://example.com/country/id/218,Corona Hotel in Baia Sprie,Romania,43031921h
-http://example.com/country/id/218,DoubleTree by Hilton Hotel Cluj - City Plaza,Romania,33101471h
-http://example.com/country/id/218,DoubleTree by Hilton Hotel Oradea,Romania,30140581h
-http://example.com/country/id/222,Arena Center,Albania,76355045h
-http://example.com/country/id/222,Hilton Garden Inn Tirana,Albania,63859908h
-http://example.com/country/id/224,Canopy by Hilton Zagreb - City Centre,Croatia,60642328h
-http://example.com/country/id/224,Dalmatia Tower,Croatia,54427554h
-http://example.com/country/id/224,Hilton Garden Inn Zagreb - Radnicka,Croatia,73898961h
-http://example.com/country/id/224,Hilton Imperial Dubrovnik,Croatia,30736107h
-http://example.com/country/id/224,Hotel Kvarner,Croatia,851102h
-http://example.com/country/id/232,Hilton Astana,Kazakhstan,50809149h
-http://example.com/country/id/233,Hilton Malta,Malta,67920401h
-http://example.com/country/id/236,Hilton Podgorica Crna Gora,Montenegro,5911415h
-http://example.com/country/id/252,Conrad Bali,Indonesia,29981099h
-http://example.com/country/id/252,DoubleTree by Hilton Hotel Jakarta - Diponegoro,Indonesia,74665770h
-http://example.com/country/id/252,Hilton Bandung,Indonesia,2141411h
-http://example.com/country/id/252,Hilton Nagoya,Indonesia,11330330h
-http://example.com/country/id/258,Hilton Cape Town City Centre,South Africa,60452089h
-http://example.com/country/id/258,Hilton Durban,South Africa,90404749h
-http://example.com/country/id/258,Hilton Sandton,South Africa,90682834h
-http://example.com/country/id/28,"Danubius Hotel Hungaria City Center, Budapest",Hungary,65218555h
-http://example.com/country/id/28,InterContinental Budapest,Hungary,15228738h
-http://example.com/country/id/28,"Kempinski Hotel Corvinus, Budapest",Hungary,1106716h
-http://example.com/country/id/29,Antiguo Hotel Miramar,Spain,6058109h
-http://example.com/country/id/29,Can Balaguer,Spain,110735133h
-http://example.com/country/id/29,Can Cera,Spain,108309815h
-http://example.com/country/id/29,Can Ferrandell,Spain,106192327h
-http://example.com/country/id/29,Canfranc-Estación,Spain,13049756h
-http://example.com/country/id/29,"Casa Alberola Alicante, Curio Collection by Hilton",Spain,14753688h
-http://example.com/country/id/29,Casa Gabino Bobo,Spain,110831132h
-http://example.com/country/id/29,Casa Pere Villoch,Spain,81100400h
-http://example.com/country/id/29,Convent of the Capuchinos,Spain,55346142h
-http://example.com/country/id/29,Convento Dominico de Nuestra Señora de la Consolación,Spain,5785660h
-http://example.com/country/id/29,DoubleTree by Hilton Hotel Girona,Spain,58229015h
-http://example.com/country/id/29,DoubleTree by Hilton Madrid - Prado,Spain,72172868h
-http://example.com/country/id/29,Edifici Companyia Transatlàntica,Spain,81100403h
-http://example.com/country/id/29,Edificio Gran Vía 4,Spain,23828028h
-http://example.com/country/id/29,El Palace Hotel Barcelona,Spain,28844857h
-http://example.com/country/id/29,"Flour Mill at 129 Port avenue, Valencia",Spain,108294146h
-http://example.com/country/id/29,Flour factory San José,Spain,5872085h
-http://example.com/country/id/29,Gran Vía 18,Spain,28757120h
-http://example.com/country/id/29,"Gran Vía 22, Madrid",Spain,28662736h
-http://example.com/country/id/29,"Gran Vía 74, Madrid",Spain,57297679h
-http://example.com/country/id/29,Hilton Barcelona,Spain,55347999h
-http://example.com/country/id/29,Hilton Diagonal Mar Barcelona,Spain,16843761h
-http://example.com/country/id/29,Hilton Garden Inn Sevilla,Spain,90545243h
-http://example.com/country/id/29,Hotel Alay,Spain,29415039h
-http://example.com/country/id/29,Hotel Alfonso X El Sabio,Spain,29909111h
-http://example.com/country/id/29,Hotel Catalonia Atocha,Spain,28755991h
-http://example.com/country/id/29,Hotel Catalonia Gran Vía,Spain,28756862h
-http://example.com/country/id/29,Hotel Gran Meliá Don Pepe,Spain,5594050h
-http://example.com/country/id/29,Hotel Gran Vía,Spain,28769024h
-http://example.com/country/id/29,Hotel Málaga Palacio,Spain,5903404h
-http://example.com/country/id/29,Hotel NH Paseo del Prado,Spain,28746397h
-http://example.com/country/id/29,Hotel Palace of Valencia,Spain,50356312h
-http://example.com/country/id/29,Hotel Porta Fira,Spain,1189944h
-http://example.com/country/id/29,Hotel Santo Mauro,Spain,26707727h
-http://example.com/country/id/29,Hotel Senator Gran Vía,Spain,28757959h
-http://example.com/country/id/29,Hotel Tryp Cibeles,Spain,28757977h
-http://example.com/country/id/29,"Hotel Villa Magna, Madrid",Spain,64785112h
-http://example.com/country/id/29,"Hotel de las Letras, Madrid",Spain,5903511h
-http://example.com/country/id/29,Palacio Oriol,Spain,28756542h
-http://example.com/country/id/29,Palacio del Marqués de Velada,Spain,15640601h
-http://example.com/country/id/29,Palau Benet-Desvilar,Spain,47166648h
-http://example.com/country/id/29,Papelera Española building,Spain,29007102h
-http://example.com/country/id/29,Pazo of the Maceda Counts,Spain,96757505h
-http://example.com/country/id/29,Tabacos de Filipinas building,Spain,21568919h
-http://example.com/country/id/29,Torre de Madrid,Spain,1063195h
-http://example.com/country/id/29,Torre del Remei,Spain,18008489h
-http://example.com/country/id/29,"former Hotel Castilla, Toledo",Spain,56705491h
-http://example.com/country/id/30,18 Gramercy Park,United States of America,21402642h
-http://example.com/country/id/30,3 V Tourist Court,United States of America,38251391h
-http://example.com/country/id/30,"333 Battery Street, San Francisco,",United States of America,14683065h
-http://example.com/country/id/30,520 West 41st Street,United States of America,2631856h
-http://example.com/country/id/30,Aliante Casino and Hotel,United States of America,4725573h
-http://example.com/country/id/30,Allerton Hotel,United States of America,2837946h
-http://example.com/country/id/30,Ambassador Hotel,United States of America,19864040h
-http://example.com/country/id/30,Aria Resort and Casino,United States of America,654279h
-http://example.com/country/id/30,Arizona Charlie's Boulder,United States of America,4791273h
-http://example.com/country/id/30,Arlington Hotel,United States of America,4792351h
-http://example.com/country/id/30,Arminius Hotel,United States of America,4793581h
-http://example.com/country/id/30,B&O Railroad Headquarters Building,United States of America,16949846h
-http://example.com/country/id/30,Balboa Inn,United States of America,804686h
-http://example.com/country/id/30,Balch Hotel,United States of America,804702h
-http://example.com/country/id/30,Bally's Las Vegas Hotel & Casino,United States of America,805467h
-http://example.com/country/id/30,Bangor House,United States of America,24693404h
-http://example.com/country/id/30,Bay Mills Resort & Casino,United States of America,22997753h
-http://example.com/country/id/30,Beaumont Hotel,United States of America,55605106h
-http://example.com/country/id/30,Bellagio Hotel & Casino,United States of America,25007h
-http://example.com/country/id/30,Berwyn Apartments,United States of America,85845504h
-http://example.com/country/id/30,Binion's Horseshoe,United States of America,654906h
-http://example.com/country/id/30,Bluebeard's Castle,United States of America,20830632h
-http://example.com/country/id/30,Boardwalk Hotel and Casino,United States of America,167870h
-http://example.com/country/id/30,Bonneville Hotel,United States of America,38251968h
-http://example.com/country/id/30,Booth Hotel,United States of America,48843972h
-http://example.com/country/id/30,Boulder Station,United States of America,4949600h
-http://example.com/country/id/30,Brandt Hotel,United States of America,47004857h
-http://example.com/country/id/30,Breakers Hotel,United States of America,4272804h
-http://example.com/country/id/30,Brinker Collegiate Institute,United States of America,107121457h
-http://example.com/country/id/30,Broadway Hotel,United States of America,65042009h
-http://example.com/country/id/30,Brooks Hotel,United States of America,43371249h
-http://example.com/country/id/30,Bryan Building,United States of America,4979998h
-http://example.com/country/id/30,Bryson Apartment Hotel,United States of America,995338h
-http://example.com/country/id/30,Bump Block-Bellevue House-Hawthorne Hotel,United States of America,85749503h
-http://example.com/country/id/30,Burlington Hotel,United States of America,4999251h
-http://example.com/country/id/30,Cadillac Hotel,United States of America,2928530h
-http://example.com/country/id/30,Caesars Palace,United States of America,569978h
-http://example.com/country/id/30,California Hotel and Casino,United States of America,869378h
-http://example.com/country/id/30,Camlin Hotel,United States of America,2935180h
-http://example.com/country/id/30,Castaways Hotel and Casino,United States of America,5049621h
-http://example.com/country/id/30,Central House Hotel,United States of America,5061223h
-http://example.com/country/id/30,Cimarron Hotel,United States of America,5120095h
-http://example.com/country/id/30,Circus Circus Las Vegas,United States of America,1092961h
-http://example.com/country/id/30,Clarendon Hotel,United States of America,113164237h
-http://example.com/country/id/30,Clarke Hotel,United States of America,54873914h
-http://example.com/country/id/30,Commercial Hotel,United States of America,25247913h
-http://example.com/country/id/30,Cosmopolitan of Las Vegas,United States of America,1436845h
-http://example.com/country/id/30,Crowne Plaza Times Square,United States of America,5189543h
-http://example.com/country/id/30,Culver Hotel,United States of America,3699364h
-http://example.com/country/id/30,Davenport Hotel,United States of America,5230243h
-http://example.com/country/id/30,Delano Las Vegas,United States of America,2297323h
-http://example.com/country/id/30,Desert Inn,United States of America,1200583h
-http://example.com/country/id/30,Dousman Hotel,United States of America,5302326h
-http://example.com/country/id/30,Downtown Grand Hotel & Casino,United States of America,4261094h
-http://example.com/country/id/30,Dunes,United States of America,1347033h
-http://example.com/country/id/30,Eastside Cannery,United States of America,5330926h
-http://example.com/country/id/30,El Cortez,United States of America,5351073h
-http://example.com/country/id/30,El Monte Hotel,United States of America,85758819h
-http://example.com/country/id/30,El Rancho Hotel & Motel,United States of America,1324543h
-http://example.com/country/id/30,El Rancho Hotel and Casino,United States of America,9358597h
-http://example.com/country/id/30,El Reno Hotel,United States of America,24971211h
-http://example.com/country/id/30,Encore,United States of America,1340132h
-http://example.com/country/id/30,Eureka Inn,United States of America,2258969h
-http://example.com/country/id/30,Excalibur Hotel and Casino,United States of America,1064873h
-http://example.com/country/id/30,Fairmont San Francisco,United States of America,4272608h
-http://example.com/country/id/30,Flamingo Las Vegas,United States of America,1426968h
-http://example.com/country/id/30,Fort Piqua Plaza,United States of America,51956193h
-http://example.com/country/id/30,Fort Shelby Hotel,United States of America,5472026h
-http://example.com/country/id/30,Fort Worth Club Building,United States of America,63435869h
-http://example.com/country/id/30,Four Queens,United States of America,1051604h
-http://example.com/country/id/30,Four Seasons Hotel Chicago,United States of America,5475499h
-http://example.com/country/id/30,"Four Seasons Hotel building, San Francisco",United States of America,5475490h
-http://example.com/country/id/30,Fremont Hotel and Casino,United States of America,1136841h
-http://example.com/country/id/30,George Washington House,United States of America,5545989h
-http://example.com/country/id/30,Golden Nugget Las Vegas Hotel & Casino,United States of America,1535018h
-http://example.com/country/id/30,Grand Central Hotel,United States of America,4261513h
-http://example.com/country/id/30,Grand Hyatt San Francisco,United States of America,5594662h
-http://example.com/country/id/30,"Grand Palace Hotel, New Orleans",United States of America,5594866h
-http://example.com/country/id/30,Great Falls Tavern,United States of America,96743206h
-http://example.com/country/id/30,Greektown Casino Hotel,United States of America,5602124h
-http://example.com/country/id/30,Hacienda,United States of America,5637110h
-http://example.com/country/id/30,Hampshire House,United States of America,44406603h
-http://example.com/country/id/30,Hard Rock Hotel and Casino,United States of America,1585008h
-http://example.com/country/id/30,Harper House,United States of America,55209416h
-http://example.com/country/id/30,Harrah's Las Vegas,United States of America,1580067h
-http://example.com/country/id/30,Harvey Hotel,United States of America,60748351h
-http://example.com/country/id/30,Hilton Guam Resort & Spa,United States of America,78036841h
-http://example.com/country/id/30,Hilton San Francisco Union Square,United States of America,3498798h
-http://example.com/country/id/30,Hippee Building,United States of America,55075422h
-http://example.com/country/id/30,Hoff Building,United States of America,60323642h
-http://example.com/country/id/30,Hooters Casino Hotel,United States of America,616726h
-http://example.com/country/id/30,Hotel Alder,United States of America,5911169h
-http://example.com/country/id/30,Hotel Chelsea,United States of America,240711h
-http://example.com/country/id/30,Hotel Dudley,United States of America,107607598h
-http://example.com/country/id/30,Hotel Manger,United States of America,30644484h
-http://example.com/country/id/30,Hyatt Regency San Francisco,United States of America,5952911h
-http://example.com/country/id/30,Inez Hotel,United States of America,86754328h
-http://example.com/country/id/30,"InterContinental Chicago Magnificent Mile, an IHG Hotel",United States of America,6044861h
-http://example.com/country/id/30,InterContinental San Francisco,United States of America,3153055h
-http://example.com/country/id/30,JW Marriott Las Vegas,United States of America,6109264h
-http://example.com/country/id/30,JW Marriott San Francisco Union Square,United States of America,6109260h
-http://example.com/country/id/30,Jackson Hotel,United States of America,14689609h
-http://example.com/country/id/30,Joseph Smith Memorial Building,United States of America,3185653h
-http://example.com/country/id/30,"Kewadin Casino, Hotel and Convention Center",United States of America,23305592h
-http://example.com/country/id/30,King Edward Hotel,United States of America,6411467h
-http://example.com/country/id/30,Kirkland Hotel,United States of America,1743514h
-http://example.com/country/id/30,Lamar Hotel,United States of America,108865646h
-http://example.com/country/id/30,Las Vegas Club,United States of America,4261384h
-http://example.com/country/id/30,Las Vegas Plaza,United States of America,2461831h
-http://example.com/country/id/30,Lassen Hotel,United States of America,6493973h
-http://example.com/country/id/30,Loews Regency San Francisco,United States of America,6747856h
-http://example.com/country/id/30,Luxor Resort & Casino,United States of America,637389h
-http://example.com/country/id/30,M Resort,United States of America,264858h
-http://example.com/country/id/30,MGM Grand Detroit,United States of America,2416198h
-http://example.com/country/id/30,MGM Grand Las Vegas,United States of America,713960h
-http://example.com/country/id/30,Magnolia Hotel,United States of America,14693298h
-http://example.com/country/id/30,Main Street Station Hotel and Casino and Brewery,United States of America,3278286h
-http://example.com/country/id/30,Mandalay Bay,United States of America,1368043h
-http://example.com/country/id/30,Manor House Hotel,United States of America,107168152h
-http://example.com/country/id/30,Minor Sod House,United States of America,6869131h
-http://example.com/country/id/30,Morrison Hotel,United States of America,6914041h
-http://example.com/country/id/30,New York-New York Hotel and Casino,United States of America,1429071h
-http://example.com/country/id/30,Oakland Hotel,United States of America,60767158h
-http://example.com/country/id/30,Oheka Castle,United States of America,696927h
-http://example.com/country/id/30,Page-Walker Hotel,United States of America,4385582h
-http://example.com/country/id/30,Palace Hotel Residential Tower,United States of America,7126178h
-http://example.com/country/id/30,Palace Station,United States of America,1795050h
-http://example.com/country/id/30,Palmetto House,United States of America,113164146h
-http://example.com/country/id/30,Palms Casino Resort,United States of America,2048307h
-http://example.com/country/id/30,Paris Las Vegas,United States of America,691491h
-http://example.com/country/id/30,Planet Hollywood Resort & Casino,United States of America,1342565h
-http://example.com/country/id/30,Plaza Hotel & Casino,United States of America,7203612h
-http://example.com/country/id/30,Price Tower,United States of America,4260261h
-http://example.com/country/id/30,Prince George Hotel,United States of America,11700542h
-http://example.com/country/id/30,Professional Building,United States of America,7247936h
-http://example.com/country/id/30,Putnam House,United States of America,113051152h
-http://example.com/country/id/30,RMS Queen Mary,United States of America,752939h
-http://example.com/country/id/30,"Red Rock Casino, Resort & Spa",United States of America,7304924h
-http://example.com/country/id/30,Renaissance Center,United States of America,1541365h
-http://example.com/country/id/30,Resorts World Las Vegas,United States of America,14705265h
-http://example.com/country/id/30,Rickman House,United States of America,65043882h
-http://example.com/country/id/30,Rio All-Suite Hotel and Casino,United States of America,739914h
-http://example.com/country/id/30,Ritz-Carlton Chicago,United States of America,7336896h
-http://example.com/country/id/30,Riviera Hotel and Casino,United States of America,1535845h
-http://example.com/country/id/30,Sahara Las Vegas,United States of America,1147483h
-http://example.com/country/id/30,"Sam's Town Hotel and Gambling Hall, Las Vegas",United States of America,3545225h
-http://example.com/country/id/30,San Francisco Marriott Marquis,United States of America,3471438h
-http://example.com/country/id/30,Sands Hotel and Casino,United States of America,1107391h
-http://example.com/country/id/30,Santa Fe Station,United States of America,7419570h
-http://example.com/country/id/30,Sofitel Chicago Water Tower,United States of America,7553765h
-http://example.com/country/id/30,"South Point Hotel, Casino & Spa",United States of America,1637090h
-http://example.com/country/id/30,St. James Hotel,United States of America,113163876h
-http://example.com/country/id/30,St. Nicholas Hotel,United States of America,85802924h
-http://example.com/country/id/30,St. Regis Museum Tower,United States of America,7591596h
-http://example.com/country/id/30,Stardust Resort and Casino,United States of America,202599h
-http://example.com/country/id/30,Suncoast Hotel and Casino,United States of America,4261374h
-http://example.com/country/id/30,Sunset Station,United States of America,7641354h
-http://example.com/country/id/30,Superior Oil Company Building,United States of America,7643550h
-http://example.com/country/id/30,Texas Station,United States of America,4985118h
-http://example.com/country/id/30,The Blackstone Hotel,United States of America,2905596h
-http://example.com/country/id/30,The Cairo,United States of America,7720948h
-http://example.com/country/id/30,The D Las Vegas,United States of America,1136654h
-http://example.com/country/id/30,The Drew Las Vegas,United States of America,278380h
-http://example.com/country/id/30,The Durant,United States of America,60746742h
-http://example.com/country/id/30,The Harmon,United States of America,2912992h
-http://example.com/country/id/30,The International,United States of America,61741817h
-http://example.com/country/id/30,The Landmark Hotel and Casino,United States of America,7745429h
-http://example.com/country/id/30,The Leland Hotel,United States of America,1116194h
-http://example.com/country/id/30,The Linq,United States of America,779373h
-http://example.com/country/id/30,The London NYC,United States of America,23907601h
-http://example.com/country/id/30,The Mirage,United States of America,900983h
-http://example.com/country/id/30,The Orleans,United States of America,3356472h
-http://example.com/country/id/30,The Palazzo,United States of America,1514587h
-http://example.com/country/id/30,The Peninsula Chicago,United States of America,7756547h
-http://example.com/country/id/30,"The STRAT Hotel, Casino & SkyPod",United States of America,845846h
-http://example.com/country/id/30,The Salvation Army Building,United States of America,65042333h
-http://example.com/country/id/30,The Signature at MGM Grand,United States of America,916673h
-http://example.com/country/id/30,The Venetian,United States of America,1049209h
-http://example.com/country/id/30,The Western,United States of America,7774298h
-http://example.com/country/id/30,The Whittier,United States of America,2567200h
-http://example.com/country/id/30,Treasure Island Hotel and Casino,United States of America,1360313h
-http://example.com/country/id/30,Tropicana Las Vegas,United States of America,280339h
-http://example.com/country/id/30,Trump Hotel Las Vegas,United States of America,1281171h
-http://example.com/country/id/30,Trump International Hotel and Tower,United States of America,546221h
-http://example.com/country/id/30,Union Hotel,United States of America,108865673h
-http://example.com/country/id/30,Union House,United States of America,113171856h
-http://example.com/country/id/30,Vdara,United States of America,280910h
-http://example.com/country/id/30,Veer Towers,United States of America,634258h
-http://example.com/country/id/30,Vegas World,United States of America,264203h
-http://example.com/country/id/30,Villa Santana,United States of America,20828319h
-http://example.com/country/id/30,W San Francisco,United States of America,2648096h
-http://example.com/country/id/30,Waldorf Astoria Las Vegas,United States of America,1304383h
-http://example.com/country/id/30,Welsbach Building,United States of America,104830558h
-http://example.com/country/id/30,West Baden Springs Hotel,United States of America,4479814h
-http://example.com/country/id/30,Westgate Las Vegas Resort & Casino,United States of America,1340365h
-http://example.com/country/id/30,Westin Book Cadillac Hotel,United States of America,12072758h
-http://example.com/country/id/30,Westin Las Vegas,United States of America,7988922h
-http://example.com/country/id/30,Westin San Francisco Market Street,United States of America,7988923h
-http://example.com/country/id/30,Westin St. Francis,United States of America,7988926h
-http://example.com/country/id/30,Willard InterContinental Washington,United States of America,731089h
-http://example.com/country/id/30,Windsor Hotel,United States of America,113164074h
-http://example.com/country/id/30,Wyndham Springfield City Centre,United States of America,16995460h
-http://example.com/country/id/30,Wynn Las Vegas,United States of America,1309059h
-http://example.com/country/id/31,De Gouden Leeuw,Belgium,112168936h
-http://example.com/country/id/31,Grand Hôtel G. Scheers,Belgium,114289194h
-http://example.com/country/id/31,Hilton Brussels City,Belgium,30302746h
-http://example.com/country/id/31,Hilton Brussels Grand Place,Belgium,30522857h
-http://example.com/country/id/31,Hotel Amigo,Belgium,79942014h
-http://example.com/country/id/31,Hotel Antonio Perez,Belgium,116215655h
-http://example.com/country/id/31,Hôtel van Ertborn,Belgium,99583717h
-http://example.com/country/id/31,Kasteel Solhof,Belgium,108729880h
-http://example.com/country/id/31,Nedermolen,Belgium,115282741h
-http://example.com/country/id/31,Panquinkazerne,Belgium,109451447h
-http://example.com/country/id/31,Torenhuis,Belgium,112147576h
-http://example.com/country/id/31,Zoerselhof,Belgium,110681137h
-http://example.com/country/id/32,DoubleTree by Hilton Hotel Luxembourg,Luxembourg,5764652h
-http://example.com/country/id/32,Hôtel de Paris,Luxembourg,13103085h
-http://example.com/country/id/33,Agronomitalo,Finland,17619057h
-http://example.com/country/id/33,Albertinkatu 34,Finland,98407275h
-http://example.com/country/id/33,Albertinkatu 34 - Lönnrotinkatu 26,Finland,98407274h
-http://example.com/country/id/33,Annankatu 1,Finland,98407311h
-http://example.com/country/id/33,De Gamlas Hem,Finland,26723836h
-http://example.com/country/id/33,Hilton Helsinki Kalastajatorppa,Finland,26902701h
-http://example.com/country/id/33,Hotel Kämp,Finland,1127749h
-http://example.com/country/id/33,Hotel Torni,Finland,646339h
-http://example.com/country/id/33,Hotel Villa,Finland,98582250h
-http://example.com/country/id/33,Hotelli Helsinki,Finland,98412731h
-http://example.com/country/id/33,Hotelli Marskin talo,Finland,98412733h
-http://example.com/country/id/33,Kanavakatu 8,Finland,98413370h
-http://example.com/country/id/33,Katajanokan vankilan rakennus,Finland,98433742h
-http://example.com/country/id/33,Lepopirtti,Finland,112111547h
-http://example.com/country/id/33,Munkkiniemi education center,Finland,18760038h
-http://example.com/country/id/33,Paasitorni,Finland,5710559h
-http://example.com/country/id/33,Pohjoinen Rautatiekatu 23,Finland,98432053h
-http://example.com/country/id/33,Suomi-yhtiön talo,Finland,98433825h
-http://example.com/country/id/33,Valion juustovaraston rakennus,Finland,98433308h
-http://example.com/country/id/33,Valkealinna,Finland,86595792h
-http://example.com/country/id/33,Valtion biokemiallisen tutkimuslaitoksen laboratoriorakennus,Finland,98433345h
-http://example.com/country/id/334,Hilton Garden Inn Singapore Serangoon,Singapore,64827562h
-http://example.com/country/id/334,Hilton Singapore,Singapore,5764722h
-http://example.com/country/id/334,Hilton Singapore Orchard,Singapore,111243216h
-http://example.com/country/id/334,Mandarin Orchard Singapore,Singapore,6747847h
-http://example.com/country/id/34,Dämman,Sweden,40037779h
-http://example.com/country/id/34,Hedemora stadshotell,Sweden,19564041h
-http://example.com/country/id/34,Hilton Stockholm Slussen,Sweden,10524047h
-http://example.com/country/id/34,Hotel Billingen,Sweden,10526572h
-http://example.com/country/id/34,Hotel Knaust,Sweden,10526554h
-http://example.com/country/id/34,"Stadshotellet, Karlstad",Sweden,98784123h
-http://example.com/country/id/36,15/17 Mostowa Street in Toruń,Poland,28675745h
-http://example.com/country/id/36,Castle mill in Toruń,Poland,28675210h
-http://example.com/country/id/36,DoubleTree by Hilton Hotel Wroclaw,Poland,30407987h
-http://example.com/country/id/36,DoubleTree by Hilton Krakow Hotel & Convention Center,Poland,76724214h
-http://example.com/country/id/36,Hampton by Hilton Warsaw Airport,Poland,71817207h
-http://example.com/country/id/36,Hampton by Hilton Warsaw Mokotow,Poland,63832005h
-http://example.com/country/id/36,Hilton Garden Inn Krakow,Poland,75018491h
-http://example.com/country/id/36,Hilton Gdańsk,Poland,9294078h
-http://example.com/country/id/36,Hilton Warsaw City,Poland,1630911h
-http://example.com/country/id/38,Ausonia Palace Hotel,Italy,27962079h
-http://example.com/country/id/38,DoubleTree by Hilton Hotel Milan,Italy,30347445h
-http://example.com/country/id/38,DoubleTree by Hilton Hotel Olbia - Sardinia,Italy,67013894h
-http://example.com/country/id/38,Hilton Garden Inn Florence Novoli,Italy,51025456h
-http://example.com/country/id/38,Hilton Garden Inn Matera,Italy,30251296h
-http://example.com/country/id/38,Hilton Garden Inn Rome Airport,Italy,67206508h
-http://example.com/country/id/38,Hilton Molino Stucky Venice,Italy,1943482h
-http://example.com/country/id/38,"La Bagnaia Golf & Spa Resort Siena, Curio Collection by Hilton",Italy,61114082h
-http://example.com/country/id/38,Palazzo Montemartini,Italy,57613527h
-http://example.com/country/id/38,"Rome Cavalieri, A Waldorf Astoria Hotel",Italy,52886668h
-http://example.com/country/id/38,Villa Balbi,Italy,108516880h
-http://example.com/country/id/38,Villa Crespi,Italy,1457875h
-http://example.com/country/id/38,Villa Gaia,Italy,98550889h
-http://example.com/country/id/38,Villa Torretta,Italy,16621592h
-http://example.com/country/id/39,Gasthof Krone,Switzerland,19362430h
-http://example.com/country/id/39,Hilton Zurich Airport,Switzerland,25204442h
-http://example.com/country/id/39,Hotel Bodenhaus,Switzerland,1630837h
-http://example.com/country/id/39,Hotel Weiss Kreuz,Switzerland,1630814h
-http://example.com/country/id/40,"Grand Tirolia Hotel Kitzbuhel, Curio Collection by Hilton",Austria,60641676h
-http://example.com/country/id/40,Hilton Vienna Park,Austria,30409284h
-http://example.com/country/id/40,Schüttkasten Geras,Austria,1401439h
-http://example.com/country/id/408,"32 Bond Street, Ross",Australia,103331335h
-http://example.com/country/id/408,Bowen River Hotel,Australia,23640921h
-http://example.com/country/id/408,British Hotel,Australia,104234251h
-http://example.com/country/id/408,Commercial Hotel,Australia,104083353h
-http://example.com/country/id/408,Crown Sydney,Australia,16890775h
-http://example.com/country/id/408,DoubleTree by Hilton Hotel Cairns,Australia,27826630h
-http://example.com/country/id/408,DoubleTree by Hilton Hotel Darwin,Australia,29000794h
-http://example.com/country/id/408,DoubleTree by Hilton Hotel Melbourne - Flinders Street,Australia,33382454h
-http://example.com/country/id/408,"George Hotel, Sydney",Australia,59872505h
-http://example.com/country/id/408,Hilton Adelaide,Australia,30306779h
-http://example.com/country/id/408,Hilton Brisbane,Australia,63190257h
-http://example.com/country/id/408,Hilton Cairns,Australia,51918515h
-http://example.com/country/id/408,Hilton Surfers Paradise Hotel & Residences,Australia,61573625h
-http://example.com/country/id/408,Hilton Sydney,Australia,69383898h
-http://example.com/country/id/408,Manor Apartment Hotel,Australia,6751307h
-http://example.com/country/id/408,Noccundra Hotel,Australia,28184310h
-http://example.com/country/id/408,Royal Mail Hotel,Australia,28184307h
-http://example.com/country/id/408,Trickett's Hotel,Australia,59872532h
-http://example.com/country/id/408,"Wales House, Sydney",Australia,60055194h
-http://example.com/country/id/408,"West Hotel Sydney, Curio Collection by Hilton",Australia,78897920h
-http://example.com/country/id/41,Hilton Athens,Greece,3037053h
-http://example.com/country/id/41,Parnitha Sanatorium,Greece,65037569h
-http://example.com/country/id/43,Conrad Istanbul Bosphorus,Turkey,26734729h
-http://example.com/country/id/43,DoubleTree by Hilton Hotel Avanos - Cappadocia,Turkey,30242708h
-http://example.com/country/id/43,DoubleTree by Hilton Hotel Istanbul - Moda,Turkey,33035435h
-http://example.com/country/id/43,DoubleTree by Hilton Hotel Istanbul - Old Town,Turkey,30014678h
-http://example.com/country/id/43,DoubleTree by Hilton Kocaeli,Turkey,63869688h
-http://example.com/country/id/43,"Hagia Sofia Mansions Istanbul, Curio Collection by Hilton",Turkey,5912133h
-http://example.com/country/id/43,Hampton by Hilton Bursa,Turkey,106393048h
-http://example.com/country/id/43,Hilton Bursa Convention Center and Spa,Turkey,96377064h
-http://example.com/country/id/43,Hilton Garden Inn Istanbul Golden Horn Turkey,Turkey,66424250h
-http://example.com/country/id/43,Hilton Istanbul Bomonti Hotel & Conference Center,Turkey,50353048h
-http://example.com/country/id/43,Hilton Istanbul Bosphorus,Turkey,4806513h
-http://example.com/country/id/43,Hilton Istanbul Maslak,Turkey,59209270h
-http://example.com/country/id/43,Hilton Izmir,Turkey,4822225h
-http://example.com/country/id/43,Wyndham Grand İzmir Özdilek,Turkey,3359202h
-http://example.com/country/id/45,Antigo Convento do Desagravo do Santíssimo Sacramento,Portugal,10352207h
-http://example.com/country/id/45,Capela e Hospital da Santa Casa da Misericórdia de Ourém,Portugal,10352202h
-http://example.com/country/id/45,Castle of Alcácer do Sal,Portugal,5049734h
-http://example.com/country/id/45,Castle of Alvito,Portugal,4993716h
-http://example.com/country/id/45,Castle of Estremoz,Portugal,66813690h
-http://example.com/country/id/45,Castle of Vila Nova de Cerveira,Portugal,5049843h
-http://example.com/country/id/45,Castle of Óbidos,Portugal,2579998h
-http://example.com/country/id/45,Citadel of Cascais,Portugal,17390148h
-http://example.com/country/id/45,Companhia de Moagens Harmonia,Portugal,54474974h
-http://example.com/country/id/45,Conrad Algarve,Portugal,64845961h
-http://example.com/country/id/45,Convento das Chagas (Vila Viçosa),Portugal,10352192h
-http://example.com/country/id/45,Convento das Eremitas de Santo Agostinho,Portugal,9871323h
-http://example.com/country/id/45,Convento de Nossa Senhora da Boa Esperança,Portugal,10352211h
-http://example.com/country/id/45,Convento de Santa Maria do Bouro,Portugal,1237113h
-http://example.com/country/id/45,Convento do Salvador,Portugal,53806946h
-http://example.com/country/id/45,Convento dos Lóios,Portugal,10352195h
-http://example.com/country/id/45,Convento dos Lóios,Portugal,10352219h
-http://example.com/country/id/45,Forte de São Sebastião,Portugal,5472556h
-http://example.com/country/id/45,"Hotel Ritz, incluindo o património integrado",Portugal,66814366h
-http://example.com/country/id/45,Moov Hotel Porto Centro,Portugal,54475224h
-http://example.com/country/id/45,Mosteiro de Flor da Rosa,Portugal,10332618h
-http://example.com/country/id/45,NH Collection Porto Batalha,Portugal,54475217h
-http://example.com/country/id/45,Palacete do Chafariz d'El-Rei,Portugal,53881282h
-http://example.com/country/id/45,Palácio Belmonte,Portugal,10343928h
-http://example.com/country/id/45,"Palácio Hotel de Bussaco, Palacete Hotel do Buçaco",Portugal,66813051h
-http://example.com/country/id/45,Palácio de Estói,Portugal,10344021h
-http://example.com/country/id/45,Palácio do Freixo,Portugal,9054487h
-http://example.com/country/id/45,Pousada de Condeixa-a-Nova,Portugal,10352198h
-http://example.com/country/id/45,Pousada de Viseu,Portugal,10352206h
-http://example.com/country/id/45,Quinta da Pacheca,Portugal,54475112h
-http://example.com/country/id/45,Quinta das Lágrimas,Portugal,3414568h
-http://example.com/country/id/45,Sanatório das Penhas da Saúde,Portugal,28680070h
-http://example.com/country/id/45,Santa Casa da Misericórdia de Óbidos,Portugal,73640935h
-http://example.com/country/id/45,Solar da Rede,Portugal,10352218h
-http://example.com/country/id/45,Teatro Eden,Portugal,2398831h
-http://example.com/country/id/55,DoubleTree by Hilton Royal Parc Soestduinen,Netherlands,67868674h
-http://example.com/country/id/55,Hampton by Hilton Amsterdam / Arena Boulevard,Netherlands,64845950h
-http://example.com/country/id/55,Hampton by Hilton Amsterdam Airport Schiphol,Netherlands,69531148h
-http://example.com/country/id/55,Hilton Amsterdam,Netherlands,2135814h
-http://example.com/country/id/55,Hilton Amsterdam Airport Schiphol,Netherlands,41069183h
-http://example.com/country/id/55,Hilton Rotterdam,Netherlands,18813051h
-http://example.com/country/id/55,Hilton The Hague,Netherlands,2899830h
-http://example.com/country/id/55,"Overtoom 33, Amsterdam",Netherlands,106090892h
-http://example.com/country/id/55,Sint-Antonius van Paduakerk,Netherlands,55185046h
-http://example.com/country/id/55,Waldorf Astoria Amsterdam,Netherlands,18286846h
-http://example.com/country/id/664,Hilton Auckland,New Zealand,28053246h
-http://example.com/country/id/664,MLC Building,New Zealand,79309518h
-http://example.com/country/id/664,Metropolis,New Zealand,6824905h
-http://example.com/country/id/668,Conrad Bengaluru,India,99454646h
-http://example.com/country/id/668,DoubleTree by Hilton Gurugram Baani Square,India,27456363h
-http://example.com/country/id/668,DoubleTree by Hilton Hotel Gurgaon - New Delhi NCR,India,66439260h
-http://example.com/country/id/668,Hilton Chennai,India,5764519h
-http://example.com/country/id/668,Hilton Garden Inn New Delhi/Saket,India,32947262h
-http://example.com/country/id/668,Hilton Jaipur,India,72278577h
-http://example.com/country/id/668,Hilton Shillim Estate Retreat & Spa,India,66771676h
-http://example.com/country/id/712,Hilton Fiji Beach Resort and Spa,Fiji,61888685h
-http://example.com/country/id/778,Baha Mar,The Bahamas,4842213h
-http://example.com/country/id/79,Conrad Cairo,Egypt,62068054h
-http://example.com/country/id/79,Fayrouz Ressort,Egypt,18509174h
-http://example.com/country/id/79,Gezirah Palace,Egypt,145361h
-http://example.com/country/id/79,Heliopolis Towers Hotel,Egypt,105554563h
-http://example.com/country/id/79,Hilton Alexandria King's Ranch,Egypt,30308807h
-http://example.com/country/id/79,Hilton Cairo Heliopolis,Egypt,5430586h
-http://example.com/country/id/79,Hilton Hurghada Plaza,Egypt,30307361h
-http://example.com/country/id/79,Hilton Hurghada Resort,Egypt,18509281h
-http://example.com/country/id/79,Hilton Luxor Resort & Spa,Egypt,73621829h
-http://example.com/country/id/79,Hilton Marsa Alam Nubian Resort,Egypt,61885625h
-http://example.com/country/id/79,Hilton Pyramids Golf,Egypt,41300192h
-http://example.com/country/id/79,Hilton Sharks Bay Resort,Egypt,76795105h
-http://example.com/country/id/79,Safir Sharm Waterfalls Resort,Egypt,5764716h
-http://example.com/country/id/794,Abbasi Hotel,Iran,306000h
-http://example.com/country/id/794,Alafchian House,Iran,5901285h
-http://example.com/country/id/794,Ameri House,Iran,9294281h
-http://example.com/country/id/794,Aminabad Caravanserai,Iran,5907540h
-http://example.com/country/id/794,Banitaba House,Iran,5918301h
-http://example.com/country/id/794,Dalan-e Behesht Hotel,Iran,110660372h
-http://example.com/country/id/794,Dr. Hojjat House,Iran,5894717h
-http://example.com/country/id/794,Ehsan House (Kashan),Iran,5963275h
-http://example.com/country/id/794,Golshan House (Yazd),Iran,42874514h
-http://example.com/country/id/794,Guged Caravanserai,Iran,5705250h
-http://example.com/country/id/794,Kasra Vafadari House,Iran,5885917h
-http://example.com/country/id/794,Khesht Abad Hotel,Iran,110664670h
-http://example.com/country/id/794,Khoshnevis Mansion,Iran,5884157h
-http://example.com/country/id/794,Malek al-Tojar House (Yazd),Iran,5683588h
-http://example.com/country/id/794,Malekzadeh House (Yazd),Iran,5878173h
-http://example.com/country/id/794,Manuchehri House (Kashan),Iran,5920727h
-http://example.com/country/id/794,Moshir Caravanserai,Iran,5892374h
-http://example.com/country/id/794,Moshir Garden,Iran,5891776h
-http://example.com/country/id/794,Qorban Alizadeh House,Iran,5883194h
-http://example.com/country/id/794,Semnani House,Iran,61357012h
-http://example.com/country/id/794,Shah Abbasi Caravanserai of Abuzeydabad,Iran,42748124h
-http://example.com/country/id/794,Shah Abbasi Caravanserai of Bisotun,Iran,5908224h
-http://example.com/country/id/794,Silk Road Hotel (Yazd),Iran,110660109h
-http://example.com/country/id/794,Tehrani House (Yazd),Iran,42867978h
-http://example.com/country/id/794,Vakil Caravanserai,Iran,6448583h
-http://example.com/country/id/794,Zargar Yazdi House,Iran,6538417h
-http://example.com/country/id/794,Zein-o-Din Caravanserai,Iran,15068974h
-http://example.com/country/id/801,Hilton Tel Aviv,Israel,7216435h
-http://example.com/country/id/801,Leonardo City Tower Hotel,Israel,2908788h
-http://example.com/country/id/801,Palatin Hotel Tel Aviv,Israel,2902501h
-http://example.com/country/id/810,DoubleTree by Hilton Hotel Aqaba,Jordan,74812978h
-http://example.com/country/id/817,Hilton Garden Inn Kuwait,Kuwait,96787014h
-http://example.com/country/id/817,Hilton Kuwait Resort,Kuwait,56478942h
-http://example.com/country/id/826,"SAii Lagoon Maldives, Curio Collection by Hilton",Maldives,110010967h
-http://example.com/country/id/833,DoubleTree Resort by Hilton Penang,Malaysia,54652699h
-http://example.com/country/id/833,DoubleTree by Hilton Hotel Kuala Lumpur,Malaysia,49393251h
-http://example.com/country/id/833,Hilton Garden Inn Kuala Lumpur Jalan Tuanku Abdul Rahman North,Malaysia,70206906h
-http://example.com/country/id/833,Hilton Garden Inn Kuala Lumpur Jalan Tuanku Abdul Rahman South,Malaysia,63296024h
-http://example.com/country/id/833,Hilton Garden Inn Puchong,Malaysia,56827407h
-http://example.com/country/id/833,Hilton Kuching,Malaysia,76721707h
-http://example.com/country/id/833,Merdeka 118,Malaysia,7969454h
-http://example.com/country/id/836,Hilton Mandalay,Myanmar,73879785h
-http://example.com/country/id/846,"AlRayyan Hotel Doha, Curio Collection by Hilton",Qatar,78054939h
-http://example.com/country/id/846,Aspire Tower,Qatar,737602h
-http://example.com/country/id/851,Abraj Al Bait,Saudi Arabia,189476h
-http://example.com/country/id/851,Conrad Makkah,Saudi Arabia,30090585h
-http://example.com/country/id/851,Hilton Garden Inn Riyadh Olaya,Saudi Arabia,75971164h
-http://example.com/country/id/851,Hilton Makkah Convention Hotel,Saudi Arabia,66586875h
-http://example.com/country/id/851,Hilton Suites Makkah,Saudi Arabia,91607548h
-http://example.com/country/id/851,Jeddah Hilton Hotel,Saudi Arabia,6172690h
-http://example.com/country/id/851,Kingdom Centre,Saudi Arabia,656743h
-http://example.com/country/id/851,Makkah Clock Royal Tower Hotel,Saudi Arabia,18712428h
-http://example.com/country/id/851,Makkah Millennium Hotel,Saudi Arabia,28456180h
-http://example.com/country/id/854,Hilton Colombo,Sri Lanka,64859000h
-http://example.com/country/id/854,Hilton Colombo Residences,Sri Lanka,30174421h
-http://example.com/country/id/854,Krrish Square,Sri Lanka,6439146h
-http://example.com/country/id/869,Conrad Bangkok,Thailand,61897167h
-http://example.com/country/id/869,Conrad Koh Samui,Thailand,67765140h
-http://example.com/country/id/869,DoubleTree by Hilton Bangkok Ploenchit,Thailand,81495406h
-http://example.com/country/id/869,Hilton Hua Hin Resort & Spa,Thailand,59492165h
-http://example.com/country/id/869,Hilton Pattaya,Thailand,66658603h
-http://example.com/country/id/869,Hilton Sukhumvit Bangkok,Thailand,26878946h
-http://example.com/country/id/869,Millennium Hilton Bangkok,Thailand,47518776h
-http://example.com/country/id/869,Pullman Bangkok Hotel G,Thailand,7553769h
-http://example.com/country/id/878,Burj Khalifa,United Arab Emirates,12495h
-http://example.com/country/id/878,Conrad Dubai,United Arab Emirates,550379h
-http://example.com/country/id/878,DoubleTree by Hilton Dubai - Business Bay,United Arab Emirates,66437370h
-http://example.com/country/id/878,DoubleTree by Hilton Hotel Dubai - Jumeirah Beach,United Arab Emirates,50308536h
-http://example.com/country/id/878,Hampton by Hilton Dubai Al Barsha,United Arab Emirates,76620470h
-http://example.com/country/id/878,Hilton Capital Grand Abu Dhabi,United Arab Emirates,74527699h
-http://example.com/country/id/878,Hilton Dubai Creek,United Arab Emirates,7281354h
-http://example.com/country/id/878,Hilton Dubai Jumeirah,United Arab Emirates,30147522h
-http://example.com/country/id/878,Hilton Dubai The Walk,United Arab Emirates,22976715h
-http://example.com/country/id/878,Hilton Garden Inn Dubai Al Jadaf Culture Village,United Arab Emirates,60732352h
-http://example.com/country/id/878,Hilton Garden Inn Dubai Al Mina,United Arab Emirates,66660297h
-http://example.com/country/id/878,Hilton Garden Inn Dubai Mall of the Emirates,United Arab Emirates,27981667h
-http://example.com/country/id/878,Hilton Garden Inn Ras Al Khaimah,United Arab Emirates,64933804h
-http://example.com/country/id/878,Jumeirah Emirates Towers Hotel,United Arab Emirates,1049027h
-http://example.com/country/id/878,Waldorf Astoria Dubai Palm Jumeirah,United Arab Emirates,34204337h
-http://example.com/country/id/878,Waldorf Astoria Ras Al Khaimah,United Arab Emirates,66423173h
-http://example.com/country/id/881,Hilton Hanoi Opera,Vietnam,5764576h
-http://example.com/country/id/912,Radisson Blu Hotel in Bamako,Mali,21532003h
-http://example.com/country/id/924,DoubleTree by Hilton Hotel Zanzibar - Stone Town,Tanzania,72988389h
-http://example.com/country/id/929,Oubangui Hotel,Central African Republic,105621651h
-http://example.com/country/id/953,Hilton Garden Inn Lusaka Society Business Park,Zambia,77418726h
+s,hotel_name,country_id,country_name
+100877359h,Müritz Hotel,http://example.com/country/id/183,Germany
+1011881h,Burg Großfurra,http://example.com/country/id/183,Germany
+1015042h,Burghaus Burgsahr,http://example.com/country/id/183,Germany
+10332618h,Mosteiro de Flor da Rosa,http://example.com/country/id/45,Portugal
+103331335h,"32 Bond Street, Ross",http://example.com/country/id/408,Australia
+10343928h,Palácio Belmonte,http://example.com/country/id/45,Portugal
+10344021h,Palácio de Estói,http://example.com/country/id/45,Portugal
+10352192h,Convento das Chagas (Vila Viçosa),http://example.com/country/id/45,Portugal
+10352195h,Convento dos Lóios,http://example.com/country/id/45,Portugal
+10352198h,Pousada de Condeixa-a-Nova,http://example.com/country/id/45,Portugal
+10352202h,Capela e Hospital da Santa Casa da Misericórdia de Ourém,http://example.com/country/id/45,Portugal
+10352206h,Pousada de Viseu,http://example.com/country/id/45,Portugal
+10352207h,Antigo Convento do Desagravo do Santíssimo Sacramento,http://example.com/country/id/45,Portugal
+10352211h,Convento de Nossa Senhora da Boa Esperança,http://example.com/country/id/45,Portugal
+10352218h,Solar da Rede,http://example.com/country/id/45,Portugal
+10352219h,Convento dos Lóios,http://example.com/country/id/45,Portugal
+104083353h,Commercial Hotel,http://example.com/country/id/408,Australia
+104234251h,British Hotel,http://example.com/country/id/408,Australia
+104830558h,Welsbach Building,http://example.com/country/id/30,United States of America
+1049027h,Jumeirah Emirates Towers Hotel,http://example.com/country/id/878,United Arab Emirates
+1049209h,The Venetian,http://example.com/country/id/30,United States of America
+1051604h,Four Queens,http://example.com/country/id/30,United States of America
+10524043h,Hilton Nairobi,http://example.com/country/id/114,Kenya
+10524047h,Hilton Stockholm Slussen,http://example.com/country/id/34,Sweden
+10526554h,Hotel Knaust,http://example.com/country/id/34,Sweden
+10526572h,Hotel Billingen,http://example.com/country/id/34,Sweden
+105554563h,Heliopolis Towers Hotel,http://example.com/country/id/79,Egypt
+105621651h,Oubangui Hotel,http://example.com/country/id/929,Central African Republic
+106090892h,"Overtoom 33, Amsterdam",http://example.com/country/id/55,Netherlands
+106192327h,Can Ferrandell,http://example.com/country/id/29,Spain
+1063195h,Torre de Madrid,http://example.com/country/id/29,Spain
+106393048h,Hampton by Hilton Bursa,http://example.com/country/id/43,Turkey
+1064873h,Excalibur Hotel and Casino,http://example.com/country/id/30,United States of America
+106996884h,Na můstku 10,http://example.com/country/id/213,Czech Republic
+107121457h,Brinker Collegiate Institute,http://example.com/country/id/30,United States of America
+107168152h,Manor House Hotel,http://example.com/country/id/30,United States of America
+107607598h,Hotel Dudley,http://example.com/country/id/30,United States of America
+108294146h,"Flour Mill at 129 Port avenue, Valencia",http://example.com/country/id/29,Spain
+108309815h,Can Cera,http://example.com/country/id/29,Spain
+108516880h,Villa Balbi,http://example.com/country/id/38,Italy
+108729880h,Kasteel Solhof,http://example.com/country/id/31,Belgium
+108865646h,Lamar Hotel,http://example.com/country/id/30,United States of America
+108865673h,Union Hotel,http://example.com/country/id/30,United States of America
+1092961h,Circus Circus Las Vegas,http://example.com/country/id/30,United States of America
+109451447h,Panquinkazerne,http://example.com/country/id/31,Belgium
+1096141h,Act Tower,http://example.com/country/id/17,Japan
+110010967h,"SAii Lagoon Maldives, Curio Collection by Hilton",http://example.com/country/id/826,Maldives
+110041692h,Central téléphonique Ségur,http://example.com/country/id/142,France
+110147122h,Hilton Garden Inn London Heathrow Terminals 2 and 3,http://example.com/country/id/145,United Kingdom
+110251555h,Ostrovní 15,http://example.com/country/id/213,Czech Republic
+110407965h,Tours Odyssey,http://example.com/country/id/142,France
+110660109h,Silk Road Hotel (Yazd),http://example.com/country/id/794,Iran
+110660372h,Dalan-e Behesht Hotel,http://example.com/country/id/794,Iran
+110664670h,Khesht Abad Hotel,http://example.com/country/id/794,Iran
+1106716h,"Kempinski Hotel Corvinus, Budapest",http://example.com/country/id/28,Hungary
+110681137h,Zoerselhof,http://example.com/country/id/31,Belgium
+110735133h,Can Balaguer,http://example.com/country/id/29,Spain
+1107391h,Sands Hotel and Casino,http://example.com/country/id/30,United States of America
+110831132h,Casa Gabino Bobo,http://example.com/country/id/29,Spain
+111041461h,DoubleTree by Hilton Hannover Schweizerhof,http://example.com/country/id/183,Germany
+111243216h,Hilton Singapore Orchard,http://example.com/country/id/334,Singapore
+111445383h,Chestnut Residence and Conference Centre,http://example.com/country/id/16,Canada
+1116194h,The Leland Hotel,http://example.com/country/id/30,United States of America
+112111547h,Lepopirtti,http://example.com/country/id/33,Finland
+112147576h,Torenhuis,http://example.com/country/id/31,Belgium
+112168936h,De Gouden Leeuw,http://example.com/country/id/31,Belgium
+1127749h,Hotel Kämp,http://example.com/country/id/33,Finland
+113051152h,Putnam House,http://example.com/country/id/30,United States of America
+113163876h,St. James Hotel,http://example.com/country/id/30,United States of America
+113164074h,Windsor Hotel,http://example.com/country/id/30,United States of America
+113164146h,Palmetto House,http://example.com/country/id/30,United States of America
+113164237h,Clarendon Hotel,http://example.com/country/id/30,United States of America
+113171856h,Union House,http://example.com/country/id/30,United States of America
+11330330h,Hilton Nagoya,http://example.com/country/id/17,Japan
+11330330h,Hilton Nagoya,http://example.com/country/id/252,Indonesia
+11330332h,Hilton Odawara Resort & Spa,http://example.com/country/id/17,Japan
+11330335h,Hilton Tokyo Bay,http://example.com/country/id/17,Japan
+113564549h,Hôtel La Pérouse,http://example.com/country/id/142,France
+1136654h,The D Las Vegas,http://example.com/country/id/30,United States of America
+1136841h,Fremont Hotel and Casino,http://example.com/country/id/30,United States of America
+11415297h,JR Gate Tower,http://example.com/country/id/17,Japan
+114289194h,Grand Hôtel G. Scheers,http://example.com/country/id/31,Belgium
+1143174h,Ritz-Carlton Toronto,http://example.com/country/id/16,Canada
+1147483h,Sahara Las Vegas,http://example.com/country/id/30,United States of America
+115282741h,Nedermolen,http://example.com/country/id/31,Belgium
+116215655h,Hotel Antonio Perez,http://example.com/country/id/31,Belgium
+11700542h,Prince George Hotel,http://example.com/country/id/30,United States of America
+1189944h,Hotel Porta Fira,http://example.com/country/id/29,Spain
+1200583h,Desert Inn,http://example.com/country/id/30,United States of America
+12020416h,Hotel Paříž,http://example.com/country/id/213,Czech Republic
+12072758h,Westin Book Cadillac Hotel,http://example.com/country/id/30,United States of America
+1237113h,Convento de Santa Maria do Bouro,http://example.com/country/id/45,Portugal
+12495h,Burj Khalifa,http://example.com/country/id/878,United Arab Emirates
+1281171h,Trump Hotel Las Vegas,http://example.com/country/id/30,United States of America
+1304383h,Waldorf Astoria Las Vegas,http://example.com/country/id/30,United States of America
+13049756h,Canfranc-Estación,http://example.com/country/id/29,Spain
+1309059h,Wynn Las Vegas,http://example.com/country/id/30,United States of America
+13103085h,Hôtel de Paris,http://example.com/country/id/32,Luxembourg
+1324543h,El Rancho Hotel & Motel,http://example.com/country/id/30,United States of America
+1340132h,Encore,http://example.com/country/id/30,United States of America
+1340365h,Westgate Las Vegas Resort & Casino,http://example.com/country/id/30,United States of America
+1342565h,Planet Hollywood Resort & Casino,http://example.com/country/id/30,United States of America
+1347033h,Dunes,http://example.com/country/id/30,United States of America
+13529145h,"The Biltmore Mayfair, LXR Hotels & Resorts",http://example.com/country/id/145,United Kingdom
+13529180h,Hilton London Hyde Park,http://example.com/country/id/145,United Kingdom
+1360313h,Treasure Island Hotel and Casino,http://example.com/country/id/30,United States of America
+1368043h,Mandalay Bay,http://example.com/country/id/30,United States of America
+1368798h,SEG Plaza,http://example.com/country/id/148,People's Republic of China
+1401439h,Schüttkasten Geras,http://example.com/country/id/40,Austria
+1412478h,"The Waldorf Hilton, London",http://example.com/country/id/145,United Kingdom
+1426968h,Flamingo Las Vegas,http://example.com/country/id/30,United States of America
+1429071h,New York-New York Hotel and Casino,http://example.com/country/id/30,United States of America
+1430318h,Rossiya Hotel,http://example.com/country/id/159,Russia
+1436845h,Cosmopolitan of Las Vegas,http://example.com/country/id/30,United States of America
+145361h,Gezirah Palace,http://example.com/country/id/79,Egypt
+1457875h,Villa Crespi,http://example.com/country/id/38,Italy
+14683065h,"333 Battery Street, San Francisco,",http://example.com/country/id/30,United States of America
+14689609h,Jackson Hotel,http://example.com/country/id/30,United States of America
+14693298h,Magnolia Hotel,http://example.com/country/id/30,United States of America
+14705265h,Resorts World Las Vegas,http://example.com/country/id/30,United States of America
+14753688h,"Casa Alberola Alicante, Curio Collection by Hilton",http://example.com/country/id/29,Spain
+1481002h,The Ritz London,http://example.com/country/id/145,United Kingdom
+14954702h,107 Piccadilly,http://example.com/country/id/145,United Kingdom
+1504641h,Kaufhaus Jonaß,http://example.com/country/id/183,Germany
+15068974h,Zein-o-Din Caravanserai,http://example.com/country/id/794,Iran
+1514587h,The Palazzo,http://example.com/country/id/30,United States of America
+15228738h,InterContinental Budapest,http://example.com/country/id/28,Hungary
+1535018h,Golden Nugget Las Vegas Hotel & Casino,http://example.com/country/id/30,United States of America
+1535845h,Riviera Hotel and Casino,http://example.com/country/id/30,United States of America
+1541365h,Renaissance Center,http://example.com/country/id/30,United States of America
+15640601h,Palacio del Marqués de Velada,http://example.com/country/id/29,Spain
+1580067h,Harrah's Las Vegas,http://example.com/country/id/30,United States of America
+1585008h,Hard Rock Hotel and Casino,http://example.com/country/id/30,United States of America
+15909474h,Hengshan Picardie Hotel,http://example.com/country/id/148,People's Republic of China
+15923583h,Conrad Hong Kong,http://example.com/country/id/148,People's Republic of China
+15978898h,Berry Head House,http://example.com/country/id/145,United Kingdom
+16256099h,The Caledonian,http://example.com/country/id/145,United Kingdom
+1630814h,Hotel Weiss Kreuz,http://example.com/country/id/39,Switzerland
+1630833h,"Hotel Berlin, Berlin",http://example.com/country/id/183,Germany
+1630837h,Hotel Bodenhaus,http://example.com/country/id/39,Switzerland
+1630911h,Hilton Warsaw City,http://example.com/country/id/36,Poland
+16318627h,Abeno Harukas,http://example.com/country/id/17,Japan
+1637090h,"South Point Hotel, Casino & Spa",http://example.com/country/id/30,United States of America
+16528268h,Aquarium et Musée de la Mer de Dinard,http://example.com/country/id/142,France
+16621592h,Villa Torretta,http://example.com/country/id/38,Italy
+167870h,Boardwalk Hotel and Casino,http://example.com/country/id/30,United States of America
+1682221h,Dagebüll lighthouse,http://example.com/country/id/183,Germany
+16833188h,Lloyd-Bahnhof,http://example.com/country/id/183,Germany
+16843761h,Hilton Diagonal Mar Barcelona,http://example.com/country/id/29,Spain
+168575h,CTF Finance Centre,http://example.com/country/id/148,People's Republic of China
+16890775h,Crown Sydney,http://example.com/country/id/408,Australia
+16949846h,B&O Railroad Headquarters Building,http://example.com/country/id/30,United States of America
+16995460h,Wyndham Springfield City Centre,http://example.com/country/id/30,United States of America
+17043498h,Viciebsk,http://example.com/country/id/184,Belarus
+17183802h,"Castle Hotel, Ruthin",http://example.com/country/id/145,United Kingdom
+17226268h,Hilton Tokyo,http://example.com/country/id/17,Japan
+17229982h,Hilton Fukuoka Sea Hawk,http://example.com/country/id/17,Japan
+17390148h,Citadel of Cascais,http://example.com/country/id/45,Portugal
+1743514h,Kirkland Hotel,http://example.com/country/id/30,United States of America
+17444603h,Hilton Frankfurt Airport,http://example.com/country/id/183,Germany
+17444624h,Hilton Garden Inn Frankfurt Airport,http://example.com/country/id/183,Germany
+17444904h,DoubleTree by Hilton Hotel London - Docklands Riverside,http://example.com/country/id/145,United Kingdom
+17512898h,Arlington Hotel,http://example.com/country/id/16,Canada
+17532427h,Stanley House,http://example.com/country/id/145,United Kingdom
+17533843h,Polebarn House,http://example.com/country/id/145,United Kingdom
+17534979h,5 and 7 High Street and Falcon Hotel Annexe,http://example.com/country/id/145,United Kingdom
+17544934h,Barton Seagrave Hall,http://example.com/country/id/145,United Kingdom
+17549646h,"2, 3 and 4, Regency Square",http://example.com/country/id/145,United Kingdom
+17554574h,Fritton Old Hall,http://example.com/country/id/145,United Kingdom
+17557267h,11 Market End,http://example.com/country/id/145,United Kingdom
+17619057h,Agronomitalo,http://example.com/country/id/33,Finland
+17793480h,Hilton Edinburgh Carlton,http://example.com/country/id/145,United Kingdom
+17834531h,1 Tower Knowe,http://example.com/country/id/145,United Kingdom
+17834546h,"Hawick, 1 Tower Dykeside",http://example.com/country/id/145,United Kingdom
+17834566h,"Hawick, 3, 4 Tower Dykeside",http://example.com/country/id/145,United Kingdom
+17835167h,2 Tower Dykeside,http://example.com/country/id/145,United Kingdom
+1795050h,Palace Station,http://example.com/country/id/30,United States of America
+18008489h,Torre del Remei,http://example.com/country/id/29,Spain
+18112026h,DoubleTree by Hilton Hotel London - Chelsea,http://example.com/country/id/145,United Kingdom
+18286846h,Waldorf Astoria Amsterdam,http://example.com/country/id/55,Netherlands
+18340195h,Hybernská 12,http://example.com/country/id/213,Czech Republic
+18509174h,Fayrouz Ressort,http://example.com/country/id/79,Egypt
+18509281h,Hilton Hurghada Resort,http://example.com/country/id/79,Egypt
+18534517h,Hilton London Syon Park,http://example.com/country/id/145,United Kingdom
+18536h,The Shard,http://example.com/country/id/145,United Kingdom
+18547h,Shanghai Tower,http://example.com/country/id/148,People's Republic of China
+18712428h,Makkah Clock Royal Tower Hotel,http://example.com/country/id/851,Saudi Arabia
+1874734h,Hotel International Prague,http://example.com/country/id/213,Czech Republic
+18760038h,Munkkiniemi education center,http://example.com/country/id/33,Finland
+1879918h,Löwenburger Hof,http://example.com/country/id/183,Germany
+18813051h,Hilton Rotterdam,http://example.com/country/id/55,Netherlands
+189476h,Abraj Al Bait,http://example.com/country/id/851,Saudi Arabia
+19307691h,Hilton Garden Inn London Heathrow Airport,http://example.com/country/id/145,United Kingdom
+19348190h,"25, place Dauphine",http://example.com/country/id/142,France
+19362430h,Gasthof Krone,http://example.com/country/id/39,Switzerland
+1943482h,Hilton Molino Stucky Venice,http://example.com/country/id/38,Italy
+19513101h,Hilton Manchester Deansgate,http://example.com/country/id/145,United Kingdom
+19564041h,Hedemora stadshotell,http://example.com/country/id/34,Sweden
+19817552h,Delta Toronto Hotel,http://example.com/country/id/16,Canada
+19864040h,Ambassador Hotel,http://example.com/country/id/30,United States of America
+19962146h,CloudNo7,http://example.com/country/id/183,Germany
+20046383h,Hilton Bonn,http://example.com/country/id/183,Germany
+20075891h,Hilton Kyiv,http://example.com/country/id/212,Ukraine
+202599h,Stardust Resort and Casino,http://example.com/country/id/30,United States of America
+2048307h,Palms Casino Resort,http://example.com/country/id/30,United States of America
+20650664h,La Clef Louvre,http://example.com/country/id/142,France
+20828319h,Villa Santana,http://example.com/country/id/30,United States of America
+20830632h,Bluebeard's Castle,http://example.com/country/id/30,United States of America
+2110681h,Prinzenpalais,http://example.com/country/id/183,Germany
+2135814h,Hilton Amsterdam,http://example.com/country/id/55,Netherlands
+21402642h,18 Gramercy Park,http://example.com/country/id/30,United States of America
+2141411h,Hilton Bandung,http://example.com/country/id/252,Indonesia
+21504226h,Hilton Birmingham Metropole,http://example.com/country/id/145,United Kingdom
+21532003h,Radisson Blu Hotel in Bamako,http://example.com/country/id/912,Mali
+21568919h,Tabacos de Filipinas building,http://example.com/country/id/29,Spain
+21619228h,Sheraton Guiyang Hotel,http://example.com/country/id/148,People's Republic of China
+220141h,Waldorf Astoria Berlin,http://example.com/country/id/183,Germany
+22073967h,Hilton Bournemouth,http://example.com/country/id/145,United Kingdom
+22118627h,Global Gate,http://example.com/country/id/17,Japan
+22583354h,Nový Pachtovský palác,http://example.com/country/id/213,Czech Republic
+2258969h,Eureka Inn,http://example.com/country/id/30,United States of America
+2297323h,Delano Las Vegas,http://example.com/country/id/30,United States of America
+22976715h,Hilton Dubai The Walk,http://example.com/country/id/878,United Arab Emirates
+22997753h,Bay Mills Resort & Casino,http://example.com/country/id/30,United States of America
+23265h,Hôtel des 3 Collèges,http://example.com/country/id/142,France
+23305592h,"Kewadin Casino, Hotel and Convention Center",http://example.com/country/id/30,United States of America
+2363048h,Place Viger,http://example.com/country/id/16,Canada
+23640921h,Bowen River Hotel,http://example.com/country/id/408,Australia
+23646439h,"100 Queen's Gate Hotel London, Curio Collection by Hilton",http://example.com/country/id/145,United Kingdom
+23685988h,DoubleTree by Hilton Hotel Bristol North,http://example.com/country/id/145,United Kingdom
+23828028h,Edificio Gran Vía 4,http://example.com/country/id/29,Spain
+23907594h,CAAC Tower,http://example.com/country/id/148,People's Republic of China
+23907601h,The London NYC,http://example.com/country/id/30,United States of America
+2398831h,Teatro Eden,http://example.com/country/id/45,Portugal
+24054070h,Hilton Cambridge City Centre,http://example.com/country/id/145,United Kingdom
+240711h,Hotel Chelsea,http://example.com/country/id/30,United States of America
+2416198h,MGM Grand Detroit,http://example.com/country/id/30,United States of America
+24241038h,Cambridge Hotel,http://example.com/country/id/145,United Kingdom
+2461831h,Las Vegas Plaza,http://example.com/country/id/30,United States of America
+24693404h,Bangor House,http://example.com/country/id/30,United States of America
+24708167h,"Dominican monastery in Malá Strana, Prague",http://example.com/country/id/213,Czech Republic
+24971211h,El Reno Hotel,http://example.com/country/id/30,United States of America
+25007h,Bellagio Hotel & Casino,http://example.com/country/id/30,United States of America
+25204442h,Hilton Zurich Airport,http://example.com/country/id/39,Switzerland
+2523683h,Château d'Artigny,http://example.com/country/id/142,France
+25247913h,Commercial Hotel,http://example.com/country/id/30,United States of America
+2567200h,The Whittier,http://example.com/country/id/30,United States of America
+2579998h,Castle of Óbidos,http://example.com/country/id/45,Portugal
+26237391h,Conrad Tokyo,http://example.com/country/id/17,Japan
+26242212h,Hilton Garden Inn Sunderland,http://example.com/country/id/145,United Kingdom
+26306764h,The Mytton and Mermaid Hotel,http://example.com/country/id/145,United Kingdom
+2631856h,520 West 41st Street,http://example.com/country/id/30,United States of America
+26398842h,The Old Hall Hotel,http://example.com/country/id/145,United Kingdom
+264203h,Vegas World,http://example.com/country/id/30,United States of America
+26463120h,13 Market End,http://example.com/country/id/145,United Kingdom
+2648096h,W San Francisco,http://example.com/country/id/30,United States of America
+26483035h,"14 and 15, Warwick Road",http://example.com/country/id/145,United Kingdom
+264858h,M Resort,http://example.com/country/id/30,United States of America
+26537718h,Dove Nest,http://example.com/country/id/145,United Kingdom
+26546731h,Mosborough Hall,http://example.com/country/id/145,United Kingdom
+26609450h,Crosby Lodge,http://example.com/country/id/145,United Kingdom
+26617946h,Kenwith Castle,http://example.com/country/id/145,United Kingdom
+26684094h,"12 and 13, Warwick Road",http://example.com/country/id/145,United Kingdom
+26685058h,15 Market End,http://example.com/country/id/145,United Kingdom
+26700322h,Hotel Omni Mont-Royal,http://example.com/country/id/16,Canada
+26707727h,Hotel Santo Mauro,http://example.com/country/id/29,Spain
+26723836h,De Gamlas Hem,http://example.com/country/id/33,Finland
+26734729h,Conrad Istanbul Bosphorus,http://example.com/country/id/43,Turkey
+26878946h,Hilton Sukhumvit Bangkok,http://example.com/country/id/869,Thailand
+26902701h,Hilton Helsinki Kalastajatorppa,http://example.com/country/id/33,Finland
+26960663h,Hampton by Hilton Bournemouth,http://example.com/country/id/145,United Kingdom
+27456363h,DoubleTree by Hilton Gurugram Baani Square,http://example.com/country/id/668,India
+2748565h,Claridge's,http://example.com/country/id/145,United Kingdom
+27825013h,Hilton Frankfurt City Centre,http://example.com/country/id/183,Germany
+27826630h,DoubleTree by Hilton Hotel Cairns,http://example.com/country/id/408,Australia
+278380h,The Drew Las Vegas,http://example.com/country/id/30,United States of America
+27962079h,Ausonia Palace Hotel,http://example.com/country/id/38,Italy
+27981667h,Hilton Garden Inn Dubai Mall of the Emirates,http://example.com/country/id/878,United Arab Emirates
+280339h,Tropicana Las Vegas,http://example.com/country/id/30,United States of America
+28053246h,Hilton Auckland,http://example.com/country/id/664,New Zealand
+280910h,Vdara,http://example.com/country/id/30,United States of America
+28184307h,Royal Mail Hotel,http://example.com/country/id/408,Australia
+28184310h,Noccundra Hotel,http://example.com/country/id/408,Australia
+28192892h,Waldorf Astoria Beijing,http://example.com/country/id/148,People's Republic of China
+28214174h,Hampton by Hilton Newcastle,http://example.com/country/id/145,United Kingdom
+2837946h,Allerton Hotel,http://example.com/country/id/30,United States of America
+28456180h,Makkah Millennium Hotel,http://example.com/country/id/851,Saudi Arabia
+28609672h,DoubleTree by Hilton Hotel Coventry,http://example.com/country/id/145,United Kingdom
+28662736h,"Gran Vía 22, Madrid",http://example.com/country/id/29,Spain
+28675210h,Castle mill in Toruń,http://example.com/country/id/36,Poland
+28675745h,15/17 Mostowa Street in Toruń,http://example.com/country/id/36,Poland
+28680070h,Sanatório das Penhas da Saúde,http://example.com/country/id/45,Portugal
+28746397h,Hotel NH Paseo del Prado,http://example.com/country/id/29,Spain
+28755991h,Hotel Catalonia Atocha,http://example.com/country/id/29,Spain
+28756542h,Palacio Oriol,http://example.com/country/id/29,Spain
+28756862h,Hotel Catalonia Gran Vía,http://example.com/country/id/29,Spain
+28757120h,Gran Vía 18,http://example.com/country/id/29,Spain
+28757959h,Hotel Senator Gran Vía,http://example.com/country/id/29,Spain
+28757977h,Hotel Tryp Cibeles,http://example.com/country/id/29,Spain
+28769024h,Hotel Gran Vía,http://example.com/country/id/29,Spain
+28777988h,DoubleTree by Hilton Hotel Aberdeen Treetops,http://example.com/country/id/145,United Kingdom
+28844857h,El Palace Hotel Barcelona,http://example.com/country/id/29,Spain
+2899830h,Hilton The Hague,http://example.com/country/id/55,Netherlands
+29000794h,DoubleTree by Hilton Hotel Darwin,http://example.com/country/id/408,Australia
+29007102h,Papelera Española building,http://example.com/country/id/29,Spain
+2902501h,Palatin Hotel Tel Aviv,http://example.com/country/id/801,Israel
+29053655h,Hilton Paris Charles de Gaulle Airport,http://example.com/country/id/142,France
+29053691h,Hilton Coylumbridge,http://example.com/country/id/145,United Kingdom
+2905596h,The Blackstone Hotel,http://example.com/country/id/30,United States of America
+2908788h,Leonardo City Tower Hotel,http://example.com/country/id/801,Israel
+2912992h,The Harmon,http://example.com/country/id/30,United States of America
+2928530h,Cadillac Hotel,http://example.com/country/id/30,United States of America
+2935180h,Camlin Hotel,http://example.com/country/id/30,United States of America
+29415039h,Hotel Alay,http://example.com/country/id/29,Spain
+2961297h,Chartreuse du Reposoir,http://example.com/country/id/142,France
+2971063h,Taagepera Castle,http://example.com/country/id/191,Estonia
+29909111h,Hotel Alfonso X El Sabio,http://example.com/country/id/29,Spain
+2992084h,Hilton Paris Opera,http://example.com/country/id/142,France
+29948012h,DoubleTree by Hilton Hotel Edinburgh Airport,http://example.com/country/id/145,United Kingdom
+29981099h,Conrad Bali,http://example.com/country/id/252,Indonesia
+30014678h,DoubleTree by Hilton Hotel Istanbul - Old Town,http://example.com/country/id/43,Turkey
+30021076h,Hilton Cologne,http://example.com/country/id/183,Germany
+30021879h,DoubleTree by Hilton London Heathrow Airport,http://example.com/country/id/145,United Kingdom
+30035305h,Hilton Saint Petersburg ExpoForum,http://example.com/country/id/159,Russia
+30047899h,Hilton Garden Inn Stuttgart NeckarPark,http://example.com/country/id/183,Germany
+30090585h,Conrad Makkah,http://example.com/country/id/851,Saudi Arabia
+30097763h,"The Westminster London, Curio Collection by Hilton",http://example.com/country/id/145,United Kingdom
+30097821h,Conrad Beijing,http://example.com/country/id/148,People's Republic of China
+30139243h,Hilton Prague Old Town,http://example.com/country/id/213,Czech Republic
+30140581h,DoubleTree by Hilton Hotel Oradea,http://example.com/country/id/218,Romania
+30147522h,Hilton Dubai Jumeirah,http://example.com/country/id/878,United Arab Emirates
+30174421h,Hilton Colombo Residences,http://example.com/country/id/854,Sri Lanka
+30242708h,DoubleTree by Hilton Hotel Avanos - Cappadocia,http://example.com/country/id/43,Turkey
+30251296h,Hilton Garden Inn Matera,http://example.com/country/id/38,Italy
+30301927h,Hampton by Hilton Bristol City Centre,http://example.com/country/id/145,United Kingdom
+30302746h,Hilton Brussels City,http://example.com/country/id/31,Belgium
+30306779h,Hilton Adelaide,http://example.com/country/id/408,Australia
+30307361h,Hilton Hurghada Plaza,http://example.com/country/id/79,Egypt
+30308807h,Hilton Alexandria King's Ranch,http://example.com/country/id/79,Egypt
+30337433h,Hilton Garden Inn Volgograd,http://example.com/country/id/159,Russia
+30346525h,Hilton Edinburgh Grosvenor,http://example.com/country/id/145,United Kingdom
+30347445h,DoubleTree by Hilton Hotel Milan,http://example.com/country/id/38,Italy
+3037053h,Hilton Athens,http://example.com/country/id/41,Greece
+30402016h,Hilton Belfast,http://example.com/country/id/145,United Kingdom
+30407987h,DoubleTree by Hilton Hotel Wroclaw,http://example.com/country/id/36,Poland
+30409284h,Hilton Vienna Park,http://example.com/country/id/40,Austria
+30438998h,Hilton Dusseldorf,http://example.com/country/id/183,Germany
+30504052h,DoubleTree by Hilton Hotel London - Marble Arch,http://example.com/country/id/145,United Kingdom
+30504754h,Hilton Nottingham,http://example.com/country/id/145,United Kingdom
+30522857h,Hilton Brussels Grand Place,http://example.com/country/id/31,Belgium
+306000h,Abbasi Hotel,http://example.com/country/id/794,Iran
+30644484h,Hotel Manger,http://example.com/country/id/30,United States of America
+30736107h,Hilton Imperial Dubrovnik,http://example.com/country/id/224,Croatia
+30927563h,Koriyama View Hotel Annex,http://example.com/country/id/17,Japan
+31277862h,Hilton Tallinn Park,http://example.com/country/id/191,Estonia
+3142395h,Hyatt Regency Paris Etoile,http://example.com/country/id/142,France
+3153055h,InterContinental San Francisco,http://example.com/country/id/30,United States of America
+31827676h,U zlatého anděla,http://example.com/country/id/213,Czech Republic
+31827738h,U Medvídků,http://example.com/country/id/213,Czech Republic
+3185653h,Joseph Smith Memorial Building,http://example.com/country/id/30,United States of America
+31861463h,"Krajinská 41, Zátkův dům",http://example.com/country/id/213,Czech Republic
+3192583h,Kanayama Minami Building,http://example.com/country/id/17,Japan
+3278286h,Main Street Station Hotel and Casino and Brewery,http://example.com/country/id/30,United States of America
+3281025h,APA Hotel & Resort Tokyo Bay Makuhari,http://example.com/country/id/17,Japan
+32947262h,Hilton Garden Inn New Delhi/Saket,http://example.com/country/id/668,India
+33035435h,DoubleTree by Hilton Hotel Istanbul - Moda,http://example.com/country/id/43,Turkey
+33101471h,DoubleTree by Hilton Hotel Cluj - City Plaza,http://example.com/country/id/218,Romania
+33189243h,Feuerschiff,http://example.com/country/id/183,Germany
+33229354h,Hilton London Croydon,http://example.com/country/id/145,United Kingdom
+33382454h,DoubleTree by Hilton Hotel Melbourne - Flinders Street,http://example.com/country/id/408,Australia
+3356472h,The Orleans,http://example.com/country/id/30,United States of America
+3359202h,Wyndham Grand İzmir Özdilek,http://example.com/country/id/43,Turkey
+3389734h,Place Bonaventure,http://example.com/country/id/16,Canada
+3414568h,Quinta das Lágrimas,http://example.com/country/id/45,Portugal
+34204337h,Waldorf Astoria Dubai Palm Jumeirah,http://example.com/country/id/878,United Arab Emirates
+3471438h,San Francisco Marriott Marquis,http://example.com/country/id/30,United States of America
+3482309h,Shiodome Media Tower,http://example.com/country/id/17,Japan
+3498798h,Hilton San Francisco Union Square,http://example.com/country/id/30,United States of America
+3533060h,Tour Duo,http://example.com/country/id/142,France
+3545225h,"Sam's Town Hotel and Gambling Hall, Las Vegas",http://example.com/country/id/30,United States of America
+3699364h,Culver Hotel,http://example.com/country/id/30,United States of America
+37857517h,Hampton by Hilton Birmingham Jewellery Quarter,http://example.com/country/id/145,United Kingdom
+37858337h,Hampton by Hilton Glasgow Central,http://example.com/country/id/145,United Kingdom
+37858682h,DoubleTree by Hilton Hotel Leeds City Centre,http://example.com/country/id/145,United Kingdom
+38251391h,3 V Tourist Court,http://example.com/country/id/30,United States of America
+38251968h,Bonneville Hotel,http://example.com/country/id/30,United States of America
+40037779h,Dämman,http://example.com/country/id/34,Sweden
+4040675h,Hilton Prague,http://example.com/country/id/213,Czech Republic
+41069183h,Hilton Amsterdam Airport Schiphol,http://example.com/country/id/55,Netherlands
+41300192h,Hilton Pyramids Golf,http://example.com/country/id/79,Egypt
+42341625h,DoubleTree by Hilton Hotel London - Hyde Park,http://example.com/country/id/145,United Kingdom
+4260261h,Price Tower,http://example.com/country/id/30,United States of America
+4261094h,Downtown Grand Hotel & Casino,http://example.com/country/id/30,United States of America
+4261374h,Suncoast Hotel and Casino,http://example.com/country/id/30,United States of America
+4261384h,Las Vegas Club,http://example.com/country/id/30,United States of America
+4261513h,Grand Central Hotel,http://example.com/country/id/30,United States of America
+4272608h,Fairmont San Francisco,http://example.com/country/id/30,United States of America
+4272804h,Breakers Hotel,http://example.com/country/id/30,United States of America
+42748124h,Shah Abbasi Caravanserai of Abuzeydabad,http://example.com/country/id/794,Iran
+42867978h,Tehrani House (Yazd),http://example.com/country/id/794,Iran
+42874514h,Golshan House (Yazd),http://example.com/country/id/794,Iran
+43031921h,Corona Hotel in Baia Sprie,http://example.com/country/id/218,Romania
+43371249h,Brooks Hotel,http://example.com/country/id/30,United States of America
+4385582h,Page-Walker Hotel,http://example.com/country/id/30,United States of America
+44406603h,Hampshire House,http://example.com/country/id/30,United States of America
+4448816h,Tsukuba Center Building,http://example.com/country/id/17,Japan
+4479814h,West Baden Springs Hotel,http://example.com/country/id/30,United States of America
+45316350h,DoubleTree by Hilton Hotel Edinburgh City Centre,http://example.com/country/id/145,United Kingdom
+4596016h,1 Snow Hill Plaza,http://example.com/country/id/145,United Kingdom
+47004857h,Brandt Hotel,http://example.com/country/id/30,United States of America
+47166648h,Palau Benet-Desvilar,http://example.com/country/id/29,Spain
+4725573h,Aliante Casino and Hotel,http://example.com/country/id/30,United States of America
+47401774h,Conrad Bora Bora Nui,http://example.com/country/id/142,France
+47518776h,Millennium Hilton Bangkok,http://example.com/country/id/869,Thailand
+47902573h,Schloss Kölzow,http://example.com/country/id/183,Germany
+4791273h,Arizona Charlie's Boulder,http://example.com/country/id/30,United States of America
+4792351h,Arlington Hotel,http://example.com/country/id/30,United States of America
+4793581h,Arminius Hotel,http://example.com/country/id/30,United States of America
+4806513h,Hilton Istanbul Bosphorus,http://example.com/country/id/43,Turkey
+4822225h,Hilton Izmir,http://example.com/country/id/43,Turkey
+4841991h,Baglioni Hotel,http://example.com/country/id/145,United Kingdom
+4842213h,Baha Mar,http://example.com/country/id/778,The Bahamas
+48843972h,Booth Hotel,http://example.com/country/id/30,United States of America
+49393251h,DoubleTree by Hilton Hotel Kuala Lumpur,http://example.com/country/id/833,Malaysia
+4949600h,Boulder Station,http://example.com/country/id/30,United States of America
+49573628h,Hilton Cabo Verde Sal Resort,http://example.com/country/id/1011,Cape Verde
+49593283h,Breite Straße 19,http://example.com/country/id/183,Germany
+49593839h,Friedrichplatz 8,http://example.com/country/id/183,Germany
+49594143h,Kurstraße 6,http://example.com/country/id/183,Germany
+49595033h,Schloßstraße 5,http://example.com/country/id/183,Germany
+4979998h,Bryan Building,http://example.com/country/id/30,United States of America
+49807274h,Hilton London Bankside,http://example.com/country/id/145,United Kingdom
+4985118h,Texas Station,http://example.com/country/id/30,United States of America
+4993716h,Castle of Alvito,http://example.com/country/id/45,Portugal
+4999251h,Burlington Hotel,http://example.com/country/id/30,United States of America
+50308536h,DoubleTree by Hilton Hotel Dubai - Jumeirah Beach,http://example.com/country/id/878,United Arab Emirates
+50353048h,Hilton Istanbul Bomonti Hotel & Conference Center,http://example.com/country/id/43,Turkey
+50356312h,Hotel Palace of Valencia,http://example.com/country/id/29,Spain
+5049621h,Castaways Hotel and Casino,http://example.com/country/id/30,United States of America
+5049734h,Castle of Alcácer do Sal,http://example.com/country/id/45,Portugal
+5049843h,Castle of Vila Nova de Cerveira,http://example.com/country/id/45,Portugal
+50611971h,Hampton by Hilton London Gatwick Airport,http://example.com/country/id/145,United Kingdom
+5061223h,Central House Hotel,http://example.com/country/id/30,United States of America
+5065298h,Cerulean Tower,http://example.com/country/id/17,Japan
+50809149h,Hilton Astana,http://example.com/country/id/232,Kazakhstan
+50841764h,Hilton York,http://example.com/country/id/145,United Kingdom
+510121h,Schlosshotel Kronberg,http://example.com/country/id/183,Germany
+51025456h,Hilton Garden Inn Florence Novoli,http://example.com/country/id/38,Italy
+5120095h,Cimarron Hotel,http://example.com/country/id/30,United States of America
+51222702h,H10 Berlin Ku'damm,http://example.com/country/id/183,Germany
+5179785h,Coworth House,http://example.com/country/id/145,United Kingdom
+51824364h,Hilton London Kensington,http://example.com/country/id/145,United Kingdom
+5189543h,Crowne Plaza Times Square,http://example.com/country/id/30,United States of America
+51918515h,Hilton Cairns,http://example.com/country/id/408,Australia
+51956193h,Fort Piqua Plaza,http://example.com/country/id/30,United States of America
+5230243h,Davenport Hotel,http://example.com/country/id/30,United States of America
+52886668h,"Rome Cavalieri, A Waldorf Astoria Hotel",http://example.com/country/id/38,Italy
+5302326h,Dousman Hotel,http://example.com/country/id/30,United States of America
+5330926h,Eastside Cannery,http://example.com/country/id/30,United States of America
+5351073h,El Cortez,http://example.com/country/id/30,United States of America
+53632218h,DoubleTree by Hilton Hotel London ExCel,http://example.com/country/id/145,United Kingdom
+53806946h,Convento do Salvador,http://example.com/country/id/45,Portugal
+53881282h,Palacete do Chafariz d'El-Rei,http://example.com/country/id/45,Portugal
+53999203h,Hilton Niseko Village,http://example.com/country/id/17,Japan
+5430586h,Hilton Cairo Heliopolis,http://example.com/country/id/79,Egypt
+54427554h,Dalmatia Tower,http://example.com/country/id/224,Croatia
+54474974h,Companhia de Moagens Harmonia,http://example.com/country/id/45,Portugal
+54475112h,Quinta da Pacheca,http://example.com/country/id/45,Portugal
+54475217h,NH Collection Porto Batalha,http://example.com/country/id/45,Portugal
+54475224h,Moov Hotel Porto Centro,http://example.com/country/id/45,Portugal
+546221h,Trump International Hotel and Tower,http://example.com/country/id/30,United States of America
+54652699h,DoubleTree Resort by Hilton Penang,http://example.com/country/id/833,Malaysia
+5472026h,Fort Shelby Hotel,http://example.com/country/id/30,United States of America
+5472556h,Forte de São Sebastião,http://example.com/country/id/45,Portugal
+5475490h,"Four Seasons Hotel building, San Francisco",http://example.com/country/id/30,United States of America
+5475499h,Four Seasons Hotel Chicago,http://example.com/country/id/30,United States of America
+54873914h,Clarke Hotel,http://example.com/country/id/30,United States of America
+550379h,Conrad Dubai,http://example.com/country/id/878,United Arab Emirates
+55075422h,Hippee Building,http://example.com/country/id/30,United States of America
+55185046h,Sint-Antonius van Paduakerk,http://example.com/country/id/55,Netherlands
+55209416h,Harper House,http://example.com/country/id/30,United States of America
+55346142h,Convent of the Capuchinos,http://example.com/country/id/29,Spain
+55347999h,Hilton Barcelona,http://example.com/country/id/29,Spain
+5545989h,George Washington House,http://example.com/country/id/30,United States of America
+55605106h,Beaumont Hotel,http://example.com/country/id/30,United States of America
+55865629h,Hampton by Hilton Liverpool City Centre,http://example.com/country/id/145,United Kingdom
+5594050h,Hotel Gran Meliá Don Pepe,http://example.com/country/id/29,Spain
+5594662h,Grand Hyatt San Francisco,http://example.com/country/id/30,United States of America
+5594866h,"Grand Palace Hotel, New Orleans",http://example.com/country/id/30,United States of America
+5595660h,Brampton Grange,http://example.com/country/id/145,United Kingdom
+5602124h,Greektown Casino Hotel,http://example.com/country/id/30,United States of America
+56027180h,former station for biology Plön,http://example.com/country/id/183,Germany
+56071855h,DoubleTree by Hilton Hotel & Spa Liverpool,http://example.com/country/id/145,United Kingdom
+56084920h,Clayton Crown Hotel,http://example.com/country/id/145,United Kingdom
+56085005h,Clayton Hotel Chiswick,http://example.com/country/id/145,United Kingdom
+56085020h,Clayton Hotel Leeds,http://example.com/country/id/145,United Kingdom
+56085053h,Clayton Hotel Birmingham,http://example.com/country/id/145,United Kingdom
+56085075h,Clayton Hotel Belfast,http://example.com/country/id/145,United Kingdom
+56150916h,Clayton Hotel Cardiff,http://example.com/country/id/145,United Kingdom
+56194854h,Hilton Garden Inn Orenburg,http://example.com/country/id/159,Russia
+56214797h,Hilton Garden Inn Novorossiysk,http://example.com/country/id/159,Russia
+5637110h,Hacienda,http://example.com/country/id/30,United States of America
+56446735h,Hilton Beijing Capital Airport,http://example.com/country/id/148,People's Republic of China
+5646336h,Hampton by Hilton Liverpool/John Lennon Airport,http://example.com/country/id/145,United Kingdom
+56478942h,Hilton Kuwait Resort,http://example.com/country/id/817,Kuwait
+56522910h,"Grand Hotel des Sablettes Plage, Curio Collection by Hilton",http://example.com/country/id/142,France
+56598554h,Canopy by Hilton Reykjavik City Centre,http://example.com/country/id/189,Iceland
+56705491h,"former Hotel Castilla, Toledo",http://example.com/country/id/29,Spain
+56711100h,Edifício A Tarde,http://example.com/country/id/155,Brazil
+56827407h,Hilton Garden Inn Puchong,http://example.com/country/id/833,Malaysia
+5683588h,Malek al-Tojar House (Yazd),http://example.com/country/id/794,Iran
+569978h,Caesars Palace,http://example.com/country/id/30,United States of America
+5705250h,Guged Caravanserai,http://example.com/country/id/794,Iran
+5710559h,Paasitorni,http://example.com/country/id/33,Finland
+57297679h,"Gran Vía 74, Madrid",http://example.com/country/id/29,Spain
+57385878h,Hampton by Hilton London Luton Airport,http://example.com/country/id/145,United Kingdom
+57613527h,Palazzo Montemartini,http://example.com/country/id/38,Italy
+5764519h,Hilton Chennai,http://example.com/country/id/668,India
+5764570h,Hilton Glasgow,http://example.com/country/id/145,United Kingdom
+5764576h,Hilton Hanoi Opera,http://example.com/country/id/881,Vietnam
+5764637h,Hilton Liverpool City Centre,http://example.com/country/id/145,United Kingdom
+5764648h,Hilton London Metropole,http://example.com/country/id/145,United Kingdom
+5764652h,DoubleTree by Hilton Hotel Luxembourg,http://example.com/country/id/32,Luxembourg
+5764716h,Safir Sharm Waterfalls Resort,http://example.com/country/id/79,Egypt
+5764722h,Hilton Singapore,http://example.com/country/id/334,Singapore
+57739907h,Conrad Xiamen,http://example.com/country/id/148,People's Republic of China
+5785660h,Convento Dominico de Nuestra Señora de la Consolación,http://example.com/country/id/29,Spain
+58069409h,Hampton by Hilton Samara,http://example.com/country/id/159,Russia
+58086658h,Hilton Garden Inn Ufa Riverside,http://example.com/country/id/159,Russia
+58229015h,DoubleTree by Hilton Hotel Girona,http://example.com/country/id/29,Spain
+587108h,Yokohama Landmark Tower,http://example.com/country/id/17,Japan
+5872085h,Flour factory San José,http://example.com/country/id/29,Spain
+5878173h,Malekzadeh House (Yazd),http://example.com/country/id/794,Iran
+5883194h,Qorban Alizadeh House,http://example.com/country/id/794,Iran
+5884157h,Khoshnevis Mansion,http://example.com/country/id/794,Iran
+5885917h,Kasra Vafadari House,http://example.com/country/id/794,Iran
+5891776h,Moshir Garden,http://example.com/country/id/794,Iran
+5892374h,Moshir Caravanserai,http://example.com/country/id/794,Iran
+5894717h,Dr. Hojjat House,http://example.com/country/id/794,Iran
+5901285h,Alafchian House,http://example.com/country/id/794,Iran
+5903404h,Hotel Málaga Palacio,http://example.com/country/id/29,Spain
+5903511h,"Hotel de las Letras, Madrid",http://example.com/country/id/29,Spain
+5907540h,Aminabad Caravanserai,http://example.com/country/id/794,Iran
+5908224h,Shah Abbasi Caravanserai of Bisotun,http://example.com/country/id/794,Iran
+5911169h,Hotel Alder,http://example.com/country/id/30,United States of America
+5911415h,Hilton Podgorica Crna Gora,http://example.com/country/id/236,Montenegro
+5912133h,"Hagia Sofia Mansions Istanbul, Curio Collection by Hilton",http://example.com/country/id/43,Turkey
+59131992h,DoubleTree by Hilton Hotel Minsk,http://example.com/country/id/184,Belarus
+59138963h,Hilton Garden Inn Moscow New Riga,http://example.com/country/id/159,Russia
+5918301h,Banitaba House,http://example.com/country/id/794,Iran
+5920727h,Manuchehri House (Kashan),http://example.com/country/id/794,Iran
+59209270h,Hilton Istanbul Maslak,http://example.com/country/id/43,Turkey
+59492165h,Hilton Hua Hin Resort & Spa,http://example.com/country/id/869,Thailand
+59519828h,house at V jirchářích 13,http://example.com/country/id/213,Czech Republic
+5952911h,Hyatt Regency San Francisco,http://example.com/country/id/30,United States of America
+5963275h,Ehsan House (Kashan),http://example.com/country/id/794,Iran
+59872505h,"George Hotel, Sydney",http://example.com/country/id/408,Australia
+59872532h,Trickett's Hotel,http://example.com/country/id/408,Australia
+60055194h,"Wales House, Sydney",http://example.com/country/id/408,Australia
+60323642h,Hoff Building,http://example.com/country/id/30,United States of America
+60389409h,Ancienne église Saint-Nicolas,http://example.com/country/id/142,France
+6044861h,"InterContinental Chicago Magnificent Mile, an IHG Hotel",http://example.com/country/id/30,United States of America
+60452089h,Hilton Cape Town City Centre,http://example.com/country/id/258,South Africa
+6058109h,Antiguo Hotel Miramar,http://example.com/country/id/29,Spain
+60641676h,"Grand Tirolia Hotel Kitzbuhel, Curio Collection by Hilton",http://example.com/country/id/40,Austria
+60642328h,Canopy by Hilton Zagreb - City Centre,http://example.com/country/id/224,Croatia
+60732352h,Hilton Garden Inn Dubai Al Jadaf Culture Village,http://example.com/country/id/878,United Arab Emirates
+60746742h,The Durant,http://example.com/country/id/30,United States of America
+60748351h,Harvey Hotel,http://example.com/country/id/30,United States of America
+60767158h,Oakland Hotel,http://example.com/country/id/30,United States of America
+60847568h,King's Casino Rozvadov,http://example.com/country/id/213,Czech Republic
+60912347h,Hampton by Hilton Freiburg,http://example.com/country/id/183,Germany
+6108856h,JR Central Towers,http://example.com/country/id/17,Japan
+61090457h,Transcorp Hilton Abuja,http://example.com/country/id/1033,Nigeria
+6109260h,JW Marriott San Francisco Union Square,http://example.com/country/id/30,United States of America
+6109264h,JW Marriott Las Vegas,http://example.com/country/id/30,United States of America
+61100884h,DoubleTree by Hilton Hotel London - West End,http://example.com/country/id/145,United Kingdom
+61114082h,"La Bagnaia Golf & Spa Resort Siena, Curio Collection by Hilton",http://example.com/country/id/38,Italy
+61165878h,"Hilton at St George's Park, Burton Upon Trent",http://example.com/country/id/145,United Kingdom
+61357012h,Semnani House,http://example.com/country/id/794,Iran
+61465403h,DoubleTree by Hilton Hotel Tyumen,http://example.com/country/id/159,Russia
+61567322h,Hilton Newcastle Gateshead,http://example.com/country/id/145,United Kingdom
+61573625h,Hilton Surfers Paradise Hotel & Residences,http://example.com/country/id/408,Australia
+616726h,Hooters Casino Hotel,http://example.com/country/id/30,United States of America
+61717587h,Hilton London Gatwick Airport,http://example.com/country/id/145,United Kingdom
+6172690h,Jeddah Hilton Hotel,http://example.com/country/id/851,Saudi Arabia
+61741817h,The International,http://example.com/country/id/30,United States of America
+61868406h,DoubleTree by Hilton Hotel Woking,http://example.com/country/id/145,United Kingdom
+61885625h,Hilton Marsa Alam Nubian Resort,http://example.com/country/id/79,Egypt
+61888685h,Hilton Fiji Beach Resort and Spa,http://example.com/country/id/712,Fiji
+61897167h,Conrad Bangkok,http://example.com/country/id/869,Thailand
+62068054h,Conrad Cairo,http://example.com/country/id/79,Egypt
+62479268h,Hampton by Hilton Munich City West,http://example.com/country/id/183,Germany
+63164854h,Hilton Garden Inn Luton North,http://example.com/country/id/145,United Kingdom
+63190257h,Hilton Brisbane,http://example.com/country/id/408,Australia
+63296024h,Hilton Garden Inn Kuala Lumpur Jalan Tuanku Abdul Rahman South,http://example.com/country/id/833,Malaysia
+634258h,Veer Towers,http://example.com/country/id/30,United States of America
+63435869h,Fort Worth Club Building,http://example.com/country/id/30,United States of America
+63608863h,DoubleTree by Hilton Hotel London - Victoria,http://example.com/country/id/145,United Kingdom
+637389h,Luxor Resort & Casino,http://example.com/country/id/30,United States of America
+63790123h,Hilton Garden Inn Kampala,http://example.com/country/id/1036,Uganda
+63832005h,Hampton by Hilton Warsaw Mokotow,http://example.com/country/id/36,Poland
+63859908h,Hilton Garden Inn Tirana,http://example.com/country/id/222,Albania
+63869688h,DoubleTree by Hilton Kocaeli,http://example.com/country/id/43,Turkey
+63883252h,Hilton Moorea Lagoon Resort & Spa,http://example.com/country/id/142,France
+63885416h,Hilton Garden Inn Birmingham Brindleyplace,http://example.com/country/id/145,United Kingdom
+63975276h,Hampton by Hilton Belfast City Centre,http://example.com/country/id/145,United Kingdom
+6411467h,King Edward Hotel,http://example.com/country/id/30,United States of America
+64152343h,DoubleTree by Hilton Cambridge Belfry,http://example.com/country/id/145,United Kingdom
+64363310h,DoubleTree by Hilton Hotel Bristol City Centre,http://example.com/country/id/145,United Kingdom
+6439146h,Krrish Square,http://example.com/country/id/854,Sri Lanka
+6448583h,Vakil Caravanserai,http://example.com/country/id/794,Iran
+646339h,Hotel Torni,http://example.com/country/id/33,Finland
+64701276h,Hilton Seychelles Labriz Resort & Spa,http://example.com/country/id/1042,Seychelles
+64769038h,Washingtonova 23,http://example.com/country/id/213,Czech Republic
+64785112h,"Hotel Villa Magna, Madrid",http://example.com/country/id/29,Spain
+64822290h,Hilton Reykjavik Nordica,http://example.com/country/id/189,Iceland
+64827562h,Hilton Garden Inn Singapore Serangoon,http://example.com/country/id/334,Singapore
+64845950h,Hampton by Hilton Amsterdam / Arena Boulevard,http://example.com/country/id/55,Netherlands
+64845961h,Conrad Algarve,http://example.com/country/id/45,Portugal
+64859000h,Hilton Colombo,http://example.com/country/id/854,Sri Lanka
+64868965h,Hilton Garden Inn Bristol City Centre,http://example.com/country/id/145,United Kingdom
+64933804h,Hilton Garden Inn Ras Al Khaimah,http://example.com/country/id/878,United Arab Emirates
+6493973h,Lassen Hotel,http://example.com/country/id/30,United States of America
+64992591h,Hampton by Hilton Exeter Airport,http://example.com/country/id/145,United Kingdom
+65037569h,Parnitha Sanatorium,http://example.com/country/id/41,Greece
+65042009h,Broadway Hotel,http://example.com/country/id/30,United States of America
+65042333h,The Salvation Army Building,http://example.com/country/id/30,United States of America
+65043882h,Rickman House,http://example.com/country/id/30,United States of America
+65218555h,"Danubius Hotel Hungaria City Center, Budapest",http://example.com/country/id/28,Hungary
+6538417h,Zargar Yazdi House,http://example.com/country/id/794,Iran
+654279h,Aria Resort and Casino,http://example.com/country/id/30,United States of America
+654906h,Binion's Horseshoe,http://example.com/country/id/30,United States of America
+656743h,Kingdom Centre,http://example.com/country/id/851,Saudi Arabia
+65769542h,DoubleTree by Hilton Carcassonne,http://example.com/country/id/142,France
+65770076h,Hilton Garden Inn Glasgow City Centre,http://example.com/country/id/145,United Kingdom
+66423173h,Waldorf Astoria Ras Al Khaimah,http://example.com/country/id/878,United Arab Emirates
+66424250h,Hilton Garden Inn Istanbul Golden Horn Turkey,http://example.com/country/id/43,Turkey
+66437370h,DoubleTree by Hilton Dubai - Business Bay,http://example.com/country/id/878,United Arab Emirates
+66439260h,DoubleTree by Hilton Hotel Gurgaon - New Delhi NCR,http://example.com/country/id/668,India
+66586875h,Hilton Makkah Convention Hotel,http://example.com/country/id/851,Saudi Arabia
+66658603h,Hilton Pattaya,http://example.com/country/id/869,Thailand
+66660297h,Hilton Garden Inn Dubai Al Mina,http://example.com/country/id/878,United Arab Emirates
+66771676h,Hilton Shillim Estate Retreat & Spa,http://example.com/country/id/668,India
+66813051h,"Palácio Hotel de Bussaco, Palacete Hotel do Buçaco",http://example.com/country/id/45,Portugal
+66813690h,Castle of Estremoz,http://example.com/country/id/45,Portugal
+66814366h,"Hotel Ritz, incluindo o património integrado",http://example.com/country/id/45,Portugal
+66924306h,Jurys Inn Leeds,http://example.com/country/id/145,United Kingdom
+66969081h,Hampton by Hilton Leeds City Centre,http://example.com/country/id/145,United Kingdom
+66969175h,Ibis Leeds Centre,http://example.com/country/id/145,United Kingdom
+66969326h,Hilton Leeds City,http://example.com/country/id/145,United Kingdom
+67013894h,DoubleTree by Hilton Hotel Olbia - Sardinia,http://example.com/country/id/38,Italy
+67206508h,Hilton Garden Inn Rome Airport,http://example.com/country/id/38,Italy
+6747847h,Mandarin Orchard Singapore,http://example.com/country/id/334,Singapore
+6747856h,Loews Regency San Francisco,http://example.com/country/id/30,United States of America
+6751307h,Manor Apartment Hotel,http://example.com/country/id/408,Australia
+67765140h,Conrad Koh Samui,http://example.com/country/id/869,Thailand
+67863357h,Hilton Glasgow Grosvenor,http://example.com/country/id/145,United Kingdom
+67868674h,DoubleTree by Hilton Royal Parc Soestduinen,http://example.com/country/id/55,Netherlands
+67874379h,Hampton by Hilton Dundee City Centre,http://example.com/country/id/145,United Kingdom
+67920401h,Hilton Malta,http://example.com/country/id/233,Malta
+68121379h,Parkhotel Praha,http://example.com/country/id/213,Czech Republic
+68167138h,Hotel Pyramida,http://example.com/country/id/213,Czech Republic
+6824905h,Metropolis,http://example.com/country/id/664,New Zealand
+6869131h,Minor Sod House,http://example.com/country/id/30,United States of America
+6914041h,Morrison Hotel,http://example.com/country/id/30,United States of America
+691491h,Paris Las Vegas,http://example.com/country/id/30,United States of America
+69383898h,Hilton Sydney,http://example.com/country/id/408,Australia
+69531148h,Hampton by Hilton Amsterdam Airport Schiphol,http://example.com/country/id/55,Netherlands
+69647678h,Hilton Aberdeen TECA,http://example.com/country/id/145,United Kingdom
+696927h,Oheka Castle,http://example.com/country/id/30,United States of America
+70206906h,Hilton Garden Inn Kuala Lumpur Jalan Tuanku Abdul Rahman North,http://example.com/country/id/833,Malaysia
+7040843h,Nisiyama Onsen Keiunkan,http://example.com/country/id/17,Japan
+7126178h,Palace Hotel Residential Tower,http://example.com/country/id/30,United States of America
+713960h,MGM Grand Las Vegas,http://example.com/country/id/30,United States of America
+71409297h,Hilton London Watford,http://example.com/country/id/145,United Kingdom
+71817207h,Hampton by Hilton Warsaw Airport,http://example.com/country/id/36,Poland
+71828738h,"Hilton Puckrup Hall, Tewkesbury",http://example.com/country/id/145,United Kingdom
+7203612h,Plaza Hotel & Casino,http://example.com/country/id/30,United States of America
+72067004h,DoubleTree by Hilton Moscow - Vnukovo Airport,http://example.com/country/id/159,Russia
+7216435h,Hilton Tel Aviv,http://example.com/country/id/801,Israel
+72172868h,DoubleTree by Hilton Madrid - Prado,http://example.com/country/id/29,Spain
+72177013h,Palacete B. Carrera,http://example.com/country/id/155,Brazil
+72278577h,Hilton Jaipur,http://example.com/country/id/668,India
+7247936h,Professional Building,http://example.com/country/id/30,United States of America
+72812966h,Hilton Addis Ababa,http://example.com/country/id/115,Ethiopia
+7281354h,Hilton Dubai Creek,http://example.com/country/id/878,United Arab Emirates
+72988389h,DoubleTree by Hilton Hotel Zanzibar - Stone Town,http://example.com/country/id/924,Tanzania
+7304924h,"Red Rock Casino, Resort & Spa",http://example.com/country/id/30,United States of America
+731089h,Willard InterContinental Washington,http://example.com/country/id/30,United States of America
+73274620h,Pellihof,http://example.com/country/id/183,Germany
+7336896h,Ritz-Carlton Chicago,http://example.com/country/id/30,United States of America
+73499085h,Hampton by Hilton Berlin City Centre Alexanderplatz,http://example.com/country/id/183,Germany
+73621829h,Hilton Luxor Resort & Spa,http://example.com/country/id/79,Egypt
+73640935h,Santa Casa da Misericórdia de Óbidos,http://example.com/country/id/45,Portugal
+7374338h,Royal Insurance Building,http://example.com/country/id/145,United Kingdom
+737602h,Aspire Tower,http://example.com/country/id/846,Qatar
+73879785h,Hilton Mandalay,http://example.com/country/id/836,Myanmar
+73898961h,Hilton Garden Inn Zagreb - Radnicka,http://example.com/country/id/224,Croatia
+739914h,Rio All-Suite Hotel and Casino,http://example.com/country/id/30,United States of America
+7419570h,Santa Fe Station,http://example.com/country/id/30,United States of America
+743147h,Hotel Negresco,http://example.com/country/id/142,France
+74527699h,Hilton Capital Grand Abu Dhabi,http://example.com/country/id/878,United Arab Emirates
+74665770h,DoubleTree by Hilton Hotel Jakarta - Diponegoro,http://example.com/country/id/252,Indonesia
+74812978h,DoubleTree by Hilton Hotel Aqaba,http://example.com/country/id/810,Jordan
+75018491h,Hilton Garden Inn Krakow,http://example.com/country/id/36,Poland
+7503956h,Shrigley Hall,http://example.com/country/id/145,United Kingdom
+7520490h,Simonsbath House,http://example.com/country/id/145,United Kingdom
+752939h,RMS Queen Mary,http://example.com/country/id/30,United States of America
+7553765h,Sofitel Chicago Water Tower,http://example.com/country/id/30,United States of America
+7553767h,DoubleTree by Hilton Hotel Shanghai - Pudong,http://example.com/country/id/148,People's Republic of China
+7553769h,Pullman Bangkok Hotel G,http://example.com/country/id/869,Thailand
+75721557h,DoubleTree by Hilton Edinburgh - Queensferry Crossing,http://example.com/country/id/145,United Kingdom
+7575371h,Speech House,http://example.com/country/id/145,United Kingdom
+7591596h,St. Regis Museum Tower,http://example.com/country/id/30,United States of America
+75971164h,Hilton Garden Inn Riyadh Olaya,http://example.com/country/id/851,Saudi Arabia
+76021053h,ANA Crowne Plaza Akita,http://example.com/country/id/17,Japan
+76355045h,Arena Center,http://example.com/country/id/222,Albania
+7641354h,Sunset Station,http://example.com/country/id/30,United States of America
+7643550h,Superior Oil Company Building,http://example.com/country/id/30,United States of America
+76620470h,Hampton by Hilton Dubai Al Barsha,http://example.com/country/id/878,United Arab Emirates
+76721707h,Hilton Kuching,http://example.com/country/id/833,Malaysia
+76724214h,DoubleTree by Hilton Krakow Hotel & Convention Center,http://example.com/country/id/36,Poland
+76726211h,DoubleTree by Hilton Hotel Moscow - Marina,http://example.com/country/id/159,Russia
+76795105h,Hilton Sharks Bay Resort,http://example.com/country/id/79,Egypt
+7720948h,The Cairo,http://example.com/country/id/30,United States of America
+7730896h,The Drayton Court,http://example.com/country/id/145,United Kingdom
+7736171h,The George Hotel,http://example.com/country/id/145,United Kingdom
+77416106h,DoubleTree by Hilton Glasgow Westerwood Spa & Golf Resort,http://example.com/country/id/145,United Kingdom
+77418726h,Hilton Garden Inn Lusaka Society Business Park,http://example.com/country/id/953,Zambia
+7745429h,The Landmark Hotel and Casino,http://example.com/country/id/30,United States of America
+7754900h,"The Old Rectory, St Columb Major",http://example.com/country/id/145,United Kingdom
+7756547h,The Peninsula Chicago,http://example.com/country/id/30,United States of America
+7774298h,The Western,http://example.com/country/id/30,United States of America
+779373h,The Linq,http://example.com/country/id/30,United States of America
+78036841h,Hilton Guam Resort & Spa,http://example.com/country/id/30,United States of America
+78054939h,"AlRayyan Hotel Doha, Curio Collection by Hilton",http://example.com/country/id/846,Qatar
+7832418h,"The Trafalgar St. James London, Curio Collection by Hilton",http://example.com/country/id/145,United Kingdom
+78897920h,"West Hotel Sydney, Curio Collection by Hilton",http://example.com/country/id/408,Australia
+79309518h,MLC Building,http://example.com/country/id/664,New Zealand
+7969454h,Merdeka 118,http://example.com/country/id/833,Malaysia
+7988922h,Westin Las Vegas,http://example.com/country/id/30,United States of America
+7988923h,Westin San Francisco Market Street,http://example.com/country/id/30,United States of America
+7988926h,Westin St. Francis,http://example.com/country/id/30,United States of America
+79942014h,Hotel Amigo,http://example.com/country/id/31,Belgium
+804686h,Balboa Inn,http://example.com/country/id/30,United States of America
+804702h,Balch Hotel,http://example.com/country/id/30,United States of America
+805467h,Bally's Las Vegas Hotel & Casino,http://example.com/country/id/30,United States of America
+81100400h,Casa Pere Villoch,http://example.com/country/id/29,Spain
+81100403h,Edifici Companyia Transatlàntica,http://example.com/country/id/29,Spain
+81495406h,DoubleTree by Hilton Bangkok Ploenchit,http://example.com/country/id/869,Thailand
+84029894h,Hampton by Hilton Nuremberg City Centre,http://example.com/country/id/183,Germany
+845846h,"The STRAT Hotel, Casino & SkyPod",http://example.com/country/id/30,United States of America
+851102h,Hotel Kvarner,http://example.com/country/id/224,Croatia
+85749503h,Bump Block-Bellevue House-Hawthorne Hotel,http://example.com/country/id/30,United States of America
+85758819h,El Monte Hotel,http://example.com/country/id/30,United States of America
+85802924h,St. Nicholas Hotel,http://example.com/country/id/30,United States of America
+85845504h,Berwyn Apartments,http://example.com/country/id/30,United States of America
+86595792h,Valkealinna,http://example.com/country/id/33,Finland
+86754328h,Inez Hotel,http://example.com/country/id/30,United States of America
+869378h,California Hotel and Casino,http://example.com/country/id/30,United States of America
+89425684h,Rawema-Haus,http://example.com/country/id/183,Germany
+896259h,Monrepos,http://example.com/country/id/183,Germany
+900983h,The Mirage,http://example.com/country/id/30,United States of America
+90404749h,Hilton Durban,http://example.com/country/id/258,South Africa
+9054487h,Palácio do Freixo,http://example.com/country/id/45,Portugal
+90545243h,Hilton Garden Inn Sevilla,http://example.com/country/id/29,Spain
+90682834h,Hilton Sandton,http://example.com/country/id/258,South Africa
+91607548h,Hilton Suites Makkah,http://example.com/country/id/851,Saudi Arabia
+916673h,The Signature at MGM Grand,http://example.com/country/id/30,United States of America
+92176916h,Hilton London Heathrow Airport Terminal 5,http://example.com/country/id/145,United Kingdom
+9294078h,Hilton Gdańsk,http://example.com/country/id/36,Poland
+9294080h,Hotel Jalta,http://example.com/country/id/213,Czech Republic
+9294281h,Ameri House,http://example.com/country/id/794,Iran
+93121772h,Hôtel Napoléon,http://example.com/country/id/142,France
+9358597h,El Rancho Hotel and Casino,http://example.com/country/id/30,United States of America
+952861h,World Trade Centre Montreal,http://example.com/country/id/16,Canada
+96377064h,Hilton Bursa Convention Center and Spa,http://example.com/country/id/43,Turkey
+96743206h,Great Falls Tavern,http://example.com/country/id/30,United States of America
+96757505h,Pazo of the Maceda Counts,http://example.com/country/id/29,Spain
+96787014h,Hilton Garden Inn Kuwait,http://example.com/country/id/817,Kuwait
+979477h,Athenee Palace Hilton Bucharest,http://example.com/country/id/218,Romania
+98407274h,Albertinkatu 34 - Lönnrotinkatu 26,http://example.com/country/id/33,Finland
+98407275h,Albertinkatu 34,http://example.com/country/id/33,Finland
+98407311h,Annankatu 1,http://example.com/country/id/33,Finland
+98412731h,Hotelli Helsinki,http://example.com/country/id/33,Finland
+98412733h,Hotelli Marskin talo,http://example.com/country/id/33,Finland
+98413370h,Kanavakatu 8,http://example.com/country/id/33,Finland
+98432053h,Pohjoinen Rautatiekatu 23,http://example.com/country/id/33,Finland
+98433308h,Valion juustovaraston rakennus,http://example.com/country/id/33,Finland
+98433345h,Valtion biokemiallisen tutkimuslaitoksen laboratoriorakennus,http://example.com/country/id/33,Finland
+98433742h,Katajanokan vankilan rakennus,http://example.com/country/id/33,Finland
+98433825h,Suomi-yhtiön talo,http://example.com/country/id/33,Finland
+98550889h,Villa Gaia,http://example.com/country/id/38,Italy
+98582250h,Hotel Villa,http://example.com/country/id/33,Finland
+9871323h,Convento das Eremitas de Santo Agostinho,http://example.com/country/id/45,Portugal
+98784123h,"Stadshotellet, Karlstad",http://example.com/country/id/34,Sweden
+99454646h,Conrad Bengaluru,http://example.com/country/id/668,India
+995338h,Bryson Apartment Hotel,http://example.com/country/id/30,United States of America
+99583717h,Hôtel van Ertborn,http://example.com/country/id/31,Belgium
+99703247h,Grand Hôtel,http://example.com/country/id/142,France
