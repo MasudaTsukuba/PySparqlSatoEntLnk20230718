@@ -42,7 +42,8 @@ class SparqlQuery:
         def create_var_list(query_dict):  # create a list of variables in sparql query
             # 出力する変数リストを作成
             var_list = []
-            if not query_dict['variables']:
+            query_dict_variables = query_dict['variables']
+            if query_dict_variables != None:
                 for var in query_dict['variables']:  # extract variables from json
                     var_list.append(var['value'])  # append to a variable list
             else:
@@ -83,7 +84,8 @@ class SparqlQuery:
                             re_sql = answer[0]  # uri translated sql
                             if answer[1]:
                                 for key, value in answer[1].items():
-                                    self.variables_translation_list[key] = value
+                                    if value != '-' and value != 'plain':
+                                        self.variables_translation_list[key] = value
                                     # if ans[0] not in checked:
                                         # trans_uri_list.append(ans)
                                 #         check.append(ans[0])
@@ -118,7 +120,8 @@ class SparqlQuery:
                         re_sql = answer[0]  # answer[0] contains the sql statement
                         if answer[1]:  # answer[1] contains a dict of uri transformation
                             for key, value in answer[1].items():
-                                self.variables_translation_list[key] = value
+                                if value != '-' and value != 'plain':
+                                    self.variables_translation_list[key] = value
                         # if answer[1]:  # answer[1] contains the list of variables
                         #     for ans in answer[1]:
                         #         if ans[0] not in checked:

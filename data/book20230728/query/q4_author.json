@@ -1,0 +1,55 @@
+{
+  "queryType": "SELECT",
+  "distinct": true,
+  "variables": [
+    {
+      "termType": "Variable",
+      "value": "author"
+    },
+    {
+      "termType": "Variable",
+      "value": "author_name"
+    }
+  ],
+  "where": [
+    {
+      "type": "bgp",
+      "triples": [
+        {
+          "subject": {
+            "termType": "Variable",
+            "value": "book"
+          },
+          "predicate": {
+            "termType": "NamedNode",
+            "value": "http://www.wikidata.org/prop/direct/P50"
+          },
+          "object": {
+            "termType": "Variable",
+            "value": "author"
+          }
+        },
+        {
+          "subject": {
+            "termType": "Variable",
+            "value": "author"
+          },
+          "predicate": {
+            "termType": "NamedNode",
+            "value": "http://www.w3.org/2000/01/rdf-schema#label"
+          },
+          "object": {
+            "termType": "Variable",
+            "value": "author_name"
+          }
+        }
+      ]
+    }
+  ],
+  "type": "query",
+  "prefixes": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "wd": "http://www.wikidata.org/entity/",
+    "wdt": "http://www.wikidata.org/prop/direct/"
+  }
+}

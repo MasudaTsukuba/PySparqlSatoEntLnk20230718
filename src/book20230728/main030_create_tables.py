@@ -44,6 +44,9 @@ CREATE TABLE book_author (id VARCHAR(255), author_id VARCHAR(255),
 CONSTRAINT fk_book_id FOREIGN KEY (id) REFERENCES book_title (id) ON DELETE CASCADE ON UPDATE CASCADE,
 CONSTRAINT fk_author_id FOREIGN KEY (author_id) REFERENCES author (author_id) ON DELETE CASCADE ON UPDATE CASCADE);
 '''
+sql_create_book_author = '''
+CREATE TABLE book_author (id VARCHAR(255), author_id VARCHAR(255));
+'''
 cursor.execute(sql_create_book_author)
 
 sql_drop_book_date = '''
@@ -51,7 +54,10 @@ DROP TABLE IF EXISTS book_date;
 '''
 cursor.execute(sql_drop_book_date)
 sql_create_book_date = '''
-CREATE TABLE book_date (id VARCHAR(255), pub_date DATE, CONSTRAINT fk_book_id FOREIGN KEY (id) REFERENCES book_title (id) ON DELETE CASCADE ON UPDATE CASCADE);
+CREATE TABLE book_date (id VARCHAR(255), pub_date VARCHAR(255), CONSTRAINT fk_book_id FOREIGN KEY (id) REFERENCES book_title (id) ON DELETE CASCADE ON UPDATE CASCADE);
+'''
+sql_create_book_date = '''
+CREATE TABLE book_date (id VARCHAR(255), pub_date VARCHAR(255));
 '''
 cursor.execute(sql_create_book_date)
 
@@ -64,7 +70,24 @@ CREATE TABLE book_genre (id VARCHAR(255), genre_id VARCHAR(255),
 CONSTRAINT fk_book_id FOREIGN KEY (id) REFERENCES book_title (id) ON DELETE CASCADE ON UPDATE CASCADE,
 CONSTRAINT fk_genre_id FOREIGN KEY (genre_id) REFERENCES genre (genre_id) ON DELETE CASCADE ON UPDATE CASCADE);
 '''
+sql_create_book_genre = '''
+CREATE TABLE book_genre (id VARCHAR(255), genre_id VARCHAR(255));
+'''
 cursor.execute(sql_create_book_genre)
+cnx.commit()
+
+sql_drop_book_description = '''
+DROP TABLE IF EXISTS book_description;
+'''
+cursor.execute(sql_drop_book_description)
+sql_create_book_description = '''
+CREATE TABLE book_description (id VARCHAR(255), description VARCHAR(255), 
+CONSTRAINT fk_book_id FOREIGN KEY (id) REFERENCES book_title (id) ON DELETE CASCADE ON UPDATE CASCADE);
+'''
+sql_create_book_description= '''
+CREATE TABLE book_description (id VARCHAR(255), description VARCHAR(255));
+'''
+cursor.execute(sql_create_book_description)
 cnx.commit()
 
 cursor.close()

@@ -1,0 +1,11 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX ex: <http://example.com/>
+
+SELECT DISTINCT ?book ?book_title ?author ?author_name
+WHERE{
+    ?book wdt:P50 ?author ;
+        rdfs:label ?book_title.
+    ?author ex:author_name ?author_name .
+}
