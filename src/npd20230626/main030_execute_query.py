@@ -23,7 +23,7 @@ if __name__ == '__main__':
     # query = 'q3.txt'
     # query = 'q4a.txt'
     # query = 'q4b.txt'
-    # query = 'q4.txt'
+    query = 'q4.txt'
     # query = 'q5a.txt'
     # query = 'q5b.txt'
     # query = 'q5b2.txt'

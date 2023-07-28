@@ -1,0 +1,26 @@
+[
+  {
+    "mappingId":	"100: book_title",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "PREFIX_book",
+      "content": "",
+      "variable": "VAR10000"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.w3.org/2000/01/rdf-schema#label",
+      "variable": "VAR10001"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR10002"
+    },
+    "SQL":		"SELECT id AS VAR10000, title AS VAR10002 FROM book_title ;"
+  }
+]

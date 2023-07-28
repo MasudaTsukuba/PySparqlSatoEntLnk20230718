@@ -42,8 +42,13 @@ class ExecuteQueryClass:
         # ------ ユーザから得て, JSON形式に変換したSPARQLを取り込む --------
         uri = Uri(self.path)  # instance of UriClass
         # uri.read_entity_linking(tables)  # 2023/6/5
+        read_entity_linking_from_csv_timing = TimingClass(input_file, 'read_entity_linking_from_csv')
         uri.read_entity_linking_from_csv()  # 2023/6/14
+        read_entity_linking_from_csv_timing.record_end()
+
+        query2json_timing = TimingClass(input_file, 'query2json')
         query_json = self.query2json()  # convert the sparql query into json format
+        query2json_timing.record_end()
 
         sparql2sql_timing = TimingClass(input_file, 'sparql_to_sql')
         # sparql2sql_timing.record_start()
