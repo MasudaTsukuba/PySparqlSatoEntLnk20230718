@@ -4,6 +4,9 @@
 
 import json
 import re
+import sys
+
+
 # import sqlite3
 # from UriClass import Uri
 
@@ -498,3 +501,69 @@ class SparqlQuery:
         ordered_query_in_json['where'][0]['triples'] = sorted_triples
         pass
         return ordered_query_in_json
+
+    def where_to_join_conversion(self, exe_query):  # convert where clause in sql to join  # 2023/7/27
+        temp_query = exe_query
+        matches_root = re.findall(r'FROM (\(.*\));', exe_query)
+        if len(matches_root) != 1:
+            print('Some thing is wrong in exe_query. ')
+            sys.exit()
+        else:
+            split_natural_join = matches_root[0].split('NATURAL JOIN')
+            for natural_join_element in split_natural_join:
+                split_union = natural_join_element.split('UNION')
+                for split_union_element in split_union:
+                    matches_select = re.findall(r'\(SELECT (.*?) FROM (.*?) WHERE (.*?)\)', split_union_element)
+                    if len(matches_select) != 1:
+                        print('Some thing wrong in sql query 2')
+                        sys.exit()
+                    else:
+                        match_select = matches_select[0]
+                        select_clause = match_select[0]
+                        matches_select_clause = re.findall(r'(.*? as var\d)[, ]*', select_clause)
+                        table_clause = match_select[1]
+                        matches_table_clause = re.findall(r'"(.*?)" as (.+?)[, ]*?', table_clause)
+                        where_clause = match_select[2]
+                        where_clause_split = where_clause.split(' AND ')
+                        empty_set = set()
+                        equivalent_groups = [empty_set]
+                        first = True
+                        for where_clause_element in where_clause_split:
+                            terms = where_clause_element.split (' = ')
+                            if first:
+                                equivalent_groups[0].add(terms[0])
+                                equivalent_groups[0].add(terms[1])
+                                first = False
+                            else:
+                                found = False
+                                for equivalent_group in equivalent_groups:
+                                    if terms[0] in equivalent_group:
+                                        equivalent_group.add(terms[1])
+                                        found = True
+                                    elif terms[1] in equivalent_group:
+                                        equivalent_group.add(terms[0])
+                                        found = True
+                                    else:
+                                        pass
+                                if not found:
+                                    equivalent_group = set()
+                                    equivalent_group.add(terms[0])
+                                    equivalent_group.add(terms[1])
+                                    equivalent_groups.append(equivalent_group)
+
+                        sql_element = 'SELECT $VAR FROM '
+                        for match_table_clause in matches_table_clause:
+                            table = match_table_clause[0]
+                            alias = match_table_clause[1]
+                            sql_element += f'"{table}" AS {alias} '
+                            pass
+                            var_list = []
+                            for match_sql_clause in matches_select_clause:
+                                matched_var = re.findall(rf'({alias}."c\d")', match_sql_clause)
+                                if matched_var:
+                                    var_list.append(match_sql_clause)
+                                    pass
+                        pass
+                    pass
+        pass
+        return temp_query

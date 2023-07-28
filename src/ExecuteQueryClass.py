@@ -50,82 +50,10 @@ class ExecuteQueryClass:
         sparql_query = SparqlQuery(query_json, uri)  # instance of SparqlQueryClass
         sparql_query.query_in_json = sparql_query.order_triples_in_query()  # order query to reduce the size of join in sql  # 2023/7/25
         exe_query = sparql_query.convert_to_sql(mapping_class)  # sparql to intermediate sql
+        # exe_query = sparql_query.where_to_join_conversion(exe_query)  # convert where clause in SQL into Join  # 2023/7/27
         sparql2sql_timing.record_end()
 
         print(exe_query)  # for debug
-        # exe_query = 'SELECT s, name, country_id FROM (SELECT museum_id AS s, "http://www.w3.org/2000/01/rdf-schema#label" AS Var501, name AS name FROM museum UNION SELECT hotel_id AS s, "http://www.w3.org/2000/01/rdf-schema#label" AS Var701, name AS name FROM hotel UNION SELECT building_id AS s, "http://www.w3.org/2000/01/rdf-schema#label" AS Var901, name AS name FROM building UNION SELECT heritage_id AS s, "http://www.w3.org/2000/01/rdf-schema#label" AS Var1101, name AS name FROM heritage) NATURAL JOIN (SELECT heritage.heritage_id AS s, "http://example.com/predicate/country" AS Var1301, country.country_id AS country_id FROM heritage_country, heritage, country WHERE heritage.heritage_id = heritage_country.heritage_id AND heritage_country.country_id = country.country_id AND country.country_id != "<http://example.com/country/id/237>");'  # debug
-        # exe_query = 'SELECT * FROM "apaAreaNet";'  # "licence";'
-        # exe_query = 'SELECT var0 FROM(SELECT "prlNpdidLicence" AS var0 FROM "licence" ) AS FOO ';
-#         exe_query = '''
-#         SELECT * FROM
-# (SELECT hotel_id AS s, "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" AS Var201, "http://example.com/ontology/Hotel" AS Var202 FROM hotel)
-# NATURAL JOIN
-# (
-# SELECT museum_id AS s, "http://www.w3.org/2000/01/rdf-schema#label" AS Var501, name AS hotel_name FROM museum
-# UNION
-# SELECT hotel_id AS s, "http://www.w3.org/2000/01/rdf-schema#label" AS Var701, name AS hotel_name FROM hotel
-# )
-#  ;
-#
-#         '''
-#         exe_query = '''
-#         SELECT DISTINCT var0, var1 FROM ((SELECT "fclNpdidFacility" AS var0 FROM "facility_moveable" ) AS FOO NATURAL JOIN (SELECT "fclNpdidFacility" AS var0, "fclName" AS var1 FROM "facility_moveable" ) AS FOO10200 );
-# '''
-#         exe_query = '''
-# SELECT var1, var2 FROM ((SELECT CONCAT('npd:licence/', "prlNpdidLicence") AS var0  FROM "licence" ) AS FOO0
-# NATURAL JOIN (SELECT CONCAT('npd:licence/', "prlNpdidLicence") AS var0, "prlName" AS var1 FROM "licence" ) AS FOO1
-# NATURAL JOIN (SELECT CONCAT('npd:licence/', "prlNpdidLicence") AS var0, "prlDateGranted" AS var2 FROM "licence" WHERE "prlDateGranted" <> '9999-12-31' ) AS FOO2
-# NATURAL JOIN (
-# SELECT CONCAT('npd:licence/', "prlNpdidLicence") AS var0 FROM "licence" WHERE "prlDateValidTo" <> '9999-12-31'
-# ) AS FOO3);
-#          '''
-#         exe_query = '''
-#         SELECT DISTINCT var0, var1 FROM ((
-#         SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c0") AS var0,
-#         'http://www.owl-ontologies.com/Ontology1207768242.owl#Person' AS VAR10202
-#         FROM "src_Person"
-#         UNION SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', A."c0") AS var0, '
-#         http://www.owl-ontologies.com/Ontology1207768242.owl#Person' AS VAR10202
-#         FROM "src_Thing" as A, "src_Person" as B WHERE  A."c0" = B."c0" ) AS FOO0
-#
-#         NATURAL JOIN
-#         (SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c0") AS var0,
-#         CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c1") AS var1
-#         FROM "src_hasStock"
-#         UNION SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c0") AS var0,
-#         CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c1") AS var1
-#         FROM "src_belongsToCompany" ) AS FOO1
-#
-#         NATURAL JOIN (SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c0") AS var1,
-#         'http://www.owl-ontologies.com/Ontology1207768242.owl#Stock' AS VAR10302
-#         FROM "src_Stock"
-#         UNION SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', A."c0") AS var1,
-#         'http://www.owl-ontologies.com/Ontology1207768242.owl#Stock' AS VAR10302
-#         FROM "src_Thing" as A, "src_Person" as B, "src_involvesInstrument" as C, "src_FinantialInstrument" as D, "src_Stock" as E
-#         WHERE  A."c0" = B."c0" AND B."c0" = C."c0" AND C."c0" = D."c0" AND D."c0" = E."c0" ) AS FOO2);
-#         '''
-#         exe_query = '''
-#                 SELECT DISTINCT var0, var1 FROM ((
-#         SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c0") AS var0,
-#         'http://www.owl-ontologies.com/Ontology1207768242.owl#Person' AS VAR10202
-#         FROM "src_Person"
-#         UNION SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', A."c0") AS var0, '
-#         http://www.owl-ontologies.com/Ontology1207768242.owl#Person' AS VAR10202
-#         FROM "src_Thing" as A, "src_Person" as B WHERE  A."c0" = B."c0" ) AS FOO0
-#
-#         NATURAL JOIN
-#         (SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c0") AS var0,
-#         CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c1") AS var1
-#         FROM "src_hasStock"
-#         UNION SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c0") AS var0,
-#         CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c1") AS var1
-#         FROM "src_belongsToCompany" ) AS FOO1
-#
-#         NATURAL JOIN (SELECT CONCAT('http://www.owl-ontologies.com/Ontology1207768242.owl#ns/', "c0") AS var1,
-#         'http://www.owl-ontologies.com/Ontology1207768242.owl#Stock' AS VAR10302
-#         FROM "src_Stock"
-#         ) AS FOO2);
-#         '''
         sql_execution_timing = TimingClass(input_file, 'sql_execution')
         # sql_timing.record_start()
         sql_results, headers = data_base.execute(exe_query)  # execute sql query
@@ -142,3 +70,10 @@ class ExecuteQueryClass:
         print(len(sparql_results))  # debug info
         total_execution_timing.record_end()
         return sparql_results  # for pytests
+
+    def execute_sql(self, exe_query):  # direct execution of sql  # for debug  # 2023/7/27
+        data_base = DataBase(self.path, self.db_name, dbms=self.dbms, port=self.port)  # instance of DatabaseClass  # 2023/6/1
+
+        sql_results, headers = data_base.execute(exe_query)  # execute sql query
+        print(len(sql_results))
+        data_base.close()

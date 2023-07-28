@@ -24,16 +24,18 @@ if __name__ == '__main__':
     query = 'Q2.txt'
 
     # # query = 'Q3a.txt'
-    # query = 'Q3a_Stock.txt'
+    # query = 'Q3_Stock.txt'
+    # query = 'Q3_Company.txt'
     # query = 'Q3a_FinantialInstrument_Stock.txt'
     # query = 'Q3_belongsToCompany_hasStock.txt'
+    # query = 'Q3_hasStock_Stock_Company.txt'
     # query = 'Q3.txt'
 
     # query = 'Q4a.txt'
     # query = 'Q4b.txt'
     # query = 'Q4c.txt'
     # query = 'Q4d.txt'
-    # query = 'Q4.txt'
+    query = 'Q4.txt'
 
     # query = 'Q5a.txt'
     # query = 'Q5b.txt'

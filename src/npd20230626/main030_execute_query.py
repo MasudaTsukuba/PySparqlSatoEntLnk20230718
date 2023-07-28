@@ -44,7 +44,7 @@ if __name__ == '__main__':
     # query = 'npd_q01e4.txt'
     # query = 'npd_q01e5.txt'
     # query = 'npd_q01e6.txt'
-    query = 'npd_q01.txt'
+    # query = 'npd_q01.txt'
     # query = 'npd_q01_star.txt'
     # query = 'npd_q01_order.txt'
 
