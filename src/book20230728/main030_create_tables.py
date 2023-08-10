@@ -13,7 +13,7 @@ DROP TABLE IF EXISTS book_title CASCADE;
 '''
 cursor.execute(sql_drop_book_title)
 sql_create_book_title = '''
-CREATE TABLE book_title (id VARCHAR(255) PRIMARY KEY, title VARCHAR(255));
+CREATE TABLE book_title (book_id VARCHAR(255) PRIMARY KEY, book_title VARCHAR(255));
 '''
 cursor.execute(sql_create_book_title)
 
@@ -22,7 +22,7 @@ DROP TABLE IF EXISTS author CASCADE;
 '''
 cursor.execute(sql_drop_author)
 sql_create_author = '''
-CREATE TABLE author (author_id VARCHAR(255) PRIMARY KEY, name VARCHAR(255));
+CREATE TABLE author (author_id VARCHAR(255) PRIMARY KEY, author_name VARCHAR(255));
 '''
 cursor.execute(sql_create_author)
 
@@ -40,12 +40,12 @@ DROP TABLE IF EXISTS book_author;
 '''
 cursor.execute(sql_drop_book_author)
 sql_create_book_author = '''
-CREATE TABLE book_author (id VARCHAR(255), author_id VARCHAR(255), 
-CONSTRAINT fk_book_id FOREIGN KEY (id) REFERENCES book_title (id) ON DELETE CASCADE ON UPDATE CASCADE,
+CREATE TABLE book_author (book_id VARCHAR(255), author_id VARCHAR(255), 
+CONSTRAINT fk_book_id FOREIGN KEY (book_id) REFERENCES book_title (book_id) ON DELETE CASCADE ON UPDATE CASCADE,
 CONSTRAINT fk_author_id FOREIGN KEY (author_id) REFERENCES author (author_id) ON DELETE CASCADE ON UPDATE CASCADE);
 '''
 sql_create_book_author = '''
-CREATE TABLE book_author (id VARCHAR(255), author_id VARCHAR(255));
+CREATE TABLE book_author (book_id VARCHAR(255), author_id VARCHAR(255));
 '''
 cursor.execute(sql_create_book_author)
 
@@ -54,10 +54,10 @@ DROP TABLE IF EXISTS book_date;
 '''
 cursor.execute(sql_drop_book_date)
 sql_create_book_date = '''
-CREATE TABLE book_date (id VARCHAR(255), pub_date VARCHAR(255), CONSTRAINT fk_book_id FOREIGN KEY (id) REFERENCES book_title (id) ON DELETE CASCADE ON UPDATE CASCADE);
+CREATE TABLE book_date (book_id VARCHAR(255), pub_date VARCHAR(255), CONSTRAINT fk_book_id FOREIGN KEY (book_id) REFERENCES book_title (book_id) ON DELETE CASCADE ON UPDATE CASCADE);
 '''
 sql_create_book_date = '''
-CREATE TABLE book_date (id VARCHAR(255), pub_date VARCHAR(255));
+CREATE TABLE book_date (book_id VARCHAR(255), pub_date VARCHAR(255));
 '''
 cursor.execute(sql_create_book_date)
 
@@ -66,12 +66,12 @@ DROP TABLE IF EXISTS book_genre;
 '''
 cursor.execute(sql_drop_book_genre)
 sql_create_book_genre = '''
-CREATE TABLE book_genre (id VARCHAR(255), genre_id VARCHAR(255), 
-CONSTRAINT fk_book_id FOREIGN KEY (id) REFERENCES book_title (id) ON DELETE CASCADE ON UPDATE CASCADE,
+CREATE TABLE book_genre (book_id VARCHAR(255), genre_id VARCHAR(255), 
+CONSTRAINT fk_book_id FOREIGN KEY (book_id) REFERENCES book_title (book_id) ON DELETE CASCADE ON UPDATE CASCADE,
 CONSTRAINT fk_genre_id FOREIGN KEY (genre_id) REFERENCES genre (genre_id) ON DELETE CASCADE ON UPDATE CASCADE);
 '''
 sql_create_book_genre = '''
-CREATE TABLE book_genre (id VARCHAR(255), genre_id VARCHAR(255));
+CREATE TABLE book_genre (book_id VARCHAR(255), genre_id VARCHAR(255));
 '''
 cursor.execute(sql_create_book_genre)
 cnx.commit()
@@ -81,11 +81,11 @@ DROP TABLE IF EXISTS book_description;
 '''
 cursor.execute(sql_drop_book_description)
 sql_create_book_description = '''
-CREATE TABLE book_description (id VARCHAR(255), description VARCHAR(255), 
-CONSTRAINT fk_book_id FOREIGN KEY (id) REFERENCES book_title (id) ON DELETE CASCADE ON UPDATE CASCADE);
+CREATE TABLE book_description (book_id VARCHAR(255), book_description VARCHAR(255), 
+CONSTRAINT fk_book_id FOREIGN KEY (book_id) REFERENCES book_title (book_id) ON DELETE CASCADE ON UPDATE CASCADE);
 '''
 sql_create_book_description= '''
-CREATE TABLE book_description (id VARCHAR(255), description VARCHAR(255));
+CREATE TABLE book_description (book_id VARCHAR(255), book_description VARCHAR(255));
 '''
 cursor.execute(sql_create_book_description)
 cnx.commit()

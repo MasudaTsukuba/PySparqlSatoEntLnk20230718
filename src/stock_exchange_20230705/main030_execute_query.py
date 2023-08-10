@@ -35,7 +35,7 @@ if __name__ == '__main__':
     # query = 'Q4b.txt'
     # query = 'Q4c.txt'
     # query = 'Q4d.txt'
-    query = 'Q4.txt'
+    # query = 'Q4.txt'
 
     # query = 'Q5a.txt'
     # query = 'Q5b.txt'

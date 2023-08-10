@@ -1,7 +1,7 @@
 query, date_time, keyword, exec_time
-q4_book_author.txt,2023-07-28 16:33:18,read_entity_linking_from_csv,0.22783565521240234
-q4_book_author.txt,2023-07-28 16:33:18,query2json,0.13773369789123535
-q4_book_author.txt,2023-07-28 16:33:18,sparql_to_sql,0.0003006458282470703
-q4_book_author.txt,2023-07-28 16:33:18,sql_execution,0.3190338611602783
-q4_book_author.txt,2023-07-28 16:33:18,sql_to_sparql,0.17255949974060059
-q4_book_author.txt,2023-07-28 16:33:18,total_execution,1.1215476989746094
+q1.txt,2023-07-31 08:40:43,read_entity_linking_from_csv,0.22307085990905762
+q1.txt,2023-07-31 08:40:43,query2json,0.13646936416625977
+q1.txt,2023-07-31 08:40:43,sparql_to_sql,0.0002899169921875
+q1.txt,2023-07-31 08:40:43,sql_execution,0.15917301177978516
+q1.txt,2023-07-31 08:40:43,sql_to_sparql,0.22709298133850098
+q1.txt,2023-07-31 08:40:43,total_execution,1.032494306564331

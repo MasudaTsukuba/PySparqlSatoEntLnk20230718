@@ -21,7 +21,7 @@
       "content": "",
       "variable": "VAR10002"
     },
-    "SQL":		"SELECT id AS VAR10000, title AS VAR10002 FROM book_title ;"
+    "SQL":		"SELECT book_id AS VAR10000, book_title AS VAR10002 FROM book_title ;"
   },
   {
     "mappingId":	"101: book_type",
@@ -45,7 +45,7 @@
       "content": "http://example.com/Book",
       "variable": "VAR10102"
     },
-    "SQL":		"SELECT id AS VAR10100 FROM book_title ;"
+    "SQL":		"SELECT book_id AS VAR10100 FROM book_title ;"
   },
   {
     "mappingId":	"102: book_author",
@@ -69,7 +69,7 @@
       "content": "",
       "variable": "VAR10202"
     },
-    "SQL":		"SELECT id AS VAR10200, author_id AS VAR10202 FROM book_author ;"
+    "SQL":		"SELECT book_id AS VAR10200, author_id AS VAR10202 FROM book_author ;"
   },
   {
     "mappingId":	"103: author_name",
@@ -93,7 +93,7 @@
       "content": "",
       "variable": "VAR10302"
     },
-    "SQL":		"SELECT author_id AS VAR10300, name AS VAR10302 FROM author ;"
+    "SQL":		"SELECT author_id AS VAR10300, author_name AS VAR10302 FROM author ;"
   },
   {
     "mappingId":	"104: author_type",
@@ -144,7 +144,7 @@
     "SQL":		"SELECT genre_id AS VAR10500 FROM genre ;"
   },
   {
-    "mappingId":	"106: genre_name",
+    "mappingId":	"106: genre_label",
     "subject":
     {
       "type": "Variable",

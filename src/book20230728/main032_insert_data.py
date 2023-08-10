@@ -16,7 +16,7 @@ with open('../../data/book20230728/csv/book_title.csv', 'r') as csv_file:
     first = True
 
     sql = '''
-    INSERT INTO book_title (id, title) VALUES (%s, %s);
+    INSERT INTO book_title (book_id, book_title) VALUES (%s, %s);
     '''
     for row in csv_reader:
         if first:
@@ -40,7 +40,7 @@ with open('../../data/book20230728/csv/author_label.csv', 'r') as csv_file:
     first = True
 
     sql = '''
-    INSERT INTO author (author_id, name) VALUES (%s, %s);
+    INSERT INTO author (author_id, author_name) VALUES (%s, %s);
     '''
     for row in csv_reader:
         if first:
@@ -87,7 +87,7 @@ with open('../../data/book20230728/csv/book_author.csv', 'r') as csv_file:
     first = True
 
     sql = '''
-    INSERT INTO book_author (id, author_id) VALUES (%s, %s);
+    INSERT INTO book_author (book_id, author_id) VALUES (%s, %s);
     '''
     for row in csv_reader:
         if first:
@@ -113,7 +113,7 @@ with open('../../data/book20230728/csv/book_genre.csv', 'r') as csv_file:
     first = True
 
     sql = '''
-    INSERT INTO book_genre (id, genre_id) VALUES (%s, %s);
+    INSERT INTO book_genre (book_id, genre_id) VALUES (%s, %s);
     '''
     for row in csv_reader:
         if first:
@@ -139,7 +139,7 @@ with open('../../data/book20230728/csv/book_date.csv', 'r') as csv_file:
     first = True
 
     sql = '''
-    INSERT INTO book_date (id, pub_date) VALUES (%s, %s);
+    INSERT INTO book_date (book_id, pub_date) VALUES (%s, %s);
     '''
     for row in csv_reader:
         if first:
@@ -165,7 +165,7 @@ with open('../../data/book20230728/csv/book_description.csv', 'r') as csv_file:
     first = True
 
     sql = '''
-    INSERT INTO book_description (id, description) VALUES (%s, %s);
+    INSERT INTO book_description (book_id, book_description) VALUES (%s, %s);
     '''
     for row in csv_reader:
         if first:

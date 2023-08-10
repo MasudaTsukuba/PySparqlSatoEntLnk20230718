@@ -1,0 +1,1299 @@
+[
+  {
+    "mappingId":	"Mapping:00826:Table:npdv:ProductionLicence",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10000"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "variable": "VAR10001"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#ProductionLicence",
+      "variable": "VAR10002"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/licence/', licence.\"prlNpdidLicence\") AS VAR10000  FROM licence ;"
+  },
+  {
+    "mappingId":	"Mapping:00814:Table:npdv:MoveableFacility",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10100"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "variable": "VAR10101"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#MoveableFacility",
+      "variable": "VAR10102"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/facility/', facility_moveable.\"fclNpdidFacility\") AS VAR10100 FROM facility_moveable ;"
+  },
+  {
+    "mappingId":	"Mapping:00755:Literal:facility_moveable:fclName",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10200"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#name",
+      "variable": "VAR10201"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#MoveableFacility",
+      "variable": "VAR10202"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/facility/', facility_moveable.\"fclNpdidFacility\") AS VAR10200, facility_moveable.\"fclName\" AS VAR10202 FROM facility_moveable ;"
+  },
+  {
+    "mappingId":	"Mapping:00472:Literal:Trans:facility_moveable:fclNationNamee",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10300"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#registeredInCountryDummy",
+      "variable": "VAR10301"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#MoveableFacility",
+      "variable": "VAR10302"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/facility/', facility_moveable.\"fclNpdidFacility\") AS VAR10300, facility_moveable.\"fclNationName\" AS VAR10302 FROM facility_moveable ;"
+  },
+  {
+    "mappingId":	"Mapping:00193:Literal:facility_moveable:fclNpdidFacility",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10400"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#idNPD",
+      "variable": "VAR10401"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#MoveableFacility",
+      "variable": "VAR10402"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/facility/', facility_moveable.\"fclNpdidFacility\") AS VAR10400, facility_moveable.\"fclNpdidFacility\" AS VAR10402 FROM facility_moveable ;"
+  },
+  {
+    "mappingId":	"Mapping:00697:Literal:licence:prlName",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10500"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#name",
+      "variable": "VAR10501"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR10502"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/licence/', licence.\"prlNpdidLicence\") AS VAR10500, licence.\"prlName\" AS VAR10502 FROM licence ;"
+  },
+  {
+    "mappingId":	"Mapping:00189:Literal:licence:prlDateGranted",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10600"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#dateLicenceGranted",
+      "variable": "VAR10601"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR10602"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/licence/', licence.\"prlNpdidLicence\") AS VAR10600, licence.\"prlDateGranted\" AS VAR10602 FROM licence WHERE licence.\"prlDateGranted\" <> '9999-12-31' ;"
+  },
+  {
+    "mappingId":	"Mapping:00317:Literal:licence:prlDateValidTo",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10700"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#dateLicenceValidTo",
+      "variable": "VAR10701"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR10702"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/licence/', licence.\"prlNpdidLicence\") AS VAR10700, licence.\"prlDateValidTo\" AS VAR10702 FROM licence WHERE licence.\"prlDateValidTo\" <> '9999-12-31' ;"
+  },
+  {
+    "mappingId":	"Mapping:00705:Literal:licence_phase_hst:prlDateValidTo",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10700"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#dateLicenceValidTo",
+      "variable": "VAR10701"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR10702"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/licence/', licence_phase_hst.\"prlNpdidLicence\", '/phase/', licence_phase_hst.\"prlPhase\", '/history/', licence_phase_hst.\"prlDatePhaseValidFrom\") AS VAR10700, licence_phase_hst.\"prlDateValidTo\" AS VAR10702 FROM licence_phase_hst WHERE licence_phase_hst.\"prlDateValidTo\" <> '9999-12-31' ;"
+  },
+  {
+    "mappingId":	"Mapping:00957:ForeignKey",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10800"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#licenceLicensee",
+      "variable": "VAR10801"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR10802"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/licence/', licence_licensee_hst.\"prlNpdidLicence\", '/licensee/', licence_licensee_hst.\"cmpNpdidCompany\", '/history/', licence_licensee_hst.\"prlLicenseeDateValidFrom\", '/', licence_licensee_hst.\"prlLicenseeDateValidTo\") AS VAR10800, CONCAT('http://sws.ifi.uio.no/data/npd-v2/company/', company.\"cmpNpdidCompany\") AS VAR10802 FROM licence_licensee_hst  INNER JOIN company ON licence_licensee_hst.\"cmpNpdidCompany\" = company.\"cmpNpdidCompany\" ;"
+  },
+  {
+    "mappingId":	"Mapping:00825:Table:npdv:FieldReserve",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR10900"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "variable": "VAR10901"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#FieldReserve",
+      "variable": "VAR10902"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', field_reserves.\"fldNpdidField\", '/reserve') AS VAR10900 FROM field_reserves ;"
+  },
+  {
+    "mappingId":	"Mapping:00077:Literal:company_reserves:cmpRemainingCondensate",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR11000"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#remainingCondensate",
+      "variable": "VAR11001"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR11002"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/company/', company_reserves.\"cmpNpdidCompany\", '/reserve/', company_reserves.\"fldNpdidField\") AS VAR11000, CONCAT(company_reserves.\"cmpRemainingCondensate\") AS VAR11002 FROM company_reserves ;"
+  },
+  {
+    "mappingId":	"Mapping:00501:Literal:field_reserves:fldRemainingCondensate",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR11100"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#remainingCondensate",
+      "variable": "VAR11101"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR11102"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', field_reserves.\"fldNpdidField\", '/reserve') AS VAR11100, CONCAT(field_reserves.\"fldRemainingCondensate\") AS VAR11102 FROM field_reserves ;"
+  },
+  {
+    "mappingId":	"Mapping:00596:Literal:field_reserves:fldRemainingGas",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR11200"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#remainingGas",
+      "variable": "VAR11201"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR11202"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', field_reserves.\"fldNpdidField\", '/reserve') AS VAR11200, CONCAT(field_reserves.\"fldRemainingGas\") AS VAR11202 FROM field_reserves ;"
+  },
+  {
+    "mappingId":	"Mapping:00729:Literal:company_reserves:cmpRemainingGas",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR11300"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#remainingGas",
+      "variable": "VAR11301"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR11302"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/company/', company_reserves.\"cmpNpdidCompany\", '/reserve/', company_reserves.\"fldNpdidField\") AS VAR11300, CONCAT(company_reserves.\"cmpRemainingGas\") AS VAR11302 FROM company_reserves ;"
+  },
+  {
+    "mappingId":	"Mapping:00050:Literal:field_reserves:fldRemainingNGL",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR11400"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#remainingNGL",
+      "variable": "VAR11401"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR11402"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', field_reserves.\"fldNpdidField\", '/reserve') AS VAR11400, CONCAT(field_reserves.\"fldRemainingNGL\") AS VAR11402 FROM field_reserves ;"
+  },
+  {
+    "mappingId":	"Mapping:00339:Literal:company_reserves:cmpRemainingNGL",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR11500"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#remainingNGL",
+      "variable": "VAR11501"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR11502"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/company/', company_reserves.\"cmpNpdidCompany\", '/reserve/', company_reserves.\"fldNpdidField\") AS VAR11500, CONCAT(company_reserves.\"cmpRemainingNGL\") AS VAR11502 FROM company_reserves ;"
+  },
+  {
+    "mappingId":	"Mapping:00601:Literal:field_reserves:fldRemainingOil",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR11600"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#remainingOil",
+      "variable": "VAR11601"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR11602"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', field_reserves.\"fldNpdidField\", '/reserve') AS VAR11600, CONCAT(field_reserves.\"fldRemainingOil\") AS VAR11602 FROM field_reserves ;"
+  },
+  {
+    "mappingId":	"Mapping:00466:Literal:company_reserves:cmpRemainingOil",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR11700"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#remainingOil",
+      "variable": "VAR11701"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR11702"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/company/', company_reserves.\"cmpNpdidCompany\", '/reserve/', company_reserves.\"fldNpdidField\") AS VAR11700, CONCAT(company_reserves.\"cmpRemainingOil\") AS VAR11702 FROM company_reserves ;"
+  },
+  {
+    "mappingId":	"Mapping:00195:Literal:field_reserves:fldRemainingOE",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR11800"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#remainingOilEquivalents",
+      "variable": "VAR11801"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR11802"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', field_reserves.\"fldNpdidField\", '/reserve') AS VAR11800, CONCAT(field_reserves.\"fldRemainingOE\") AS VAR11802 FROM field_reserves ;"
+  },
+  {
+    "mappingId":	"Mapping:00010:Literal:company_reserves:cmpRemainingOE",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR11900"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#remainingOilEquivalents",
+      "variable": "VAR11901"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR11902"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/company/', company_reserves.\"cmpNpdidCompany\", '/reserve/', company_reserves.\"fldNpdidField\") AS VAR11900, CONCAT(company_reserves.\"cmpRemainingOE\") AS VAR11902 FROM company_reserves ;"
+  },
+  {
+    "mappingId":	"Mapping:00472:Literal:Trans:facility_moveable:fclNationName",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR12000"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#registeredInCountry",
+      "variable": "VAR12001"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "<http://dbpedia.org/resource/Denmark>",
+      "variable": "VAR12002"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/facility/', facility_moveable.\"fclNpdidFacility\") AS VAR12000, 'http://dbpedia.org/resource/Denmark' AS VAR12002 FROM facility_moveable WHERE facility_moveable.\"fclNationName\"='Denmark';"
+  },
+  {
+    "mappingId":	"Mapping:00473:Literal:Trans:facility_moveable:fclNationName",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR12100"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#registeredInCountry",
+      "variable": "VAR12101"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "<http://dbpedia.org/resource/Norway>",
+      "variable": "VAR12102"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/facility/', facility_moveable.\"fclNpdidFacility\") AS VAR12100, 'http://dbpedia.org/resource/Norway' AS VAR12102 FROM facility_moveable WHERE facility_moveable.\"fclNationName\"='NORWAY';"
+  },
+  {
+    "mappingId":	"Mapping:00474:Literal:Trans:facility_moveable:fclNationName",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR12200"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#registeredInCountry",
+      "variable": "VAR12201"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "<http://dbpedia.org/resource/China>",
+      "variable": "VAR12202"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/facility/', facility_moveable.\"fclNpdidFacility\") AS VAR12200, 'http://dbpedia.org/resource/China' AS VAR12202 FROM facility_moveable WHERE facility_moveable.\"fclNationName\"='China';"
+  },
+  {
+    "mappingId":	"Mapping:00475:Literal:Trans:facility_moveable:fclNationName",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR12300"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#registeredInCountry",
+      "variable": "VAR12301"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "<http://dbpedia.org/resource/Marshall_Islands>",
+      "variable": "VAR12302"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/facility/', facility_moveable.\"fclNpdidFacility\") AS VAR12300, 'http://dbpedia.org/resource/Marshall_Islands' AS VAR12302 FROM facility_moveable WHERE facility_moveable.\"fclNationName\"='Marshall islands';"
+  },
+  {
+    "mappingId":	"Mapping:00476:Literal:Trans:facility_moveable:fclNationName",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR12400"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#registeredInCountry",
+      "variable": "VAR12401"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "<http://dbpedia.org/resource/The_Bahamas>",
+      "variable": "VAR12402"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/facility/', facility_moveable.\"fclNpdidFacility\") AS VAR12400, 'http://dbpedia.org/resource/The_Bahamas' AS VAR12402 FROM facility_moveable WHERE facility_moveable.\"fclNationName\"='Bahamas';"
+  },
+  {
+    "mappingId":	"Mapping:00477:Literal:Trans:facility_moveable:fclNationName",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR12500"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#registeredInCountry",
+      "variable": "VAR12501"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "<http://dbpedia.org/resource/Russia>",
+      "variable": "VAR12502"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/facility/', facility_moveable.\"fclNpdidFacility\") AS VAR12500, 'http://dbpedia.org/resource/Russia' AS VAR12502 FROM facility_moveable WHERE facility_moveable.\"fclNationName\"='Russian federation';"
+  },
+  {
+    "mappingId":	"Mapping:00478:Literal:Trans:facility_moveable:fclNationName",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR12500"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#registeredInCountry",
+      "variable": "VAR12501"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "<http://dbpedia.org/resource/Liberia>",
+      "variable": "VAR12502"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/facility/', facility_moveable.\"fclNpdidFacility\") AS VAR12500, 'http://dbpedia.org/resource/Liberia' AS VAR12502 FROM facility_moveable WHERE facility_moveable.\"fclNationName\"='Liberia';"
+  },
+  {
+    "mappingId":	"Mapping:00479:Literal:Trans:facility_moveable:fclNationName",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR12600"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#registeredInCountry",
+      "variable": "VAR12601"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "<http://dbpedia.org/resource/Panama>",
+      "variable": "VAR12602"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/facility/', facility_moveable.\"fclNpdidFacility\") AS VAR12600, 'http://dbpedia.org/resource/Panama' AS VAR12602 FROM facility_moveable WHERE facility_moveable.\"fclNationName\"='Panama';"
+  },
+  {
+    "mappingId":	"Mapping:00480:Literal:Trans:facility_moveable:fclNationName",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR12700"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#registeredInCountry",
+      "variable": "VAR12701"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "<http://dbpedia.org/resource/Great_Britain>",
+      "variable": "VAR12702"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/facility/', facility_moveable.\"fclNpdidFacility\") AS VAR12700, 'http://dbpedia.org/resource/Great_Britain' AS VAR12702 FROM facility_moveable WHERE facility_moveable.\"fclNationName\"='GREAT BRITAIN';"
+  },
+  {
+    "mappingId":	"Mapping:00481:Literal:Trans:facility_moveable:fclNationName",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR12800"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#registeredInCountry",
+      "variable": "VAR12801"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "<http://dbpedia.org/resource/Singapore>",
+      "variable": "VAR12802"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/facility/', facility_moveable.\"fclNpdidFacility\") AS VAR12800, 'http://dbpedia.org/resource/Singapore' AS VAR12802 FROM facility_moveable WHERE facility_moveable.\"fclNationName\"='Singapore';"
+  },
+  {
+    "mappingId":	"Mapping:00828:Table:npdv:ProductionLicenceLicensee",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR12900"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "variable": "VAR12901"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#ProductionLicenceLicensee",
+      "variable": "VAR12902"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/licence/', licence_licensee_hst.\"prlNpdidLicence\", '/licensee/', licence_licensee_hst.\"cmpNpdidCompany\", '/history/', licence_licensee_hst.\"prlLicenseeDateValidFrom\", '/', licence_licensee_hst.\"prlLicenseeDateValidTo\") AS VAR12900 FROM licence_licensee_hst ;"
+  },
+  {
+    "mappingId":	"Mapping:00831:Table:ptl:ProductionLicenceLicenseee",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR13000"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "variable": "VAR13001"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2-ptl#ProductionLicenceLicensee",
+      "variable": "VAR13002"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/petreg/licence/', licence_petreg_licence_licencee.\"prlNpdidLicence\", '/licencee/', licence_petreg_licence_licencee.\"cmpNpdidCompany\") AS VAR13000 FROM licence_petreg_licence_licencee ;"
+  },
+  {
+    "mappingId":	"Mapping:00100:Literal:licence_licensee_hst:prlLicenseeDateValidFrom",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR13100"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#dateLicenseeValidFrom",
+      "variable": "VAR13101"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR13102"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/licence/', licence_licensee_hst.\"prlNpdidLicence\", '/licensee/', licence_licensee_hst.\"cmpNpdidCompany\", '/history/', licence_licensee_hst.\"prlLicenseeDateValidFrom\", '/', licence_licensee_hst.\"prlLicenseeDateValidTo\") AS VAR13100, CONCAT(licence_licensee_hst.\"prlLicenseeDateValidFrom\") AS VAR13102 FROM licence_licensee_hst  WHERE licence_licensee_hst.\"prlLicenseeDateValidFrom\" <> '9999-12-31';"
+  },
+  {
+    "mappingId":	"Mapping:00093:Literal:tuf_petreg_licence_licencee:ptlLicenseeInterest",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR13200"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2-ptl#licenseeInterest",
+      "variable": "VAR13201"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR13202"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/petreg/facility/', tufNpdidTuf, '/licencee/', tuf_petreg_licence_licencee.\"cmpNpdidCompany\") AS VAR13200, CONCAT(tuf_petreg_licence_licencee.\"ptlLicenseeInterest\") AS VAR13202 FROM tuf_petreg_licence_licencee;"
+  },
+  {
+    "mappingId":	"Mapping:00200:Literal:licence_licensee_hst:prlLicenseeInterest",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR13300"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#licenseeInterest",
+      "variable": "VAR13301"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR13302"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/licence/', licence_licensee_hst.\"prlNpdidLicence\", '/licensee/', licence_licensee_hst.\"cmpNpdidCompany\", '/history/', licence_licensee_hst.\"prlLicenseeDateValidFrom\", '/', licence_licensee_hst.\"prlLicenseeDateValidTo\") AS VAR13300, CONCAT(licence_licensee_hst.\"prlLicenseeInterest\") AS VAR13302 FROM licence_licensee_hst;"
+  },
+  {
+    "mappingId":	"Mapping:00493:Literal:bsns_arr_area_licensee_hst:baaLicenseeInterest",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR13400"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#licenseeInterest",
+      "variable": "VAR13401"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR13402"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/baa/', bsns_arr_area_licensee_hst.\"baaNpdidBsnsArrArea\", '/licensee/', bsns_arr_area_licensee_hst.\"cmpNpdidCompany\", '/history/', bsns_arr_area_licensee_hst.\"baaLicenseeDateValidFrom\", '/', bsns_arr_area_licensee_hst.\"baaLicenseeDateValidTo\") AS VAR13400, CONCAT(bsns_arr_area_licensee_hst.\"baaLicenseeInterest\") AS VAR13402 FROM bsns_arr_area_licensee_hst;"
+  },
+  {
+    "mappingId":	"Mapping:00750:Literal:licence_petreg_licence_licencee:ptlLicenseeInterest",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR13500"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2-ptl#licenseeInterest",
+      "variable": "VAR13501"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR13502"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/petreg/licence/', licence_petreg_licence_licencee.\"prlNpdidLicence\", '/licencee/', licence_petreg_licence_licencee.\"cmpNpdidCompany\") AS VAR13500, CONCAT(licence_petreg_licence_licencee.\"ptlLicenseeInterest\") AS VAR13502 FROM licence_petreg_licence_licencee;"
+  },
+  {
+    "mappingId":	"Mapping:00940:ForeignKey",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR13600"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#licenseeForLicence",
+      "variable": "VAR13601"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR13602"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/licence/', licence_licensee_hst.\"prlNpdidLicence\", '/licensee/', licence_licensee_hst.\"cmpNpdidCompany\", '/history/', licence_licensee_hst.\"prlLicenseeDateValidFrom\", '/', licence_licensee_hst.\"prlLicenseeDateValidTo\") AS VAR13600, CONCAT('http://sws.ifi.uio.no/data/npd-v2/licence/', licence.\"prlNpdidLicence\") AS VAR13602 FROM  licence_licensee_hst  INNER JOIN licence ON licence_licensee_hst.\"prlNpdidLicence\" = licence.\"prlNpdidLicence\";"
+  },
+  {
+    "mappingId":	"Mapping:00206:Literal:field_production_totalt_NCS_year:prfYear",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR13700"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#productionYear",
+      "variable": "VAR13701"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR13702"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/ncs/production/', \"field_production_totalt_NCS_year\".\"prfYear\") AS VAR13700, CONCAT(\"field_production_totalt_NCS_year\".\"prfYear\") AS VAR13702 FROM \"field_production_totalt_NCS_year\";"
+  },
+  {
+    "mappingId":	"Mapping:00281:Literal:field_production_totalt_NCS_month:prfYear",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR13800"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#productionYear",
+      "variable": "VAR13801"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR13802"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/ncs/production/', \"field_production_totalt_NCS_month\".\"prfYear\", '/', \"field_production_totalt_NCS_month\".\"prfMonth\") AS VAR13800, CONCAT(\"field_production_totalt_NCS_month\".\"prfYear\") AS VAR13802 FROM \"field_production_totalt_NCS_month\";"
+  },
+  {
+    "mappingId":	"Mapping:00331:Literal:field_investment_yearly:prfYear",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR13900"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#productionYear",
+      "variable": "VAR13901"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR13902"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', field_investment_yearly.\"prfNpdidInformationCarrier\", '/investment/', field_investment_yearly.\"prfYear\") AS VAR13900, CONCAT(field_investment_yearly.\"prfYear\") AS VAR13902 FROM field_investment_yearly;"
+  },
+  {
+    "mappingId":	"Mapping:00341:Literal:field_production_yearly:prfYear",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR14000"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#productionYear",
+      "variable": "VAR14001"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR14002"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', field_production_yearly.\"prfNpdidInformationCarrier\", '/production/', field_production_yearly.\"prfYear\") AS VAR14000, CONCAT(field_production_yearly.\"prfYear\") AS VAR14002 FROM field_production_yearly;"
+  },
+  {
+    "mappingId":	"Mapping:00341:Literal:field_production_yearly:prfYear",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR14100"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#productionYear",
+      "variable": "VAR14101"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR14102"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', field_production_monthly.\"prfNpdidInformationCarrier\", '/production/', field_production_monthly.\"prfYear\", '/', field_production_monthly.\"prfMonth\") AS VAR14100, CONCAT(field_production_monthly.\"prfYear\") AS VAR14102 FROM field_production_monthly;"
+  },
+  {
+    "mappingId":	"Mapping:00108:Literal:field_production_totalt_NCS_month:prfMonth",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR14200"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#productionMonth",
+      "variable": "VAR14201"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR14202"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/ncs/production/', \"field_production_totalt_NCS_month\".\"prfYear\", '/', \"field_production_totalt_NCS_month\".\"prfMonth\") AS VAR14200, CONCAT(\"field_production_totalt_NCS_month\".\"prfMonth\") AS VAR14202 FROM \"field_production_totalt_NCS_month\";"
+  },
+  {
+    "mappingId":	"Mapping:00573:Literal:field_production_monthly:prfMonth",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR14300"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#productionMonth",
+      "variable": "VAR14301"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR14302"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', field_production_monthly.\"prfNpdidInformationCarrier\", '/production/', field_production_monthly.\"prfYear\", '/', field_production_monthly.\"prfMonth\") AS VAR14300, CONCAT(field_production_monthly.\"prfMonth\") AS VAR14302 FROM field_production_monthly;"
+  },
+  {
+    "mappingId":	"Mapping:00091:Literal:field_production_totalt_NCS_year:prfPrdGasNetBillSm",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR14400"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#producedGas",
+      "variable": "VAR14401"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR14402"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/ncs/production/', \"field_production_totalt_NCS_year\".\"prfYear\") AS VAR14400, CONCAT(\"field_production_totalt_NCS_year\".\"prfPrdGasNetBillSm\") AS VAR14402 FROM \"field_production_totalt_NCS_year\";"
+  },
+  {
+    "mappingId":	"Mapping:00091:Literal:field_production_totalt_NCS_year:prfPrdGasNetBillSm",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR14500"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#producedGas",
+      "variable": "VAR14501"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR14502"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', field_production_yearly.\"prfNpdidInformationCarrier\", '/production/', field_production_yearly.\"prfYear\") AS VAR14500, CONCAT(field_production_yearly.\"prfPrdGasNetBillSm3\") AS VAR14502 FROM field_production_yearly;"
+  },
+  {
+    "mappingId":	"Mapping:00343:Literal:field_production_totalt_NCS_month:prfPrdGasNetBillSm3",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR14600"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#producedGas",
+      "variable": "VAR14601"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR14602"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/ncs/production/', \"field_production_totalt_NCS_month\".\"prfYear\", '/', \"field_production_totalt_NCS_month\".\"prfMonth\") AS VAR14600, CONCAT(\"field_production_totalt_NCS_month\".\"prfPrdGasNetBillSm3\") AS VAR14602 FROM \"field_production_totalt_NCS_month\";"
+  },
+  {
+    "mappingId":	"Mapping:00561:Literal:field_production_monthly:prfPrdGasNetBillSm3",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR14700"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#producedGas",
+      "variable": "VAR14701"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR14702"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', field_production_monthly.\"prfNpdidInformationCarrier\", '/production/', field_production_monthly.\"prfYear\", '/', field_production_monthly.\"prfMonth\") AS VAR14700, CONCAT(field_production_monthly.\"prfPrdGasNetBillSm3\") AS VAR14702 FROM field_production_monthly;"
+  },
+  {
+    "mappingId":	"Mapping:00166:Literal:field_production_totalt_NCS_year:prfPrdOilNetMillSm",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR14800"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#producedOil",
+      "variable": "VAR14801"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR14802"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/ncs/production/', \"field_production_totalt_NCS_year\".\"prfYear\") AS VAR14800, CONCAT(\"field_production_totalt_NCS_year\".\"prfPrdOilNetMillSm\") AS VAR14802 FROM \"field_production_totalt_NCS_year\";"
+  },
+  {
+    "mappingId":	"Mapping:00174:Literal:field_production_yearly:prfPrdOilNetMillSm3",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR14900"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#producedOil",
+      "variable": "VAR14901"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR14902"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', field_production_yearly.\"prfNpdidInformationCarrier\", '/production/', field_production_yearly.\"prfYear\") AS VAR14900, CONCAT(field_production_yearly.\"prfPrdOilNetMillSm3\") AS VAR14902 FROM field_production_yearly;"
+  },
+  {
+    "mappingId":	"Mapping:00522:Literal:field_production_monthly:prfPrdOilNetMillSm3",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR15000"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#producedOil",
+      "variable": "VAR15001"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR15002"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', field_production_monthly.\"prfNpdidInformationCarrier\", '/production/', field_production_monthly.\"prfYear\", '/', field_production_monthly.\"prfMonth\") AS VAR15000, CONCAT(field_production_monthly.\"prfPrdOilNetMillSm3\") AS VAR15002 FROM field_production_monthly;"
+  },
+  {
+    "mappingId":	"Mapping:00579:Literal:field_production_totalt_NCS_month:prfPrdOilNetMillSm3",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR15100"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#producedOil",
+      "variable": "VAR15101"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR15102"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/ncs/production/', \"field_production_totalt_NCS_month\".\"prfYear\", '/', \"field_production_totalt_NCS_month\".\"prfMonth\") AS VAR15100, CONCAT(\"field_production_totalt_NCS_month\".\"prfPrdOilNetMillSm3\") AS VAR15102 FROM \"field_production_totalt_NCS_month\";"
+  }
+
+]
