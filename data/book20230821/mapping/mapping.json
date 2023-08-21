@@ -1,0 +1,170 @@
+[
+  {
+    "mappingId":	"100: book_title",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "PREFIX_book",
+      "content": "",
+      "variable": "VAR10000"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.w3.org/2000/01/rdf-schema#label",
+      "variable": "VAR10001"
+    },
+    "object":
+    {
+      "type": "plain",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR10002"
+    },
+    "SQL":		"SELECT id AS VAR10000, title AS VAR10002 FROM data ;"
+  },
+  {
+    "mappingId":	"101: book_type",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "PREFIX_book",
+      "content": "",
+      "variable": "VAR10100"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "variable": "VAR10101"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "http://example.com/Book",
+      "variable": "VAR10102"
+    },
+    "SQL":		"SELECT id AS VAR10100 FROM data;"
+  },
+  {
+    "mappingId":	"102: book_author",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "PREFIX_book",
+      "content": "",
+      "variable": "VAR10200"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "https://www.wikidata.org/wiki/Property/P50",
+      "variable": "VAR10201"
+    },
+    "object":
+    {
+      "type": "Variable",  
+      "uri": "PREFIX_author",
+      "content": "",
+      "variable": "VAR10202"
+    },
+    "SQL":		"SELECT id AS VAR10200, author_name AS VAR10202 FROM data;"
+  },
+  {
+    "mappingId":	"103: book_author2",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "PREFIX_book",
+      "content": "",
+      "variable": "VAR10300"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "https://www.wikidata.org/wiki/Property/P50",
+      "variable": "VAR10301"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR10302"
+    },
+    "SQL":		"SELECT id AS VAR10300, author_name2 AS VAR10302 FROM data;"
+  },
+  {
+    "mappingId":	"104: work_category",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "PREFIX_book",
+      "content": "",
+      "variable": "VAR10500"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "https://www.wikidata.org/wiki/Property/P7937",
+      "variable": "VAR10501"
+    },
+    "object":
+    {
+      "type": "plain",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR10502"
+    },
+    "SQL":		"SELECT id AS VAR10500, work_category AS VAR10502 FROM genre ;"
+  },
+  {
+    "mappingId":	"105: abstract",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "PREFIX_book",
+      "content": "",
+      "variable": "VAR10600"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.w3.org/2000/01/rdf-schema#comment",
+      "variable": "VAR10601"
+    },
+    "object":
+    {
+      "type": "plain",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR10602"
+    },
+    "SQL":		"SELECT id AS VAR10600, comment AS VAR10602 FROM data ;"
+  },
+  {
+    "mappingId":	"106: date",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "PREFIX_book",
+      "content": "",
+      "variable": "VAR10700"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "https://www.wikidata.org/wiki/Property/P577",
+      "variable": "VAR10701"
+    },
+    "object":
+    {
+      "type": "plain",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR10702"
+    },
+    "SQL":		"SELECT id AS VAR10700, date AS VAR10702 FROM data ;"
+  }
+]

@@ -3,6 +3,8 @@
 # Amagasa Laboratory, University of Tsukuba
 
 import os
+import sys
+
 import pandas as pd
 import re
 import sqlite3
@@ -47,12 +49,22 @@ class Uri:
     def translate_sql(self, sql: str, triple, mapping):  # 2023/6/16  # uri translation: return [sql, trans_uri]
 
         def rewrite_where_sql(sql: str, where_value, var):
+            pattern = fr'.* ([a-zA-Z_][a-zA-Z0-9_]*) AS {var}'  # replace VARnnnnn with its actual variable  # 2023/8/21
+            matches = re.findall(pattern, sql)
+            for match in matches:
+                pass
+            if len(matches) != 1:
+                print('Something wrong in sql: ', sql)
+                sys.exit()
+            replaced_var = matches[0]
             if 'WHERE' in sql:  # if WHERE key word is already in the sql statement
                 index = sql.find(';')  # find the last
-                re_sql = sql[:index] + ' AND ' + var + ' = "' + where_value + '";'  # append the WHERE clause at the end
+                # re_sql = sql[:index] + ' AND ' + var + ' = "' + where_value + '";'  # append the WHERE clause at the end
+                re_sql = sql[:index] + " AND " + replaced_var + " = '" + where_value + "';"  # append the WHERE clause at the end  # 2023/8/21
             else:  # first time 'WHERE' is inserted
                 index = sql.find(';')
-                re_sql = sql[:index] + ' WHERE ' + var + ' = "' + where_value + '";'  # first WHERE
+                # re_sql = sql[:index] + ' WHERE ' + var + ' = "' + where_value + '";'  # first WHERE
+                re_sql = sql[:index] + " WHERE " + replaced_var + " = '" + where_value + "';"  # first WHERE  # 2023/8/21
             return re_sql
 
         def rewrite_where_sql_filter(sql: str, sql_filter, uri_table):

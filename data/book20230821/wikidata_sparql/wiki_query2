@@ -1,0 +1,39 @@
+・main1
+SELECT DISTINCT ?S ?name WHERE {
+ ?S rdfs:label ?name;
+  wdt:P31 wd:Q7725634.
+ FILTER((LANG(?name)) = "en")
+}
+・main2
+SELECT DISTINCT ?S ?name ?author_name ?author_name2 ?author ?author2
+WHERE {
+ ?S rdfs:label ?name;
+  wdt:P31 wd:Q7725634.
+  ?S wdt:P50 ?author.
+  ?author rdfs:label ?author_name.
+   FILTER((LANG(?author_name)) = "en")
+ OPTIONAL {
+  ?S wdt:P50 ?author2.
+  ?author2 rdfs:label ?author_name2.
+  FILTER((LANG(?author_name2)) = "en")
+  FILTER(?author != ?author2)
+ }
+ FILTER((LANG(?name)) = "en")
+}
+・main3
+SELECT DISTINCT ?S ?name ?date ?work_category ?comment
+WHERE {
+ ?S rdfs:label ?name;
+  wdt:P31 wd:Q7725634.
+ OPTIONAL{?S wdt:P577 ?date. }.
+  OPTIONAL{
+   ?S wdt:P7937 ?work_categoryID.
+   ?work_categoryID rdfs:label ?work_category.
+   FILTER((LANG(?work_category)) = "en")
+      }.
+  OPTIONAL{
+  ?S schema:description ?comment.
+  FILTER((LANG(?comment)) = "en")
+  }.
+ FILTER((LANG(?name)) = "en")
+}

@@ -97,10 +97,11 @@ class SparqlQuery:
                         #     insert_sql += sub_q + ' UNION '  # connect sqls with union
                         # insert_sql = re.sub(r' UNION $', '', insert_sql)  # remove the last 'UNION'
                         if len(sql_subquery) == 1:
-                            if sql_subquery[0].find('FOO') < 0:
-                                insert_sql = f'({sql_subquery[0]}) AS FOO{foo_count}'
-                            else:
-                                insert_sql = f'({sql_subquery[0]}) AS FOO{foo_count}'
+                            insert_sql = f'({sql_subquery[0]}) AS FOO{foo_count}'  # 2023/8/21
+                            # if sql_subquery[0].find('FOO') < 0:
+                            #     insert_sql = f'({sql_subquery[0]}) AS FOO{foo_count}'
+                            # else:
+                            #     insert_sql = f'({sql_subquery[0]}) AS FOO{foo_count}'
                         else:
                             insert_sql = ' UNION '.join(sql_subquery)  # connect with UNION  # 2023/5/23
                             insert_sql = f'({insert_sql}) AS FOO{foo_count}'

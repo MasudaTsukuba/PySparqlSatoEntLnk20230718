@@ -15,7 +15,7 @@ if __name__ == '__main__':
     # uncomment to select a query
     query = 'q1.txt'
     # query = 'q1_book_type.txt'
-    # query = 'q3.txt'
+    query = 'q3.txt'
     # query = 'q3_where.txt'
     # query = 'q4_author.txt'
     # query = 'q4_book_author.txt'
