@@ -20,7 +20,7 @@ if __name__ == '__main__':
     # query = 'q1_genre_type.txt'
     # query = 'q1_genre_name.txt'
     # query = 'q2.txt'
-    # query = 'q3.txt'
+    query = 'q3.txt'
     # query = 'q4_author.txt'
     # query = 'q4_book_author.txt'
 

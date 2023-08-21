@@ -171,6 +171,7 @@ class SparqlQuery:
                                 except KeyError:
                                     pass
                                 sql_filter_out = re.sub(match, replacement, sql_filter_in)
+                                sql_filter_out = sql_filter_out.replace('"', "'")  # 2023/8/21
                             except KeyError:
                                 pass
                 return sql_filter_out
@@ -429,8 +430,10 @@ class SparqlQuery:
                     # converted_element = uri.uri_dict_all[element]  # use unified table
                     uri_dict = self.variables_translation_list[header]  # use individual tables
                     try:
-                        converted_element = uri.uri_dict[uri_dict][element]
+                        converted_element = uri.uri_dict[uri_dict][str(element)]
                     except KeyError:
+                        pass
+                    except Exception as e:
                         pass
                 except KeyError:
                     pass
