@@ -1,0 +1,8 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <https://www.wikidata.org/wiki/Property/>
+SELECT ?book_id ?book_title
+WHERE{
+    ?book_id wdt:P50 wd:Q180903 ;
+        rdfs:label ?book_title.
+}

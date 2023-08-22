@@ -19,6 +19,7 @@ if __name__ == '__main__':
     query = 'q3_where.txt'
     # query = 'q4_author.txt'
     query = 'q4_book_author.txt'
+    query = 'q5.txt'
 
     # TimingClass.set_file_name('timing_book20230821.csv', initialize=True, time_stamp=True)
     TimingClass.set_file_name('timing_book20230821.csv', initialize=False, time_stamp=True)

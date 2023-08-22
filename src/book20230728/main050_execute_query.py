@@ -23,6 +23,7 @@ if __name__ == '__main__':
     query = 'q3.txt'
     # query = 'q4_author.txt'
     # query = 'q4_book_author.txt'
+    query = 'q5.txt'
 
     TimingClass.set_file_name('timing_book20230728.csv', initialize=True, time_stamp=True)
     execute.execute_query(query)

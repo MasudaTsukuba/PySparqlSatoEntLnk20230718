@@ -180,7 +180,7 @@ class Uri:
                 sql_value = value  # 2023/5/8
                 sql = rewrite_where_sql(sql, sql_value, mapping['object']['variable'])  # 2023/5/8
             else:
-                value = triple['object']['value']
+                # value = triple['object']['value']
                 uri_function = mapping['object']['uri']
                 # with open(self.uri_directory + uri_function + '.csv') as g:
                 #     reader = csv.reader(g)
@@ -199,7 +199,7 @@ class Uri:
                     inv_dict = self.inv_dict[uri_function]
                     try:
                         sql_value = inv_dict[value]
-                        sql = rewrite_where_sql(sql, sql_value, mapping['object'])
+                        sql = rewrite_where_sql(sql, sql_value, mapping['object']['variable'])  # 2023/8/22
                     except KeyError:
                         return ['No', []]
                 except KeyError:
@@ -213,7 +213,7 @@ class Uri:
             value = triple['object']['value']
             uri_function = mapping['object']['uri']
             if uri_function == 'plain':
-                sql = rewrite_where_sql(sql, value, mapping['object'])
+                sql = rewrite_where_sql(sql, value, mapping['object']['variable'])  # 2023/8/22
                 sql = sql.replace(mapping['object'], value)
 
         return [sql, trans_uri]
