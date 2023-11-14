@@ -1294,6 +1294,101 @@
       "variable": "VAR15102"
     },
     "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/ncs/production/', prfYear, '/', prfMonth) AS VAR15100, CONCAT(prfPrdOilNetMillSm3) AS VAR15102 FROM field_production_totalt_NCS_month;"
+  },
+  {
+    "mappingId":	"Mapping:00916:ForeignKey",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR15200"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#coreForWellbore",
+      "variable": "VAR15201"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR15202"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/wellbore/', wellbore_core.wlbNpdidWellbore, '/core/', wlbCoreNumber) AS VAR15200, CONCAT('http://sws.ifi.uio.no/data/npd-v2/wellbore/', wellbore_core.wlbNpdidWellbore) AS VAR15202 FROM wellbore_core INNER JOIN wellbore_npdid_overview ON wellbore_core.wlbNpdidWellbore = wellbore_npdid_overview.wlbNpdidWellbore;"
+  },
+  {
+    "mappingId":	"Mapping:00962:ForeignKey",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR15300"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#coreForWellbore",
+      "variable": "VAR15301"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR15302"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/wellbore/', strat_litho_wellbore_core.wlbNpdidWellbore, '/stratum/', strat_litho_wellbore_core.lsuNpdidLithoStrat, '/cores') AS VAR15300, CONCAT('http://sws.ifi.uio.no/data/npd-v2/wellbore/', wellbore_npdid_overview.wlbNpdidWellbore) AS VAR15302 FROM strat_litho_wellbore_core  INNER JOIN wellbore_npdid_overview ON strat_litho_wellbore_core.wlbNpdidWellbore = wellbore_npdid_overview.wlbNpdidWellbore;"
+  },
+ {
+    "mappingId":	"Mapping:00858:Table:npdv:Wellbore",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR15400"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "variable": "VAR15401"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#Wellbore",
+      "variable": ""
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/wellbore/', wlbNpdidWellbore) AS VAR15400 FROM wellbore_npdid_overview;"
+  },
+  {
+    "mappingId":	"Mapping:00821:Table:npdv:FieldMonthlyProduction",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR15500"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "variable": "VAR15501"
+    },
+    "object":
+    {
+      "type": "NamedNode",
+      "uri": "-",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#FieldMonthlyProduction",
+      "variable": ""
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', prfNpdidInformationCarrier, '/production/', prfYear, '/', prfMonth) AS VAR15500 FROM field_production_monthly;"
   }
-
 ]

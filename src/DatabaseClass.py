@@ -2,6 +2,7 @@
 # and execute sql query against the database
 # 2023/6/1, Tadashi Masuda
 # Amagasa Laboratory, University of Tsukuba
+
 import os
 import sqlite3
 import mysql.connector
