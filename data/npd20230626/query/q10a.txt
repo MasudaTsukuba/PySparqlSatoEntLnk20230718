@@ -4,11 +4,7 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX npdv: <http://sws.ifi.uio.no/vocab/npd-v2#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT DISTINCT ?wc ?obj_wc ?wellbore ?year
+SELECT DISTINCT ?s
 WHERE {
-  ?wc npdv:coreForWellbore ?obj_wc .
-  ?obj_wc rdf:type npdv:Wellbore ;
-  npdv:name                     ?wellbore ;
-   npdv:wellboreCompletionYear   ?year .
-
+  ?s a npdv:Wellbore .
 }

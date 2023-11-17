@@ -1390,5 +1390,149 @@
       "variable": ""
     },
     "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/field/', prfNpdidInformationCarrier, '/production/', prfYear, '/', prfMonth) AS VAR15500 FROM field_production_monthly;"
-  }
+  },
+  {
+    "mappingId":	"Mapping:00155:Literal:wellbore_npdid_overview:wlbWellboreName",
+    "subject":
+    {
+      "type": "Variable",
+      "uri": "plain",
+      "content": "",
+      "variable": "VAR15600"
+    },
+    "predicate":
+    {
+      "type": "NamedNode",
+      "content": "http://sws.ifi.uio.no/vocab/npd-v2#name",
+      "variable": "VAR15601"
+    },
+    "object":
+    {
+      "type": "Variable",
+      "uri": "-",
+      "content": "",
+      "variable": "VAR15602"
+    },
+    "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/wellbore/', wlbNpdidWellbore) AS VAR15600, wlbWellboreName AS VAR15602 FROM wellbore_npdid_overview ;"
+  },
+{
+  "mappingId":	"Mapping:00029:Literal:wellbore_development_all:wlbCompletionYear",
+  "subject":
+  {
+    "type": "Variable",
+    "uri": "plain",
+    "content": "",
+    "variable": "VAR15700"
+  },
+  "predicate":
+  {
+    "type": "NamedNode",
+    "content": "http://sws.ifi.uio.no/vocab/npd-v2#wellboreCompletionYear",
+    "variable": "VAR15701"
+  },
+  "object":
+  {
+    "type": "Variable",
+    "uri": "-",
+    "content": "",
+    "variable": "VAR15702"
+  },
+  "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/wellbore/', wlbNpdidWellbore) AS VAR15700, wlbCompletionYear AS VAR15702 FROM wellbore_development_all ;"
+},
+{
+  "mappingId":	"00084:Literal:wellbore_shallow_all:wlbCompletionYear",
+  "subject":
+  {
+    "type": "Variable",
+    "uri": "plain",
+    "content": "",
+    "variable": "VAR15800"
+  },
+  "predicate":
+  {
+    "type": "NamedNode",
+    "content": "http://sws.ifi.uio.no/vocab/npd-v2#wellboreCompletionYear",
+    "variable": "VAR15801"
+  },
+  "object":
+  {
+    "type": "Variable",
+    "uri": "-",
+    "content": "",
+    "variable": "VAR15802"
+  },
+  "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/wellbore/', wlbNpdidWellbore) AS VAR15800, wlbCompletionYear AS VAR15802 FROM wellbore_shallow_all ;"
+},
+{
+  "mappingId":	"Mapping:00296:Literal:wellbore_exploration_all:wlbCompletionYear",
+  "subject":
+  {
+    "type": "Variable",
+    "uri": "plain",
+    "content": "",
+    "variable": "VAR15900"
+  },
+  "predicate":
+  {
+    "type": "NamedNode",
+    "content": "http://sws.ifi.uio.no/vocab/npd-v2#wellboreCompletionYear",
+    "variable": "VAR15901"
+  },
+  "object":
+  {
+    "type": "Variable",
+    "uri": "-",
+    "content": "",
+    "variable": "VAR15902"
+  },
+  "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/wellbore/', wlbNpdidWellbore) AS VAR15900, wlbCompletionYear AS VAR15902 FROM wellbore_exploration_all ;"
+},
+  {
+  "mappingId":	"Mapping:00887:ForeignKey",
+  "subject":
+  {
+    "type": "Variable",
+    "uri": "plain",
+    "content": "",
+    "variable": "VAR16000"
+  },
+  "predicate":
+  {
+    "type": "NamedNode",
+    "content": "http://sws.ifi.uio.no/vocab/npd-v2#wellboreCompletionYear",
+    "variable": "VAR16001"
+  },
+  "object":
+  {
+    "type": "Variable",
+    "uri": "-",
+    "content": "",
+    "variable": "VAR16002"
+  },
+  "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/wellbore/', wellbore_development_all.wlbNpdidWellbore) AS VAR16000, CONCAT('http://sws.ifi.uio.no/data/npd-v2/company/', company.cmpNpdidCompany) AS VAR16002 FROM wellbore_development_all INNER JOIN company ON wellbore_development_all.wlbDrillingOperator = company.cmpLongName ;"
+},
+  {
+  "mappingId":	"Mapping:00968:ForeignKey",
+  "subject":
+  {
+    "type": "Variable",
+    "uri": "plain",
+    "content": "",
+    "variable": "VAR16100"
+  },
+  "predicate":
+  {
+    "type": "NamedNode",
+    "content": "http://sws.ifi.uio.no/vocab/npd-v2#wellboreCompletionYear",
+    "variable": "VAR16101"
+  },
+  "object":
+  {
+    "type": "Variable",
+    "uri": "-",
+    "content": "",
+    "variable": "VAR16102"
+  },
+  "SQL":		"SELECT CONCAT('http://sws.ifi.uio.no/data/npd-v2/wellbore/', wellbore_exploration_all.wlbNpdidWellbore) AS VAR16100, CONCAT('http://sws.ifi.uio.no/data/npd-v2/company/', company.cmpNpdidCompany) AS VAR16102 FROM wellbore_exploration_all INNER JOIN company ON wellbore_exploration_all.wlbDrillingOperator = company.cmpLongName ;"
+}
 ]

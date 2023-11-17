@@ -13,7 +13,7 @@ if __name__ == '__main__':
     path.set_mapping_file('mapping.json')
     execute = ExecuteQueryClass(path, 'npd20230626', dbms='postgres')
     # query = 'q1.txt'  # uncomment to select a query
-    query = 'q2a.txt'
+    # query = 'q2a.txt'
     # query = 'q2b.txt'
     # query = 'q2c.txt'
     # query = 'q2_MoveableFacility.txt'
@@ -32,9 +32,11 @@ if __name__ == '__main__':
     # query = 'q5d.txt'
     # query = 'q5e.txt'
     # query = 'q5.txt'
-    # query = 'q6a.txt'
+    query = 'q6a.txt'
     # query = 'q7a.txt'
-    query = 'q9a.txt'
+    # query = 'q8a.txt'
+    # query = 'q9a.txt'
+    # query = 'q10a.txt'
     # query = 'npd_q01a.txt'
     # query = 'npd_q01b.txt'
     # query = 'npd_q01b0.txt'
